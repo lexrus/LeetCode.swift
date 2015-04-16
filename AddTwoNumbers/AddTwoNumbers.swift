@@ -27,31 +27,29 @@ class ListNode {
     }
 }
 
-class AddTwoNumbers {
-    class func addTwoNumber(list0: ListNode, _ list1: ListNode) -> ListNode {
-        var x: ListNode? = list0
-        var y: ListNode? = list1
-        var dummy = ListNode()
-        var current = dummy
-        var sum = 0
+func +(list0: ListNode, list1: ListNode) -> ListNode {
+    var x: ListNode? = list0
+    var y: ListNode? = list1
+    var dummy = ListNode()
+    var current = dummy
+    var sum = 0
+    
+    while x != nil || y != nil {
+        // Sum
+        sum /= 10
+        sum += x!.value + y!.value
+        current.next = ListNode(sum % 10)
         
-        while x != nil || y != nil {
-            // Sum
-            sum /= 10
-            sum += x!.value + y!.value
-            current.next = ListNode(sum % 10)
-            
-            // Move next
-            x = x!.next
-            y = y!.next
-            current = current.next!
-        }
-        
-        // If the previous node is greater than 10
-        if Bool(sum / 10) {
-            current.next = ListNode(1)
-        }
-        
-        return dummy.next!
+        // Move next
+        x = x!.next
+        y = y!.next
+        current = current.next!
     }
+    
+    // If the previous node is greater than 10
+    if Bool(sum / 10) {
+        current.next = ListNode(1)
+    }
+    
+    return dummy.next!
 }
