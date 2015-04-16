@@ -5,6 +5,8 @@
 //  Created by Lex Tang on 4/16/15.
 //  Copyright (c) 2015 Lex Tang. All rights reserved.
 //
+//  This Swift class is imitated from another Swift implementation:
+//  https://github.com/diwu/LeetCode-Solutions-in-Swift/blob/master/Solutions/Solutions/Medium/Medium_002_Add_Two_Numbers.swift
 
 /*
 You are given two linked lists representing two non-negative numbers.
