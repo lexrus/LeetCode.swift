@@ -9,9 +9,9 @@ let 💰 = "You need buy a book from LeetCode"
 ```
 
 1. [x] 😐 [Two Sum](https://oj.leetcode.com/problems/two-sum/) - [Swift](./TwoSum/TwoSum.swift)
-2. [ ] 😨 [Median of Two Sorted Arrays](https://oj.leetcode.com/problems/median-of-two-sorted-arrays/) [Swift](./MediaOfTwoSortedArrays/MediaOfTwoSortedArrays.swift)
+2. [x] 😐 [Add Two Numbers](https://oj.leetcode.com/problems/add-two-numbers/) [Swift](./addTwoNumbers/addTwoNumbers.swift)
 3. [ ] 😐 [Longest Substring Without Repeating Characters](https://oj.leetcode.com/problems/longest-substring-without-repeating-characters/) [Swift](./longestSubstringWithoutRepeatingCharacters/longestSubstringWithoutRepeatingCharacters.swift)
-4. [ ] 😐 [Add Two Numbers](https://oj.leetcode.com/problems/add-two-numbers/) [Swift](./addTwoNumbers/addTwoNumbers.swift)
+4. [ ] 😨 [Median of Two Sorted Arrays](https://oj.leetcode.com/problems/median-of-two-sorted-arrays/) [Swift](./MediaOfTwoSortedArrays/MediaOfTwoSortedArrays.swift)
 5. [ ] 😐 [Longest Palindromic Substring](https://oj.leetcode.com/problems/longest-palindromic-substring/) [Swift](./longestPalindromicSubstring/longestPalindromicSubstring.swift)
 6. [ ] 😎 [ZigZag Conversion](https://oj.leetcode.com/problems/zigzag-conversion/) [Swift](./zigZagConversion/zigZagConversion.swift)
 7. [ ] 😎 [Reverse Integer](https://oj.leetcode.com/problems/reverse-integer/) [Swift](./reverseInteger/reverseInteger.swift)
