@@ -199,6 +199,7 @@ let 💰 = "You need buy a book from LeetCode"
 
 ## Unit tests
 Open the project with Xcode 6.3+ then press `command + u`.
+Or run `rake` in this folder if you have [xctool](https://github.com/facebook/xctool) installed.
 
 
 ## Contacts
