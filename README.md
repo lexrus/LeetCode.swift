@@ -1,6 +1,10 @@
 # LeetCode
 
+> 智者千虑，必有一失。愚者千虑，必有一得。
 
+As an idiot of algorithms, I make bold to resolve the problems on [LeetCode](https://leetcode.com). And especially, in Swift.
+
+PLEASE DO NOT CONTRIBUTE until I accomplish all of them.
 
 
 ``` swift
@@ -9,7 +13,7 @@ let 💰 = "You need buy a book from LeetCode"
 ```
 
 1. [x] 😐 [Two Sum](https://oj.leetcode.com/problems/two-sum/) - [Swift](./TwoSum/TwoSum.swift)
-2. [x] 😐 [Add Two Numbers](https://oj.leetcode.com/problems/add-two-numbers/) [Swift](./addTwoNumbers/addTwoNumbers.swift)
+2. [x] 😐 [Add Two Numbers](https://oj.leetcode.com/problems/add-two-numbers/) [Swift](./AddTwoNumbers/AddTwoNumbers.swift)
 3. [ ] 😐 [Longest Substring Without Repeating Characters](https://oj.leetcode.com/problems/longest-substring-without-repeating-characters/) [Swift](./longestSubstringWithoutRepeatingCharacters/longestSubstringWithoutRepeatingCharacters.swift)
 4. [ ] 😨 [Median of Two Sorted Arrays](https://oj.leetcode.com/problems/median-of-two-sorted-arrays/) [Swift](./MediaOfTwoSortedArrays/MediaOfTwoSortedArrays.swift)
 5. [ ] 😐 [Longest Palindromic Substring](https://oj.leetcode.com/problems/longest-palindromic-substring/) [Swift](./longestPalindromicSubstring/longestPalindromicSubstring.swift)
