@@ -1,10 +1,10 @@
-# LeetCode
+# LeetCode.swift
 
-> 智者千虑，必有一失。愚者千虑，必有一得。
+> 愚者千虑，必有一得。
 
-As an idiot of algorithms, I make bold to resolve the problems on [LeetCode](https://leetcode.com). And especially, in Swift.
+As an idiot of algorithms, I make bold to resolve the problems on [LeetCode](https://leetcode.com). And especially, in my favorite [Swift](http://www.apple.com/swift/). Most of the answers are not figured out by myself.
 
-PLEASE DO NOT CONTRIBUTE until I accomplish all of them.
+PLEASE __DO NOT CONTRIBUTE__ until I accomplish all of them.
 
 
 ``` swift
