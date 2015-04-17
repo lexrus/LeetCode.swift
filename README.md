@@ -30,7 +30,7 @@ let 💰 = "You need buy a book from LeetCode"
 16. [ ] 😐 [3Sum Closest](https://oj.leetcode.com/problems/3sum-closest/) - [Swift](./3SumClosest/3SumClosest.swift)
 17. [ ] 😐 [4Sum](https://oj.leetcode.com/problems/4sum/) - [Swift](./4Sum/4Sum.swift)
 18. [ ] 😐 [Letter Combinations of a Phone Number](https://oj.leetcode.com/problems/letter-combinations-of-a-phone-number/) - [Swift](./letterCombinationsOfAPhoneNumber/letterCombinationsOfAPhoneNumber.swift)
-19. [ ] 😎 [Remove Nth Node From End of List](https://oj.leetcode.com/problems/remove-nth-node-from-end-of-list/) - [Swift](./removeNthNodeFromEndOfList/removeNthNodeFromEndOfList.swift)
+19. [x] 😎 [Remove Nth Node From End of List](https://oj.leetcode.com/problems/remove-nth-node-from-end-of-list/) - [Swift](./removeNthNodeFromEndOfList/removeNthNodeFromEndOfList.swift)
 20. [ ] 😎 [Valid Parentheses](https://oj.leetcode.com/problems/valid-parentheses/) - [Swift](./validParentheses/validParentheses.swift)
 21. [ ] 😐 [Generate Parentheses](https://oj.leetcode.com/problems/generate-parentheses/) - [Swift](./generateParentheses/generateParentheses.swift)
 22. [ ] 😨 [Merge k Sorted Lists](https://oj.leetcode.com/problems/merge-k-sorted-lists/) - [Swift](./mergeKSortedLists/mergeKSortedLists.swift)
