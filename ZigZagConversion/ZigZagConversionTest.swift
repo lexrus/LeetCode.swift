@@ -13,7 +13,8 @@ class ZigZagConversionTest: XCTestCase {
     
     func testZigZagConvert() {
         self.measureBlock() {
-            XCTAssertEqual(ZigZagConversion.convert("PAYPALISHIRING", 3), "PAHNAPLSIIGYIR", "")
+            XCTAssertEqual(ZigZagConversion.convert0("PAYPALISHIRING", 3), "PAHNAPLSIIGYIR", "")
+            XCTAssertEqual(ZigZagConversion.convert1("PAYPALISHIRING", 3), "PAHNAPLSIIGYIR", "")
         }
     }
     

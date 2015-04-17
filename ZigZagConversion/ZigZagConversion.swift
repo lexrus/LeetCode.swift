@@ -24,14 +24,85 @@ import Foundation
 
 class ZigZagConversion {
     
-    class func convert(text: String, _ rows: Int) -> String {
+    /**
+    This Swift method is imitated from the C++ method found here:
+    https://github.com/haoel/leetcode/blob/master/algorithms/zigZagConversion/zigZagConversion.cpp
+    
+    :param: text Source text
+    :param: rows Number of rows
+    
+    :returns: The result ZigZag text
+    */
+    class func convert0(text: String, _ rows: Int) -> String {
         if rows <= 1 || rows > count(text) {
             return text
         }
         
-        // TODO: Move on.
+        var r = [String]()
+        var row = 0
+        var step = 1
+        for (i, char) in enumerate(text) {
+            if row == rows - 1 {
+                step = -1
+            }
+            if row == 0 {
+                step = 1
+            }
+            if row > r.count - 1 {
+                r.append("\(char)")
+            } else {
+                r[row].extend("\(char)")
+            }
+            row += step
+        }
         
-        return ""
+        var result = ""
+        var i = 0
+        
+        while i < rows {
+            result.extend(r[i])
+            i++
+        }
+        
+        return result
+    }
+    
+}
+
+private extension String {
+    subscript (index: Int) -> Character {
+        return self[advance(self.startIndex, index)]
+    }
+}
+
+extension ZigZagConversion {
+    
+    /**
+    O (N)
+    This solution is copied from here:
+    https://github.com/diwu/LeetCode-Solutions-in-Swift/blob/master/Solutions/Solutions/Easy/Easy_006_ZigZag_Conversion.swift
+    
+    :param: text Source text
+    :param: rows Number of rows
+    
+    :returns: The result ZigZag text
+    */
+    class func convert1(text: String, _ rows: Int) -> String {
+        var array = Array<String>(count: rows, repeatedValue: String())
+        var i = 0, length = count(text)
+        while i < length {
+            for var index = 0; index < rows && i < length; index++ {
+                array[index].append(text[i++])
+            }
+            for var index = rows - 2; index > 0 && i < length; index-- {
+                array[index].append(text[i++])
+            }
+        }
+        var result = ""
+        for i in 0 ..< rows {
+            result.extend(array[i])
+        }
+        return result
     }
     
 }
