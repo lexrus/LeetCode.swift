@@ -39,12 +39,17 @@ func +(list0: ListNode, list1: ListNode) -> ListNode {
     while x != nil || y != nil {
         // Sum
         sum /= 10
-        sum += x!.value + y!.value
-        current.next = ListNode(sum % 10)
+        if let _ = x {
+            sum += x!.value
+            x = x!.next
+        }
+        if let _ = y {
+            sum += y!.value
+            y = y!.next
+        }
         
         // Move next
-        x = x!.next
-        y = y!.next
+        current.next = ListNode(sum % 10)
         current = current.next!
     }
     
