@@ -36,7 +36,7 @@ let 💰 = "You need buy a book from LeetCode"
 22. [ ] 😨 [Merge k Sorted Lists](https://oj.leetcode.com/problems/merge-k-sorted-lists/) - [Swift](./mergeKSortedLists/mergeKSortedLists.swift)
 23. [ ] 😐 [Swap Nodes in Pairs](https://oj.leetcode.com/problems/swap-nodes-in-pairs/) - [Swift](./swapNodesInPairs/swapNodesInPairs.swift)
 24. [ ] 😨 [Reverse Nodes in k-Group](https://oj.leetcode.com/problems/reverse-nodes-in-k-group/) - [Swift](./reverseNodesInKGroup/reverseNodesInKGroup.swift)
-25. [ ] 😎 [Remove Duplicates from Sorted Array](https://oj.leetcode.com/problems/remove-duplicates-from-sorted-array/) - [Swift](./removeDuplicatesFromSortedArray/removeDuplicatesFromSortedArray.swift)
+25. [x] 😎 [Remove Duplicates from Sorted Array](https://oj.leetcode.com/problems/remove-duplicates-from-sorted-array/) - [Swift](./RemoveDuplicatesFromSortedArray/RemoveDuplicatesFromSortedArray.swift)
 26. [ ] 😎 [Remove Element](https://oj.leetcode.com/problems/remove-element/) - [Swift](./removeElement/removeElement.swift)
 27. [ ] 😎 [Implement strStr()](https://oj.leetcode.com/problems/implement-strstr/) - [Swift](./strStr/strStr.swift)
 28. [ ] 😐 [Divide Two Integers](https://oj.leetcode.com/problems/divide-two-integers/) - [Swift](./divideTwoInt/divideTwoInt.swift)

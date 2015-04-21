@@ -21,6 +21,8 @@
 		D77C337F1AE0B70900D4843B /* ValidParentheses.swift in Sources */ = {isa = PBXBuildFile; fileRef = D77C337E1AE0B70900D4843B /* ValidParentheses.swift */; };
 		D77C33891AE0F7B300D4843B /* ReverseIntegerTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = D77C33881AE0F7B300D4843B /* ReverseIntegerTest.swift */; };
 		D77C338E1AE0F7D200D4843B /* ReverseInteger.swift in Sources */ = {isa = PBXBuildFile; fileRef = D77C338D1AE0F7D200D4843B /* ReverseInteger.swift */; };
+		D77C339B1AE60F9F00D4843B /* RemoveDuplicatesFromSortedArrayTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = D77C339A1AE60F9F00D4843B /* RemoveDuplicatesFromSortedArrayTest.swift */; };
+		D77C33A01AE60FD000D4843B /* RemoveDuplicatesFromSortedArray.swift in Sources */ = {isa = PBXBuildFile; fileRef = D77C339F1AE60FD000D4843B /* RemoveDuplicatesFromSortedArray.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -52,6 +54,10 @@
 		D77C33871AE0F7B300D4843B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D77C33881AE0F7B300D4843B /* ReverseIntegerTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReverseIntegerTest.swift; sourceTree = "<group>"; };
 		D77C338D1AE0F7D200D4843B /* ReverseInteger.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReverseInteger.swift; sourceTree = "<group>"; };
+		D77C33961AE60F9F00D4843B /* RemoveDuplicatesFromSortedArray.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RemoveDuplicatesFromSortedArray.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D77C33991AE60F9F00D4843B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D77C339A1AE60F9F00D4843B /* RemoveDuplicatesFromSortedArrayTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoveDuplicatesFromSortedArrayTest.swift; sourceTree = "<group>"; };
+		D77C339F1AE60FD000D4843B /* RemoveDuplicatesFromSortedArray.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RemoveDuplicatesFromSortedArray.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,6 +110,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		D77C33931AE60F9F00D4843B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -117,6 +130,7 @@
 				D77C33671AE0A91800D4843B /* RemoveNthNodeFromEndOfList */,
 				D77C33761AE0B6F100D4843B /* ValidParentheses */,
 				D77C33851AE0F7B300D4843B /* ReverseInteger */,
+				D77C33971AE60F9F00D4843B /* RemoveDuplicatesFromSortedArray */,
 				D77C331D1ADE363800D4843B /* Products */,
 			);
 			sourceTree = "<group>";
@@ -131,6 +145,7 @@
 				D77C33661AE0A91800D4843B /* RemoveNthNodeFromEndOfList.xctest */,
 				D77C33751AE0B6F100D4843B /* ValidParentheses.xctest */,
 				D77C33841AE0F7B300D4843B /* ReverseInteger.xctest */,
+				D77C33961AE60F9F00D4843B /* RemoveDuplicatesFromSortedArray.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -261,6 +276,24 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		D77C33971AE60F9F00D4843B /* RemoveDuplicatesFromSortedArray */ = {
+			isa = PBXGroup;
+			children = (
+				D77C339F1AE60FD000D4843B /* RemoveDuplicatesFromSortedArray.swift */,
+				D77C339A1AE60F9F00D4843B /* RemoveDuplicatesFromSortedArrayTest.swift */,
+				D77C33981AE60F9F00D4843B /* Supporting Files */,
+			);
+			path = RemoveDuplicatesFromSortedArray;
+			sourceTree = "<group>";
+		};
+		D77C33981AE60F9F00D4843B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D77C33991AE60F9F00D4843B /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -383,6 +416,23 @@
 			productReference = D77C33841AE0F7B300D4843B /* ReverseInteger.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
+		D77C33951AE60F9F00D4843B /* RemoveDuplicatesFromSortedArray */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D77C339E1AE60F9F00D4843B /* Build configuration list for PBXNativeTarget "RemoveDuplicatesFromSortedArray" */;
+			buildPhases = (
+				D77C33921AE60F9F00D4843B /* Sources */,
+				D77C33931AE60F9F00D4843B /* Frameworks */,
+				D77C33941AE60F9F00D4843B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RemoveDuplicatesFromSortedArray;
+			productName = RemoveDuplicatesFromSortedArray;
+			productReference = D77C33961AE60F9F00D4843B /* RemoveDuplicatesFromSortedArray.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -413,6 +463,9 @@
 					D77C33831AE0F7B300D4843B = {
 						CreatedOnToolsVersion = 6.3;
 					};
+					D77C33951AE60F9F00D4843B = {
+						CreatedOnToolsVersion = 6.3;
+					};
 				};
 			};
 			buildConfigurationList = D77C33171ADE363800D4843B /* Build configuration list for PBXProject "LeetCode" */;
@@ -434,6 +487,7 @@
 				D77C33651AE0A91800D4843B /* RemoveNthNodeFromEndOfList */,
 				D77C33741AE0B6F100D4843B /* ValidParentheses */,
 				D77C33831AE0F7B300D4843B /* ReverseInteger */,
+				D77C33951AE60F9F00D4843B /* RemoveDuplicatesFromSortedArray */,
 			);
 		};
 /* End PBXProject section */
@@ -482,6 +536,13 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		D77C33821AE0F7B300D4843B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D77C33941AE60F9F00D4843B /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -551,6 +612,15 @@
 			files = (
 				D77C33891AE0F7B300D4843B /* ReverseIntegerTest.swift in Sources */,
 				D77C338E1AE0F7D200D4843B /* ReverseInteger.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D77C33921AE60F9F00D4843B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D77C33A01AE60FD000D4843B /* RemoveDuplicatesFromSortedArray.swift in Sources */,
+				D77C339B1AE60F9F00D4843B /* RemoveDuplicatesFromSortedArrayTest.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -859,6 +929,38 @@
 			};
 			name = Release;
 		};
+		D77C339C1AE60F9F00D4843B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = RemoveDuplicatesFromSortedArray/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		D77C339D1AE60F9F00D4843B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = RemoveDuplicatesFromSortedArray/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -878,6 +980,7 @@
 				D77C33321ADE36BB00D4843B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D77C333F1ADE61B200D4843B /* Build configuration list for PBXNativeTarget "MedianOfTwoSortedArrays" */ = {
 			isa = XCConfigurationList;
@@ -886,6 +989,7 @@
 				D77C33411ADE61B200D4843B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D77C334E1ADF581300D4843B /* Build configuration list for PBXNativeTarget "AddTwoNumbers" */ = {
 			isa = XCConfigurationList;
@@ -894,6 +998,7 @@
 				D77C33501ADF581300D4843B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D77C335D1ADFC24000D4843B /* Build configuration list for PBXNativeTarget "ZigZagConversion" */ = {
 			isa = XCConfigurationList;
@@ -902,6 +1007,7 @@
 				D77C335F1ADFC24000D4843B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D77C336C1AE0A91800D4843B /* Build configuration list for PBXNativeTarget "RemoveNthNodeFromEndOfList" */ = {
 			isa = XCConfigurationList;
@@ -910,6 +1016,7 @@
 				D77C336E1AE0A91800D4843B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D77C337B1AE0B6F100D4843B /* Build configuration list for PBXNativeTarget "ValidParentheses" */ = {
 			isa = XCConfigurationList;
@@ -918,12 +1025,22 @@
 				D77C337D1AE0B6F100D4843B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D77C338A1AE0F7B300D4843B /* Build configuration list for PBXNativeTarget "ReverseInteger" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				D77C338B1AE0F7B300D4843B /* Debug */,
 				D77C338C1AE0F7B300D4843B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D77C339E1AE60F9F00D4843B /* Build configuration list for PBXNativeTarget "RemoveDuplicatesFromSortedArray" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D77C339C1AE60F9F00D4843B /* Debug */,
+				D77C339D1AE60F9F00D4843B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
