@@ -25,6 +25,8 @@
 		D77C33A01AE60FD000D4843B /* RemoveDuplicatesFromSortedArray.swift in Sources */ = {isa = PBXBuildFile; fileRef = D77C339F1AE60FD000D4843B /* RemoveDuplicatesFromSortedArray.swift */; };
 		D77C33AA1AE779CA00D4843B /* RemoveElementTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = D77C33A91AE779CA00D4843B /* RemoveElementTest.swift */; };
 		D77C33AF1AE779F100D4843B /* RemoveElement.swift in Sources */ = {isa = PBXBuildFile; fileRef = D77C33AE1AE779F100D4843B /* RemoveElement.swift */; };
+		D77C33B91AE77F6F00D4843B /* MergeSortedArrayTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = D77C33B81AE77F6F00D4843B /* MergeSortedArrayTest.swift */; };
+		D77C33BE1AE77F9500D4843B /* MergeSortedArray.swift in Sources */ = {isa = PBXBuildFile; fileRef = D77C33BD1AE77F9500D4843B /* MergeSortedArray.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -64,6 +66,10 @@
 		D77C33A81AE779CA00D4843B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D77C33A91AE779CA00D4843B /* RemoveElementTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoveElementTest.swift; sourceTree = "<group>"; };
 		D77C33AE1AE779F100D4843B /* RemoveElement.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RemoveElement.swift; sourceTree = "<group>"; };
+		D77C33B41AE77F6F00D4843B /* MergeSortedArray.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MergeSortedArray.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D77C33B71AE77F6F00D4843B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D77C33B81AE77F6F00D4843B /* MergeSortedArrayTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MergeSortedArrayTest.swift; sourceTree = "<group>"; };
+		D77C33BD1AE77F9500D4843B /* MergeSortedArray.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MergeSortedArray.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -130,6 +136,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		D77C33B11AE77F6F00D4843B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -145,6 +158,7 @@
 				D77C33851AE0F7B300D4843B /* ReverseInteger */,
 				D77C33971AE60F9F00D4843B /* RemoveDuplicatesFromSortedArray */,
 				D77C33A61AE779CA00D4843B /* RemoveElement */,
+				D77C33B51AE77F6F00D4843B /* MergeSortedArray */,
 				D77C331D1ADE363800D4843B /* Products */,
 			);
 			sourceTree = "<group>";
@@ -161,6 +175,7 @@
 				D77C33841AE0F7B300D4843B /* ReverseInteger.xctest */,
 				D77C33961AE60F9F00D4843B /* RemoveDuplicatesFromSortedArray.xctest */,
 				D77C33A51AE779CA00D4843B /* RemoveElement.xctest */,
+				D77C33B41AE77F6F00D4843B /* MergeSortedArray.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -327,6 +342,24 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		D77C33B51AE77F6F00D4843B /* MergeSortedArray */ = {
+			isa = PBXGroup;
+			children = (
+				D77C33BD1AE77F9500D4843B /* MergeSortedArray.swift */,
+				D77C33B81AE77F6F00D4843B /* MergeSortedArrayTest.swift */,
+				D77C33B61AE77F6F00D4843B /* Supporting Files */,
+			);
+			path = MergeSortedArray;
+			sourceTree = "<group>";
+		};
+		D77C33B61AE77F6F00D4843B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D77C33B71AE77F6F00D4843B /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -483,6 +516,23 @@
 			productReference = D77C33A51AE779CA00D4843B /* RemoveElement.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
+		D77C33B31AE77F6F00D4843B /* MergeSortedArray */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D77C33BA1AE77F6F00D4843B /* Build configuration list for PBXNativeTarget "MergeSortedArray" */;
+			buildPhases = (
+				D77C33B01AE77F6F00D4843B /* Sources */,
+				D77C33B11AE77F6F00D4843B /* Frameworks */,
+				D77C33B21AE77F6F00D4843B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MergeSortedArray;
+			productName = MergeSortedArray;
+			productReference = D77C33B41AE77F6F00D4843B /* MergeSortedArray.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -519,6 +569,9 @@
 					D77C33A41AE779CA00D4843B = {
 						CreatedOnToolsVersion = 6.3;
 					};
+					D77C33B31AE77F6F00D4843B = {
+						CreatedOnToolsVersion = 6.3;
+					};
 				};
 			};
 			buildConfigurationList = D77C33171ADE363800D4843B /* Build configuration list for PBXProject "LeetCode" */;
@@ -542,6 +595,7 @@
 				D77C33831AE0F7B300D4843B /* ReverseInteger */,
 				D77C33951AE60F9F00D4843B /* RemoveDuplicatesFromSortedArray */,
 				D77C33A41AE779CA00D4843B /* RemoveElement */,
+				D77C33B31AE77F6F00D4843B /* MergeSortedArray */,
 			);
 		};
 /* End PBXProject section */
@@ -604,6 +658,13 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		D77C33A31AE779CA00D4843B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D77C33B21AE77F6F00D4843B /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -691,6 +752,15 @@
 			files = (
 				D77C33AF1AE779F100D4843B /* RemoveElement.swift in Sources */,
 				D77C33AA1AE779CA00D4843B /* RemoveElementTest.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D77C33B01AE77F6F00D4843B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D77C33B91AE77F6F00D4843B /* MergeSortedArrayTest.swift in Sources */,
+				D77C33BE1AE77F9500D4843B /* MergeSortedArray.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1063,6 +1133,38 @@
 			};
 			name = Release;
 		};
+		D77C33BB1AE77F6F00D4843B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = MergeSortedArray/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		D77C33BC1AE77F6F00D4843B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = MergeSortedArray/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -1152,6 +1254,14 @@
 			buildConfigurations = (
 				D77C33AB1AE779CA00D4843B /* Debug */,
 				D77C33AC1AE779CA00D4843B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		D77C33BA1AE77F6F00D4843B /* Build configuration list for PBXNativeTarget "MergeSortedArray" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D77C33BB1AE77F6F00D4843B /* Debug */,
+				D77C33BC1AE77F6F00D4843B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
