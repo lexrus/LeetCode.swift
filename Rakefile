@@ -7,6 +7,7 @@ task :test do
   system "xctool test -project LeetCode.xcodeproj -scheme ValidParentheses -sdk macosx"
   system "xctool test -project LeetCode.xcodeproj -scheme ReverseInteger -sdk macosx"
   system "xctool test -project LeetCode.xcodeproj -scheme RemoveDuplicatesFromSortedArray -sdk macosx"
+  system "xctool test -project LeetCode.xcodeproj -scheme RemoveElement -sdk macosx"
 end
 
 task :default => :test
