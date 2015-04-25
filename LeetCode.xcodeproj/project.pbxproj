@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D772ECE71AEBE99900C12BA2 /* RomanToIntegerTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = D772ECE61AEBE99900C12BA2 /* RomanToIntegerTest.swift */; };
+		D772ECEC1AEBE9CA00C12BA2 /* RomanToInteger.swift in Sources */ = {isa = PBXBuildFile; fileRef = D772ECEB1AEBE9CA00C12BA2 /* RomanToInteger.swift */; };
 		D77C332F1ADE36BB00D4843B /* TwoSumTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = D77C332E1ADE36BB00D4843B /* TwoSumTest.swift */; };
 		D77C33341ADE373B00D4843B /* TwoSum.swift in Sources */ = {isa = PBXBuildFile; fileRef = D77C33331ADE373B00D4843B /* TwoSum.swift */; };
 		D77C333E1ADE61B200D4843B /* MedianOfTwoSortedArraysTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = D77C333D1ADE61B200D4843B /* MedianOfTwoSortedArraysTest.swift */; };
@@ -30,6 +32,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		D772ECE21AEBE99900C12BA2 /* RomanToInteger.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RomanToInteger.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D772ECE51AEBE99900C12BA2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D772ECE61AEBE99900C12BA2 /* RomanToIntegerTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RomanToIntegerTest.swift; sourceTree = "<group>"; };
+		D772ECEB1AEBE9CA00C12BA2 /* RomanToInteger.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RomanToInteger.swift; sourceTree = SOURCE_ROOT; };
 		D77C332A1ADE36BB00D4843B /* TwoSum.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TwoSum.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D77C332D1ADE36BB00D4843B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D77C332E1ADE36BB00D4843B /* TwoSumTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwoSumTest.swift; sourceTree = "<group>"; };
@@ -73,6 +79,13 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		D772ECDF1AEBE99900C12BA2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		D77C33271ADE36BB00D4843B /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -146,6 +159,24 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		D772ECE31AEBE99900C12BA2 /* RomanToInteger */ = {
+			isa = PBXGroup;
+			children = (
+				D772ECEB1AEBE9CA00C12BA2 /* RomanToInteger.swift */,
+				D772ECE61AEBE99900C12BA2 /* RomanToIntegerTest.swift */,
+				D772ECE41AEBE99900C12BA2 /* Supporting Files */,
+			);
+			path = RomanToInteger;
+			sourceTree = "<group>";
+		};
+		D772ECE41AEBE99900C12BA2 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D772ECE51AEBE99900C12BA2 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
 		D77C33131ADE363800D4843B = {
 			isa = PBXGroup;
 			children = (
@@ -159,6 +190,7 @@
 				D77C33971AE60F9F00D4843B /* RemoveDuplicatesFromSortedArray */,
 				D77C33A61AE779CA00D4843B /* RemoveElement */,
 				D77C33B51AE77F6F00D4843B /* MergeSortedArray */,
+				D772ECE31AEBE99900C12BA2 /* RomanToInteger */,
 				D77C331D1ADE363800D4843B /* Products */,
 			);
 			sourceTree = "<group>";
@@ -176,6 +208,7 @@
 				D77C33961AE60F9F00D4843B /* RemoveDuplicatesFromSortedArray.xctest */,
 				D77C33A51AE779CA00D4843B /* RemoveElement.xctest */,
 				D77C33B41AE77F6F00D4843B /* MergeSortedArray.xctest */,
+				D772ECE21AEBE99900C12BA2 /* RomanToInteger.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -363,6 +396,23 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		D772ECE11AEBE99900C12BA2 /* RomanToInteger */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D772ECEA1AEBE99900C12BA2 /* Build configuration list for PBXNativeTarget "RomanToInteger" */;
+			buildPhases = (
+				D772ECDE1AEBE99900C12BA2 /* Sources */,
+				D772ECDF1AEBE99900C12BA2 /* Frameworks */,
+				D772ECE01AEBE99900C12BA2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RomanToInteger;
+			productName = RomanToInteger;
+			productReference = D772ECE21AEBE99900C12BA2 /* RomanToInteger.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 		D77C33291ADE36BB00D4843B /* TwoSum */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = D77C33301ADE36BB00D4843B /* Build configuration list for PBXNativeTarget "TwoSum" */;
@@ -542,6 +592,9 @@
 				LastUpgradeCheck = 0630;
 				ORGANIZATIONNAME = "Lex Tang";
 				TargetAttributes = {
+					D772ECE11AEBE99900C12BA2 = {
+						CreatedOnToolsVersion = 6.3.1;
+					};
 					D77C33291ADE36BB00D4843B = {
 						CreatedOnToolsVersion = 6.3;
 					};
@@ -596,11 +649,19 @@
 				D77C33951AE60F9F00D4843B /* RemoveDuplicatesFromSortedArray */,
 				D77C33A41AE779CA00D4843B /* RemoveElement */,
 				D77C33B31AE77F6F00D4843B /* MergeSortedArray */,
+				D772ECE11AEBE99900C12BA2 /* RomanToInteger */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		D772ECE01AEBE99900C12BA2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		D77C33281ADE36BB00D4843B /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -674,6 +735,15 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		D772ECDE1AEBE99900C12BA2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D772ECE71AEBE99900C12BA2 /* RomanToIntegerTest.swift in Sources */,
+				D772ECEC1AEBE9CA00C12BA2 /* RomanToInteger.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		D77C33261ADE36BB00D4843B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -767,6 +837,38 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
+		D772ECE81AEBE99900C12BA2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = RomanToInteger/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		D772ECE91AEBE99900C12BA2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = RomanToInteger/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 		D77C33211ADE363800D4843B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -1168,6 +1270,14 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		D772ECEA1AEBE99900C12BA2 /* Build configuration list for PBXNativeTarget "RomanToInteger" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D772ECE81AEBE99900C12BA2 /* Debug */,
+				D772ECE91AEBE99900C12BA2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
 		D77C33171ADE363800D4843B /* Build configuration list for PBXProject "LeetCode" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -1256,6 +1366,7 @@
 				D77C33AC1AE779CA00D4843B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D77C33BA1AE77F6F00D4843B /* Build configuration list for PBXNativeTarget "MergeSortedArray" */ = {
 			isa = XCConfigurationList;
@@ -1264,6 +1375,7 @@
 				D77C33BC1AE77F6F00D4843B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
