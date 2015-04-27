@@ -10,6 +10,7 @@ task :test do
   system "xctool test -project LeetCode.xcodeproj -scheme RemoveElement -sdk macosx"
   system "xctool test -project LeetCode.xcodeproj -scheme MergeSortedArray -sdk macosx"
   system "xctool test -project LeetCode.xcodeproj -scheme RomanToInteger -sdk macosx"
+  system "xctool test -project LeetCode.xcodeproj -scheme StringToIntegerAtoi -sdk macosx"
 end
 
 task :default => :test
