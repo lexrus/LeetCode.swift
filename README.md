@@ -25,7 +25,7 @@ let 💰 = "You need buy a book from LeetCode"
 11. [ ] 😐 [Container With Most Water](https://oj.leetcode.com/problems/container-with-most-water/) - [Swift](./containerWithMostWater/containerWithMostWater.swift)
 12. [ ] 😐 [Integer to Roman](https://oj.leetcode.com/problems/integer-to-roman/) - [Swift](./integerToRoman/integerToRoman.swift)
 13. [x] 😎 [Roman to Integer](https://oj.leetcode.com/problems/roman-to-integer/) - [Swift](./RomanToInteger/RomanToInteger.swift)
-14. [ ] 😎 [Longest Common Prefix](https://oj.leetcode.com/problems/longest-common-prefix/) - [Swift](./longestCommonPrefix/longestCommonPrefix.swift)
+14. [x] 😎 [Longest Common Prefix](https://oj.leetcode.com/problems/longest-common-prefix/) - [Swift](./LongestCommonPrefix/LongestCommonPrefix.swift)
 15. [ ] 😐 [3Sum](https://oj.leetcode.com/problems/3sum/) - [Swift](./3Sum/3Sum.swift)
 16. [ ] 😐 [3Sum Closest](https://oj.leetcode.com/problems/3sum-closest/) - [Swift](./3SumClosest/3SumClosest.swift)
 17. [ ] 😐 [4Sum](https://oj.leetcode.com/problems/4sum/) - [Swift](./4Sum/4Sum.swift)
