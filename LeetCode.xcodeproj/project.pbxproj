@@ -11,8 +11,6 @@
 		D772ECEE1AEBF0DC00C12BA2 /* RomanToInteger.swift in Sources */ = {isa = PBXBuildFile; fileRef = D772ECED1AEBF0DC00C12BA2 /* RomanToInteger.swift */; };
 		D77C332F1ADE36BB00D4843B /* TwoSumTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = D77C332E1ADE36BB00D4843B /* TwoSumTest.swift */; };
 		D77C33341ADE373B00D4843B /* TwoSum.swift in Sources */ = {isa = PBXBuildFile; fileRef = D77C33331ADE373B00D4843B /* TwoSum.swift */; };
-		D77C333E1ADE61B200D4843B /* MedianOfTwoSortedArraysTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = D77C333D1ADE61B200D4843B /* MedianOfTwoSortedArraysTest.swift */; };
-		D77C33431ADF562100D4843B /* MedianOfTwoSortedArrays.swift in Sources */ = {isa = PBXBuildFile; fileRef = D77C33421ADF562100D4843B /* MedianOfTwoSortedArrays.swift */; };
 		D77C334D1ADF581300D4843B /* AddTwoNumbersTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = D77C334C1ADF581300D4843B /* AddTwoNumbersTest.swift */; };
 		D77C33521ADF58CC00D4843B /* AddTwoNumbers.swift in Sources */ = {isa = PBXBuildFile; fileRef = D77C33511ADF58CC00D4843B /* AddTwoNumbers.swift */; };
 		D77C335C1ADFC24000D4843B /* ZigZagConversionTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = D77C335B1ADFC24000D4843B /* ZigZagConversionTest.swift */; };
@@ -46,10 +44,6 @@
 		D77C332D1ADE36BB00D4843B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D77C332E1ADE36BB00D4843B /* TwoSumTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwoSumTest.swift; sourceTree = "<group>"; };
 		D77C33331ADE373B00D4843B /* TwoSum.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TwoSum.swift; sourceTree = "<group>"; };
-		D77C33391ADE61B200D4843B /* MedianOfTwoSortedArrays.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MedianOfTwoSortedArrays.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		D77C333C1ADE61B200D4843B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		D77C333D1ADE61B200D4843B /* MedianOfTwoSortedArraysTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MedianOfTwoSortedArraysTest.swift; sourceTree = "<group>"; };
-		D77C33421ADF562100D4843B /* MedianOfTwoSortedArrays.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MedianOfTwoSortedArrays.swift; sourceTree = "<group>"; };
 		D77C33481ADF581200D4843B /* AddTwoNumbers.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AddTwoNumbers.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D77C334B1ADF581200D4843B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D77C334C1ADF581300D4843B /* AddTwoNumbersTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddTwoNumbersTest.swift; sourceTree = "<group>"; };
@@ -105,13 +99,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		D77C33271ADE36BB00D4843B /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		D77C33361ADE61B200D4843B /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -221,7 +208,6 @@
 			children = (
 				D77C332B1ADE36BB00D4843B /* TwoSum */,
 				D77C33491ADF581200D4843B /* AddTwoNumbers */,
-				D77C333A1ADE61B200D4843B /* MedianOfTwoSortedArrays */,
 				D77C33581ADFC24000D4843B /* ZigZagConversion */,
 				D77C33671AE0A91800D4843B /* RemoveNthNodeFromEndOfList */,
 				D77C33761AE0B6F100D4843B /* ValidParentheses */,
@@ -241,7 +227,6 @@
 			isa = PBXGroup;
 			children = (
 				D77C332A1ADE36BB00D4843B /* TwoSum.xctest */,
-				D77C33391ADE61B200D4843B /* MedianOfTwoSortedArrays.xctest */,
 				D77C33481ADF581200D4843B /* AddTwoNumbers.xctest */,
 				D77C33571ADFC24000D4843B /* ZigZagConversion.xctest */,
 				D77C33661AE0A91800D4843B /* RemoveNthNodeFromEndOfList.xctest */,
@@ -272,24 +257,6 @@
 			isa = PBXGroup;
 			children = (
 				D77C332D1ADE36BB00D4843B /* Info.plist */,
-			);
-			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		D77C333A1ADE61B200D4843B /* MedianOfTwoSortedArrays */ = {
-			isa = PBXGroup;
-			children = (
-				D77C33421ADF562100D4843B /* MedianOfTwoSortedArrays.swift */,
-				D77C333D1ADE61B200D4843B /* MedianOfTwoSortedArraysTest.swift */,
-				D77C333B1ADE61B200D4843B /* Supporting Files */,
-			);
-			path = MedianOfTwoSortedArrays;
-			sourceTree = "<group>";
-		};
-		D77C333B1ADE61B200D4843B /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				D77C333C1ADE61B200D4843B /* Info.plist */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -529,23 +496,6 @@
 			productReference = D77C332A1ADE36BB00D4843B /* TwoSum.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		D77C33381ADE61B200D4843B /* MedianOfTwoSortedArrays */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = D77C333F1ADE61B200D4843B /* Build configuration list for PBXNativeTarget "MedianOfTwoSortedArrays" */;
-			buildPhases = (
-				D77C33351ADE61B200D4843B /* Sources */,
-				D77C33361ADE61B200D4843B /* Frameworks */,
-				D77C33371ADE61B200D4843B /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = MedianOfTwoSortedArrays;
-			productName = MedianOfTwoSortedArrays;
-			productReference = D77C33391ADE61B200D4843B /* MedianOfTwoSortedArrays.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
 		D77C33471ADF581200D4843B /* AddTwoNumbers */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = D77C334E1ADF581300D4843B /* Build configuration list for PBXNativeTarget "AddTwoNumbers" */;
@@ -748,9 +698,6 @@
 					D77C33291ADE36BB00D4843B = {
 						CreatedOnToolsVersion = 6.3;
 					};
-					D77C33381ADE61B200D4843B = {
-						CreatedOnToolsVersion = 6.3;
-					};
 					D77C33471ADF581200D4843B = {
 						CreatedOnToolsVersion = 6.3;
 					};
@@ -799,7 +746,6 @@
 			projectRoot = "";
 			targets = (
 				D77C33291ADE36BB00D4843B /* TwoSum */,
-				D77C33381ADE61B200D4843B /* MedianOfTwoSortedArrays */,
 				D77C33471ADF581200D4843B /* AddTwoNumbers */,
 				D77C33561ADFC24000D4843B /* ZigZagConversion */,
 				D77C33651AE0A91800D4843B /* RemoveNthNodeFromEndOfList */,
@@ -825,13 +771,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		D77C33281ADE36BB00D4843B /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		D77C33371ADE61B200D4843B /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -933,15 +872,6 @@
 			files = (
 				D77C33341ADE373B00D4843B /* TwoSum.swift in Sources */,
 				D77C332F1ADE36BB00D4843B /* TwoSumTest.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		D77C33351ADE61B200D4843B /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				D77C33431ADF562100D4843B /* MedianOfTwoSortedArrays.swift in Sources */,
-				D77C333E1ADE61B200D4843B /* MedianOfTwoSortedArraysTest.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1184,38 +1114,6 @@
 					"$(inherited)",
 				);
 				INFOPLIST_FILE = TwoSum/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-			};
-			name = Release;
-		};
-		D77C33401ADE61B200D4843B /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				COMBINE_HIDPI_IMAGES = YES;
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(DEVELOPER_FRAMEWORKS_DIR)",
-					"$(inherited)",
-				);
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = MedianOfTwoSortedArrays/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-			};
-			name = Debug;
-		};
-		D77C33411ADE61B200D4843B /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				COMBINE_HIDPI_IMAGES = YES;
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(DEVELOPER_FRAMEWORKS_DIR)",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = MedianOfTwoSortedArrays/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -1605,15 +1503,6 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		D77C333F1ADE61B200D4843B /* Build configuration list for PBXNativeTarget "MedianOfTwoSortedArrays" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				D77C33401ADE61B200D4843B /* Debug */,
-				D77C33411ADE61B200D4843B /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		D77C334E1ADF581300D4843B /* Build configuration list for PBXNativeTarget "AddTwoNumbers" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -1702,6 +1591,7 @@
 				D7A788BE1AF72B5600E06B0B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D7A788CC1AF7413900E06B0B /* Build configuration list for PBXNativeTarget "LongestCommonPrefix" */ = {
 			isa = XCConfigurationList;
@@ -1710,6 +1600,7 @@
 				D7A788CE1AF7413900E06B0B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
