@@ -31,6 +31,8 @@
 		D77C33BE1AE77F9500D4843B /* MergeSortedArray.swift in Sources */ = {isa = PBXBuildFile; fileRef = D77C33BD1AE77F9500D4843B /* MergeSortedArray.swift */; };
 		D781FB441AEE267300036E50 /* StringToIntegerAtoiTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = D781FB431AEE267300036E50 /* StringToIntegerAtoiTest.swift */; };
 		D781FB491AEE269D00036E50 /* StringToIntegerAtoi.swift in Sources */ = {isa = PBXBuildFile; fileRef = D781FB481AEE269D00036E50 /* StringToIntegerAtoi.swift */; };
+		D7A788BC1AF72B5600E06B0B /* PalindromeNumberTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7A788BB1AF72B5600E06B0B /* PalindromeNumberTest.swift */; };
+		D7A788C11AF72B8200E06B0B /* PalindromeNumber.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7A788C01AF72B8200E06B0B /* PalindromeNumber.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -82,6 +84,10 @@
 		D781FB421AEE267300036E50 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D781FB431AEE267300036E50 /* StringToIntegerAtoiTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringToIntegerAtoiTest.swift; sourceTree = "<group>"; };
 		D781FB481AEE269D00036E50 /* StringToIntegerAtoi.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StringToIntegerAtoi.swift; sourceTree = "<group>"; };
+		D7A788B71AF72B5600E06B0B /* PalindromeNumber.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PalindromeNumber.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D7A788BA1AF72B5600E06B0B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D7A788BB1AF72B5600E06B0B /* PalindromeNumberTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PalindromeNumberTest.swift; sourceTree = "<group>"; };
+		D7A788C01AF72B8200E06B0B /* PalindromeNumber.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PalindromeNumber.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -169,6 +175,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		D7A788B41AF72B5600E06B0B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -205,6 +218,7 @@
 				D77C33B51AE77F6F00D4843B /* MergeSortedArray */,
 				D772ECE31AEBE99900C12BA2 /* RomanToInteger */,
 				D781FB401AEE267200036E50 /* StringToIntegerAtoi */,
+				D7A788B81AF72B5600E06B0B /* PalindromeNumber */,
 				D77C331D1ADE363800D4843B /* Products */,
 			);
 			sourceTree = "<group>";
@@ -224,6 +238,7 @@
 				D77C33B41AE77F6F00D4843B /* MergeSortedArray.xctest */,
 				D772ECE21AEBE99900C12BA2 /* RomanToInteger.xctest */,
 				D781FB3F1AEE267200036E50 /* StringToIntegerAtoi.xctest */,
+				D7A788B71AF72B5600E06B0B /* PalindromeNumber.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -422,6 +437,24 @@
 			isa = PBXGroup;
 			children = (
 				D781FB421AEE267300036E50 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D7A788B81AF72B5600E06B0B /* PalindromeNumber */ = {
+			isa = PBXGroup;
+			children = (
+				D7A788C01AF72B8200E06B0B /* PalindromeNumber.swift */,
+				D7A788BB1AF72B5600E06B0B /* PalindromeNumberTest.swift */,
+				D7A788B91AF72B5600E06B0B /* Supporting Files */,
+			);
+			path = PalindromeNumber;
+			sourceTree = "<group>";
+		};
+		D7A788B91AF72B5600E06B0B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D7A788BA1AF72B5600E06B0B /* Info.plist */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -633,6 +666,23 @@
 			productReference = D781FB3F1AEE267200036E50 /* StringToIntegerAtoi.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
+		D7A788B61AF72B5600E06B0B /* PalindromeNumber */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D7A788BF1AF72B5600E06B0B /* Build configuration list for PBXNativeTarget "PalindromeNumber" */;
+			buildPhases = (
+				D7A788B31AF72B5600E06B0B /* Sources */,
+				D7A788B41AF72B5600E06B0B /* Frameworks */,
+				D7A788B51AF72B5600E06B0B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PalindromeNumber;
+			productName = PalindromeNumber;
+			productReference = D7A788B71AF72B5600E06B0B /* PalindromeNumber.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -678,6 +728,9 @@
 					D781FB3E1AEE267200036E50 = {
 						CreatedOnToolsVersion = 6.3.1;
 					};
+					D7A788B61AF72B5600E06B0B = {
+						CreatedOnToolsVersion = 6.3.1;
+					};
 				};
 			};
 			buildConfigurationList = D77C33171ADE363800D4843B /* Build configuration list for PBXProject "LeetCode" */;
@@ -704,6 +757,7 @@
 				D77C33B31AE77F6F00D4843B /* MergeSortedArray */,
 				D772ECE11AEBE99900C12BA2 /* RomanToInteger */,
 				D781FB3E1AEE267200036E50 /* StringToIntegerAtoi */,
+				D7A788B61AF72B5600E06B0B /* PalindromeNumber */,
 			);
 		};
 /* End PBXProject section */
@@ -787,6 +841,13 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		D781FB3D1AEE267200036E50 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D7A788B51AF72B5600E06B0B /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -901,6 +962,15 @@
 			files = (
 				D781FB441AEE267300036E50 /* StringToIntegerAtoiTest.swift in Sources */,
 				D781FB491AEE269D00036E50 /* StringToIntegerAtoi.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D7A788B31AF72B5600E06B0B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D7A788BC1AF72B5600E06B0B /* PalindromeNumberTest.swift in Sources */,
+				D7A788C11AF72B8200E06B0B /* PalindromeNumber.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1369,6 +1439,40 @@
 			};
 			name = Release;
 		};
+		D7A788BD1AF72B5600E06B0B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = PalindromeNumber/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		D7A788BE1AF72B5600E06B0B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = PalindromeNumber/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -1485,6 +1589,15 @@
 			buildConfigurations = (
 				D781FB451AEE267300036E50 /* Debug */,
 				D781FB461AEE267300036E50 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D7A788BF1AF72B5600E06B0B /* Build configuration list for PBXNativeTarget "PalindromeNumber" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D7A788BD1AF72B5600E06B0B /* Debug */,
+				D7A788BE1AF72B5600E06B0B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};

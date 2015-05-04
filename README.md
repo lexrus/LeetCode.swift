@@ -20,7 +20,7 @@ let 💰 = "You need buy a book from LeetCode"
 6. [x] 😎 [ZigZag Conversion](https://oj.leetcode.com/problems/zigzag-conversion/) - [Swift](./ZigZagConversion/ZigZagConversion.swift)
 7. [x] 😎 [Reverse Integer](https://oj.leetcode.com/problems/reverse-integer/) - [Swift](./ReverseInteger/ReverseInteger.swift)
 8. [x] 😎 [String to Integer (atoi)](https://oj.leetcode.com/problems/string-to-integer-atoi/) - [Swift](./StringToIntegerAtoi/StringToIntegerAtoi.swift)
-9. [ ] 😎 [Palindrome Number](https://oj.leetcode.com/problems/palindrome-number/) - [Swift](./palindromeNumber/palindromeNumber.swift)
+9. [x] 😎 [Palindrome Number](https://oj.leetcode.com/problems/palindrome-number/) - [Swift](./PalindromeNumber/PalindromeNumber.swift)
 10. [ ] 😨 [Regular Expression Matching](https://oj.leetcode.com/problems/regular-expression-matching/) - [Swift](./regularExpressionMatching/regularExpressionMatching.swift)
 11. [ ] 😐 [Container With Most Water](https://oj.leetcode.com/problems/container-with-most-water/) - [Swift](./containerWithMostWater/containerWithMostWater.swift)
 12. [ ] 😐 [Integer to Roman](https://oj.leetcode.com/problems/integer-to-roman/) - [Swift](./integerToRoman/integerToRoman.swift)
