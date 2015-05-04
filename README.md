@@ -1,5 +1,9 @@
 # LeetCode.swift
 
+<img src="https://app.ship.io/jobs/qYFuRu2sNGSunhXj/build_status.png" height="20" alt="ship.io badge"/>
+![License](https://img.shields.io/github/license/lexrus/ios-dev-playbook.svg)
+![Love](https://img.shields.io/badge/build%20with-%3C3-ff69b4.svg)
+
 > 愚者千虑，必有一得。
 
 As an idiot of algorithms, I make bold to resolve the problems on [LeetCode](https://leetcode.com). And especially, in my favorite [Swift](http://www.apple.com/swift/). Most of the algorithms were __not__ figured out by myself.
