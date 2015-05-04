@@ -1,0 +1,16 @@
+machine:
+  xcode:
+    version: "6.3.1"
+  environment:
+    XCODE_SCHEME: TestAll
+    XCODE_WORKSPACE: LeetCode
+  test:
+    override:
+      - xctool
+        -reporter pretty
+        -reporter junit:$CIRCLE_TEST_REPORTS/xcode/results.xml
+        -reporter plain:$CIRCLE_ARTIFACTS/xctool.log
+        -sdk macosx
+        -workspace $XCODE_WORKSPACE.xcworkspace
+        -scheme $XCODE_SCHEME
+        build build-tests run-tests
