@@ -1,8 +1,8 @@
 # LeetCode.swift
 
-<img src="https://app.ship.io/jobs/qYFuRu2sNGSunhXj/build_status.png" height="20" alt="ship.io badge"/>
-![License](https://img.shields.io/github/license/lexrus/ios-dev-playbook.svg)
-![Love](https://img.shields.io/badge/build%20with-%3C3-ff69b4.svg)
+[![Circle CI](https://circleci.com/gh/lexrus/LeetCode.swift.svg?style=shield)](https://circleci.com/gh/lexrus/LeetCode.swift)
+![License](https://img.shields.io/github/license/lexrus/ios-dev-playbook.svg?style=plastic)
+![Love](https://img.shields.io/badge/build%20with-%3C3-ff69b4.svg?style=plastic)
 
 > 愚者千虑，必有一得。
 
