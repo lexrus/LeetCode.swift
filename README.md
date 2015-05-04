@@ -42,7 +42,7 @@ let 💰 = "You need buy a book from LeetCode"
 24. [ ] 😨 [Reverse Nodes in k-Group](https://oj.leetcode.com/problems/reverse-nodes-in-k-group/) - [Swift](./reverseNodesInKGroup/reverseNodesInKGroup.swift)
 25. [x] 😎 [Remove Duplicates from Sorted Array](https://oj.leetcode.com/problems/remove-duplicates-from-sorted-array/) - [Swift](./RemoveDuplicatesFromSortedArray/RemoveDuplicatesFromSortedArray.swift)
 26. [x] 😎 [Remove Element](https://oj.leetcode.com/problems/remove-element/) - [Swift](./RemoveElement/RemoveElement.swift)
-27. [ ] 😎 [Implement strStr()](https://oj.leetcode.com/problems/implement-strstr/) - [Swift](./strStr/strStr.swift)
+27. [x] 😎 [Implement strStr()](https://oj.leetcode.com/problems/implement-strstr/) - [Swift](./StrStr/StrStr.swift)
 28. [ ] 😐 [Divide Two Integers](https://oj.leetcode.com/problems/divide-two-integers/) - [Swift](./divideTwoInt/divideTwoInt.swift)
 29. [ ] 😨 [Substring with Concatenation of All Words](https://oj.leetcode.com/problems/substring-with-concatenation-of-all-words/) - [Swift](./substringWithConcatenationOfAllWords/substringWithConcatenationOfAllWords.swift)
 30. [ ] 😐 [Next Permutation](https://oj.leetcode.com/problems/next-permutation/) - [Swift](./nextPermutation/nextPermutation.swift)
