@@ -12,4 +12,5 @@ test:
       -reporter plain:$CIRCLE_ARTIFACTS/xctool.log
       -sdk macosx
       -project $XCODE_PROJECT
+      -scheme $XCODE_SCHEME
       test
