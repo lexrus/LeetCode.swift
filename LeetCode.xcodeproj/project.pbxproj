@@ -43,12 +43,14 @@
 		D7FB8E581AF89D0900286272 /* String+LeetCode.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7FB8E571AF89D0900286272 /* String+LeetCode.swift */; };
 		D7FB8E5A1AF8A51300286272 /* MergeTwoSortedList.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7FB8E591AF8A51300286272 /* MergeTwoSortedList.swift */; };
 		D7FB8E5C1AF8A6FE00286272 /* MergeTwoSortedListTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7FB8E5B1AF8A6FE00286272 /* MergeTwoSortedListTest.swift */; };
+		D7FB8E5E1AF8AED800286272 /* ValidNumber.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7FB8E5D1AF8AED800286272 /* ValidNumber.swift */; };
+		D7FB8E601AF8AF2400286272 /* Character+LeetCode.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7FB8E5F1AF8AF2400286272 /* Character+LeetCode.swift */; };
+		D7FB8E621AF8B33600286272 /* ValidNumberTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7FB8E611AF8B33600286272 /* ValidNumberTest.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		D7FB8E091AF899FE00286272 /* LeetCodeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LeetCodeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D7FB8E0C1AF899FE00286272 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		D7FB8E121AF89A1000286272 /* LeetCodeTests-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "LeetCodeTests-Bridging-Header.h"; sourceTree = "<group>"; };
 		D7FB8E131AF89A1000286272 /* LengthOfLastWordTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LengthOfLastWordTest.swift; sourceTree = "<group>"; };
 		D7FB8E151AF89A2700286272 /* CountAndSayTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CountAndSayTest.swift; sourceTree = "<group>"; };
 		D7FB8E171AF89A3200286272 /* StrStrTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StrStrTest.swift; sourceTree = "<group>"; };
@@ -85,6 +87,9 @@
 		D7FB8E571AF89D0900286272 /* String+LeetCode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+LeetCode.swift"; sourceTree = "<group>"; };
 		D7FB8E591AF8A51300286272 /* MergeTwoSortedList.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MergeTwoSortedList.swift; sourceTree = "<group>"; };
 		D7FB8E5B1AF8A6FE00286272 /* MergeTwoSortedListTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MergeTwoSortedListTest.swift; sourceTree = "<group>"; };
+		D7FB8E5D1AF8AED800286272 /* ValidNumber.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ValidNumber.swift; sourceTree = "<group>"; };
+		D7FB8E5F1AF8AF2400286272 /* Character+LeetCode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Character+LeetCode.swift"; sourceTree = "<group>"; };
+		D7FB8E611AF8B33600286272 /* ValidNumberTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ValidNumberTest.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -119,6 +124,7 @@
 		D7FB8E0A1AF899FE00286272 /* LeetCodeTests */ = {
 			isa = PBXGroup;
 			children = (
+				D7FB8E0B1AF899FE00286272 /* Supporting Files */,
 				D7FB8E311AF89B1800286272 /* TwoSumTest.swift */,
 				D7FB8E2F1AF89B0F00286272 /* AddTwoNumbersTest.swift */,
 				D7FB8E2D1AF89B0400286272 /* ZigZagConversionTest.swift */,
@@ -135,9 +141,8 @@
 				D7FB8E171AF89A3200286272 /* StrStrTest.swift */,
 				D7FB8E151AF89A2700286272 /* CountAndSayTest.swift */,
 				D7FB8E131AF89A1000286272 /* LengthOfLastWordTest.swift */,
-				D7FB8E0B1AF899FE00286272 /* Supporting Files */,
-				D7FB8E121AF89A1000286272 /* LeetCodeTests-Bridging-Header.h */,
 				D7FB8E5B1AF8A6FE00286272 /* MergeTwoSortedListTest.swift */,
+				D7FB8E611AF8B33600286272 /* ValidNumberTest.swift */,
 			);
 			path = LeetCodeTests;
 			sourceTree = "<group>";
@@ -170,6 +175,7 @@
 				D7FB8E421AF89C9800286272 /* ValidParentheses.swift */,
 				D7FB8E431AF89C9800286272 /* ZigZagConversion.swift */,
 				D7FB8E591AF8A51300286272 /* MergeTwoSortedList.swift */,
+				D7FB8E5D1AF8AED800286272 /* ValidNumber.swift */,
 			);
 			path = Algorithms;
 			sourceTree = "<group>";
@@ -179,6 +185,7 @@
 			children = (
 				D7FB8E551AF89CD900286272 /* ListNode.swift */,
 				D7FB8E571AF89D0900286272 /* String+LeetCode.swift */,
+				D7FB8E5F1AF8AF2400286272 /* Character+LeetCode.swift */,
 			);
 			path = Shared;
 			sourceTree = "<group>";
@@ -258,11 +265,13 @@
 				D7FB8E531AF89C9800286272 /* ZigZagConversion.swift in Sources */,
 				D7FB8E491AF89C9800286272 /* PalindromeNumber.swift in Sources */,
 				D7FB8E2C1AF89AF400286272 /* RemoveNthNodeFromEndOfListTest.swift in Sources */,
+				D7FB8E5E1AF8AED800286272 /* ValidNumber.swift in Sources */,
 				D7FB8E4F1AF89C9800286272 /* StringToIntegerAtoi.swift in Sources */,
 				D7FB8E5C1AF8A6FE00286272 /* MergeTwoSortedListTest.swift in Sources */,
 				D7FB8E201AF89A9700286272 /* RomanToIntegerTest.swift in Sources */,
 				D7FB8E161AF89A2700286272 /* CountAndSayTest.swift in Sources */,
 				D7FB8E4E1AF89C9800286272 /* RomanToInteger.swift in Sources */,
+				D7FB8E621AF8B33600286272 /* ValidNumberTest.swift in Sources */,
 				D7FB8E181AF89A3200286272 /* StrStrTest.swift in Sources */,
 				D7FB8E2E1AF89B0400286272 /* ZigZagConversionTest.swift in Sources */,
 				D7FB8E4A1AF89C9800286272 /* RemoveDuplicatesFromSortedArray.swift in Sources */,
@@ -270,6 +279,7 @@
 				D7FB8E1E1AF89A8200286272 /* StringToIntegerAtoiTest.swift in Sources */,
 				D7FB8E241AF89AAF00286272 /* RemoveElementTest.swift in Sources */,
 				D7FB8E471AF89C9800286272 /* LongestCommonPrefix.swift in Sources */,
+				D7FB8E601AF8AF2400286272 /* Character+LeetCode.swift in Sources */,
 				D7FB8E4B1AF89C9800286272 /* RemoveElement.swift in Sources */,
 				D7FB8E261AF89ACD00286272 /* RemoveDuplicatesFromSortedArrayTest.swift in Sources */,
 				D7FB8E221AF89AA200286272 /* MergeSortedArrayTest.swift in Sources */,
@@ -383,7 +393,6 @@
 				INFOPLIST_FILE = LeetCodeTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_OBJC_BRIDGING_HEADER = "LeetCodeTests/LeetCodeTests-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
@@ -400,7 +409,6 @@
 				INFOPLIST_FILE = LeetCodeTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_OBJC_BRIDGING_HEADER = "LeetCodeTests/LeetCodeTests-Bridging-Header.h";
 			};
 			name = Release;
 		};
