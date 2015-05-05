@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D70246761AF88A070048C17C /* CountAndSayTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = D70246751AF88A070048C17C /* CountAndSayTest.swift */; };
+		D702467B1AF88A2F0048C17C /* CountAndSay.swift in Sources */ = {isa = PBXBuildFile; fileRef = D702467A1AF88A2F0048C17C /* CountAndSay.swift */; };
 		D772ECE71AEBE99900C12BA2 /* RomanToIntegerTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = D772ECE61AEBE99900C12BA2 /* RomanToIntegerTest.swift */; };
 		D772ECEE1AEBF0DC00C12BA2 /* RomanToInteger.swift in Sources */ = {isa = PBXBuildFile; fileRef = D772ECED1AEBF0DC00C12BA2 /* RomanToInteger.swift */; };
 		D77C332F1ADE36BB00D4843B /* TwoSumTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = D77C332E1ADE36BB00D4843B /* TwoSumTest.swift */; };
@@ -38,6 +40,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		D70246711AF88A070048C17C /* CountAndSay.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CountAndSay.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D70246741AF88A070048C17C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D70246751AF88A070048C17C /* CountAndSayTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountAndSayTest.swift; sourceTree = "<group>"; };
+		D702467A1AF88A2F0048C17C /* CountAndSay.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CountAndSay.swift; sourceTree = "<group>"; };
 		D772ECE21AEBE99900C12BA2 /* RomanToInteger.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RomanToInteger.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D772ECE51AEBE99900C12BA2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D772ECE61AEBE99900C12BA2 /* RomanToIntegerTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RomanToIntegerTest.swift; sourceTree = "<group>"; };
@@ -97,6 +103,13 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		D702466E1AF88A070048C17C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		D772ECDF1AEBE99900C12BA2 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -198,6 +211,24 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		D70246721AF88A070048C17C /* CountAndSay */ = {
+			isa = PBXGroup;
+			children = (
+				D702467A1AF88A2F0048C17C /* CountAndSay.swift */,
+				D70246751AF88A070048C17C /* CountAndSayTest.swift */,
+				D70246731AF88A070048C17C /* Supporting Files */,
+			);
+			path = CountAndSay;
+			sourceTree = "<group>";
+		};
+		D70246731AF88A070048C17C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D70246741AF88A070048C17C /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
 		D772ECE31AEBE99900C12BA2 /* RomanToInteger */ = {
 			isa = PBXGroup;
 			children = (
@@ -233,6 +264,7 @@
 				D7A788B81AF72B5600E06B0B /* PalindromeNumber */,
 				D7A788C71AF7413900E06B0B /* LongestCommonPrefix */,
 				D7D49A651AF7639C00765D08 /* StrStr */,
+				D70246721AF88A070048C17C /* CountAndSay */,
 				D77C331D1ADE363800D4843B /* Products */,
 			);
 			sourceTree = "<group>";
@@ -254,6 +286,7 @@
 				D7A788B71AF72B5600E06B0B /* PalindromeNumber.xctest */,
 				D7A788C61AF7413900E06B0B /* LongestCommonPrefix.xctest */,
 				D7D49A641AF7639B00765D08 /* StrStr.xctest */,
+				D70246711AF88A070048C17C /* CountAndSay.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -495,6 +528,23 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		D70246701AF88A070048C17C /* CountAndSay */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D70246791AF88A070048C17C /* Build configuration list for PBXNativeTarget "CountAndSay" */;
+			buildPhases = (
+				D702466D1AF88A070048C17C /* Sources */,
+				D702466E1AF88A070048C17C /* Frameworks */,
+				D702466F1AF88A070048C17C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CountAndSay;
+			productName = CountAndSay;
+			productReference = D70246711AF88A070048C17C /* CountAndSay.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 		D772ECE11AEBE99900C12BA2 /* RomanToInteger */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = D772ECEA1AEBE99900C12BA2 /* Build configuration list for PBXNativeTarget "RomanToInteger" */;
@@ -742,6 +792,9 @@
 				LastUpgradeCheck = 0630;
 				ORGANIZATIONNAME = "Lex Tang";
 				TargetAttributes = {
+					D70246701AF88A070048C17C = {
+						CreatedOnToolsVersion = 6.3.1;
+					};
 					D772ECE11AEBE99900C12BA2 = {
 						CreatedOnToolsVersion = 6.3.1;
 					};
@@ -812,11 +865,19 @@
 				D7A788B61AF72B5600E06B0B /* PalindromeNumber */,
 				D7A788C51AF7413900E06B0B /* LongestCommonPrefix */,
 				D7D49A631AF7639B00765D08 /* StrStr */,
+				D70246701AF88A070048C17C /* CountAndSay */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		D702466F1AF88A070048C17C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		D772ECE01AEBE99900C12BA2 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -918,6 +979,15 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		D702466D1AF88A070048C17C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D70246761AF88A070048C17C /* CountAndSayTest.swift in Sources */,
+				D702467B1AF88A2F0048C17C /* CountAndSay.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		D772ECDE1AEBE99900C12BA2 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -1047,6 +1117,38 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
+		D70246771AF88A070048C17C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = CountAndSay/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		D70246781AF88A070048C17C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = CountAndSay/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 		D772ECE81AEBE99900C12BA2 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -1578,6 +1680,14 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		D70246791AF88A070048C17C /* Build configuration list for PBXNativeTarget "CountAndSay" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D70246771AF88A070048C17C /* Debug */,
+				D70246781AF88A070048C17C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
 		D772ECEA1AEBE99900C12BA2 /* Build configuration list for PBXNativeTarget "RomanToInteger" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -1711,6 +1821,7 @@
 				D7D49A6C1AF7639C00765D08 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -52,7 +52,7 @@ let 💰 = "You need buy a book from LeetCode"
 34. [ ] 😐 [Search Insert Position](https://oj.leetcode.com/problems/search-insert-position/) - [Swift](./searchInsertPosition/searchInsertPosition.swift)
 35. [ ] 😎 [Valid Sudoku](https://oj.leetcode.com/problems/valid-sudoku/) - [Swift](./validSudoku/validSudoku.swift)
 36. [ ] 😨 [Sudoku Solver](https://oj.leetcode.com/problems/sudoku-solver/) - [Swift](./sudokuSolver/sudokuSolver.swift)
-37. [ ] 😎 [Count and Say](https://oj.leetcode.com/problems/count-and-say/) - [Swift](./countAndSay/countAndSay.swift)
+37. [x] 😎 [Count and Say](https://oj.leetcode.com/problems/count-and-say/) - [Swift](./CountAndSay/CountAndSay.swift)
 38. [ ] 😐 [Combination Sum](https://oj.leetcode.com/problems/combination-sum/) - [Swift](./combinationSum/combinationSum.swift)
 39. [ ] 😐 [Combination Sum II](https://oj.leetcode.com/problems/combination-sum-ii/) - [Swift](./combinationSum/combinationSum.II.swift)
 40. [ ] 😨 [First Missing Positive](https://oj.leetcode.com/problems/first-missing-positive/) - [Swift](./firstMissingPositive/firstMissingPositive.swift)

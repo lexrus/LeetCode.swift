@@ -152,6 +152,16 @@
                ReferencedContainer = "container:LeetCode.xcodeproj">
             </BuildableReference>
          </TestableReference>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "D70246701AF88A070048C17C"
+               BuildableName = "CountAndSay.xctest"
+               BlueprintName = "CountAndSay"
+               ReferencedContainer = "container:LeetCode.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
       </Testables>
    </TestAction>
    <LaunchAction
