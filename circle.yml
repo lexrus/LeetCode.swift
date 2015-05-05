@@ -4,7 +4,6 @@ machine:
   environment:
     XCODE_SCHEME: LeetCodeTests
     XCODE_PROJECT: LeetCode.xcodeproj
-    XCODE_WORKSPACE: LeetCode.xcworkspace
 test:
   override:
     - xctool
