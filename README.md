@@ -10,6 +10,7 @@ As an idiot of algorithms, I make bold to resolve the problems on [LeetCode](htt
 
 PLEASE __DO NOT CONTRIBUTE__ until I accomplish all of them.
 
+Progress: 18 / 183 = 9.84%
 
 ``` swift
 let 😎 = Easy, 😐 = Medium, 😨 = Hard
