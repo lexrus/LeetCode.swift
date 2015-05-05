@@ -15,11 +15,7 @@ class RemoveNthNodeFromEndOfListTest: XCTestCase {
         self.measureBlock() {
             let list = ListNode(1, ListNode(2, ListNode(3, ListNode(4, ListNode(5)))))
             let result = list.removeNthFromEnd(2)
-            XCTAssert(
-                result.value == 1 &&
-                result.next!.value == 2 &&
-                result.next!.next!.value == 3 &&
-                result.next!.next!.next!.value == 5, "")
+            XCTAssertEqual(result.debugDescription, "1 2 3 5", "")
         }
     }
     
@@ -27,8 +23,8 @@ class RemoveNthNodeFromEndOfListTest: XCTestCase {
         self.measureBlock() {
             let list = ListNode(1, ListNode(2, ListNode(3, ListNode(4, ListNode(5)))))
             let result = list.removeNthFromEnd(5)
+            XCTAssertEqual(result.debugDescription, "2 3 4 5", "")
             XCTAssert(result.childNodeCount() == 3, "\(result.childNodeCount)")
-            XCTAssert(result.value == 2, "")
         }
     }
     

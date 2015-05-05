@@ -8,12 +8,24 @@
 
 import Foundation
 
-class ListNode {
+class ListNode: DebugPrintable {
     var value: Int = 0
     var next: ListNode? = nil
     
     init(_ value: Int = 0, _ next: ListNode? = nil) {
         self.value = value
         self.next = next
+    }
+    
+    var debugDescription: String {
+        get {
+            var s = "\(value)"
+            var p = self
+            while p.next != nil {
+                p = p.next!
+                s = "\(s) \(p.value)"
+            }
+            return s
+        }
     }
 }

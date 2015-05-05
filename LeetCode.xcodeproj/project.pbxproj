@@ -41,6 +41,8 @@
 		D7FB8E531AF89C9800286272 /* ZigZagConversion.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7FB8E431AF89C9800286272 /* ZigZagConversion.swift */; };
 		D7FB8E561AF89CD900286272 /* ListNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7FB8E551AF89CD900286272 /* ListNode.swift */; };
 		D7FB8E581AF89D0900286272 /* String+LeetCode.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7FB8E571AF89D0900286272 /* String+LeetCode.swift */; };
+		D7FB8E5A1AF8A51300286272 /* MergeTwoSortedList.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7FB8E591AF8A51300286272 /* MergeTwoSortedList.swift */; };
+		D7FB8E5C1AF8A6FE00286272 /* MergeTwoSortedListTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7FB8E5B1AF8A6FE00286272 /* MergeTwoSortedListTest.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -81,6 +83,8 @@
 		D7FB8E431AF89C9800286272 /* ZigZagConversion.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZigZagConversion.swift; sourceTree = "<group>"; };
 		D7FB8E551AF89CD900286272 /* ListNode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListNode.swift; sourceTree = "<group>"; };
 		D7FB8E571AF89D0900286272 /* String+LeetCode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+LeetCode.swift"; sourceTree = "<group>"; };
+		D7FB8E591AF8A51300286272 /* MergeTwoSortedList.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MergeTwoSortedList.swift; sourceTree = "<group>"; };
+		D7FB8E5B1AF8A6FE00286272 /* MergeTwoSortedListTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MergeTwoSortedListTest.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -133,6 +137,7 @@
 				D7FB8E131AF89A1000286272 /* LengthOfLastWordTest.swift */,
 				D7FB8E0B1AF899FE00286272 /* Supporting Files */,
 				D7FB8E121AF89A1000286272 /* LeetCodeTests-Bridging-Header.h */,
+				D7FB8E5B1AF8A6FE00286272 /* MergeTwoSortedListTest.swift */,
 			);
 			path = LeetCodeTests;
 			sourceTree = "<group>";
@@ -164,6 +169,7 @@
 				D7FB8E411AF89C9800286272 /* TwoSum.swift */,
 				D7FB8E421AF89C9800286272 /* ValidParentheses.swift */,
 				D7FB8E431AF89C9800286272 /* ZigZagConversion.swift */,
+				D7FB8E591AF8A51300286272 /* MergeTwoSortedList.swift */,
 			);
 			path = Algorithms;
 			sourceTree = "<group>";
@@ -247,11 +253,13 @@
 				D7FB8E561AF89CD900286272 /* ListNode.swift in Sources */,
 				D7FB8E461AF89C9800286272 /* LengthOfLastWord.swift in Sources */,
 				D7FB8E141AF89A1000286272 /* LengthOfLastWordTest.swift in Sources */,
+				D7FB8E5A1AF8A51300286272 /* MergeTwoSortedList.swift in Sources */,
 				D7FB8E451AF89C9800286272 /* CountAndSay.swift in Sources */,
 				D7FB8E531AF89C9800286272 /* ZigZagConversion.swift in Sources */,
 				D7FB8E491AF89C9800286272 /* PalindromeNumber.swift in Sources */,
 				D7FB8E2C1AF89AF400286272 /* RemoveNthNodeFromEndOfListTest.swift in Sources */,
 				D7FB8E4F1AF89C9800286272 /* StringToIntegerAtoi.swift in Sources */,
+				D7FB8E5C1AF8A6FE00286272 /* MergeTwoSortedListTest.swift in Sources */,
 				D7FB8E201AF89A9700286272 /* RomanToIntegerTest.swift in Sources */,
 				D7FB8E161AF89A2700286272 /* CountAndSayTest.swift in Sources */,
 				D7FB8E4E1AF89C9800286272 /* RomanToInteger.swift in Sources */,

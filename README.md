@@ -79,7 +79,7 @@ let 💰 = "You need buy a book from LeetCode"
 61. [ ] 😐 [Unique Paths](https://oj.leetcode.com/problems/unique-paths/) - [Swift](./Algorithms/UniquePaths.swift) - [Test](./LeetCodeTests/UniquePathsTest.swift)
 62. [ ] 😐 [Unique Paths II](https://oj.leetcode.com/problems/unique-paths-ii/) - [Swift](./Algorithms/UniquePaths.II.swift) - [Test](./LeetCodeTests/UniquePaths.IITest.swift)
 63. [ ] 😐 [Minimum Path Sum](https://oj.leetcode.com/problems/minimum-path-sum/) - [Swift](./Algorithms/MinimumPathSum.swift) - [Test](./LeetCodeTests/MinimumPathSumTest.swift)
-64. [ ] 😎 [Merge Two Sorted Lists](https://oj.leetcode.com/problems/merge-two-sorted-lists/) - [Swift](./Algorithms/MergeTwoSortedList.swift) - [Test](./LeetCodeTests/MergeTwoSortedListTest.swift)
+64. [x] 😎 [Merge Two Sorted Lists](https://oj.leetcode.com/problems/merge-two-sorted-lists/) - [Swift](./Algorithms/MergeTwoSortedList.swift) - [Test](./LeetCodeTests/MergeTwoSortedListTest.swift)
 65. [ ] 😎 [Add Binary](https://oj.leetcode.com/problems/add-binary/) - [Swift](./Algorithms/AddBinary.swift) - [Test](./LeetCodeTests/AddBinaryTest.swift)
 66. [ ] 😎 [Valid Number](https://oj.leetcode.com/problems/valid-number/) - [Swift](./Algorithms/ValidNumber.swift) - [Test](./LeetCodeTests/ValidNumberTest.swift)
 67. [ ] 😎 [Plus One](https://oj.leetcode.com/problems/plus-one/) - [Swift](./Algorithms/PlusOne.swift) - [Test](./LeetCodeTests/PlusOneTest.swift)
