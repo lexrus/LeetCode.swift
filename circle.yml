@@ -2,7 +2,8 @@ machine:
   xcode:
     version: "6.3.1"
   environment:
-    XCODE_SCHEME: TestAll
+    XCODE_SCHEME: LeetCodeTests
+    XCODE_PROJECT: LeetCode.xcodeproj
     XCODE_WORKSPACE: LeetCode.xcworkspace
 test:
   override:
@@ -11,6 +12,5 @@ test:
       -reporter junit:$CIRCLE_TEST_REPORTS/xcode/results.xml
       -reporter plain:$CIRCLE_ARTIFACTS/xctool.log
       -sdk macosx
-      -workspace $XCODE_WORKSPACE
-      -scheme $XCODE_SCHEME
+      -project $XCODE_PROJECT
       test
