@@ -72,7 +72,7 @@ let 💰 = "You need buy a book from LeetCode"
 54. [ ] 😐 [Jump Game](https://oj.leetcode.com/problems/jump-game/) - [Swift](./jumpGame/jumpGame.swift)
 55. [ ] 😨 [Merge Intervals](https://oj.leetcode.com/problems/merge-intervals/) - [Swift](./mergeIntervals/mergeIntervals.swift)
 56. [ ] 😨 [Insert Interval](https://oj.leetcode.com/problems/insert-interval/) - [Swift](./insertInterval/insertInterval.swift)
-57. [ ] 😎 [Length of Last Word](https://oj.leetcode.com/problems/length-of-last-word/) - [Swift](./lengthOfLastWord/lengthOfLastWord.swift)
+57. [x] 😎 [Length of Last Word](https://oj.leetcode.com/problems/length-of-last-word/) - [Swift](./LengthOfLastWord/LengthOfLastWord.swift)
 58. [ ] 😐 [Spiral Matrix II](https://oj.leetcode.com/problems/spiral-matrix-ii/) - [Swift](./spiralMatrix/spiralMatrix.II.swift)
 59. [ ] 😐 [Permutation Sequence](https://oj.leetcode.com/problems/permutation-sequence/) - [Swift](./permutationSequence/permutationSequence.swift)
 60. [ ] 😐 [Rotate List](https://oj.leetcode.com/problems/rotate-list/) - [Swift](./rotateList/rotateList.swift)

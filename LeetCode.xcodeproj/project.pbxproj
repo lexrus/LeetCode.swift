@@ -37,6 +37,8 @@
 		D7A788D01AF7416F00E06B0B /* LongestCommonPrefix.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7A788CF1AF7416F00E06B0B /* LongestCommonPrefix.swift */; };
 		D7D49A691AF7639C00765D08 /* StrStrTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7D49A681AF7639C00765D08 /* StrStrTest.swift */; };
 		D7D49A6E1AF763D300765D08 /* StrStr.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7D49A6D1AF763D300765D08 /* StrStr.swift */; };
+		D7FB8DF21AF8948800286272 /* LengthOfLastWordTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7FB8DF11AF8948800286272 /* LengthOfLastWordTest.swift */; };
+		D7FB8DF71AF894AF00286272 /* LengthOfLastWord.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7FB8DF61AF894AF00286272 /* LengthOfLastWord.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -100,6 +102,10 @@
 		D7D49A671AF7639C00765D08 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D7D49A681AF7639C00765D08 /* StrStrTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StrStrTest.swift; sourceTree = "<group>"; };
 		D7D49A6D1AF763D300765D08 /* StrStr.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StrStr.swift; sourceTree = "<group>"; };
+		D7FB8DED1AF8948800286272 /* LengthOfLastWord.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LengthOfLastWord.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D7FB8DF01AF8948800286272 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D7FB8DF11AF8948800286272 /* LengthOfLastWordTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LengthOfLastWordTest.swift; sourceTree = "<group>"; };
+		D7FB8DF61AF894AF00286272 /* LengthOfLastWord.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LengthOfLastWord.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -208,6 +214,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		D7FB8DEA1AF8948800286272 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -265,6 +278,7 @@
 				D7A788C71AF7413900E06B0B /* LongestCommonPrefix */,
 				D7D49A651AF7639C00765D08 /* StrStr */,
 				D70246721AF88A070048C17C /* CountAndSay */,
+				D7FB8DEE1AF8948800286272 /* LengthOfLastWord */,
 				D77C331D1ADE363800D4843B /* Products */,
 			);
 			sourceTree = "<group>";
@@ -287,6 +301,7 @@
 				D7A788C61AF7413900E06B0B /* LongestCommonPrefix.xctest */,
 				D7D49A641AF7639B00765D08 /* StrStr.xctest */,
 				D70246711AF88A070048C17C /* CountAndSay.xctest */,
+				D7FB8DED1AF8948800286272 /* LengthOfLastWord.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -521,6 +536,24 @@
 			isa = PBXGroup;
 			children = (
 				D7D49A671AF7639C00765D08 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D7FB8DEE1AF8948800286272 /* LengthOfLastWord */ = {
+			isa = PBXGroup;
+			children = (
+				D7FB8DF61AF894AF00286272 /* LengthOfLastWord.swift */,
+				D7FB8DF11AF8948800286272 /* LengthOfLastWordTest.swift */,
+				D7FB8DEF1AF8948800286272 /* Supporting Files */,
+			);
+			path = LengthOfLastWord;
+			sourceTree = "<group>";
+		};
+		D7FB8DEF1AF8948800286272 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D7FB8DF01AF8948800286272 /* Info.plist */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -783,6 +816,23 @@
 			productReference = D7D49A641AF7639B00765D08 /* StrStr.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
+		D7FB8DEC1AF8948800286272 /* LengthOfLastWord */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D7FB8DF51AF8948800286272 /* Build configuration list for PBXNativeTarget "LengthOfLastWord" */;
+			buildPhases = (
+				D7FB8DE91AF8948800286272 /* Sources */,
+				D7FB8DEA1AF8948800286272 /* Frameworks */,
+				D7FB8DEB1AF8948800286272 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LengthOfLastWord;
+			productName = LengthOfLastWord;
+			productReference = D7FB8DED1AF8948800286272 /* LengthOfLastWord.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -837,6 +887,9 @@
 					D7D49A631AF7639B00765D08 = {
 						CreatedOnToolsVersion = 6.3.1;
 					};
+					D7FB8DEC1AF8948800286272 = {
+						CreatedOnToolsVersion = 6.3.1;
+					};
 				};
 			};
 			buildConfigurationList = D77C33171ADE363800D4843B /* Build configuration list for PBXProject "LeetCode" */;
@@ -866,6 +919,7 @@
 				D7A788C51AF7413900E06B0B /* LongestCommonPrefix */,
 				D7D49A631AF7639B00765D08 /* StrStr */,
 				D70246701AF88A070048C17C /* CountAndSay */,
+				D7FB8DEC1AF8948800286272 /* LengthOfLastWord */,
 			);
 		};
 /* End PBXProject section */
@@ -970,6 +1024,13 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		D7D49A621AF7639B00765D08 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D7FB8DEB1AF8948800286272 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -1111,6 +1172,15 @@
 			files = (
 				D7D49A691AF7639C00765D08 /* StrStrTest.swift in Sources */,
 				D7D49A6E1AF763D300765D08 /* StrStr.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D7FB8DE91AF8948800286272 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D7FB8DF71AF894AF00286272 /* LengthOfLastWord.swift in Sources */,
+				D7FB8DF21AF8948800286272 /* LengthOfLastWordTest.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1677,6 +1747,38 @@
 			};
 			name = Release;
 		};
+		D7FB8DF31AF8948800286272 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = LengthOfLastWord/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		D7FB8DF41AF8948800286272 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = LengthOfLastWord/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -1687,6 +1789,7 @@
 				D70246781AF88A070048C17C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D772ECEA1AEBE99900C12BA2 /* Build configuration list for PBXNativeTarget "RomanToInteger" */ = {
 			isa = XCConfigurationList;
@@ -1822,6 +1925,14 @@
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
+		};
+		D7FB8DF51AF8948800286272 /* Build configuration list for PBXNativeTarget "LengthOfLastWord" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D7FB8DF31AF8948800286272 /* Debug */,
+				D7FB8DF41AF8948800286272 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
 		};
 /* End XCConfigurationList section */
 	};

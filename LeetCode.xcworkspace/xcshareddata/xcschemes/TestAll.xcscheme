@@ -162,6 +162,16 @@
                ReferencedContainer = "container:LeetCode.xcodeproj">
             </BuildableReference>
          </TestableReference>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "D7FB8DEC1AF8948800286272"
+               BuildableName = "LengthOfLastWord.xctest"
+               BlueprintName = "LengthOfLastWord"
+               ReferencedContainer = "container:LeetCode.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
       </Testables>
    </TestAction>
    <LaunchAction
