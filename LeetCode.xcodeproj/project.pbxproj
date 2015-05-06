@@ -46,6 +46,8 @@
 		D7FB8E5E1AF8AED800286272 /* ValidNumber.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7FB8E5D1AF8AED800286272 /* ValidNumber.swift */; };
 		D7FB8E601AF8AF2400286272 /* Character+LeetCode.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7FB8E5F1AF8AF2400286272 /* Character+LeetCode.swift */; };
 		D7FB8E621AF8B33600286272 /* ValidNumberTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7FB8E611AF8B33600286272 /* ValidNumberTest.swift */; };
+		D7FB8E641AF9B04E00286272 /* PlusOne.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7FB8E631AF9B04E00286272 /* PlusOne.swift */; };
+		D7FB8E661AF9B09100286272 /* PlusOneTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7FB8E651AF9B09100286272 /* PlusOneTest.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -90,6 +92,8 @@
 		D7FB8E5D1AF8AED800286272 /* ValidNumber.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ValidNumber.swift; sourceTree = "<group>"; };
 		D7FB8E5F1AF8AF2400286272 /* Character+LeetCode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Character+LeetCode.swift"; sourceTree = "<group>"; };
 		D7FB8E611AF8B33600286272 /* ValidNumberTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ValidNumberTest.swift; sourceTree = "<group>"; };
+		D7FB8E631AF9B04E00286272 /* PlusOne.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlusOne.swift; sourceTree = "<group>"; };
+		D7FB8E651AF9B09100286272 /* PlusOneTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlusOneTest.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -143,6 +147,7 @@
 				D7FB8E131AF89A1000286272 /* LengthOfLastWordTest.swift */,
 				D7FB8E5B1AF8A6FE00286272 /* MergeTwoSortedListTest.swift */,
 				D7FB8E611AF8B33600286272 /* ValidNumberTest.swift */,
+				D7FB8E651AF9B09100286272 /* PlusOneTest.swift */,
 			);
 			path = LeetCodeTests;
 			sourceTree = "<group>";
@@ -176,6 +181,7 @@
 				D7FB8E431AF89C9800286272 /* ZigZagConversion.swift */,
 				D7FB8E591AF8A51300286272 /* MergeTwoSortedList.swift */,
 				D7FB8E5D1AF8AED800286272 /* ValidNumber.swift */,
+				D7FB8E631AF9B04E00286272 /* PlusOne.swift */,
 			);
 			path = Algorithms;
 			sourceTree = "<group>";
@@ -269,6 +275,7 @@
 				D7FB8E4F1AF89C9800286272 /* StringToIntegerAtoi.swift in Sources */,
 				D7FB8E5C1AF8A6FE00286272 /* MergeTwoSortedListTest.swift in Sources */,
 				D7FB8E201AF89A9700286272 /* RomanToIntegerTest.swift in Sources */,
+				D7FB8E661AF9B09100286272 /* PlusOneTest.swift in Sources */,
 				D7FB8E161AF89A2700286272 /* CountAndSayTest.swift in Sources */,
 				D7FB8E4E1AF89C9800286272 /* RomanToInteger.swift in Sources */,
 				D7FB8E621AF8B33600286272 /* ValidNumberTest.swift in Sources */,
@@ -278,6 +285,7 @@
 				D7FB8E441AF89C9800286272 /* AddTwoNumbers.swift in Sources */,
 				D7FB8E1E1AF89A8200286272 /* StringToIntegerAtoiTest.swift in Sources */,
 				D7FB8E241AF89AAF00286272 /* RemoveElementTest.swift in Sources */,
+				D7FB8E641AF9B04E00286272 /* PlusOne.swift in Sources */,
 				D7FB8E471AF89C9800286272 /* LongestCommonPrefix.swift in Sources */,
 				D7FB8E601AF8AF2400286272 /* Character+LeetCode.swift in Sources */,
 				D7FB8E4B1AF89C9800286272 /* RemoveElement.swift in Sources */,

@@ -10,7 +10,7 @@ As an idiot of algorithms, I make bold to resolve the problems on [LeetCode](htt
 
 PLEASE __DO NOT CONTRIBUTE__ until I accomplish all of them.
 
-Progress: 18 / 183 = 9.84%
+Progress: 19 / 183 = 10.38%
 
 ``` swift
 let 😎 = Easy, 😐 = Medium, 😨 = Hard
@@ -83,7 +83,7 @@ let 💰 = "You need buy a book from LeetCode"
 64. [x] 😎 [Merge Two Sorted Lists](https://oj.leetcode.com/problems/merge-two-sorted-lists/) - [Swift](./Algorithms/MergeTwoSortedList.swift) - [Test](./LeetCodeTests/MergeTwoSortedListTest.swift)
 65. [ ] 😎 [Add Binary](https://oj.leetcode.com/problems/add-binary/) - [Swift](./Algorithms/AddBinary.swift) - [Test](./LeetCodeTests/AddBinaryTest.swift)
 66. [x] 😎 [Valid Number](https://oj.leetcode.com/problems/valid-number/) - [Swift](./Algorithms/ValidNumber.swift) - [Test](./LeetCodeTests/ValidNumberTest.swift)
-67. [ ] 😎 [Plus One](https://oj.leetcode.com/problems/plus-one/) - [Swift](./Algorithms/PlusOne.swift) - [Test](./LeetCodeTests/PlusOneTest.swift)
+67. [x] 😎 [Plus One](https://oj.leetcode.com/problems/plus-one/) - [Swift](./Algorithms/PlusOne.swift) - [Test](./LeetCodeTests/PlusOneTest.swift)
 68. [ ] 😨 [Text Justification](https://oj.leetcode.com/problems/text-justification/) - [Swift](./Algorithms/TextJustification.swift) - [Test](./LeetCodeTests/TextJustificationTest.swift)
 69. [ ] 😐 [Sqrt(x)](https://oj.leetcode.com/problems/sqrtx/) - [Swift](./Algorithms/Sqrt.swift) - [Test](./LeetCodeTests/SqrtTest.swift)
 70. [ ] 😎 [Climbing Stairs](https://oj.leetcode.com/problems/climbing-stairs/) - [Swift](./Algorithms/ClimbStairs.swift) - [Test](./LeetCodeTests/ClimbStairsTest.swift)
