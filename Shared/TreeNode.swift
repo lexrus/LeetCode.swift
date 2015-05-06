@@ -20,14 +20,19 @@ class TreeNode: DebugPrintable {
     }
     
     private func printTree(tree: TreeNode) -> String {
-        var s = "\(tree.value) {"
+        var s = ""
         if let l = tree.leftNode {
-            s = "\(s)\(printTree(l))"
+            s = "\(printTree(l))"
         }
         if let r = tree.rightNode {
-            s = "\(s)|\(printTree(r))"
+            s = "\(s), \(printTree(r))"
         }
-        return "\(s)}"
+        
+        if s.isEmpty {
+            return "\(tree.value):-"
+        } else {
+            return "\(tree.value):( \(s) )"
+        }
     }
     
     var debugDescription: String {
