@@ -10,7 +10,7 @@ As an idiot of algorithms, I make bold to resolve the problems on [LeetCode](htt
 
 PLEASE __DO NOT CONTRIBUTE__ until I accomplish all of them.
 
-Progress: 19 / 183 = 10.38%
+Progress: 20 / 183 = 10.93%
 
 ``` swift
 let 😎 = Easy, 😐 = Medium, 😨 = Hard
@@ -98,7 +98,7 @@ let 💰 = "You need buy a book from LeetCode"
 79. [ ] 😐 [Word Search](https://oj.leetcode.com/problems/word-search/) - [Swift](./Algorithms/WordSearch.swift) - [Test](./LeetCodeTests/WordSearchTest.swift)
 80. [ ] 😐 [Remove Duplicates from Sorted Array II](https://oj.leetcode.com/problems/remove-duplicates-from-sorted-array-ii/) - [Swift](./Algorithms/RemoveDuplicatesFromSortedArray.II.swift) - [Test](./LeetCodeTests/RemoveDuplicatesFromSortedArray.IITest.swift)
 81. [ ] 😐 [Search in Rotated Sorted Array II](https://oj.leetcode.com/problems/search-in-rotated-sorted-array-ii/) - [Swift](./Algorithms/SearchInRotatedSortedArray.II.swift) - [Test](./LeetCodeTests/SearchInRotatedSortedArray.IITest.swift)
-82. [ ] 😎 [Remove Duplicates from Sorted List](https://oj.leetcode.com/problems/remove-duplicates-from-sorted-list/) - [Swift](./Algorithms/RemoveDuplicatesFromSortedList.swift) - [Test](./LeetCodeTests/RemoveDuplicatesFromSortedListTest.swift)
+82. [x] 😎 [Remove Duplicates from Sorted List](https://oj.leetcode.com/problems/remove-duplicates-from-sorted-list/) - [Swift](./Algorithms/RemoveDuplicatesFromSortedList.swift) - [Test](./LeetCodeTests/RemoveDuplicatesFromSortedListTest.swift)
 83. [ ] 😐 [Remove Duplicates from Sorted List II](https://oj.leetcode.com/problems/remove-duplicates-from-sorted-list-ii/) - [Swift](./Algorithms/RemoveDuplicatesFromSortedList.II.swift) - [Test](./LeetCodeTests/RemoveDuplicatesFromSortedList.IITest.swift)
 84. [ ] 😨 [Largest Rectangle in Histogram](https://oj.leetcode.com/problems/largest-rectangle-in-histogram/) - [Swift](./Algorithms/LargestRectangleInHistogram.swift) - [Test](./LeetCodeTests/LargestRectangleInHistogramTest.swift)
 85. [ ] 😨 [Maximal Rectangle](https://oj.leetcode.com/problems/maximal-rectangle/) - [Swift](./Algorithms/MaximalRectangle.swift) - [Test](./LeetCodeTests/MaximalRectangleTest.swift)
