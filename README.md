@@ -10,7 +10,7 @@ As an idiot of algorithms, I make bold to resolve the problems on [LeetCode](htt
 
 PLEASE __DO NOT CONTRIBUTE__ until I accomplish all of them.
 
-Progress: 20 / 183 = 10.93%
+Progress: 21 / 183 = 11.48%
 
 ``` swift
 let 😎 = Easy, 😐 = Medium, 😨 = Hard
@@ -116,7 +116,7 @@ let 💰 = "You need buy a book from LeetCode"
 97. [ ] 😨 [Interleaving String](https://oj.leetcode.com/problems/interleaving-string/) - [Swift](./Algorithms/InterleavingString.swift) - [Test](./LeetCodeTests/InterleavingStringTest.swift)
 98. [ ] 😐 [Validate Binary Search Tree](https://oj.leetcode.com/problems/validate-binary-search-tree/) - [Swift](./Algorithms/ValidateBinarySearchTree.swift) - [Test](./LeetCodeTests/ValidateBinarySearchTreeTest.swift)
 99. [ ] 😨 [Recover Binary Search Tree](https://oj.leetcode.com/problems/recover-binary-search-tree/) - [Swift](./Algorithms/RecoverBinarySearchTree.swift) - [Test](./LeetCodeTests/RecoverBinarySearchTreeTest.swift)
-100. [ ] 😎 [Same Tree](https://oj.leetcode.com/problems/same-tree/) - [Swift](./Algorithms/SameTree.swift) - [Test](./LeetCodeTests/SameTreeTest.swift)
+100. [x] 😎 [Same Tree](https://oj.leetcode.com/problems/same-tree/) - [Swift](./Algorithms/SameTree.swift) - [Test](./LeetCodeTests/SameTreeTest.swift)
 101. [ ] 😎 [Symmetric Tree](https://oj.leetcode.com/problems/symmetric-tree/) - [Swift](./Algorithms/SymmetricTree.swift) - [Test](./LeetCodeTests/SymmetricTreeTest.swift)
 102. [ ] 😎 [Binary Tree Level Order Traversal](https://oj.leetcode.com/problems/binary-tree-level-order-traversal/) - [Swift](./Algorithms/BinaryTreeLevelOrderTraversal.swift) - [Test](./LeetCodeTests/BinaryTreeLevelOrderTraversalTest.swift)
 103. [ ] 😐 [Binary Tree Zigzag Level Order Traversal](https://oj.leetcode.com/problems/binary-tree-zigzag-level-order-traversal/) - [Swift](./Algorithms/BinaryTreeZigzagLevelOrderTraversal.swift) - [Test](./LeetCodeTests/BinaryTreeZigzagLevelOrderTraversalTest.swift)

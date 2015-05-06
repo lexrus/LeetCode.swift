@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D71563861AF9BF780090A569 /* TreeNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = D71563851AF9BF780090A569 /* TreeNode.swift */; };
+		D7DE01691AF9EFA000BB2AA0 /* SameTree.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7DE01681AF9EFA000BB2AA0 /* SameTree.swift */; };
+		D7DE016B1AF9F13600BB2AA0 /* SameTreeTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7DE016A1AF9F13600BB2AA0 /* SameTreeTest.swift */; };
 		D7FB8E141AF89A1000286272 /* LengthOfLastWordTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7FB8E131AF89A1000286272 /* LengthOfLastWordTest.swift */; };
 		D7FB8E161AF89A2700286272 /* CountAndSayTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7FB8E151AF89A2700286272 /* CountAndSayTest.swift */; };
 		D7FB8E181AF89A3200286272 /* StrStrTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7FB8E171AF89A3200286272 /* StrStrTest.swift */; };
@@ -53,6 +56,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		D71563851AF9BF780090A569 /* TreeNode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TreeNode.swift; sourceTree = "<group>"; };
+		D7DE01681AF9EFA000BB2AA0 /* SameTree.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SameTree.swift; sourceTree = "<group>"; };
+		D7DE016A1AF9F13600BB2AA0 /* SameTreeTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SameTreeTest.swift; sourceTree = "<group>"; };
 		D7FB8E091AF899FE00286272 /* LeetCodeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LeetCodeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D7FB8E0C1AF899FE00286272 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D7FB8E131AF89A1000286272 /* LengthOfLastWordTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LengthOfLastWordTest.swift; sourceTree = "<group>"; };
@@ -153,6 +159,7 @@
 				D7FB8E611AF8B33600286272 /* ValidNumberTest.swift */,
 				D7FB8E651AF9B09100286272 /* PlusOneTest.swift */,
 				D7FB8E691AF9B9D400286272 /* RemoveDuplicatesFromSortedListTest.swift */,
+				D7DE016A1AF9F13600BB2AA0 /* SameTreeTest.swift */,
 			);
 			path = LeetCodeTests;
 			sourceTree = "<group>";
@@ -188,6 +195,7 @@
 				D7FB8E5D1AF8AED800286272 /* ValidNumber.swift */,
 				D7FB8E631AF9B04E00286272 /* PlusOne.swift */,
 				D7FB8E671AF9B9A000286272 /* RemoveDuplicatesFromSortedList.swift */,
+				D7DE01681AF9EFA000BB2AA0 /* SameTree.swift */,
 			);
 			path = Algorithms;
 			sourceTree = "<group>";
@@ -198,6 +206,7 @@
 				D7FB8E551AF89CD900286272 /* ListNode.swift */,
 				D7FB8E571AF89D0900286272 /* String+LeetCode.swift */,
 				D7FB8E5F1AF8AF2400286272 /* Character+LeetCode.swift */,
+				D71563851AF9BF780090A569 /* TreeNode.swift */,
 			);
 			path = Shared;
 			sourceTree = "<group>";
@@ -287,6 +296,7 @@
 				D7FB8E621AF8B33600286272 /* ValidNumberTest.swift in Sources */,
 				D7FB8E181AF89A3200286272 /* StrStrTest.swift in Sources */,
 				D7FB8E2E1AF89B0400286272 /* ZigZagConversionTest.swift in Sources */,
+				D7DE016B1AF9F13600BB2AA0 /* SameTreeTest.swift in Sources */,
 				D7FB8E4A1AF89C9800286272 /* RemoveDuplicatesFromSortedArray.swift in Sources */,
 				D7FB8E441AF89C9800286272 /* AddTwoNumbers.swift in Sources */,
 				D7FB8E1E1AF89A8200286272 /* StringToIntegerAtoiTest.swift in Sources */,
@@ -300,6 +310,7 @@
 				D7FB8E321AF89B1800286272 /* TwoSumTest.swift in Sources */,
 				D7FB8E511AF89C9800286272 /* TwoSum.swift in Sources */,
 				D7FB8E301AF89B0F00286272 /* AddTwoNumbersTest.swift in Sources */,
+				D7DE01691AF9EFA000BB2AA0 /* SameTree.swift in Sources */,
 				D7FB8E481AF89C9800286272 /* MergeSortedArray.swift in Sources */,
 				D7FB8E1C1AF89A7300286272 /* PalindromeNumberTest.swift in Sources */,
 				D7FB8E281AF89ADB00286272 /* ReverseIntegerTest.swift in Sources */,
@@ -307,6 +318,7 @@
 				D7FB8E6A1AF9B9D400286272 /* RemoveDuplicatesFromSortedListTest.swift in Sources */,
 				D7FB8E2A1AF89AE500286272 /* ValidParenthesesTest.swift in Sources */,
 				D7FB8E4C1AF89C9800286272 /* RemoveNthNodeFromEndOfList.swift in Sources */,
+				D71563861AF9BF780090A569 /* TreeNode.swift in Sources */,
 				D7FB8E681AF9B9A000286272 /* RemoveDuplicatesFromSortedList.swift in Sources */,
 				D7FB8E501AF89C9800286272 /* StrStr.swift in Sources */,
 				D7FB8E521AF89C9800286272 /* ValidParentheses.swift in Sources */,
