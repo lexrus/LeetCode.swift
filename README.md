@@ -1,16 +1,19 @@
 # LeetCode.swift
 
-[![Circle CI](https://circleci.com/gh/lexrus/LeetCode.swift.svg?style=shield)](https://circleci.com/gh/lexrus/LeetCode.swift)
-![License](https://img.shields.io/github/license/lexrus/ios-dev-playbook.svg?style=plastic)
-![Love](https://img.shields.io/badge/build%20with-%3C3-ff69b4.svg?style=plastic)
+[![CircleCI](https://img.shields.io/circleci/project/lexrus/LeetCode.swift.svg)](https://github.com/lexrus/LeetCode.swift)
+![License](https://img.shields.io/github/license/lexrus/ios-dev-playbook.svg?style=flat)
+![Progress](https://img.shields.io/badge/Progress-21%20%2F%20183%20=%2011.48%25-ff69b4.svg)
+
+[![Git](https://img.shields.io/badge/GitHub-lexrus-blue.svg?style=flat)](https://github.com/lexrus)
+[![Twitter](https://img.shields.io/badge/twitter-@lexrus-blue.svg?style=flat)](http://twitter.com/lexrus)
+[![LinkedIn](https://img.shields.io/badge/linkedin-Lex Tang-blue.svg?style=flat)](https://cn.linkedin.com/in/lexrus/en)
+[![eMail](https://img.shields.io/badge/email-lexrus@gmail.com-blue.svg?style=flat)](mailto:lexrus@gmail.com?SUBJECT=About VPN On)
 
 > 愚者千虑，必有一得。
 
 As an idiot of algorithms, I make bold to resolve the problems on [LeetCode](https://leetcode.com). And especially, in my favorite [Swift](http://www.apple.com/swift/). Most of the algorithms were __not__ figured out by myself.
 
 PLEASE __DO NOT CONTRIBUTE__ until I accomplish all of them.
-
-Progress: 21 / 183 = 11.48%
 
 ``` swift
 let 😎 = Easy, 😐 = Medium, 😨 = Hard
@@ -205,10 +208,6 @@ let 💰 = "You need buy a book from LeetCode"
 ## Unit tests
 Open the project with Xcode 6.3+ then press `command + u`.
 Or run `rake` in this folder if you have [xctool](https://github.com/facebook/xctool) installed.
-
-
-## Contacts
-Follow [Lex Tang](https://github.com/lexrus/) ([@lexrus on Twitter](https://twitter.com/lexrus/))
 
 
 ## License
