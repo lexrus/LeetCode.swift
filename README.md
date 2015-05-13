@@ -1,8 +1,8 @@
 # LeetCode.swift
 
-[![CircleCI](https://img.shields.io/circleci/project/lexrus/LeetCode.swift.svg)](https://github.com/lexrus/LeetCode.swift)
+[![CircleCI](https://img.shields.io/circleci/project/lexrus/LeetCode.swift.svg)](https://circleci.com/gh/lexrus/LeetCode.swift)
 ![License](https://img.shields.io/github/license/lexrus/ios-dev-playbook.svg?style=flat)
-![Progress](https://img.shields.io/badge/Progress-21%20%2F%20183%20=%2011.48%25-ff69b4.svg)
+![Progress](https://img.shields.io/badge/Progress-22%20%2F%20183%20=%2012.02%25-ff69b4.svg)
 
 [![Git](https://img.shields.io/badge/GitHub-lexrus-blue.svg?style=flat)](https://github.com/lexrus)
 [![Twitter](https://img.shields.io/badge/twitter-@lexrus-blue.svg?style=flat)](http://twitter.com/lexrus)
@@ -184,7 +184,7 @@ let 💰 = "You need buy a book from LeetCode"
 162. [ ] 😐 [Find Peak Element](https://oj.leetcode.com/problems/find-peak-element/) - [Swift](./Algorithms/FindPeakElement.swift) - [Test](./LeetCodeTests/FindPeakElementTest.swift)
 163. [ ] 😐 [Missing Ranges](https://oj.leetcode.com/problems/missing-ranges/) 💰 - [Swift](./Algorithms/MissingRanges.swift) - [Test](./LeetCodeTests/MissingRangesTest.swift)
 164. [ ] 😨 [Maximum Gap](https://oj.leetcode.com/problems/maximum-gap/) - [Swift](./Algorithms/MaximumGap.swift) - [Test](./LeetCodeTests/MaximumGapTest.swift)
-165. [ ] 😎 [Compare Version Numbers](https://oj.leetcode.com/problems/compare-version-numbers/) - [Swift](./Algorithms/CompareVersionNumbers.swift) - [Test](./LeetCodeTests/CompareVersionNumbersTest.swift)
+165. [x] 😎 [Compare Version Numbers](https://oj.leetcode.com/problems/compare-version-numbers/) - [Swift](./Algorithms/CompareVersionNumbers.swift) - [Test](./LeetCodeTests/CompareVersionNumbersTest.swift)
 166. [ ] 😐 [Fraction to Recurring Decimal](https://oj.leetcode.com/problems/fraction-to-recurring-decimal/) - [Swift](./Algorithms/FractionToRecurringDecimal.swift) - [Test](./LeetCodeTests/FractionToRecurringDecimalTest.swift)
 167. [ ] 😐 [Two Sum II - Input array is sorted](https://oj.leetcode.com/problems/two-sum-ii-input-array-is-sorted/) 💰 - [Swift](./Algorithms/TwoSum.II.swift) - [Test](./LeetCodeTests/TwoSum.IITest.swift)
 168. [ ] 😎 [Excel Sheet Column Title](https://oj.leetcode.com/problems/excel-sheet-column-title/) - [Swift](./Algorithms/ExcelSheetColumnTitle.swift) - [Test](./LeetCodeTests/ExcelSheetColumnTitleTest.swift)
