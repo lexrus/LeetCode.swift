@@ -22,10 +22,10 @@ class TreeNode: DebugPrintable {
     private func printTree(tree: TreeNode) -> String {
         var s = ""
         if let l = tree.leftNode {
-            s = "\(printTree(l))"
+            s = "l=\(printTree(l))"
         }
         if let r = tree.rightNode {
-            s = "\(s), \(printTree(r))"
+            s = "\(s), r=\(printTree(r))"
         }
         
         if s.isEmpty {

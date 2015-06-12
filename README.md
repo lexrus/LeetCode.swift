@@ -2,7 +2,7 @@
 
 [![CircleCI](https://img.shields.io/circleci/project/lexrus/LeetCode.swift.svg)](https://circleci.com/gh/lexrus/LeetCode.swift)
 ![License](https://img.shields.io/github/license/lexrus/ios-dev-playbook.svg?style=flat)
-![Progress](https://img.shields.io/badge/Progress-22%20%2F%20183%20=%2012.02%25-ff69b4.svg)
+![Progress](https://img.shields.io/badge/Progress-23%20%2F%20210%20=%2010.95%25-ff69b4.svg)
 
 [![Git](https://img.shields.io/badge/GitHub-lexrus-blue.svg?style=flat)](https://github.com/lexrus)
 [![Twitter](https://img.shields.io/badge/twitter-@lexrus-blue.svg?style=flat)](http://twitter.com/lexrus)
@@ -229,7 +229,7 @@ let 💰 = "You need buy a book from LeetCode"
 223. [ ] 😎 [Rectangle Area](https://leetcode.com/problems/rectangle-area/) - [Swift](./Algorithms/RectangleArea.swift) - [Test](./LeetCodeTests/RectangleAreaTest.swift)
 224. [ ] 😐 [Basic Calculator](https://leetcode.com/problems/basic-calculator/) - [Swift](./Algorithms/BasicCalculator.swift) - [Test](./LeetCodeTests/BasicCalculatorTest.swift)
 225. [ ] 😐 [Implement Stack using Queues](https://leetcode.com/problems/implement-stack-using-queues/) - [Swift](./Algorithms/ImplementStackUsingQueues.swift) - [Test](./LeetCodeTests/ImplementStackUsingQueuesTest.swift)
-226. [ ] 😎 [Invert Binary Tree](https://leetcode.com/problems/invert-binary-tree/) - [Swift](./Algorithms/InvertBinaryTree.swift) - [Test](./LeetCodeTests/InvertBinaryTreeTest.swift)
+226. [x] 😎 [Invert Binary Tree](https://leetcode.com/problems/invert-binary-tree/) - [Swift](./Algorithms/InvertBinaryTree.swift) - [Test](./LeetCodeTests/InvertBinaryTreeTest.swift)
 
 
 ## Unit tests
