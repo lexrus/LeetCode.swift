@@ -7,7 +7,7 @@
 [![Git](https://img.shields.io/badge/GitHub-lexrus-blue.svg?style=flat)](https://github.com/lexrus)
 [![Twitter](https://img.shields.io/badge/twitter-@lexrus-blue.svg?style=flat)](http://twitter.com/lexrus)
 [![LinkedIn](https://img.shields.io/badge/linkedin-Lex Tang-blue.svg?style=flat)](https://cn.linkedin.com/in/lexrus/en)
-[![eMail](https://img.shields.io/badge/email-lexrus@gmail.com-blue.svg?style=flat)](mailto:lexrus@gmail.com?SUBJECT=About VPN On)
+[![eMail](https://img.shields.io/badge/email-lexrus@gmail.com-blue.svg?style=flat)](mailto:lexrus@gmail.com?SUBJECT=About LeetCode.swift)
 
 > 愚者千虑，必有一得。
 
@@ -194,15 +194,42 @@ let 💰 = "You need buy a book from LeetCode"
 172. [ ] 😎 [Factorial Trailing Zeroes](https://oj.leetcode.com/problems/factorial-trailing-zeroes/) - [Swift](./Algorithms/FactorialTrailingZeroes.swift) - [Test](./LeetCodeTests/FactorialTrailingZeroesTest.swift)
 173. [ ] 😐 [Binary Search Tree Iterator](https://oj.leetcode.com/problems/binary-search-tree-iterator/) - [Swift](./Algorithms/BinarySearchTreeIterator.swift) - [Test](./LeetCodeTests/BinarySearchTreeIteratorTest.swift)
 174. [ ] 😨 [Dungeon Game](https://oj.leetcode.com/problems/dungeon-game/) - [Swift](./Algorithms/DungeonGame.swift) - [Test](./LeetCodeTests/DungeonGameTest.swift)
-175. [ ] 😐 [Largest Number](https://oj.leetcode.com/problems/largest-number/) - [Swift](./Algorithms/LargestNumber.swift) - [Test](./LeetCodeTests/LargestNumberTest.swift)
-176. [ ] 😐 [Reverse Words in a String II](https://oj.leetcode.com/problems/reverse-words-in-a-string-ii/) 💰 - [Swift](./Algorithms/ReverseWordsInAString.II.swift) - [Test](./LeetCodeTests/ReverseWordsInAString.IITest.swift)
-177. [ ] 😐 [Repeated DNA Sequences](https://oj.leetcode.com/problems/repeated-dna-sequences/) - [Swift](./Algorithms/RepeatedDNASequences.swift) - [Test](./LeetCodeTests/RepeatedDNASequencesTest.swift)
-178. [ ] 😨 [Best Time to Buy and Sell Stock IV](https://oj.leetcode.com/problems/best-time-to-buy-and-sell-stock-iv/) - [Swift](./Algorithms/BestTimeToBuyAndSellStock.IV.swift) - [Test](./LeetCodeTests/BestTimeToBuyAndSellStock.IVTest.swift)
-179. [ ] 😎 [Rotate Array](https://oj.leetcode.com/problems/rotate-array/) - [Swift](./Algorithms/RotateArray.swift) - [Test](./LeetCodeTests/RotateArrayTest.swift)
-180. [ ] 😎 [Reverse Bits](https://oj.leetcode.com/problems/reverse-bits/) - [Swift](./Algorithms/ReverseBits.swift) - [Test](./LeetCodeTests/ReverseBitsTest.swift)
-181. [ ] 😎 [Number of 1 Bits](https://oj.leetcode.com/problems/number-of-1-bits/) - [Swift](./Algorithms/NumberOf1Bits.swift) - [Test](./LeetCodeTests/NumberOf1BitsTest.swift)
-182. [ ] 😎 [House Robber](https://leetcode.com/problems/house-robber/) - [Swift](./Algorithms/HouseRobber.swift) - [Test](./LeetCodeTests/HouseRobberTest.swift)
-183. [ ] 😐 [Binary Tree Right Side View](https://leetcode.com/problems/binary-tree-right-side-view/) - [Swift](./Algorithms/BinaryTreeRightSideView.swift) - [Test](./LeetCodeTests/BinaryTreeRightSideViewTest.swift)
+179. [ ] 😐 [Largest Number](https://oj.leetcode.com/problems/largest-number/) - [Swift](./Algorithms/LargestNumber.swift) - [Test](./LeetCodeTests/LargestNumberTest.swift)
+186. [ ] 😐 [Reverse Words in a String II](https://oj.leetcode.com/problems/reverse-words-in-a-string-ii/) 💰 - [Swift](./Algorithms/ReverseWordsInAString.II.swift) - [Test](./LeetCodeTests/ReverseWordsInAString.IITest.swift)
+187. [ ] 😐 [Repeated DNA Sequences](https://oj.leetcode.com/problems/repeated-dna-sequences/) - [Swift](./Algorithms/RepeatedDNASequences.swift) - [Test](./LeetCodeTests/RepeatedDNASequencesTest.swift)
+188. [ ] 😨 [Best Time to Buy and Sell Stock IV](https://oj.leetcode.com/problems/best-time-to-buy-and-sell-stock-iv/) - [Swift](./Algorithms/BestTimeToBuyAndSellStock.IV.swift) - [Test](./LeetCodeTests/BestTimeToBuyAndSellStock.IVTest.swift)
+189. [ ] 😎 [Rotate Array](https://oj.leetcode.com/problems/rotate-array/) - [Swift](./Algorithms/RotateArray.swift) - [Test](./LeetCodeTests/RotateArrayTest.swift)
+190. [ ] 😎 [Reverse Bits](https://oj.leetcode.com/problems/reverse-bits/) - [Swift](./Algorithms/ReverseBits.swift) - [Test](./LeetCodeTests/ReverseBitsTest.swift)
+191. [ ] 😎 [Number of 1 Bits](https://oj.leetcode.com/problems/number-of-1-bits/) - [Swift](./Algorithms/NumberOf1Bits.swift) - [Test](./LeetCodeTests/NumberOf1BitsTest.swift)
+198. [ ] 😎 [House Robber](https://leetcode.com/problems/house-robber/) - [Swift](./Algorithms/HouseRobber.swift) - [Test](./LeetCodeTests/HouseRobberTest.swift)
+199. [ ] 😐 [Binary Tree Right Side View](https://leetcode.com/problems/binary-tree-right-side-view/) - [Swift](./Algorithms/BinaryTreeRightSideView.swift) - [Test](./LeetCodeTests/BinaryTreeRightSideViewTest.swift)
+200. [ ] 😐 [Number of Islands](https://leetcode.com/problems/number-of-islands/) - [Swift](./Algorithms/NumberOfIslands.swift) - [Test](./LeetCodeTests/NumberOfIslandsTest.swift)
+201. [ ] 😐 [Bitwise AND of Numbers Range](https://leetcode.com/problems/bitwise-and-of-numbers-range/) - [Swift](./Algorithms/BitwiseAndOfNumbersRange.swift) - [Test](./LeetCodeTests/BitwiseAndOfNumbersRangeTest.swift)
+202. [ ] 😎 [Happy Number](https://leetcode.com/problems/happy-number/) - [Swift](.Algorithms/HappyNumber.swift) - [Test](./LeetCodeTests/HappyNumberTest.swift)
+203. [ ] 😎 [Remove Linked List Elements](https://leetcode.com/problems/remove-linked-list-elements/) - [Swift](./Algorithms/RemoveLinkedListElements.swift) - [Test](./LeetCodeTests/RemoveLinkedListElementsTest.swift)
+204. [ ] 😎 [Count Primes](https://leetcode.com/problems/count-primes/) - [Swift](./Algorithms/CountPrimes.swift) - [Test](./LeetCodeTests/CountPrimesTest.swift)
+205. [ ] 😎 [Isomorphic Strings](https://leetcode.com/problems/isomorphic-strings/) - [Swift](./Algorithms/IsomorphicStrings.swift) - [Test](./LeetCodeTests/IsomorphicsStringsTest.swift)
+206. [ ] 😎 [Reverse Linked List](https://leetcode.com/problems/reverse-linked-list/) - [Swift](./Algorithms/ReverseLinkedList.swift) - [Test](./LeetCodeTests/ReverseLinkedListTest.swift)
+207. [ ] 😐 [Course Schedule](https://leetcode.com/problems/course-schedule/) - [Swift](./Algorithms/CourseSchedule.swift) - [Test](./LeetCodeTests/CourseScheduleTest.swift)
+208. [ ] 😐 [Implement Trie(PrefixTree)](https://leetcode.com/problems/implement-trie-prefix-tree/) - [Swift](./Algorithms/ImplementTriePrefixTree.swift) - [Test](./LeetCodeTests/ImplementTriePrefixTreeTest.swift)
+209. [ ] 😐 [MinimumSizeSubarraySum](https://leetcode.com/problems/minimum-size-subarray-sum/) - [Swift](./Algorithms/MinimumSizeSubarraySum.swift) - [Test](./LeetCodeTests/MinimumSizeSubarraySumTest.swift)
+210. [ ] 😐 [Course Schedule II](https://leetcode.com/problems/course-schedule-ii/) - [Swift](./Algorithms/CourseScheduleII.swift) - [Test](./LeetCodeTests/CourseScheduleIITest.swift)
+211. [ ] 😐 [Add and Search Word - Data structure design](https://leetcode.com/problems/add-and-search-word-data-structure-design/) - [Swift](./Algorithms/AddAndSearchWordDataStructureDesign.swift) - [Test](./LeetCodeTests/AddAndSearchWordDataStructureDesignTest.swift)
+212. [ ] 😨 [Word Search II](https://leetcode.com/problems/word-search-ii/) - [Swift](./Algorithms/WordSearchII.swift) - [Test](./LeetCodeTests/WordSearchIITest.swift)
+213. [ ] 😐 [House Robber II](https://leetcode.com/problems/house-robber-ii/) - [Swift](./Algorithms/HouseRobberII.swift) - [Test](./LeetCodeTests/HouseRobberIITest.swift)
+214. [ ] 😨 [Shortest Palindrome](https://leetcode.com/problems/shortest-palindrome/) - [Swift](./Algorithms/ShortestPalindrome.swift) - [Test](./LeetCodeTests/ShortestPalindromeTest.swift)
+215. [ ] 😐 [Kth Largest Element in an Array](https://leetcode.com/problems/kth-largest-element-in-an-array/) - [Swift](./Algorithms/KthLargestElementInAnArray.swift) - [Test](./LeetCodeTests/KthLargestElementInAnArrayTest.swift)
+216. [ ] 😐 [Combination Sum III](https://leetcode.com/problems/combination-sum-iii/) - [Swift](./Algorithms/CombinationSumIII.swift) - [Test](./LeetCodeTests/CombinationSumIIITest.swift)
+217. [ ] 😎 [Contains Duplicate](https://leetcode.com/problems/contains-duplicate/) - [Swift](./Algorithms/ContainsDuplicate.swift) - [Test](./LeetCodeTests/ContainsDuplicateTest.swift)
+218. [ ] 😨 [The Skyline Problem](https://leetcode.com/problems/the-skyline-problem/) - [Swift](./Algorithms/TheSkylineProblem.swift) - [Test](./LeetCodeTests/TheSkylineProblemTest.swift)
+219. [ ] 😎 [Contains Duplicate II](https://leetcode.com/problems/contains-duplicate-ii/) - [Swift](./Algorithms/ContainsDuplicateII.swift) - [Test](./LeetCodeTests/ContainsDuplicateIITest.swift)
+220. [ ] 😐 [Contains Duplicate III](https://leetcode.com/problems/contains-duplicate-iii/) - [Swift](./Algorithms/ContainsDuplicateIII.swift) - [Test](./LeetCodeTests/ContainsDuplicateIIITest.swift)
+221. [ ] 😐 [Maximal Square](https://leetcode.com/problems/maximal-square/) - [Swift](./Algorithms/MaximalSquare.swift) - [Test](./LeetCodeTests/MaximalSquareTest.swift)
+222. [ ] 😐 [Count Complete Tree Nodes](https://leetcode.com/problems/count-complete-tree-nodes/) - [Swift](./Algorithms/CountCompleteTreeNodes.swift) - [Test](./LeetCodeTests/CountCompleteTreeNodesTest.swift)
+223. [ ] 😎 [Rectangle Area](https://leetcode.com/problems/rectangle-area/) - [Swift](./Algorithms/RectangleArea.swift) - [Test](./LeetCodeTests/RectangleAreaTest.swift)
+224. [ ] 😐 [Basic Calculator](https://leetcode.com/problems/basic-calculator/) - [Swift](./Algorithms/BasicCalculator.swift) - [Test](./LeetCodeTests/BasicCalculatorTest.swift)
+225. [ ] 😐 [Implement Stack using Queues](https://leetcode.com/problems/implement-stack-using-queues/) - [Swift](./Algorithms/ImplementStackUsingQueues.swift) - [Test](./LeetCodeTests/ImplementStackUsingQueuesTest.swift)
+226. [ ] 😎 [Invert Binary Tree](https://leetcode.com/problems/invert-binary-tree/) - [Swift](./Algorithms/InvertBinaryTree.swift) - [Test](./LeetCodeTests/InvertBinaryTreeTest.swift)
 
 
 ## Unit tests
@@ -212,7 +239,7 @@ Or run `rake` in this folder if you have [xctool](https://github.com/facebook/xc
 
 ## License
 
-Copyright (C) 2015 LexTang.com
+Copyright (C) 2015 lexrus.com
 
 Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
 
