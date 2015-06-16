@@ -10,6 +10,8 @@
 		D71563861AF9BF780090A569 /* TreeNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = D71563851AF9BF780090A569 /* TreeNode.swift */; };
 		D71CE83F1B031B9600D8A35F /* CompareVersionNumbers.swift in Sources */ = {isa = PBXBuildFile; fileRef = D71CE83E1B031B9600D8A35F /* CompareVersionNumbers.swift */; };
 		D71CE8411B031E9A00D8A35F /* CompareVersionNumbersTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = D71CE8401B031E9A00D8A35F /* CompareVersionNumbersTest.swift */; };
+		D738487C1B301E5600B734C9 /* SymmetricTree.swift in Sources */ = {isa = PBXBuildFile; fileRef = D738487B1B301E5600B734C9 /* SymmetricTree.swift */; };
+		D738487E1B301E6E00B734C9 /* SymmetricTreeTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = D738487D1B301E6E00B734C9 /* SymmetricTreeTest.swift */; };
 		D783CC991B2AC8EB0087FFC1 /* InvertBinaryTree.swift in Sources */ = {isa = PBXBuildFile; fileRef = D783CC981B2AC8EB0087FFC1 /* InvertBinaryTree.swift */; };
 		D783CC9B1B2AC9160087FFC1 /* InvertBinaryTreeTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = D783CC9A1B2AC9160087FFC1 /* InvertBinaryTreeTest.swift */; };
 		D7DE01691AF9EFA000BB2AA0 /* SameTree.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7DE01681AF9EFA000BB2AA0 /* SameTree.swift */; };
@@ -63,6 +65,8 @@
 		D71563851AF9BF780090A569 /* TreeNode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TreeNode.swift; sourceTree = "<group>"; };
 		D71CE83E1B031B9600D8A35F /* CompareVersionNumbers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CompareVersionNumbers.swift; sourceTree = "<group>"; };
 		D71CE8401B031E9A00D8A35F /* CompareVersionNumbersTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CompareVersionNumbersTest.swift; sourceTree = "<group>"; };
+		D738487B1B301E5600B734C9 /* SymmetricTree.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SymmetricTree.swift; sourceTree = "<group>"; };
+		D738487D1B301E6E00B734C9 /* SymmetricTreeTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SymmetricTreeTest.swift; sourceTree = "<group>"; };
 		D783CC981B2AC8EB0087FFC1 /* InvertBinaryTree.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InvertBinaryTree.swift; sourceTree = "<group>"; };
 		D783CC9A1B2AC9160087FFC1 /* InvertBinaryTreeTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InvertBinaryTreeTest.swift; sourceTree = "<group>"; };
 		D7DE01681AF9EFA000BB2AA0 /* SameTree.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SameTree.swift; sourceTree = "<group>"; };
@@ -170,6 +174,7 @@
 				D7DE016A1AF9F13600BB2AA0 /* SameTreeTest.swift */,
 				D71CE8401B031E9A00D8A35F /* CompareVersionNumbersTest.swift */,
 				D783CC9A1B2AC9160087FFC1 /* InvertBinaryTreeTest.swift */,
+				D738487D1B301E6E00B734C9 /* SymmetricTreeTest.swift */,
 			);
 			path = LeetCodeTests;
 			sourceTree = "<group>";
@@ -208,6 +213,7 @@
 				D7DE01681AF9EFA000BB2AA0 /* SameTree.swift */,
 				D71CE83E1B031B9600D8A35F /* CompareVersionNumbers.swift */,
 				D783CC981B2AC8EB0087FFC1 /* InvertBinaryTree.swift */,
+				D738487B1B301E5600B734C9 /* SymmetricTree.swift */,
 			);
 			path = Algorithms;
 			sourceTree = "<group>";
@@ -313,6 +319,7 @@
 				D7FB8E2E1AF89B0400286272 /* ZigZagConversionTest.swift in Sources */,
 				D7DE016B1AF9F13600BB2AA0 /* SameTreeTest.swift in Sources */,
 				D7FB8E4A1AF89C9800286272 /* RemoveDuplicatesFromSortedArray.swift in Sources */,
+				D738487C1B301E5600B734C9 /* SymmetricTree.swift in Sources */,
 				D7FB8E441AF89C9800286272 /* AddTwoNumbers.swift in Sources */,
 				D7FB8E1E1AF89A8200286272 /* StringToIntegerAtoiTest.swift in Sources */,
 				D7FB8E241AF89AAF00286272 /* RemoveElementTest.swift in Sources */,
@@ -331,6 +338,7 @@
 				D7FB8E281AF89ADB00286272 /* ReverseIntegerTest.swift in Sources */,
 				D7FB8E1A1AF89A6500286272 /* LongestCommonPrefixTest.swift in Sources */,
 				D7FB8E6A1AF9B9D400286272 /* RemoveDuplicatesFromSortedListTest.swift in Sources */,
+				D738487E1B301E6E00B734C9 /* SymmetricTreeTest.swift in Sources */,
 				D7FB8E2A1AF89AE500286272 /* ValidParenthesesTest.swift in Sources */,
 				D783CC991B2AC8EB0087FFC1 /* InvertBinaryTree.swift in Sources */,
 				D7FB8E4C1AF89C9800286272 /* RemoveNthNodeFromEndOfList.swift in Sources */,

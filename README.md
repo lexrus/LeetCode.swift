@@ -2,7 +2,7 @@
 
 [![CircleCI](https://img.shields.io/circleci/project/lexrus/LeetCode.swift.svg)](https://circleci.com/gh/lexrus/LeetCode.swift)
 ![License](https://img.shields.io/github/license/lexrus/ios-dev-playbook.svg?style=flat)
-![Progress](https://img.shields.io/badge/Progress-23%20%2F%20210%20=%2010.95%25-ff69b4.svg)
+![Progress](https://img.shields.io/badge/Progress-24%20%2F%20210%20=%2011.43%25-ff69b4.svg)
 
 [![Git](https://img.shields.io/badge/GitHub-lexrus-blue.svg?style=flat)](https://github.com/lexrus)
 [![Twitter](https://img.shields.io/badge/twitter-@lexrus-blue.svg?style=flat)](http://twitter.com/lexrus)
@@ -120,7 +120,7 @@ let 💰 = "You need buy a book from LeetCode"
 98. [ ] 😐 [Validate Binary Search Tree](https://oj.leetcode.com/problems/validate-binary-search-tree/) - [Swift](./Algorithms/ValidateBinarySearchTree.swift) - [Test](./LeetCodeTests/ValidateBinarySearchTreeTest.swift)
 99. [ ] 😨 [Recover Binary Search Tree](https://oj.leetcode.com/problems/recover-binary-search-tree/) - [Swift](./Algorithms/RecoverBinarySearchTree.swift) - [Test](./LeetCodeTests/RecoverBinarySearchTreeTest.swift)
 100. [x] 😎 [Same Tree](https://oj.leetcode.com/problems/same-tree/) - [Swift](./Algorithms/SameTree.swift) - [Test](./LeetCodeTests/SameTreeTest.swift)
-101. [ ] 😎 [Symmetric Tree](https://oj.leetcode.com/problems/symmetric-tree/) - [Swift](./Algorithms/SymmetricTree.swift) - [Test](./LeetCodeTests/SymmetricTreeTest.swift)
+101. [x] 😎 [Symmetric Tree](https://oj.leetcode.com/problems/symmetric-tree/) - [Swift](./Algorithms/SymmetricTree.swift) - [Test](./LeetCodeTests/SymmetricTreeTest.swift)
 102. [ ] 😎 [Binary Tree Level Order Traversal](https://oj.leetcode.com/problems/binary-tree-level-order-traversal/) - [Swift](./Algorithms/BinaryTreeLevelOrderTraversal.swift) - [Test](./LeetCodeTests/BinaryTreeLevelOrderTraversalTest.swift)
 103. [ ] 😐 [Binary Tree Zigzag Level Order Traversal](https://oj.leetcode.com/problems/binary-tree-zigzag-level-order-traversal/) - [Swift](./Algorithms/BinaryTreeZigzagLevelOrderTraversal.swift) - [Test](./LeetCodeTests/BinaryTreeZigzagLevelOrderTraversalTest.swift)
 104. [ ] 😎 [Maximum Depth of Binary Tree](https://oj.leetcode.com/problems/maximum-depth-of-binary-tree/) - [Swift](./Algorithms/MaximumDepthOfBinaryTree.swift) - [Test](./LeetCodeTests/MaximumDepthOfBinaryTreeTest.swift)
