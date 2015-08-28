@@ -6,11 +6,6 @@
 ![License](https://img.shields.io/github/license/lexrus/ios-dev-playbook.svg?style=flat)
 ![Progress](https://img.shields.io/badge/Progress-24%20%2F%20210%20=%2011.43%25-ff69b4.svg)
 
-[![Git](https://img.shields.io/badge/GitHub-lexrus-blue.svg?style=flat)](https://github.com/lexrus)
-[![Twitter](https://img.shields.io/badge/twitter-@lexrus-blue.svg?style=flat)](http://twitter.com/lexrus)
-[![LinkedIn](https://img.shields.io/badge/linkedin-Lex Tang-blue.svg?style=flat)](https://cn.linkedin.com/in/lexrus/en)
-[![eMail](https://img.shields.io/badge/email-lexrus@gmail.com-blue.svg?style=flat)](mailto:lexrus@gmail.com?SUBJECT=About LeetCode.swift)
-
 > 愚者千虑，必有一得。
 
 As an idiot of algorithms, I make bold to resolve the problems on [LeetCode](https://leetcode.com). And especially, in my favorite [Swift](http://www.apple.com/swift/). Most of the algorithms were __not__ figured out by myself.
@@ -235,7 +230,7 @@ let 💰 = "You need buy a book from LeetCode"
 
 
 ## Unit tests
-Open the project with Xcode 7 Beta 6 then press `command + u`.
+Open the project with Xcode 7 Beta 6 then press `⌘ + u`.
 Or run `rake` in this folder if you have [xctool](https://github.com/facebook/xctool) installed.
 
 
