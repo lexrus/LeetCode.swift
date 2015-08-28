@@ -1,6 +1,6 @@
 # LeetCode.swift
 
-[![Travis](https://img.shields.io/travis/lexrus/LeetCode.svg)](https://travis-ci.org/lexrus/LeetCode.swift)
+[![Travis](https://img.shields.io/travis/lexrus/LeetCode.swift.svg)](https://travis-ci.org/lexrus/LeetCode.swift)
 [![CircleCI](https://img.shields.io/circleci/project/lexrus/LeetCode.swift.svg)](https://circleci.com/gh/lexrus/LeetCode.swift)
 ![Language](https://img.shields.io/badge/language-Swift%202-orange.svg)
 ![License](https://img.shields.io/github/license/lexrus/ios-dev-playbook.svg?style=flat)
