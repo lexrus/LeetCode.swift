@@ -23,7 +23,7 @@ import Foundation
 func +(list0: ListNode, list1: ListNode) -> ListNode {
     var x: ListNode? = list0
     var y: ListNode? = list1
-    var dummy = ListNode()
+    let dummy = ListNode()
     var current = dummy
     var sum = 0
     

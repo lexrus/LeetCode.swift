@@ -34,7 +34,7 @@ extension Int {
     This Swift method is imitated from the C++ solution:
     https://github.com/haoel/leetcode/blob/master/algorithms/reverseInteger/reverseInteger.cpp
     
-    :returns: The reversed Int
+    - returns: The reversed Int
     */
     func reverse() -> Int {
         var y = 0, n = 0

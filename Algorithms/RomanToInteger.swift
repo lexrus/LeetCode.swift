@@ -19,7 +19,7 @@ extension String {
     
     func romanToInteger() -> Int {
         var result = 0
-        for c in reverse(self) {
+        for c in Array(self.characters.reverse()) {
             switch c {
             case "I":
                 result += result >= 5 ? -1 : 1

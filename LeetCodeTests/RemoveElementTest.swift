@@ -16,13 +16,13 @@ class RemoveElementTest: XCTestCase {
             var a: Array<Int>
             
             a = [1, 2, 3, 4, 5, 6]
-            XCTAssertEqual(removeElement(&a, 2), 5, "")
+            XCTAssertEqual(removeElement(&a, element: 2), 5, "")
             
             a = [2, 2]
-            XCTAssertEqual(removeElement(&a, 2), 0, "")
+            XCTAssertEqual(removeElement(&a, element: 2), 0, "")
             
             a = []
-            XCTAssertEqual(removeElement(&a, 3), 0, "")
+            XCTAssertEqual(removeElement(&a, element: 3), 0, "")
         }
     }
     

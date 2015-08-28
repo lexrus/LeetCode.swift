@@ -44,8 +44,8 @@ func isNodesSymmetric(left: TreeNode?, right: TreeNode?) -> Bool {
         return false
     }
     
-    return isNodesSymmetric(left!.leftNode, right!.rightNode)
-        && isNodesSymmetric(right!.leftNode, left!.rightNode)
+    return isNodesSymmetric(left!.leftNode, right: right!.rightNode)
+        && isNodesSymmetric(right!.leftNode, right: left!.rightNode)
 }
 
 func isSymmetric(root: TreeNode?) -> Bool {
@@ -54,5 +54,5 @@ func isSymmetric(root: TreeNode?) -> Bool {
         return true
     }
     
-    return isNodesSymmetric(root!.leftNode, root!.rightNode)
+    return isNodesSymmetric(root!.leftNode, right: root!.rightNode)
 }

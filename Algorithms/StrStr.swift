@@ -21,7 +21,7 @@ import Foundation
 // Brute Force
 // Time complexity：O(mn), Space complexity: O(1)
 func strStr0(haystack: String, needle: String) -> Int {
-    let m = count(haystack), n = count(needle)
+    let m = haystack.characters.count, n = needle.characters.count
     if n > 0 {
         for var i = 0, j = 0; i < m - n; ++i {
             for ; j < n && haystack[i + j] == needle[j]; ++j {}

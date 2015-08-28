@@ -13,13 +13,13 @@ class RemoveDuplicatesFromSortedListTest: XCTestCase {
 
     func testRemoveDuplicatesFromSortedList() {
         self.measureBlock() {
-            var l0 = ListNode(1, ListNode(1))
+            let l0 = ListNode(1, ListNode(1))
             XCTAssertEqual(l0.removeDuplicatesFromSortedList().debugDescription, "1", "")
             
-            var l1 = ListNode(1, ListNode(1, ListNode(2)))
+            let l1 = ListNode(1, ListNode(1, ListNode(2)))
             XCTAssertEqual(l1.removeDuplicatesFromSortedList().debugDescription, "1 2", "")
             
-            var l2 = ListNode(1, ListNode(1, ListNode(2, ListNode(3, ListNode(3)))))
+            let l2 = ListNode(1, ListNode(1, ListNode(2, ListNode(3, ListNode(3)))))
             XCTAssertEqual(l2.removeDuplicatesFromSortedList().debugDescription, "1 2 3", "")
         }
     }

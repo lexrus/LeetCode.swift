@@ -24,7 +24,7 @@ func longestCommonPrefix(list: [String]) -> String? {
         return .None
     }
     
-    for (i, char) in enumerate(list[0]) {
+    for (i, char) in list[0].characters.enumerate() {
         for var j = 1; j < list.count; j++ {
             if list[j][i] == char {
                 match = true

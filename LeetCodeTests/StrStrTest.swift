@@ -13,11 +13,11 @@ class StrStrTest: XCTestCase {
     
     func testStrStr() {
         self.measureBlock() {
-            XCTAssertEqual(strStr0("abcdefg", "bcd"), 1, "")
-            XCTAssertEqual(strStr0("aaa", "a"), 0, "")
-            XCTAssertEqual(strStr0("abcdefg", ""), -1, "")
-            XCTAssertEqual(strStr0("", ""), -1, "")
-            XCTAssertEqual(strStr0("a", "adfasdfasf"), -1, "")
+            XCTAssertEqual(strStr0("abcdefg", needle: "bcd"), 1, "")
+            XCTAssertEqual(strStr0("aaa", needle: "a"), 0, "")
+            XCTAssertEqual(strStr0("abcdefg", needle: ""), -1, "")
+            XCTAssertEqual(strStr0("", needle: ""), -1, "")
+            XCTAssertEqual(strStr0("a", needle: "adfasdfasf"), -1, "")
         }
     }
     

@@ -29,20 +29,20 @@ class ZigZagConversion {
     This Swift method is imitated from the C++ method found here:
     https://github.com/haoel/leetcode/blob/master/algorithms/zigZagConversion/zigZagConversion.cpp
     
-    :param: text Source text
-    :param: rows Number of rows
+    - parameter text: Source text
+    - parameter rows: Number of rows
     
-    :returns: The result ZigZag text
+    - returns: The result ZigZag text
     */
     class func convert0(text: String, _ rows: Int) -> String {
-        if rows <= 1 || rows > count(text) {
+        if rows <= 1 || rows > text.characters.count {
             return text
         }
         
         var r = [String]()
         var row = 0
         var step = 1
-        for (i, char) in enumerate(text) {
+        for (_, char) in text.characters.enumerate() {
             if row == rows - 1 {
                 step = -1
             }
@@ -52,7 +52,7 @@ class ZigZagConversion {
             if row > r.count - 1 {
                 r.append("\(char)")
             } else {
-                r[row].extend("\(char)")
+                r[row].append(char)
             }
             row += step
         }
@@ -61,7 +61,7 @@ class ZigZagConversion {
         var i = 0
         
         while i < rows {
-            result.extend(r[i])
+            result.appendContentsOf(r[i])
             i++
         }
         
@@ -77,14 +77,14 @@ extension ZigZagConversion {
     This solution is copied from here:
     https://github.com/diwu/LeetCode-Solutions-in-Swift/blob/master/Solutions/Solutions/Easy/Easy_006_ZigZag_Conversion.swift
     
-    :param: text Source text
-    :param: rows Number of rows
+    - parameter text: Source text
+    - parameter rows: Number of rows
     
-    :returns: The result ZigZag text
+    - returns: The result ZigZag text
     */
     class func convert1(text: String, _ rows: Int) -> String {
         var array = Array<String>(count: rows, repeatedValue: String())
-        var i = 0, length = count(text)
+        var i = 0, length = text.characters.count
         while i < length {
             for var index = 0; index < rows && i < length; index++ {
                 array[index].append(text[i++]!)
@@ -95,7 +95,7 @@ extension ZigZagConversion {
         }
         var result = ""
         for i in 0 ..< rows {
-            result.extend(array[i])
+            result.appendContentsOf(array[i])
         }
         return result
     }

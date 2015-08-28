@@ -31,9 +31,9 @@ extension String
         }
         
         var index = 0
-        let length = count(self)
+        let length = self.characters.count
         
-        for (i, c) in enumerate(self) {
+        for (i, c) in self.characters.enumerate() {
             if c.isSpace() {
                 continue
             } else {

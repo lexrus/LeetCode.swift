@@ -17,7 +17,7 @@ import Foundation
 extension ListNode
 {
     func mergeSortedList(list: ListNode) -> ListNode? {
-        var dummy = ListNode(0)
+        let dummy = ListNode(0)
         var p = dummy
         var l1: ListNode? = self
         var l2: ListNode? = list

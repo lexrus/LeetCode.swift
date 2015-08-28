@@ -41,14 +41,14 @@ class TwoSum {
     But be careful, if there are duplication numbers in array,
     how the map store the positions for all of same numbers?
     
-    :param: array  Input numbers
-    :param: target Target number
+    - parameter array:  Input numbers
+    - parameter target: Target number
     
-    :returns: Indeces of the two numbers
+    - returns: Indeces of the two numbers
     */
     class func twoSum0(array: [Int], target: Int) -> (Int, Int)? {
-        for (i, item0) in enumerate(array) {
-            for (j, item1) in enumerate(array) {
+        for (i, item0) in array.enumerate() {
+            for (j, item1) in array.enumerate() {
                 if item0 + item1 == target {
                     return (i + 1, j + 1)
                 }
@@ -64,14 +64,14 @@ class TwoSum {
     so, when we checking the next num[i], if we found it is exisited in the map.
     which means we found the second one.
     
-    :param: array  Input numbers
-    :param: target Target number
+    - parameter array:  Input numbers
+    - parameter target: Target number
     
-    :returns: Indeces of the two numbers
+    - returns: Indeces of the two numbers
     */
     class func twoSum1(array: [Int], target: Int) -> (Int, Int)? {
         var map = [Int: Int]()
-        for (i, item0) in enumerate(array) {
+        for (i, item0) in array.enumerate() {
             // found the second one
             if let secondOne = map[item0] {
                 return (secondOne + 1, i + 1)

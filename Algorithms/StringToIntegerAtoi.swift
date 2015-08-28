@@ -36,7 +36,7 @@ func atoi(s: String) -> Int {
     
     let s = s.stringByTrimmingCharactersInSet(NSCharacterSet.whitespaceAndNewlineCharacterSet())
     
-    if s.substringToIndex(advance(s.startIndex, 1)) == "-" {
+    if s.substringToIndex(s.startIndex.advancedBy(1)) == "-" {
         negative = true
     }
 

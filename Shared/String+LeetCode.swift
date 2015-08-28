@@ -11,15 +11,15 @@ import Foundation
 extension String
 {
     subscript (i: Int) -> Character? {
-        if i > count(self) - 1 {
+        if i > self.characters.count - 1 {
             return .None
         }
-        var index: Index = advance(self.startIndex, i)
+        let index: Index = self.startIndex.advancedBy(i)
         return self[index]
     }
     
     mutating func popBack() -> String {
-        self.removeAtIndex(advance(self.startIndex, count(self) - 1))
+        self.removeAtIndex(self.startIndex.advancedBy(self.characters.count - 1))
         return self
     }
 }

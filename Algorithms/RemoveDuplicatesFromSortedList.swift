@@ -20,7 +20,7 @@ import Foundation
 extension ListNode
 {
     func removeDuplicatesFromSortedList() -> ListNode {
-        var dummy = ListNode(0, self)
+        let dummy = ListNode(0, self)
         var l0 = dummy.next
         
         while l0 != nil {

@@ -8,7 +8,7 @@
 
 import Foundation
 
-class TreeNode: DebugPrintable {
+class TreeNode: CustomDebugStringConvertible {
     var value = 0
     var leftNode: TreeNode?
     var rightNode: TreeNode?

@@ -8,7 +8,7 @@
 
 import Foundation
 
-class ListNode: DebugPrintable {
+class ListNode: CustomDebugStringConvertible {
     var value: Int = 0
     var next: ListNode? = nil
     

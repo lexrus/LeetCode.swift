@@ -1,6 +1,8 @@
 # LeetCode.swift
 
+[![Travis](https://img.shields.io/travis/lexrus/LeetCode.svg)](https://travis-ci.org/lexrus/LeetCode.swift)
 [![CircleCI](https://img.shields.io/circleci/project/lexrus/LeetCode.swift.svg)](https://circleci.com/gh/lexrus/LeetCode.swift)
+![Language](https://img.shields.io/badge/language-Swift%202-orange.svg)
 ![License](https://img.shields.io/github/license/lexrus/ios-dev-playbook.svg?style=flat)
 ![Progress](https://img.shields.io/badge/Progress-24%20%2F%20210%20=%2011.43%25-ff69b4.svg)
 
@@ -233,7 +235,7 @@ let 💰 = "You need buy a book from LeetCode"
 
 
 ## Unit tests
-Open the project with Xcode 6.3+ then press `command + u`.
+Open the project with Xcode 7 Beta 6 then press `command + u`.
 Or run `rake` in this folder if you have [xctool](https://github.com/facebook/xctool) installed.
 
 

@@ -21,14 +21,14 @@ extension String {
     This Swift method is imitated from another C++ solution:
     https://github.com/haoel/leetcode/blob/master/algorithms/validParentheses/validParentheses.cpp
     
-    :returns: Whether the string is valid.
+    - returns: Whether the string is valid.
     */
     func validParentheses() -> Bool {
         var stack = [Character]()
         var s = self
         
-        while count(s) > 0 {
-            let char = s[count(s) - 1]
+        while s.characters.count > 0 {
+            let char = s[s.characters.count - 1]
             
             if char == "("[0] || char == "["[0] || char == "{"[0] {
                 let sChar = stack.last ?? " "[0]
@@ -49,7 +49,7 @@ extension String {
             }
         }
         
-        return count(s) == 0 && count(stack) == 0
+        return s.characters.count == 0 && stack.count == 0
     }
 
 }

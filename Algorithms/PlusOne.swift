@@ -19,14 +19,14 @@ func plusOne(digits: [Int]) -> [Int] {
     var result: [Int] = digits
     var carry = 1
     
-    for var i = count(result) - 1; i >= 0; i-- {
+    for var i = result.count - 1; i >= 0; i-- {
         if result[i] < 9 {
             let digit = result[i] + 1
             result.removeAtIndex(i)
             result.insert(digit, atIndex: i)
             return result
         }
-        var digit = (result[i] + carry) % 10
+        let digit = (result[i] + carry) % 10
         carry = (result[i] + 1) / 10
         result[i] = digit
         if carry == 0 {
