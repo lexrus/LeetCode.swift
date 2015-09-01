@@ -4,7 +4,7 @@
 [![CircleCI](https://img.shields.io/circleci/project/lexrus/LeetCode.swift.svg)](https://circleci.com/gh/lexrus/LeetCode.swift)
 ![Language](https://img.shields.io/badge/language-Swift%202-orange.svg)
 ![License](https://img.shields.io/github/license/lexrus/ios-dev-playbook.svg?style=flat)
-![Progress](https://img.shields.io/badge/Progress-24%20%2F%20210%20=%2011.43%25-ff69b4.svg)
+![Progress](https://img.shields.io/badge/Progress-25%20%2F%20219%20=%2011.42%25-ff69b4.svg)
 
 > 愚者千虑，必有一得。
 
@@ -120,7 +120,7 @@ let 💰 = "You need buy a book from LeetCode"
 101. [x] 😎 [Symmetric Tree](https://oj.leetcode.com/problems/symmetric-tree/) - [Swift](./Algorithms/SymmetricTree.swift) - [Test](./LeetCodeTests/SymmetricTreeTest.swift)
 102. [ ] 😎 [Binary Tree Level Order Traversal](https://oj.leetcode.com/problems/binary-tree-level-order-traversal/) - [Swift](./Algorithms/BinaryTreeLevelOrderTraversal.swift) - [Test](./LeetCodeTests/BinaryTreeLevelOrderTraversalTest.swift)
 103. [ ] 😐 [Binary Tree Zigzag Level Order Traversal](https://oj.leetcode.com/problems/binary-tree-zigzag-level-order-traversal/) - [Swift](./Algorithms/BinaryTreeZigzagLevelOrderTraversal.swift) - [Test](./LeetCodeTests/BinaryTreeZigzagLevelOrderTraversalTest.swift)
-104. [ ] 😎 [Maximum Depth of Binary Tree](https://oj.leetcode.com/problems/maximum-depth-of-binary-tree/) - [Swift](./Algorithms/MaximumDepthOfBinaryTree.swift) - [Test](./LeetCodeTests/MaximumDepthOfBinaryTreeTest.swift)
+104. [x] 😎 [Maximum Depth of Binary Tree](https://oj.leetcode.com/problems/maximum-depth-of-binary-tree/) - [Swift](./Algorithms/MaximumDepthOfBinaryTree.swift) - [Test](./LeetCodeTests/MaximumDepthOfBinaryTreeTest.swift)
 105. [ ] 😐 [Construct Binary Tree from Preorder and Inorder Traversal](https://oj.leetcode.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/) - [Swift](./Algorithms/ConstructBinaryTreeFromPreorderAndInorderTraversal.swift) - [Test](./LeetCodeTests/ConstructBinaryTreeFromPreorderAndInorderTraversalTest.swift)
 106. [ ] 😐 [Construct Binary Tree from Inorder and Postorder Traversal](https://oj.leetcode.com/problems/construct-binary-tree-from-inorder-and-postorder-traversal/) - [Swift](./Algorithms/ConstructBinaryTreeFromInorderAndPostorderTraversal.swift) - [Test](./LeetCodeTests/ConstructBinaryTreeFromInorderAndPostorderTraversalTest.swift)
 107. [ ] 😎 [Binary Tree Level Order Traversal II](https://oj.leetcode.com/problems/binary-tree-level-order-traversal-ii/) - [Swift](./Algorithms/BinaryTreeLevelOrderTraversal.II.swift) - [Test](./LeetCodeTests/BinaryTreeLevelOrderTraversal.IITest.swift)
