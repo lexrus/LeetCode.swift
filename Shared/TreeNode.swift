@@ -36,8 +36,6 @@ class TreeNode: CustomDebugStringConvertible {
     }
     
     var debugDescription: String {
-        get {
-            return printTree(self)
-        }
+        return printTree(self)
     }
 }

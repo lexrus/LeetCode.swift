@@ -18,14 +18,12 @@ class ListNode: CustomDebugStringConvertible {
     }
     
     var debugDescription: String {
-        get {
-            var s = "\(value)"
-            var p = self
-            while p.next != nil {
-                p = p.next!
-                s = "\(s) \(p.value)"
-            }
-            return s
+        var s = "\(value)"
+        var p = self
+        while p.next != nil {
+            p = p.next!
+            s = "\(s) \(p.value)"
         }
+        return s
     }
 }
