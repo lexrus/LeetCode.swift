@@ -227,6 +227,15 @@ let 💰 = "You need buy a book from LeetCode"
 224. [ ] 😐 [Basic Calculator](https://leetcode.com/problems/basic-calculator/) - [Swift](./Algorithms/BasicCalculator.swift) - [Test](./LeetCodeTests/BasicCalculatorTest.swift)
 225. [ ] 😐 [Implement Stack using Queues](https://leetcode.com/problems/implement-stack-using-queues/) - [Swift](./Algorithms/ImplementStackUsingQueues.swift) - [Test](./LeetCodeTests/ImplementStackUsingQueuesTest.swift)
 226. [x] 😎 [Invert Binary Tree](https://leetcode.com/problems/invert-binary-tree/) - [Swift](./Algorithms/InvertBinaryTree.swift) - [Test](./LeetCodeTests/InvertBinaryTreeTest.swift)
+227. [ ] 😐 [Basic Calculator II](https://leetcode.com/problems/basic-calculator-ii/) - [Swift](./Algorithms/BasicCalculatorII.swift) - [Test](./LeetCodeTests/BasicCalculatorIITest.swift)
+228. [ ] 😎 [Summary Ranges](https://leetcode.com/problems/summary-ranges/) - [Swift](./Algorithms/SummaryRanges.swift) - [Test](./LeetCodeTests/SummaryRangesTest.swift)
+229. [ ] 😐 [Majority Element II](https://leetcode.com/problems/majority-element-ii/) - [Swift](./Algorithms/MajorityElementII.swift) - [Test](./LeetCodeTests/MajorityElementIITest.swift)
+230. [ ] 😐 [Kth Smallest Element in a BST](https://leetcode.com/problems/kth-smallest-element-in-a-bst/) - [Swift](./Algorithms/KthSmallestElementInABST.swift) - [Test](./LeetCodeTests/KthSmallestElementInABSTTest.swift)
+231. [ ] 😎 [Power of Two](https://leetcode.com/problems/power-of-two/) - [Swift](./Algorithms/PowerOfTwo.swift) - [Test](./LeetCodeTests/PowerOfTwoTest.swift)
+232. [ ] 😎 [Implement Queue using Stacks](https://leetcode.com/problems/implement-queue-using-stacks/) - [Swift](./Algorithms/ImplementQueueUsingStacks.swift) - [Test](./LeetCodeTests/ImplementQueueUsingStacksTest.swift)
+233. [ ] 😐 [Number of Digit One](https://leetcode.com/problems/number-of-digit-one/) - [Swift](./Algorithms/NumberOfDigitOne.swift) - [Test](./LeetCodeTests/NumberOfDigitOneTest.swift)
+234. [ ] 😎 [Palindrome Linked List](https://leetcode.com/problems/palindrome-linked-list/) - [Swift](./Algorithms/PalindromeLinkedList.swift) - [Test](./LeetCodeTests/PalindromeLinkedListTest.swift)
+235. [ ] 😎 [Lowest Common Ancestor of a Binary Search Tree](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-search-tree/) - [Swift](./Algorithms/LowestCommonAncestorOfABinarySearchTree.swift) - [Test](./LeetCodeTests/LowestCommonAncestorOfABinarySearchTreeTest.swift)
 
 
 ## Unit tests
