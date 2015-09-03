@@ -181,8 +181,9 @@
 				D738487D1B301E6E00B734C9 /* SymmetricTreeTest.swift */,
 				D7803DC11B95F1FE000C9270 /* MaximumDepthOfBinaryTreeTest.swift */,
 			);
-			path = LeetCodeTests;
-			sourceTree = "<group>";
+			name = LeetCodeTests;
+			path = Tests;
+			sourceTree = SOURCE_ROOT;
 		};
 		D7FB8E0B1AF899FE00286272 /* Supporting Files */ = {
 			isa = PBXGroup;
