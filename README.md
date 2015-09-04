@@ -1,20 +1,18 @@
 # LeetCode.swift
 
 [![Travis](https://img.shields.io/travis/lexrus/LeetCode.swift.svg)](https://travis-ci.org/lexrus/LeetCode.swift)
-[![CircleCI](https://img.shields.io/circleci/project/lexrus/LeetCode.swift.svg)](https://circleci.com/gh/lexrus/LeetCode.swift)
 ![Language](https://img.shields.io/badge/language-Swift%202-orange.svg)
 ![License](https://img.shields.io/github/license/lexrus/ios-dev-playbook.svg?style=flat)
-![Progress](https://img.shields.io/badge/Progress-25%20%2F%20233%20=%2010.73%25-ff69b4.svg)
+![Progress](https://img.shields.io/badge/Progress-25%20%2F%20224%20=%2011.16%25-ff69b4.svg)
 
 > 愚者千虑，必有一得。
 
-As an idiot of algorithms, I make bold to resolve the problems on [LeetCode](https://leetcode.com). And especially, in my favorite [Swift](http://www.apple.com/swift/). Most of the algorithms were __not__ figured out by myself.
+As an idiot of algorithms, I make bold to resolve the problems on [LeetCode](https://leetcode.com), especially, in [Swift](http://www.apple.com/swift/) 2.0. Most of the algorithms were __not__ figured out by myself.
 
 PLEASE __DO NOT CONTRIBUTE__ until I accomplish all of them.
 
 ``` swift
 let 😎 = Easy, 😐 = Medium, 😨 = Hard
-let 💰 = "You need buy a book from LeetCode"
 ```
 
 1. [x] 😐 [Two Sum](https://oj.leetcode.com/problems/two-sum/) - [Swift](./Algorithms/TwoSum.swift) - [Test](./Tests/TwoSumTest.swift)
@@ -172,27 +170,18 @@ let 💰 = "You need buy a book from LeetCode"
 153. [ ] 😐 [Find Minimum in Rotated Sorted Array](https://oj.leetcode.com/problems/find-minimum-in-rotated-sorted-array/) - [Swift](./Algorithms/FindMinimumInRotatedSortedArray.swift) - [Test](./Tests/FindMinimumInRotatedSortedArrayTest.swift)
 154. [ ] 😨 [Find Minimum in Rotated Sorted Array II](https://oj.leetcode.com/problems/find-minimum-in-rotated-sorted-array-ii/) - [Swift](./Algorithms/FindMinimumInRotatedSortedArrayII.swift) - [Test](./Tests/FindMinimumInRotatedSortedArrayIITest.swift)
 155. [ ] 😎 [Min Stack](https://oj.leetcode.com/problems/min-stack/) - [Swift](./Algorithms/MinStack.swift) - [Test](./Tests/MinStackTest.swift)
-156. [ ] 😐 [Binary Tree Upside Down](https://oj.leetcode.com/problems/binary-tree-upside-down/) 💰 - [Swift](./Algorithms/BinaryTreeUpsideDown.swift) - [Test](./Tests/BinaryTreeUpsideDownTest.swift)
-157. [ ] 😎 [Read N Characters Given Read4](https://oj.leetcode.com/problems/read-n-characters-given-read4/) 💰 - [Swift](./Algorithms/ReadNCharactersGivenRead4.swift) - [Test](./Tests/ReadNCharactersGivenRead4Test.swift)
-158. [ ] 😨 [Read N Characters Given Read4 II - Call multiple times](https://oj.leetcode.com/problems/read-n-characters-given-read4-ii-call-multiple-times/) 💰 - [Swift](./Algorithms/ReadNCharactersGivenRead4II.swift) - [Test](./Tests/ReadNCharactersGivenRead4IITest.swift)
-159. [ ] 😨 [Longest Substring with At Most Two Distinct Characters](https://oj.leetcode.com/problems/longest-substring-with-at-most-two-distinct-characters/) 💰 - [Swift](./Algorithms/LongestSubstringWithAtMostTwoDistinctCharacters.swift) - [Test](./Tests/LongestSubstringWithAtMostTwoDistinctCharactersTest.swift)
 160. [ ] 😎 [Intersection of Two Linked Lists](https://oj.leetcode.com/problems/intersection-of-two-linked-lists/) - [Swift](./Algorithms/IntersectionOfTwoLinkedLists.swift) - [Test](./Tests/IntersectionOfTwoLinkedListsTest.swift)
-161. [ ] 😐 [One Edit Distance](https://oj.leetcode.com/problems/one-edit-distance/)💰 - [Swift](./Algorithms/OneEditDistance.swift) - [Test](./Tests/OneEditDistanceTest.swift)
 162. [ ] 😐 [Find Peak Element](https://oj.leetcode.com/problems/find-peak-element/) - [Swift](./Algorithms/FindPeakElement.swift) - [Test](./Tests/FindPeakElementTest.swift)
-163. [ ] 😐 [Missing Ranges](https://oj.leetcode.com/problems/missing-ranges/) 💰 - [Swift](./Algorithms/MissingRanges.swift) - [Test](./Tests/MissingRangesTest.swift)
 164. [ ] 😨 [Maximum Gap](https://oj.leetcode.com/problems/maximum-gap/) - [Swift](./Algorithms/MaximumGap.swift) - [Test](./Tests/MaximumGapTest.swift)
 165. [x] 😎 [Compare Version Numbers](https://oj.leetcode.com/problems/compare-version-numbers/) - [Swift](./Algorithms/CompareVersionNumbers.swift) - [Test](./Tests/CompareVersionNumbersTest.swift)
 166. [ ] 😐 [Fraction to Recurring Decimal](https://oj.leetcode.com/problems/fraction-to-recurring-decimal/) - [Swift](./Algorithms/FractionToRecurringDecimal.swift) - [Test](./Tests/FractionToRecurringDecimalTest.swift)
-167. [ ] 😐 [Two Sum II - Input array is sorted](https://oj.leetcode.com/problems/two-sum-ii-input-array-is-sorted/) 💰 - [Swift](./Algorithms/TwoSumII.swift) - [Test](./Tests/TwoSumIITest.swift)
 168. [ ] 😎 [Excel Sheet Column Title](https://oj.leetcode.com/problems/excel-sheet-column-title/) - [Swift](./Algorithms/ExcelSheetColumnTitle.swift) - [Test](./Tests/ExcelSheetColumnTitleTest.swift)
 169. [ ] 😎 [Majority Element](https://oj.leetcode.com/problems/majority-element/) - [Swift](./Algorithms/MajorityElement.swift) - [Test](./Tests/MajorityElementTest.swift)
-170. [ ] 😎 [Two Sum III - Data structure design](https://oj.leetcode.com/problems/two-sum-iii-data-structure-design/) 💰 - [Swift](./Algorithms/TwoSumIII.swift) - [Test](./Tests/TwoSumIIITest.swift)
 171. [ ] 😎 [Excel Sheet Column Number](https://oj.leetcode.com/problems/excel-sheet-column-number/) - [Swift](./Algorithms/ExcelSheetColumnNumber.swift) - [Test](./Tests/ExcelSheetColumnNumberTest.swift)
 172. [ ] 😎 [Factorial Trailing Zeroes](https://oj.leetcode.com/problems/factorial-trailing-zeroes/) - [Swift](./Algorithms/FactorialTrailingZeroes.swift) - [Test](./Tests/FactorialTrailingZeroesTest.swift)
 173. [ ] 😐 [Binary Search Tree Iterator](https://oj.leetcode.com/problems/binary-search-tree-iterator/) - [Swift](./Algorithms/BinarySearchTreeIterator.swift) - [Test](./Tests/BinarySearchTreeIteratorTest.swift)
 174. [ ] 😨 [Dungeon Game](https://oj.leetcode.com/problems/dungeon-game/) - [Swift](./Algorithms/DungeonGame.swift) - [Test](./Tests/DungeonGameTest.swift)
 179. [ ] 😐 [Largest Number](https://oj.leetcode.com/problems/largest-number/) - [Swift](./Algorithms/LargestNumber.swift) - [Test](./Tests/LargestNumberTest.swift)
-186. [ ] 😐 [Reverse Words in a String II](https://oj.leetcode.com/problems/reverse-words-in-a-string-ii/) 💰 - [Swift](./Algorithms/ReverseWordsInAStringII.swift) - [Test](./Tests/ReverseWordsInAStringIITest.swift)
 187. [ ] 😐 [Repeated DNA Sequences](https://oj.leetcode.com/problems/repeated-dna-sequences/) - [Swift](./Algorithms/RepeatedDNASequences.swift) - [Test](./Tests/RepeatedDNASequencesTest.swift)
 188. [ ] 😨 [Best Time to Buy and Sell Stock IV](https://oj.leetcode.com/problems/best-time-to-buy-and-sell-stock-iv/) - [Swift](./Algorithms/BestTimeToBuyAndSellStock.IV.swift) - [Test](./Tests/BestTimeToBuyAndSellStock.IVTest.swift)
 189. [ ] 😎 [Rotate Array](https://oj.leetcode.com/problems/rotate-array/) - [Swift](./Algorithms/RotateArray.swift) - [Test](./Tests/RotateArrayTest.swift)
