@@ -3,7 +3,7 @@
 [![Travis](https://img.shields.io/travis/lexrus/LeetCode.swift.svg)](https://travis-ci.org/lexrus/LeetCode.swift)
 ![Language](https://img.shields.io/badge/language-Swift%202-orange.svg)
 ![License](https://img.shields.io/github/license/lexrus/ios-dev-playbook.svg?style=flat)
-![Progress](https://img.shields.io/badge/Progress-25%20%2F%20257%20=%209.73%25-ff69b4.svg)
+![Progress](https://img.shields.io/badge/Progress-26%20%2F%20257%20=%2010.12%25-ff69b4.svg)
 
 > 愚者千虑，必有一得。
 
@@ -81,7 +81,7 @@ let 😎 = Easy, 😐 = Medium, 😨 = Hard
 - [ ] 64 😐 [Minimum Path Sum](https://leetcode.com/problems/minimum-path-sum/) [.swift](./Tests/64.swift)
 - [x] 65 😨 [Valid Number](https://leetcode.com/problems/valid-number/) [.swift](./Tests/65.swift)
 - [x] 66 😎 [Plus One](https://leetcode.com/problems/plus-one/) [.swift](./Tests/66.swift)
-- [ ] 67 😎 [Add Binary](https://leetcode.com/problems/add-binary/) [.swift](./Tests/67.swift)
+- [x] 67 😎 [Add Binary](https://leetcode.com/problems/add-binary/) [.swift](./Tests/67.swift)
 - [ ] 68 😨 [Text Justification](https://leetcode.com/problems/text-justification/) [.swift](./Tests/68.swift)
 - [ ] 69 😐 [Sqrt(x)](https://leetcode.com/problems/sqrtx/) [.swift](./Tests/69.swift)
 - [ ] 70 😎 [Climbing Stairs](https://leetcode.com/problems/climbing-stairs/) [.swift](./Tests/70.swift)
