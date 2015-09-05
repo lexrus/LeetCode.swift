@@ -1,143 +1,55 @@
 //
-//  ValidNumberTest.swift
+//  PlusOneTest.swift
 //  LeetCode
 //
-//  Created by Lex Tang on 5/5/15.
+//  Created by Lex Tang on 5/6/15.
 //  Copyright (c) 2015 Lex Tang. All rights reserved.
 //
 
 /*
-Validate if a given string is numeric.
+Given a non-negative number represented as an array of digits, plus one to the number.
 
-Some examples:
-"0" => true
-" 0.1 " => true
-"abc" => false
-"1 a" => false
-"2e10" => true
-Note: It is intended for the problem statement to be ambiguous. You should gather all requirements up front before implementing one.
-
-@see also: https://github.com/haoel/leetcode/blob/master/algorithms/validNumber/validNumber.cpp
+The digits are stored such that the most significant digit is at the head of the list.
 */
 
 import Foundation
 import XCTest
 
 
-extension String
-{
-    func isNumber() -> Bool {
-        if isEmpty {
-            return false
+func plusOne(digits: [Int]) -> [Int] {
+    var result: [Int] = digits
+    var carry = 1
+    
+    for var i = result.count - 1; i >= 0; i-- {
+        if result[i] < 9 {
+            let digit = result[i] + 1
+            result.removeAtIndex(i)
+            result.insert(digit, atIndex: i)
+            return result
         }
-        
-        var index = 0
-        let length = self.characters.count
-        
-        for (i, c) in self.characters.enumerate() {
-            if c.isSpace() {
-                continue
-            } else {
-                if i != length - 1 {
-                    index = i
-                }
-                break
-            }
+        let digit = (result[i] + carry) % 10
+        carry = (result[i] + 1) / 10
+        result[i] = digit
+        if carry == 0 {
+            return result
         }
-        
-        if index == length - 1 {
-            return false
-        }
-        
-        if let c = self[index + 1] {
-            if c == "+" || c == "-" {
-                index++
-            }
-        }
-        
-        var hasPoint = false
-        var hasE = false
-        
-        var s = self[index]
-        let firstDigit = s
-        
-        for ; index < length; index++ {
-            s = self[index]
-            
-            if s == "." {
-                if hasPoint || hasE {
-                    return false
-                }
-                if s == firstDigit && self[index + 1] != nil && !self[index + 1]!.isDigit() {
-                    return false
-                }
-                hasPoint = true
-                continue
-            }
-            
-            if s == "e" {
-                if hasE || s == firstDigit {
-                    return false
-                }
-                index++
-                s = self[index]
-                if s == "+" || s == "-" {
-                    index++
-                }
-                s = self[index]
-                if s == nil || !s!.isDigit() {
-                    return false
-                }
-                
-                hasE = true
-                continue
-            }
-            
-            if s != nil && s!.isSpace() {
-                for ; index < length; index++ {
-                    s = self[index]
-                    if s != nil && !s!.isSpace() {
-                        return false
-                    }
-                }
-                return true
-            }
-            
-            if s != nil && !s!.isDigit() {
-                return false
-            }
-            
-        }
-        
-        return true
     }
+    if carry > 0 {
+        result.insert(1, atIndex: 0)
+    }
+    
+    return result
 }
 
 
-class ValidNumberTest: XCTestCase {
+class PlusOneTest: XCTestCase {
 
-    func testValidNumber() {
+    func testPlusOne() {
         self.measureBlock() {
-            XCTAssertTrue("1.044".isNumber(), "");
-            XCTAssertTrue(" 1.044 ".isNumber(), "");
-            XCTAssertTrue(!"1.a".isNumber(), "");
-            XCTAssertTrue(!"abc".isNumber(), "");
-            XCTAssertTrue(!"e".isNumber(), "");
-            XCTAssertTrue(!"1e".isNumber(), "");
-            XCTAssertTrue("1e2".isNumber(), "");
-            XCTAssertTrue(!"".isNumber(), "");
-            XCTAssertTrue(!" ".isNumber(), "");
-            XCTAssertTrue("1.".isNumber(), "");
-            XCTAssertTrue(".2".isNumber(), "");
-            XCTAssertTrue(!" . ".isNumber(), "");
-            XCTAssertTrue(!".".isNumber(), "");
-            XCTAssertTrue(!"1.2.3".isNumber(), "");
-            XCTAssertTrue(!"1e2e3".isNumber(), "");
-            XCTAssertTrue(!"1..".isNumber(), "");
-            XCTAssertTrue(!"+1.".isNumber(), "");
-            XCTAssertTrue(!" -1.".isNumber(), "");
-            XCTAssertTrue(!"6e6.5".isNumber(), "");
-            XCTAssertTrue("005047e+6".isNumber(), "");
+            XCTAssertEqual(plusOne([1, 2, 3]), [1, 2, 4], "")
+            XCTAssertEqual(plusOne([9]), [1, 0], "")
+            XCTAssertEqual(plusOne([0]), [1], "")
+            XCTAssertEqual(plusOne([9, 9, 9, 9]), [1, 0, 0, 0, 0], "")
         }
     }
 
