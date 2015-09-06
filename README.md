@@ -3,7 +3,7 @@
 [![Travis](https://img.shields.io/travis/lexrus/LeetCode.swift.svg)](https://travis-ci.org/lexrus/LeetCode.swift)
 ![Language](https://img.shields.io/badge/language-Swift%202-orange.svg)
 ![License](https://img.shields.io/github/license/lexrus/ios-dev-playbook.svg?style=flat)
-![Progress](https://img.shields.io/badge/Progress-27%20%2F%20257%20=%2010.51%25-ff69b4.svg)
+![Progress](https://img.shields.io/badge/Progress-28%20%2F%20257%20=%2010.89%25-ff69b4.svg)
 
 > 愚者千虑，必有一得。
 
@@ -260,7 +260,7 @@ let 😎 = Easy, 😐 = Medium, 😨 = Hard
 - [ ] 259 😐 [3Sum Smaller](https://leetcode.com/problems/3sum-smaller/) [.swift](./Tests/259.swift) $$
 - [ ] 260 😐 [Single Number III](https://leetcode.com/problems/single-number-iii/) [.swift](./Tests/260.swift)
 - [ ] 261 😐 [Graph Valid Tree](https://leetcode.com/problems/graph-valid-tree/) [.swift](./Tests/261.swift) $$
-- [ ] 263 😎 [Ugly Number](https://leetcode.com/problems/ugly-number/) [.swift](./Tests/263.swift)
+- [x] 263 😎 [Ugly Number](https://leetcode.com/problems/ugly-number/) [.swift](./Tests/263.swift)
 - [ ] 264 😐 [Ugly Number II](https://leetcode.com/problems/ugly-number-ii/) [.swift](./Tests/264.swift)
 - [ ] 265 😨 [Paint House II](https://leetcode.com/problems/paint-house-ii/) [.swift](./Tests/265.swift) $$
 - [ ] 266 😎 [Palindrome Permutation](https://leetcode.com/problems/palindrome-permutation/) [.swift](./Tests/266.swift) $$
