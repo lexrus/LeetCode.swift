@@ -3,7 +3,7 @@
 [![Travis](https://img.shields.io/travis/lexrus/LeetCode.swift.svg)](https://travis-ci.org/lexrus/LeetCode.swift)
 ![Language](https://img.shields.io/badge/language-Swift%202-orange.svg)
 ![License](https://img.shields.io/github/license/lexrus/ios-dev-playbook.svg?style=flat)
-![Progress](https://img.shields.io/badge/Progress-26%20%2F%20257%20=%2010.12%25-ff69b4.svg)
+![Progress](https://img.shields.io/badge/Progress-27%20%2F%20257%20=%2010.51%25-ff69b4.svg)
 
 > 愚者千虑，必有一得。
 
@@ -256,7 +256,7 @@ let 😎 = Easy, 😐 = Medium, 😨 = Hard
 - [ ] 255 😐 [Verify Preorder Sequence in Binary Search Tree](https://leetcode.com/problems/verify-preorder-sequence-in-binary-search-tree/) [.swift](./Tests/255.swift) $$
 - [ ] 256 😐 [Paint House](https://leetcode.com/problems/paint-house/) [.swift](./Tests/256.swift) $$
 - [ ] 257 😎 [Binary Tree Paths](https://leetcode.com/problems/binary-tree-paths/) [.swift](./Tests/257.swift)
-- [ ] 258 😎 [Add Digits](https://leetcode.com/problems/add-digits/) [.swift](./Tests/258.swift)
+- [x] 258 😎 [Add Digits](https://leetcode.com/problems/add-digits/) [.swift](./Tests/258.swift)
 - [ ] 259 😐 [3Sum Smaller](https://leetcode.com/problems/3sum-smaller/) [.swift](./Tests/259.swift) $$
 - [ ] 260 😐 [Single Number III](https://leetcode.com/problems/single-number-iii/) [.swift](./Tests/260.swift)
 - [ ] 261 😐 [Graph Valid Tree](https://leetcode.com/problems/graph-valid-tree/) [.swift](./Tests/261.swift) $$

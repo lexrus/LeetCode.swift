@@ -6,6 +6,15 @@
 //  Copyright © 2015 Lex Tang. All rights reserved.
 //
 
+/*
+Given two binary strings, return their sum (also a binary string).
+
+For example,
+a = "11"
+b = "1"
+Return "100".
+*/
+
 import XCTest
 
 func addBinary(a: String, _ b: String) -> String {
