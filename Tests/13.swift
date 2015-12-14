@@ -17,7 +17,7 @@ import XCTest
 
 
 extension String {
-    
+
     func romanToInteger() -> Int {
         var result = 0
         for c in Array(self.characters.reverse()) {
@@ -46,21 +46,21 @@ extension String {
             default: ()
             }
         }
-        
+
         return result
     }
-    
+
 }
 
 
 class RomanToIntegerTest: XCTestCase {
-    
+
     func testRomanToInteger() {
-        self.measureBlock() {
+        measureBlock {
             XCTAssertEqual("X".romanToInteger(), 10, "")
             XCTAssertEqual("XII".romanToInteger(), 12, "")
             XCTAssertEqual("XV".romanToInteger(), 15, "")
         }
     }
-    
+
 }

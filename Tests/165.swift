@@ -25,10 +25,10 @@ import XCTest
 
 
 func compareVersionNumbers(lhs: String, rhs: String) -> Int {
-    
+
     let lhsA = lhs.componentsSeparatedByString(".")
     let rhsA = rhs.componentsSeparatedByString(".")
-    
+
     for var i = 0; i < max(lhsA.count, rhsA.count); i++ {
         let lInt: Int, rInt: Int
         if i >= lhsA.count {
@@ -36,20 +36,20 @@ func compareVersionNumbers(lhs: String, rhs: String) -> Int {
         } else {
             lInt = atoi(lhsA[i])
         }
-        
+
         if i >= rhsA.count {
             rInt = 0
         } else {
             rInt = atoi(rhsA[i])
         }
-        
+
         if lInt > rInt {
             return 1
         } else if lInt < rInt {
             return -1
         }
     }
-    
+
     return 0
 }
 
@@ -57,7 +57,7 @@ func compareVersionNumbers(lhs: String, rhs: String) -> Int {
 class CompareVersionNumbersTest: XCTestCase {
 
     func testCompareVersionNumbers() {
-        self.measureBlock() {
+        measureBlock {
             XCTAssertEqual(compareVersionNumbers("0.1", rhs: "1.0"), -1, "")
             XCTAssertEqual(compareVersionNumbers("0.1", rhs: "1.1"), -1, "")
             XCTAssertEqual(compareVersionNumbers("1.0", rhs: "1.1"), -1, "")

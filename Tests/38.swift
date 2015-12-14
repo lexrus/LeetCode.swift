@@ -27,14 +27,14 @@ func countAndSay(n: Int) -> String {
     if n == 0 {
         return ""
     }
-    
+
     if n == 1 {
         return "1"
     }
-    
+
     var s = "1"
     var i = 1
-    
+
     while i < n {
         var cnt = 0
         var last = s[0]
@@ -52,15 +52,15 @@ func countAndSay(n: Int) -> String {
         s = newS
         i++
     }
-    
+
     return s
 }
 
 
 class CountAndSayTest: XCTestCase {
-    
+
     func testCountAndSay() {
-        self.measureBlock() {
+        measureBlock {
             XCTAssertEqual(countAndSay(0),  "", "")
             XCTAssertEqual(countAndSay(1),  "1", "")
             XCTAssertEqual(countAndSay(2),  "11", "")
@@ -79,5 +79,5 @@ class CountAndSayTest: XCTestCase {
             XCTAssertEqual(countAndSay(15), "311311222113111231131112132112311321322112111312211312111322212311322113212221", "")
         }
     }
-    
+
 }

@@ -12,8 +12,8 @@ func == (lhs: Character, rhs: String) -> Bool {
     return String(lhs) == rhs
 }
 
-extension Character
-{
+extension Character {
+
     func isDigit() -> Bool {
         switch String(self) {
         case "0", "1", "2", "3", "4", "5", "6", "7", "8", "9":
@@ -22,7 +22,7 @@ extension Character
             return false
         }
     }
-    
+
     func isSpace() -> Bool {
         switch String(self) {
         case " ", "\t", "\n", "\r":
@@ -31,4 +31,5 @@ extension Character
             return false
         }
     }
+
 }

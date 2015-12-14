@@ -18,12 +18,12 @@ import Foundation
 import XCTest
 
 
-extension ListNode
-{
+extension ListNode {
+
     func removeDuplicatesFromSortedListII() -> ListNode {
         let dummy = ListNode(0, self)
         var l0 = dummy.next
-        
+
         while l0 != nil {
             if let l1 = l0!.next {
                 if l0!.value == l1.value {
@@ -36,22 +36,23 @@ extension ListNode
             }
             l0 = l0!.next
         }
-        
+
         return dummy.next!
     }
+
 }
 
 
 class RemoveDuplicatesFromSortedListIITest: XCTestCase {
 
     func testRemoveDuplicatesFromSortedList() {
-        self.measureBlock() {
+        measureBlock {
             let l0 = ListNode(1, ListNode(1))
             XCTAssertEqual(l0.removeDuplicatesFromSortedListII().debugDescription, "1", "")
-            
+
             let l1 = ListNode(1, ListNode(1, ListNode(2)))
             XCTAssertEqual(l1.removeDuplicatesFromSortedListII().debugDescription, "1 2", "")
-            
+
             let l2 = ListNode(1, ListNode(1, ListNode(2, ListNode(3, ListNode(3)))))
             XCTAssertEqual(l2.removeDuplicatesFromSortedListII().debugDescription, "1 2 3", "")
         }

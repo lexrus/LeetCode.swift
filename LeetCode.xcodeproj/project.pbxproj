@@ -10,12 +10,12 @@
 		D71563861AF9BF780090A569 /* TreeNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = D71563851AF9BF780090A569 /* TreeNode.swift */; };
 		D71CE8411B031E9A00D8A35F /* 165.swift in Sources */ = {isa = PBXBuildFile; fileRef = D71CE8401B031E9A00D8A35F /* 165.swift */; };
 		D738487E1B301E6E00B734C9 /* 101.swift in Sources */ = {isa = PBXBuildFile; fileRef = D738487D1B301E6E00B734C9 /* 101.swift */; };
-		D73A13E31B9C6FDB001579E8 /* 258.swift in Sources */ = {isa = PBXBuildFile; fileRef = D73A13E21B9C6FDB001579E8 /* 258.swift */; settings = {ASSET_TAGS = (); }; };
-		D73A13E51B9C85C8001579E8 /* 263.swift in Sources */ = {isa = PBXBuildFile; fileRef = D73A13E41B9C85C8001579E8 /* 263.swift */; settings = {ASSET_TAGS = (); }; };
-		D7803DC21B95F1FE000C9270 /* 104.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7803DC11B95F1FE000C9270 /* 104.swift */; settings = {ASSET_TAGS = (); }; };
+		D73A13E31B9C6FDB001579E8 /* 258.swift in Sources */ = {isa = PBXBuildFile; fileRef = D73A13E21B9C6FDB001579E8 /* 258.swift */; };
+		D73A13E51B9C85C8001579E8 /* 263.swift in Sources */ = {isa = PBXBuildFile; fileRef = D73A13E41B9C85C8001579E8 /* 263.swift */; };
+		D7803DC21B95F1FE000C9270 /* 104.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7803DC11B95F1FE000C9270 /* 104.swift */; };
 		D783CC9B1B2AC9160087FFC1 /* 226.swift in Sources */ = {isa = PBXBuildFile; fileRef = D783CC9A1B2AC9160087FFC1 /* 226.swift */; };
-		D7AB14CB1B99C85200DEDE9D /* 58.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7AB14CA1B99C85200DEDE9D /* 58.swift */; settings = {ASSET_TAGS = (); }; };
-		D7AB14CE1B9B34FA00DEDE9D /* 67.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7AB14CD1B9B34FA00DEDE9D /* 67.swift */; settings = {ASSET_TAGS = (); }; };
+		D7AB14CB1B99C85200DEDE9D /* 58.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7AB14CA1B99C85200DEDE9D /* 58.swift */; };
+		D7AB14CE1B9B34FA00DEDE9D /* 67.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7AB14CD1B9B34FA00DEDE9D /* 67.swift */; };
 		D7DE016B1AF9F13600BB2AA0 /* 100.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7DE016A1AF9F13600BB2AA0 /* 100.swift */; };
 		D7FB8E161AF89A2700286272 /* 38.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7FB8E151AF89A2700286272 /* 38.swift */; };
 		D7FB8E181AF89A3200286272 /* 28.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7FB8E171AF89A3200286272 /* 28.swift */; };
@@ -173,6 +173,7 @@
 				D7FB8E051AF899FE00286272 /* Sources */,
 				D7FB8E061AF899FE00286272 /* Frameworks */,
 				D7FB8E071AF899FE00286272 /* Resources */,
+				2F7BB14E2012BA1837495709 /* Tailor */,
 			);
 			buildRules = (
 			);
@@ -225,6 +226,23 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2F7BB14E2012BA1837495709 /* Tailor */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = Tailor;
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "if hash tailor 2>/dev/null; then\n  tailor --except=lower-camel-case\nelse\n  echo \"warning: Please install Tailor from https://tailor.sh\"\nfi";
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		D7FB8E051AF899FE00286272 /* Sources */ = {

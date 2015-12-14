@@ -36,44 +36,45 @@ func isNodesSymmetric(left: TreeNode?, right: TreeNode?) -> Bool {
     if left == nil && right == nil {
         return true
     }
-    
+
     if left == nil || right == nil {
         return false
     }
-    
+
     if left!.value != right!.value {
         return false
     }
-    
+
     return isNodesSymmetric(left!.leftNode, right: right!.rightNode)
         && isNodesSymmetric(right!.leftNode, right: left!.rightNode)
 }
 
 func isSymmetric(root: TreeNode?) -> Bool {
-    
+
     if root == nil {
         return true
     }
-    
+
     return isNodesSymmetric(root!.leftNode, right: root!.rightNode)
 }
 
 
 class SymmetricTreeTest: XCTestCase {
+
     func testSymmetricTree() {
-        self.measureBlock() {
+        measureBlock {
             XCTAssertTrue(isSymmetric(nil), "")
-            
+
             let t0 = TreeNode(1,
                 TreeNode(2, TreeNode(3), TreeNode(4)), TreeNode(2, TreeNode(4), TreeNode(3)))
-            
+
             XCTAssertTrue(isSymmetric(t0), "")
-            
+
             let t1 = TreeNode(1,
                 TreeNode(2, nil, TreeNode(3)), TreeNode(2, nil, TreeNode(3)))
-            
+
             XCTAssertFalse(isSymmetric(t1), "")
-            
+
         }
     }
 

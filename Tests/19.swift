@@ -23,8 +23,8 @@ import Foundation
 import XCTest
 
 
-extension ListNode
-{
+extension ListNode {
+
     func childNodeCount() -> Int {
         var c = 0
         var d = self
@@ -34,23 +34,22 @@ extension ListNode
         }
         return c
     }
-    
+
     /**
     I know this algorithm is stupid but it's done by myself.
-    
+
     - parameter n: Nth from the end of list
-    
     - returns: The new linked list
     */
     func removeNthFromEnd(n: Int) -> ListNode {
         let result = ListNode(0)
         var current = ListNode(0, self)
         var dummy = result
-        
+
         if n == self.childNodeCount() {
             return next!
         }
-        
+
         var i = 0
         while current.next != nil {
             if i == self.childNodeCount() - n + 1 {
@@ -66,26 +65,27 @@ extension ListNode
         }
         return result.next!
     }
+
 }
 
 
 class RemoveNthNodeFromEndOfListTest: XCTestCase {
-    
+
     func testRemoveNthNodeFromEndOfList() {
-        self.measureBlock() {
+        measureBlock {
             let list = ListNode(1, ListNode(2, ListNode(3, ListNode(4, ListNode(5)))))
             let result = list.removeNthFromEnd(2)
             XCTAssertEqual(result.debugDescription, "1 2 3 5", "")
         }
     }
-    
+
     func testRemoveFirstNode() {
-        self.measureBlock() {
+        measureBlock {
             let list = ListNode(1, ListNode(2, ListNode(3, ListNode(4, ListNode(5)))))
             let result = list.removeNthFromEnd(5)
             XCTAssertEqual(result.debugDescription, "2 3 4 5", "")
             XCTAssert(result.childNodeCount() == 3, "\(result.childNodeCount)")
         }
     }
-    
+
 }

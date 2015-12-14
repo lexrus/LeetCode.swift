@@ -9,14 +9,15 @@
 import Foundation
 
 class ListNode: CustomDebugStringConvertible {
+
     var value: Int = 0
     var next: ListNode? = nil
-    
+
     init(_ value: Int = 0, _ next: ListNode? = nil) {
         self.value = value
         self.next = next
     }
-    
+
     var debugDescription: String {
         var s = "\(value)"
         var p = self
@@ -26,4 +27,5 @@ class ListNode: CustomDebugStringConvertible {
         }
         return s
     }
+
 }

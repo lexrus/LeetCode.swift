@@ -36,7 +36,7 @@ func isUglyNumber(n: Int) -> Bool {
 }
 
 class UglyNumberTest: XCTestCase {
-    
+
     func testUglyNumber() {
         XCTAssertTrue(isUglyNumber(1))
         XCTAssertTrue(isUglyNumber(6))
@@ -45,7 +45,7 @@ class UglyNumberTest: XCTestCase {
         XCTAssertFalse(isUglyNumber(0))
         XCTAssertFalse(isUglyNumber(-8))
         XCTAssertFalse(isUglyNumber(14))
-        
+
     }
-    
+
 }

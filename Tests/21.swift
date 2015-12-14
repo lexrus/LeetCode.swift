@@ -15,14 +15,14 @@ import Foundation
 import XCTest
 
 
-extension ListNode
-{
+extension ListNode {
+
     func mergeSortedLists(list: ListNode) -> ListNode? {
         let dummy = ListNode(0)
         var p = dummy
         var l1: ListNode? = self
         var l2: ListNode? = list
-        
+
         while l1 != nil && l2 != nil {
             if l1!.value < l2!.value {
                 p.next = l1
@@ -34,28 +34,29 @@ extension ListNode
                 l2 = l2!.next
             }
         }
-        
+
         if l1 != nil {
             p.next = l1!
         } else if l2 != nil {
             p.next = l2!
         }
-        
+
         return dummy.next
     }
+
 }
 
 
 class MergeTwoSortedListsTest: XCTestCase {
 
     func testMergeTwoSortedList() {
-        self.measureBlock() {
+        measureBlock {
             let l0 = ListNode(1, ListNode(2, ListNode(3))).mergeSortedLists(ListNode(2, ListNode(4)))!
             XCTAssertEqual(l0.debugDescription, "1 2 2 3 4", "")
-            
+
             let l1 = ListNode(3).mergeSortedLists(ListNode(2, ListNode(4)))!
             XCTAssertEqual(l1.debugDescription, "2 3 4", "")
-            
+
             let l2 = ListNode(1).mergeSortedLists(ListNode(0))!
             XCTAssertEqual(l2.debugDescription, "0 1", "")
         }

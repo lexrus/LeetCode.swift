@@ -19,7 +19,7 @@ import XCTest
 func plusOne(digits: [Int]) -> [Int] {
     var result: [Int] = digits
     var carry = 1
-    
+
     for var i = result.count - 1; i >= 0; i-- {
         if result[i] < 9 {
             let digit = result[i] + 1
@@ -37,7 +37,7 @@ func plusOne(digits: [Int]) -> [Int] {
     if carry > 0 {
         result.insert(1, atIndex: 0)
     }
-    
+
     return result
 }
 
@@ -45,7 +45,7 @@ func plusOne(digits: [Int]) -> [Int] {
 class PlusOneTest: XCTestCase {
 
     func testPlusOne() {
-        self.measureBlock() {
+        measureBlock {
             XCTAssertEqual(plusOne([1, 2, 3]), [1, 2, 4], "")
             XCTAssertEqual(plusOne([9]), [1, 0], "")
             XCTAssertEqual(plusOne([0]), [1], "")

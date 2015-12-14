@@ -17,23 +17,23 @@ import XCTest
 
 
 extension String {
-    
+
     /**
     This Swift method is imitated from another C++ solution:
     https://github.com/haoel/leetcode/blob/master/algorithms/validParentheses/validParentheses.cpp
-    
+
     - returns: Whether the string is valid.
     */
     func validParentheses() -> Bool {
         var stack = [Character]()
         var s = self
-        
+
         while s.characters.count > 0 {
             let char = s[s.characters.count - 1]
-            
+
             if char == "("[0] || char == "["[0] || char == "{"[0] {
                 let sChar = stack.last ?? " "[0]
-                
+
                 if (char == "("[0] && sChar == ")"[0])
                     || (char == "["[0] && sChar == "]"[0])
                     || (char == "{"[0] && sChar == "}"[0]) {
@@ -49,22 +49,22 @@ extension String {
                 s.popBack()
             }
         }
-        
+
         return s.characters.count == 0 && stack.count == 0
     }
-    
+
 }
 
 
 class ValidParenthesesTest: XCTestCase {
-    
+
     func testValidParenthese() {
-        self.measureBlock() {
+        measureBlock {
             XCTAssert("()[]{}".validParentheses(), "'()[]{}' is valid.")
             XCTAssert("{{}{[]()}}".validParentheses(), "'{{}{[]()}}' is valid.")
             XCTAssertFalse("([".validParentheses(), "'([' is invalid.")
             XCTAssertFalse("([)]".validParentheses(), "'([)]' is invalid.")
         }
     }
-    
+
 }

@@ -26,7 +26,7 @@ func strStr0(haystack: String, needle: String) -> Int {
     if n > 0 {
         for var i = 0, j = 0; i < m - n; ++i {
             for ; j < n && haystack[i + j] == needle[j]; ++j {}
-            if (j == n) {
+            if j == n {
                 return i
             }
         }
@@ -45,9 +45,9 @@ func strStr0(haystack: String, needle: String) -> Int {
 
 
 class StrStrTest: XCTestCase {
-    
+
     func testStrStr() {
-        self.measureBlock() {
+        measureBlock {
             XCTAssertEqual(strStr0("abcdefg", needle: "bcd"), 1, "")
             XCTAssertEqual(strStr0("aaa", needle: "a"), 0, "")
             XCTAssertEqual(strStr0("abcdefg", needle: ""), -1, "")
@@ -55,5 +55,5 @@ class StrStrTest: XCTestCase {
             XCTAssertEqual(strStr0("a", needle: "adfasdfasf"), -1, "")
         }
     }
-    
+
 }

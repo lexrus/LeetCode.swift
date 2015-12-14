@@ -16,8 +16,8 @@ import Foundation
 import XCTest
 
 
-private extension TreeNode
-{
+private extension TreeNode {
+
     func isEqualTo(tree: TreeNode) -> Bool {
         if self.value != tree.value {
             return false
@@ -33,9 +33,10 @@ private extension TreeNode
                 isEqual = false
             }
         }
-        
+
         return isEqual
     }
+
 }
 
 func ==(lhs: TreeNode, rhs: TreeNode) -> Bool {
@@ -46,12 +47,12 @@ func ==(lhs: TreeNode, rhs: TreeNode) -> Bool {
 class SameTreeTest: XCTestCase {
 
     func testSameTree() {
-        self.measureBlock() {
+        measureBlock {
             XCTAssertTrue(TreeNode(0) == TreeNode(0), "")
             let t0 = TreeNode(0, nil, TreeNode(2))
             let t1 = TreeNode(0, nil, TreeNode(2))
             XCTAssertTrue(t0 == t1, "")
-            
+
             let t2 = TreeNode(45,
                         TreeNode(2,
                             TreeNode(53,
@@ -61,7 +62,7 @@ class SameTreeTest: XCTestCase {
                             TreeNode(53,
                                 TreeNode(1), TreeNode(2))))
             XCTAssertTrue(t2 == t3, "")
-            
+
             let t4 = TreeNode(23,
                         TreeNode(4,
                             TreeNode(0), TreeNode(1)),
@@ -70,7 +71,7 @@ class SameTreeTest: XCTestCase {
                         TreeNode(4,
                             TreeNode(0), TreeNode(2)),
                         TreeNode(2))
-            
+
             XCTAssertFalse(t4 == t5, "")
         }
     }

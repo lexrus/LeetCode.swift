@@ -24,21 +24,21 @@ import Foundation
 import XCTest
 
 class ZigZagConversion {
-    
+
     /**
     This Swift method is imitated from the C++ method found here:
     https://github.com/haoel/leetcode/blob/master/algorithms/zigZagConversion/zigZagConversion.cpp
-    
+
     - parameter text: Source text
     - parameter rows: Number of rows
-    
+
     - returns: The result ZigZag text
     */
     class func convert0(text: String, _ rows: Int) -> String {
         if rows <= 1 || rows > text.characters.count {
             return text
         }
-        
+
         var r = [String]()
         var row = 0
         var step = 1
@@ -56,30 +56,30 @@ class ZigZagConversion {
             }
             row += step
         }
-        
+
         var result = ""
         var i = 0
-        
+
         while i < rows {
             result.appendContentsOf(r[i])
             i++
         }
-        
+
         return result
     }
-    
+
 }
 
 extension ZigZagConversion {
-    
+
     /**
     O (N)
     This solution is copied from here:
     https://github.com/diwu/LeetCode-Solutions-in-Swift/blob/master/Solutions/Solutions/Easy/Easy_006_ZigZag_Conversion.swift
-    
+
     - parameter text: Source text
     - parameter rows: Number of rows
-    
+
     - returns: The result ZigZag text
     */
     class func convert1(text: String, _ rows: Int) -> String {
@@ -99,17 +99,17 @@ extension ZigZagConversion {
         }
         return result
     }
-    
+
 }
 
 
 class ZigZagConversionTest: XCTestCase {
-    
+
     func testZigZagConvert() {
-        self.measureBlock() {
+        measureBlock {
             XCTAssertEqual(ZigZagConversion.convert0("PAYPALISHIRING", 3), "PAHNAPLSIIGYIR", "")
             XCTAssertEqual(ZigZagConversion.convert1("PAYPALISHIRING", 3), "PAHNAPLSIIGYIR", "")
         }
     }
-    
+
 }

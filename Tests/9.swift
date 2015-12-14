@@ -26,26 +26,26 @@ import Foundation
 import XCTest
 
 
-func isPalindrome(x : Int) -> Bool {
+func isPalindrome(x: Int) -> Bool {
     var parlinedromeX = 0
     var tmpX = x
     while tmpX > 0 {
         if parlinedromeX >= Int.max / 10 {
             return false
         }
-        
+
         parlinedromeX = parlinedromeX * 10 + tmpX % 10
         tmpX = tmpX / 10
     }
-    
+
     return parlinedromeX == x
 }
 
 
 class PalindromeNumberTest: XCTestCase {
-    
+
     func testPalindromeNumber() {
-        self.measureBlock() {
+        measureBlock {
             XCTAssertFalse(isPalindrome(-121), "")
             XCTAssertTrue(isPalindrome(123321), "")
             XCTAssertTrue(isPalindrome(1234567890987654321), "")
@@ -56,5 +56,5 @@ class PalindromeNumberTest: XCTestCase {
             XCTAssertFalse(isPalindrome(Int.min), "")
         }
     }
-    
+
 }

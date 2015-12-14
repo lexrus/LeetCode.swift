@@ -20,12 +20,12 @@ import XCTest
 
 
 extension String {
-    
+
     func lengthOfLastWord() -> Int {
         var wordLength = 0
         var cnt = 0
         let spaceChar: Character = " "
-        
+
         for (_, c) in "\(self) ".characters.enumerate() {
             if c != spaceChar {
                 cnt++
@@ -36,17 +36,17 @@ extension String {
                 cnt = 0
             }
         }
-        
+
         return wordLength
     }
-    
+
 }
 
 
 class LengthOfLastWordTest: XCTestCase {
-    
+
     func testLengthOfLastWord() {
-        self.measureBlock() {
+        measureBlock {
             XCTAssertEqual("Hello world".lengthOfLastWord(), 5, "")
             XCTAssertEqual("Helloworld".lengthOfLastWord(), 10, "")
             XCTAssertEqual("a".lengthOfLastWord(), 1, "")
@@ -55,5 +55,5 @@ class LengthOfLastWordTest: XCTestCase {
             XCTAssertEqual("abc defg hijkl".lengthOfLastWord(), 5, "")
         }
     }
-    
+
 }

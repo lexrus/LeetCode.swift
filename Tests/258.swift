@@ -20,6 +20,7 @@ Could you do it without any loop/recursion in O(1) runtime?
 import XCTest
 
 func addDigitsNaïve(n: Int) -> Int {
+
     func sumDigits(m: Int) -> Int {
         let o = m % 10
         if m > 9 {
@@ -27,6 +28,7 @@ func addDigitsNaïve(n: Int) -> Int {
         }
         return m
     }
+
     let p = sumDigits(n)
     if p > 9 {
         return addDigitsNaïve(p)
@@ -42,7 +44,7 @@ func addDigits(n: Int) -> Int {
 }
 
 class AddDigitsTest: XCTestCase {
-    
+
     func testAddDigitsNaïve() {
         XCTAssertEqual(addDigitsNaïve(0), 0)
         XCTAssertEqual(addDigitsNaïve(12), 3)
@@ -52,7 +54,7 @@ class AddDigitsTest: XCTestCase {
         XCTAssertEqual(addDigitsNaïve(65536), 7)
         XCTAssertEqual(addDigitsNaïve(38), 2)
     }
-    
+
     func testAddDigits() {
         XCTAssertEqual(addDigits(0), 0)
         XCTAssertEqual(addDigits(12), 3)
@@ -62,5 +64,5 @@ class AddDigitsTest: XCTestCase {
         XCTAssertEqual(addDigits(65536), 7)
         XCTAssertEqual(addDigits(38), 2)
     }
-    
+
 }

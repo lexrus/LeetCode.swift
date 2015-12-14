@@ -25,12 +25,12 @@ func addBinary(a: String, _ b: String) -> String {
 }
 
 class AddBinaryTest: XCTestCase {
-   
+
     func testExample() {
         XCTAssert(addBinary("11", "1") == "100")
         XCTAssert(addBinary("1111111", "222") == "1111111")
         XCTAssert(addBinary("", "1") == "1")
         XCTAssert(addBinary("0", "0") == "0")
     }
-    
+
 }

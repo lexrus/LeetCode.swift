@@ -22,14 +22,14 @@ import XCTest
 
 
 extension NSMutableArray {
-    
+
     // O(n)
     func removeDuplicates() -> Int {
         // In case there is nothing to do
         if self.count == 0 {
             return 0
         }
-        
+
         var index = 0
         for var i = 1; i < self.count; i++ {
             let l: AnyObject = self.objectAtIndex(index)
@@ -38,37 +38,38 @@ extension NSMutableArray {
                 self.replaceObjectAtIndex(++index, withObject: r)
             }
         }
-        
+
         // Remove the remaining
         self.removeObjectsInRange(NSRange(location: index + 1, length: self.count - index - 1))
         return index + 1
     }
+
 }
 
 
 class RemoveDuplicatesFromSortedArrayTest: XCTestCase {
-    
+
     func testRemoveDuplicatesFromSortedArray() {
-        self.measureBlock() {
+        measureBlock {
             let array0 = NSMutableArray(array: [1,1,2])
             XCTAssertEqual(array0.removeDuplicates(), 2, "")
-            
+
             let array1 = NSMutableArray(array: [3,4,4,5,5,5,6])
             XCTAssertEqual(array1.removeDuplicates(), 4, "")
             XCTAssertEqual(array1, [3,4,5,6], "")
-            
+
             let array2 = NSMutableArray(array: [12, 12, 12, 12, 12])
             XCTAssertEqual(array2.removeDuplicates(), 1, "")
             XCTAssertEqual(array2, [12], "")
-            
+
             let array3 = NSMutableArray(array: [])
             XCTAssertEqual(array3.removeDuplicates(), 0, "")
             XCTAssertEqual(array3, [], "")
-            
+
             let array4 = NSMutableArray(array: ["a", "a", "b", "b", "b", "汉", "汉"])
             XCTAssertEqual(array4.removeDuplicates(), 3, "")
             XCTAssertEqual(array4, ["a", "b", "汉"], "")
         }
     }
-    
+
 }

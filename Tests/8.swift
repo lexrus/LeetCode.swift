@@ -30,24 +30,24 @@ func atoi(s: String) -> Int {
     if s.isEmpty || s == "0" {
         return 0
     }
-    
+
     var result = 0, negative = false
     let zeroValue = 48
-    
+
     let s = s.stringByTrimmingCharactersInSet(NSCharacterSet.whitespaceAndNewlineCharacterSet())
-    
+
     if s.substringToIndex(s.startIndex.advancedBy(1)) == "-" {
         negative = true
     }
-    
+
     for c in s.unicodeScalars {
         let value = Int(c.value) - zeroValue
-        
+
         // Ignore non-numerical
         if value < 0 || value > 9 {
             continue
         }
-        
+
         if negative {
             if -result < (Int.min + value) / 10 + 1 {
                 return Int.min
@@ -57,18 +57,18 @@ func atoi(s: String) -> Int {
                 return Int.max
             }
         }
-        
+
         result = result * 10 + value
     }
-    
+
     return negative ? -result : result
 }
 
 
 class StringToIntegerAtoiTest: XCTestCase {
-    
+
     func testStringToInteger() {
-        self.measureBlock() {
+        measureBlock {
             XCTAssertEqual(-2, atoi(" -02"), "")
             XCTAssertEqual(0, atoi(""), "")
             XCTAssertEqual(23, atoi(" 23-"), "")
@@ -85,5 +85,5 @@ class StringToIntegerAtoiTest: XCTestCase {
             XCTAssertEqual(-9223372036854775808, atoi("-9223372036854775809"), "")
         }
     }
-    
+
 }

@@ -13,7 +13,7 @@
 // Author : Hao Chen
 // Date   : 2014-06-17
 
-/**********************************************************************************
+/*
 *
 * Given an array of integers, find two numbers such that they add up to a specific target number.
 *
@@ -27,13 +27,14 @@
 * Output: index1=1, index2=2
 *
 *
-**********************************************************************************/
+*/
 
 import Foundation
 import XCTest
 
 
 class TwoSum {
+
     /**
     The easy solution is O(n^2) run-time complexity.
     We can see the nested loop just for searching,
@@ -42,10 +43,10 @@ class TwoSum {
     (the map's `key` is the number, the `value` is the position)
     But be careful, if there are duplication numbers in array,
     how the map store the positions for all of same numbers?
-    
+
     - parameter array:  Input numbers
     - parameter target: Target number
-    
+
     - returns: Indeces of the two numbers
     */
     class func twoSum0(array: [Int], target: Int) -> (Int, Int)? {
@@ -58,17 +59,17 @@ class TwoSum {
         }
         return .None
     }
-    
+
     /**
     The implementation as below is bit tricky. but not difficult to understand
     1) Traverse the array one by one
     2) just put the `target - num[i]`(not `num[i]`) into the map
     so, when we checking the next num[i], if we found it is exisited in the map.
     which means we found the second one.
-    
+
     - parameter array:  Input numbers
     - parameter target: Target number
-    
+
     - returns: Indeces of the two numbers
     */
     class func twoSum1(array: [Int], target: Int) -> (Int, Int)? {
@@ -84,39 +85,39 @@ class TwoSum {
         }
         return .None
     }
+
 }
 
-
 class TwoSumTest: XCTestCase {
-    
+
     let case0 = [2, 4, 6, 7, 8]
     let case1 = [2, 7, 11, 15]
     let case2 = [1, 3, 5, 7, 9, 11, 13, 15, 17, 19]
-    
+
     func testTwoSum0() {
-        self.measureBlock() {
+        measureBlock {
             let result0 = TwoSum.twoSum0(self.case0, target: 9)!
             XCTAssert(result0.0 == 1 && result0.1 == 4, "TwoSum.twoSum0")
-            
+
             let result1 = TwoSum.twoSum0(self.case1, target: 9)!
             XCTAssert(result1.0 == 1 && result1.1 == 2, "TwoSum.twoSum0")
-            
+
             let result2 = TwoSum.twoSum0(self.case2, target: 9)
             XCTAssert(result2 == nil, "TowSum.twoSum0")
         }
     }
-    
+
     func testTwoSum1() {
-        self.measureBlock() {
+        measureBlock {
             let result0 = TwoSum.twoSum1(self.case0, target: 9)!
             XCTAssert(result0.0 == 1 && result0.1 == 4, "TwoSum.twoSum1")
-            
+
             let result1 = TwoSum.twoSum1(self.case1, target: 9)!
             XCTAssert(result1.0 == 1 && result1.1 == 2, "TwoSum.twoSum1")
-            
+
             let result2 = TwoSum.twoSum1(self.case2, target: 9)
             XCTAssert(result2 == nil, "TwoSum.twoSum1")
         }
     }
-    
+
 }

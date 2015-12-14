@@ -18,40 +18,40 @@ import XCTest
 
 func removeElement(inout array: Array<Int>, element: Int) -> Int {
     var i = 0, j = 0
-    
+
     for ; i < array.count; i++ {
         if array[i] == element {
             continue
         }
-        
+
         array[j] = array[i]
         j++
     }
-    
+
     // NOTE: In order to remove the remaining elements.
     if array.count >= j+1 {
         array.removeRange(j..<array.count)
     }
-    
+
     return j
 }
 
 
 class RemoveElementTest: XCTestCase {
-    
+
     func testRemoveElement() {
-        self.measureBlock() {
+        measureBlock {
             var a: Array<Int>
-            
+
             a = [1, 2, 3, 4, 5, 6]
             XCTAssertEqual(removeElement(&a, element: 2), 5, "")
-            
+
             a = [2, 2]
             XCTAssertEqual(removeElement(&a, element: 2), 0, "")
-            
+
             a = []
             XCTAssertEqual(removeElement(&a, element: 3), 0, "")
         }
     }
-    
+
 }

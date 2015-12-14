@@ -17,14 +17,14 @@ import XCTest
 
 
 func longestCommonPrefix(list: [String]) -> String? {
-    
+
     var foundWord = ""
     var match = false
-    
+
     if list.count == 0 || list[0].isEmpty {
         return .None
     }
-    
+
     for (i, char) in list[0].characters.enumerate() {
         for (_, str) in list.enumerate() {
             match = str[i] == char
@@ -32,24 +32,24 @@ func longestCommonPrefix(list: [String]) -> String? {
                 break
             }
         }
-        
+
         if match {
             foundWord.append(char)
         }
     }
-    
+
     return foundWord.isEmpty ? .None : foundWord
 }
 
 
 class LongestCommonPrefixTest: XCTestCase {
-    
+
     func testLongestCommonPrefix() {
-        self.measureBlock() {
+        measureBlock {
             XCTAssertNil(longestCommonPrefix([]), "")
             XCTAssertNil(longestCommonPrefix(["a", "b", "c"]), "")
             XCTAssertEqual(longestCommonPrefix(["abc", "abb", "abcd"])!, "ab", "")
         }
     }
-    
+
 }

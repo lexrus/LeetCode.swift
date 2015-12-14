@@ -24,16 +24,16 @@ import Foundation
 import XCTest
 
 
-extension String
-{
+extension String {
+
     func isNumber() -> Bool {
         if isEmpty {
             return false
         }
-        
+
         var index = 0
         let length = self.characters.count
-        
+
         for (i, c) in self.characters.enumerate() {
             if c.isSpace() {
                 continue
@@ -44,26 +44,26 @@ extension String
                 break
             }
         }
-        
+
         if index == length - 1 {
             return false
         }
-        
+
         if let c = self[index + 1] {
             if c == "+" || c == "-" {
                 index++
             }
         }
-        
+
         var hasPoint = false
         var hasE = false
-        
+
         var s = self[index]
         let firstDigit = s
-        
+
         for ; index < length; index++ {
             s = self[index]
-            
+
             if s == "." {
                 if hasPoint || hasE {
                     return false
@@ -74,7 +74,7 @@ extension String
                 hasPoint = true
                 continue
             }
-            
+
             if s == "e" {
                 if hasE || s == firstDigit {
                     return false
@@ -88,11 +88,11 @@ extension String
                 if s == nil || !s!.isDigit() {
                     return false
                 }
-                
+
                 hasE = true
                 continue
             }
-            
+
             if s != nil && s!.isSpace() {
                 for ; index < length; index++ {
                     s = self[index]
@@ -102,42 +102,43 @@ extension String
                 }
                 return true
             }
-            
+
             if s != nil && !s!.isDigit() {
                 return false
             }
-            
+
         }
-        
+
         return true
     }
+
 }
 
 
 class ValidNumberTest: XCTestCase {
 
     func testValidNumber() {
-        self.measureBlock() {
-            XCTAssertTrue("1.044".isNumber(), "");
-            XCTAssertTrue(" 1.044 ".isNumber(), "");
-            XCTAssertTrue(!"1.a".isNumber(), "");
-            XCTAssertTrue(!"abc".isNumber(), "");
-            XCTAssertTrue(!"e".isNumber(), "");
-            XCTAssertTrue(!"1e".isNumber(), "");
-            XCTAssertTrue("1e2".isNumber(), "");
-            XCTAssertTrue(!"".isNumber(), "");
-            XCTAssertTrue(!" ".isNumber(), "");
-            XCTAssertTrue("1.".isNumber(), "");
-            XCTAssertTrue(".2".isNumber(), "");
-            XCTAssertTrue(!" . ".isNumber(), "");
-            XCTAssertTrue(!".".isNumber(), "");
-            XCTAssertTrue(!"1.2.3".isNumber(), "");
-            XCTAssertTrue(!"1e2e3".isNumber(), "");
-            XCTAssertTrue(!"1..".isNumber(), "");
-            XCTAssertTrue(!"+1.".isNumber(), "");
-            XCTAssertTrue(!" -1.".isNumber(), "");
-            XCTAssertTrue(!"6e6.5".isNumber(), "");
-            XCTAssertTrue("005047e+6".isNumber(), "");
+        measureBlock {
+            XCTAssertTrue("1.044".isNumber(), "")
+            XCTAssertTrue(" 1.044 ".isNumber(), "")
+            XCTAssertTrue(!"1.a".isNumber(), "")
+            XCTAssertTrue(!"abc".isNumber(), "")
+            XCTAssertTrue(!"e".isNumber(), "")
+            XCTAssertTrue(!"1e".isNumber(), "")
+            XCTAssertTrue("1e2".isNumber(), "")
+            XCTAssertTrue(!"".isNumber(), "")
+            XCTAssertTrue(!" ".isNumber(), "")
+            XCTAssertTrue("1.".isNumber(), "")
+            XCTAssertTrue(".2".isNumber(), "")
+            XCTAssertTrue(!" . ".isNumber(), "")
+            XCTAssertTrue(!".".isNumber(), "")
+            XCTAssertTrue(!"1.2.3".isNumber(), "")
+            XCTAssertTrue(!"1e2e3".isNumber(), "")
+            XCTAssertTrue(!"1..".isNumber(), "")
+            XCTAssertTrue(!"+1.".isNumber(), "")
+            XCTAssertTrue(!" -1.".isNumber(), "")
+            XCTAssertTrue(!"6e6.5".isNumber(), "")
+            XCTAssertTrue("005047e+6".isNumber(), "")
         }
     }
 

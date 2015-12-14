@@ -16,14 +16,14 @@ import Foundation
 import XCTest
 
 extension TreeNode {
-    
+
     private func _maxDepth(node: TreeNode?, _ depth: Int) -> Int {
         if let node = node {
             return 1 + max(_maxDepth(node.leftNode, depth), _maxDepth(node.rightNode, depth))
         }
         return 0
     }
-    
+
     var maxDepth: Int {
         return _maxDepth(self, 0)
     }
@@ -31,16 +31,16 @@ extension TreeNode {
 
 
 class MaximumDepthOfBinaryTreeTest: XCTestCase {
-    
+
     func testExample() {
         let t0 = TreeNode(0, TreeNode(1), TreeNode(2, TreeNode(3), TreeNode(4)))
         XCTAssert(t0.maxDepth == 3, "")
-        
+
         let t1 = TreeNode(0)
         XCTAssert(t1.maxDepth == 1, "")
-        
+
         let t2 = TreeNode(0, TreeNode(1, TreeNode(2, TreeNode(3, TreeNode(4, TreeNode(5))))))
         XCTAssert(t2.maxDepth == 6, "")
     }
-    
+
 }

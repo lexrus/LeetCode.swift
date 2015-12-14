@@ -30,11 +30,11 @@ import XCTest
 
 
 extension Int {
-    
+
     /**
     This Swift method is imitated from the C++ solution:
     https://github.com/haoel/leetcode/blob/master/algorithms/reverseInteger/reverseInteger.cpp
-    
+
     - returns: The reversed Int
     */
     func reverse() -> Int {
@@ -51,16 +51,16 @@ extension Int {
         }
         return y
     }
-    
+
 }
 
 
 class ReverseIntegerTest: XCTestCase {
-    
+
     func testReverseInteger() {
-        self.measureBlock() {
+        measureBlock {
             // INT32_MAX == 2147483647
-            
+
             XCTAssert(2.reverse() == 2, "")
             XCTAssert(123.reverse() == 321, "")
             XCTAssert(-123.reverse() == -321, "")
@@ -76,5 +76,5 @@ class ReverseIntegerTest: XCTestCase {
             XCTAssert(Int(INT32_MAX).reverse() == 0, "Must overflow")
         }
     }
-    
+
 }
