@@ -3,7 +3,7 @@
 [![Travis](https://img.shields.io/travis/lexrus/LeetCode.swift.svg)](https://travis-ci.org/lexrus/LeetCode.swift)
 ![Language](https://img.shields.io/badge/language-Swift%202-orange.svg)
 ![License](https://img.shields.io/github/license/lexrus/ios-dev-playbook.svg?style=flat)
-![Progress](https://img.shields.io/badge/Progress-28%20%2F%20257%20=%2010.89%25-ff69b4.svg)
+![Progress](https://img.shields.io/badge/Progress-29%20%2F%20257%20=%2011.28%25-ff69b4.svg)
 
 > 愚者千虑，必有一得。
 
@@ -240,7 +240,7 @@ let 😎 = Easy, 😐 = Medium, 😨 = Hard
 - [ ] 239 😨 [Sliding Window Maximum](https://leetcode.com/problems/sliding-window-maximum/) [.swift](./Tests/239.swift)
 - [ ] 240 😐 [Search a 2D Matrix II](https://leetcode.com/problems/search-a-2d-matrix-ii/) [.swift](./Tests/240.swift)
 - [ ] 241 😐 [Different Ways to Add Parentheses](https://leetcode.com/problems/different-ways-to-add-parentheses/) [.swift](./Tests/241.swift)
-- [ ] 242 😎 [Valid Anagram](https://leetcode.com/problems/valid-anagram/) [.swift](./Tests/242.swift)
+- [x] 242 😎 [Valid Anagram](https://leetcode.com/problems/valid-anagram/) [.swift](./Tests/242.swift)
 - [ ] 243 😎 [Shortest Word Distance](https://leetcode.com/problems/shortest-word-distance/) [.swift](./Tests/243.swift) $$
 - [ ] 244 😐 [Shortest Word Distance II](https://leetcode.com/problems/shortest-word-distance-ii/) [.swift](./Tests/244.swift) $$
 - [ ] 245 😐 [Shortest Word Distance III](https://leetcode.com/problems/shortest-word-distance-iii/) [.swift](./Tests/245.swift) $$
