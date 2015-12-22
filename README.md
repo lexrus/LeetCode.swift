@@ -170,27 +170,27 @@ let 😎 = Easy, 😐 = Medium, 😨 = Hard
 - [ ] 153 😐 [Find Minimum in Rotated Sorted Array](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/) [.swift](./Tests/153.swift)
 - [ ] 154 😨 [Find Minimum in Rotated Sorted Array II](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array-ii/) [.swift](./Tests/154.swift)
 - [ ] 155 😎 [Min Stack](https://leetcode.com/problems/min-stack/) [.swift](./Tests/155.swift)
-- [ ] 156 😐 [Binary Tree Upside Down](https://leetcode.com/problems/binary-tree-upside-down/) [.swift](./Tests/156.swift) $$
-- [ ] 157 😎 [Read N Characters Given Read4](https://leetcode.com/problems/read-n-characters-given-read4/) [.swift](./Tests/157.swift) $$
-- [ ] 158 😨 [Read N Characters Given Read4 II - Call multiple times](https://leetcode.com/problems/read-n-characters-given-read4-ii-call-multiple-times/) [.swift](./Tests/158.swift) $$
-- [ ] 159 😨 [Longest Substring with At Most Two Distinct Characters](https://leetcode.com/problems/longest-substring-with-at-most-two-distinct-characters/) [.swift](./Tests/159.swift) $$
+- [ ] 156 😐 [Binary Tree Upside Down](https://leetcode.com/problems/binary-tree-upside-down/) [.swift](./Tests/156.swift) ㊙️
+- [ ] 157 😎 [Read N Characters Given Read4](https://leetcode.com/problems/read-n-characters-given-read4/) [.swift](./Tests/157.swift) ㊙️
+- [ ] 158 😨 [Read N Characters Given Read4 II - Call multiple times](https://leetcode.com/problems/read-n-characters-given-read4-ii-call-multiple-times/) [.swift](./Tests/158.swift) ㊙️
+- [ ] 159 😨 [Longest Substring with At Most Two Distinct Characters](https://leetcode.com/problems/longest-substring-with-at-most-two-distinct-characters/) [.swift](./Tests/159.swift) ㊙️
 - [ ] 160 😎 [Intersection of Two Linked Lists](https://leetcode.com/problems/intersection-of-two-linked-lists/) [.swift](./Tests/160.swift)
-- [ ] 161 😐 [One Edit Distance](https://leetcode.com/problems/one-edit-distance/) [.swift](./Tests/161.swift) $$
+- [ ] 161 😐 [One Edit Distance](https://leetcode.com/problems/one-edit-distance/) [.swift](./Tests/161.swift) ㊙️
 - [ ] 162 😐 [Find Peak Element](https://leetcode.com/problems/find-peak-element/) [.swift](./Tests/162.swift)
-- [ ] 163 😐 [Missing Ranges](https://leetcode.com/problems/missing-ranges/) [.swift](./Tests/163.swift) $$
+- [ ] 163 😐 [Missing Ranges](https://leetcode.com/problems/missing-ranges/) [.swift](./Tests/163.swift) ㊙️
 - [ ] 164 😨 [Maximum Gap](https://leetcode.com/problems/maximum-gap/) [.swift](./Tests/164.swift)
 - [x] 165 😎 [Compare Version Numbers](https://leetcode.com/problems/compare-version-numbers/) [.swift](./Tests/165.swift)
 - [ ] 166 😐 [Fraction to Recurring Decimal](https://leetcode.com/problems/fraction-to-recurring-decimal/) [.swift](./Tests/166.swift)
-- [ ] 167 😐 [Two Sum II - Input array is sorted](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/) [.swift](./Tests/167.swift) $$
+- [ ] 167 😐 [Two Sum II - Input array is sorted](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/) [.swift](./Tests/167.swift) ㊙️
 - [ ] 168 😎 [Excel Sheet Column Title](https://leetcode.com/problems/excel-sheet-column-title/) [.swift](./Tests/168.swift)
 - [ ] 169 😎 [Majority Element](https://leetcode.com/problems/majority-element/) [.swift](./Tests/169.swift)
-- [ ] 170 😎 [Two Sum III - Data structure design](https://leetcode.com/problems/two-sum-iii-data-structure-design/) [.swift](./Tests/170.swift) $$
+- [ ] 170 😎 [Two Sum III - Data structure design](https://leetcode.com/problems/two-sum-iii-data-structure-design/) [.swift](./Tests/170.swift) ㊙️
 - [ ] 171 😎 [Excel Sheet Column Number](https://leetcode.com/problems/excel-sheet-column-number/) [.swift](./Tests/171.swift)
 - [ ] 172 😎 [Factorial Trailing Zeroes](https://leetcode.com/problems/factorial-trailing-zeroes/) [.swift](./Tests/172.swift)
 - [ ] 173 😐 [Binary Search Tree Iterator](https://leetcode.com/problems/binary-search-tree-iterator/) [.swift](./Tests/173.swift)
 - [ ] 174 😨 [Dungeon Game](https://leetcode.com/problems/dungeon-game/) [.swift](./Tests/174.swift)
 - [ ] 179 😐 [Largest Number](https://leetcode.com/problems/largest-number/) [.swift](./Tests/179.swift)
-- [ ] 186 😐 [Reverse Words in a String II](https://leetcode.com/problems/reverse-words-in-a-string-ii/) [.swift](./Tests/186.swift) $$
+- [ ] 186 😐 [Reverse Words in a String II](https://leetcode.com/problems/reverse-words-in-a-string-ii/) [.swift](./Tests/186.swift) ㊙️
 - [ ] 187 😐 [Repeated DNA Sequences](https://leetcode.com/problems/repeated-dna-sequences/) [.swift](./Tests/187.swift)
 - [ ] 188 😨 [Best Time to Buy and Sell Stock IV](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-iv/) [.swift](./Tests/188.swift)
 - [ ] 189 😎 [Rotate Array](https://leetcode.com/problems/rotate-array/) [.swift](./Tests/189.swift)
@@ -241,42 +241,88 @@ let 😎 = Easy, 😐 = Medium, 😨 = Hard
 - [ ] 240 😐 [Search a 2D Matrix II](https://leetcode.com/problems/search-a-2d-matrix-ii/) [.swift](./Tests/240.swift)
 - [ ] 241 😐 [Different Ways to Add Parentheses](https://leetcode.com/problems/different-ways-to-add-parentheses/) [.swift](./Tests/241.swift)
 - [x] 242 😎 [Valid Anagram](https://leetcode.com/problems/valid-anagram/) [.swift](./Tests/242.swift)
-- [ ] 243 😎 [Shortest Word Distance](https://leetcode.com/problems/shortest-word-distance/) [.swift](./Tests/243.swift) $$
-- [ ] 244 😐 [Shortest Word Distance II](https://leetcode.com/problems/shortest-word-distance-ii/) [.swift](./Tests/244.swift) $$
-- [ ] 245 😐 [Shortest Word Distance III](https://leetcode.com/problems/shortest-word-distance-iii/) [.swift](./Tests/245.swift) $$
-- [ ] 246 😎 [Strobogrammatic Number](https://leetcode.com/problems/strobogrammatic-number/) [.swift](./Tests/246.swift) $$
-- [ ] 247 😐 [Strobogrammatic Number II](https://leetcode.com/problems/strobogrammatic-number-ii/) [.swift](./Tests/247.swift) $$
-- [ ] 248 😨 [Strobogrammatic Number III](https://leetcode.com/problems/strobogrammatic-number-iii/) [.swift](./Tests/248.swift) $$
-- [ ] 249 😎 [Group Shifted Strings](https://leetcode.com/problems/group-shifted-strings/) [.swift](./Tests/249.swift) $$
-- [ ] 250 😐 [Count Univalue Subtrees](https://leetcode.com/problems/count-univalue-subtrees/) [.swift](./Tests/250.swift) $$
-- [ ] 251 😐 [Flatten 2D Vector](https://leetcode.com/problems/flatten-2d-vector/) [.swift](./Tests/251.swift) $$
-- [ ] 252 😎 [Meeting Rooms](https://leetcode.com/problems/meeting-rooms/) [.swift](./Tests/252.swift) $$
-- [ ] 253 😐 [Meeting Rooms II](https://leetcode.com/problems/meeting-rooms-ii/) [.swift](./Tests/253.swift) $$
-- [ ] 254 😐 [Factor Combinations](https://leetcode.com/problems/factor-combinations/) [.swift](./Tests/254.swift) $$
-- [ ] 255 😐 [Verify Preorder Sequence in Binary Search Tree](https://leetcode.com/problems/verify-preorder-sequence-in-binary-search-tree/) [.swift](./Tests/255.swift) $$
-- [ ] 256 😐 [Paint House](https://leetcode.com/problems/paint-house/) [.swift](./Tests/256.swift) $$
+- [ ] 243 😎 [Shortest Word Distance](https://leetcode.com/problems/shortest-word-distance/) [.swift](./Tests/243.swift) ㊙️
+- [ ] 244 😐 [Shortest Word Distance II](https://leetcode.com/problems/shortest-word-distance-ii/) [.swift](./Tests/244.swift) ㊙️
+- [ ] 245 😐 [Shortest Word Distance III](https://leetcode.com/problems/shortest-word-distance-iii/) [.swift](./Tests/245.swift) ㊙️
+- [ ] 246 😎 [Strobogrammatic Number](https://leetcode.com/problems/strobogrammatic-number/) [.swift](./Tests/246.swift) ㊙️
+- [ ] 247 😐 [Strobogrammatic Number II](https://leetcode.com/problems/strobogrammatic-number-ii/) [.swift](./Tests/247.swift) ㊙️
+- [ ] 248 😨 [Strobogrammatic Number III](https://leetcode.com/problems/strobogrammatic-number-iii/) [.swift](./Tests/248.swift) ㊙️
+- [ ] 249 😎 [Group Shifted Strings](https://leetcode.com/problems/group-shifted-strings/) [.swift](./Tests/249.swift) ㊙️
+- [ ] 250 😐 [Count Univalue Subtrees](https://leetcode.com/problems/count-univalue-subtrees/) [.swift](./Tests/250.swift) ㊙️
+- [ ] 251 😐 [Flatten 2D Vector](https://leetcode.com/problems/flatten-2d-vector/) [.swift](./Tests/251.swift) ㊙️
+- [ ] 252 😎 [Meeting Rooms](https://leetcode.com/problems/meeting-rooms/) [.swift](./Tests/252.swift) ㊙️
+- [ ] 253 😐 [Meeting Rooms II](https://leetcode.com/problems/meeting-rooms-ii/) [.swift](./Tests/253.swift) ㊙️
+- [ ] 254 😐 [Factor Combinations](https://leetcode.com/problems/factor-combinations/) [.swift](./Tests/254.swift) ㊙️
+- [ ] 255 😐 [Verify Preorder Sequence in Binary Search Tree](https://leetcode.com/problems/verify-preorder-sequence-in-binary-search-tree/) [.swift](./Tests/255.swift) ㊙️
+- [ ] 256 😐 [Paint House](https://leetcode.com/problems/paint-house/) [.swift](./Tests/256.swift) ㊙️
 - [ ] 257 😎 [Binary Tree Paths](https://leetcode.com/problems/binary-tree-paths/) [.swift](./Tests/257.swift)
 - [x] 258 😎 [Add Digits](https://leetcode.com/problems/add-digits/) [.swift](./Tests/258.swift)
-- [ ] 259 😐 [3Sum Smaller](https://leetcode.com/problems/3sum-smaller/) [.swift](./Tests/259.swift) $$
+- [ ] 259 😐 [3Sum Smaller](https://leetcode.com/problems/3sum-smaller/) [.swift](./Tests/259.swift) ㊙️
 - [ ] 260 😐 [Single Number III](https://leetcode.com/problems/single-number-iii/) [.swift](./Tests/260.swift)
-- [ ] 261 😐 [Graph Valid Tree](https://leetcode.com/problems/graph-valid-tree/) [.swift](./Tests/261.swift) $$
+- [ ] 261 😐 [Graph Valid Tree](https://leetcode.com/problems/graph-valid-tree/) [.swift](./Tests/261.swift) ㊙️
 - [x] 263 😎 [Ugly Number](https://leetcode.com/problems/ugly-number/) [.swift](./Tests/263.swift)
 - [ ] 264 😐 [Ugly Number II](https://leetcode.com/problems/ugly-number-ii/) [.swift](./Tests/264.swift)
-- [ ] 265 😨 [Paint House II](https://leetcode.com/problems/paint-house-ii/) [.swift](./Tests/265.swift) $$
-- [ ] 266 😎 [Palindrome Permutation](https://leetcode.com/problems/palindrome-permutation/) [.swift](./Tests/266.swift) $$
-- [ ] 267 😐 [Palindrome Permutation II](https://leetcode.com/problems/palindrome-permutation-ii/) [.swift](./Tests/267.swift) $$
+- [ ] 265 😨 [Paint House II](https://leetcode.com/problems/paint-house-ii/) [.swift](./Tests/265.swift) ㊙️
+- [ ] 266 😎 [Palindrome Permutation](https://leetcode.com/problems/palindrome-permutation/) [.swift](./Tests/266.swift) ㊙️
+- [ ] 267 😐 [Palindrome Permutation II](https://leetcode.com/problems/palindrome-permutation-ii/) [.swift](./Tests/267.swift) ㊙️
 - [ ] 268 😐 [Missing Number](https://leetcode.com/problems/missing-number/) [.swift](./Tests/268.swift)
-- [ ] 269 😨 [Alien Dictionary](https://leetcode.com/problems/alien-dictionary/) [.swift](./Tests/269.swift) $$
-- [ ] 270 😎 [Closest Binary Search Tree Value](https://leetcode.com/problems/closest-binary-search-tree-value/) [.swift](./Tests/270.swift) $$
-- [ ] 271 😐 [Encode and Decode Strings](https://leetcode.com/problems/encode-and-decode-strings/) [.swift](./Tests/271.swift) $$
-- [ ] 272 😨 [Closest Binary Search Tree Value II](https://leetcode.com/problems/closest-binary-search-tree-value-ii/) [.swift](./Tests/272.swift) $$
+- [ ] 269 😨 [Alien Dictionary](https://leetcode.com/problems/alien-dictionary/) [.swift](./Tests/269.swift) ㊙️
+- [ ] 270 😎 [Closest Binary Search Tree Value](https://leetcode.com/problems/closest-binary-search-tree-value/) [.swift](./Tests/270.swift) ㊙️
+- [ ] 271 😐 [Encode and Decode Strings](https://leetcode.com/problems/encode-and-decode-strings/) [.swift](./Tests/271.swift) ㊙️
+- [ ] 272 😨 [Closest Binary Search Tree Value II](https://leetcode.com/problems/closest-binary-search-tree-value-ii/) [.swift](./Tests/272.swift) ㊙️
 - [ ] 273 😐 [Integer to English Words](https://leetcode.com/problems/integer-to-english-words/) [.swift](./Tests/273.swift)
-- [ ] 274 😎 [H-Index](https://leetcode.com/problems/h-index/) [.swift](./Tests/274.swift)
+- [ ] 274 😐 [H-Index](https://leetcode.com/problems/h-index/) [.swift](./Tests/274.swift)
+- [ ] 275 😐 [H-Index II](https://leetcode.com/problems/h-index-ii/) [.swift](./Tests/275.swift)
+- [ ] 276 😎 [Paint Fence](https://leetcode.com/problems/paint-fence/) [.swift](./Tests/276.swift) ㊙️
+- [ ] 277 😐 [Find the Celebrity](https://leetcode.com/problems/find-the-celebrity/) [.swift](./Tests/277.swift) ㊙️
+- [ ] 278 😎 [First Bad Version](https://leetcode.com/problems/first-bad-version/) [.swift](./Tests/278.swift)
+- [ ] 279 😐 [Perfect Squares](https://leetcode.com/problems/perfect-squares/) [.swift](./Tests/279.swift)
+- [ ] 280 😐 [Wiggle Sort](https://leetcode.com/problems/wiggle-sort/) [.swift](./Tests/280.swift) ㊙️
+- [ ] 281 😐 [Zigzag Iterator](https://leetcode.com/problems/zigzag-iterator/) [.swift](./Tests/281.swift) ㊙️
+- [ ] 282 😨 [Expression Add Operators](https://leetcode.com/problems/expression-add-operators/) [.swift](./Tests/282.swift)
+- [ ] 283 😎 [Move Zeroes](https://leetcode.com/problems/move-zeroes/) [.swift](./Tests/283.swift)
+- [ ] 284 😐 [Peeking Iterator](https://leetcode.com/problems/peeking-iterator/) [.swift](./Tests/284.swift)
+- [ ] 285 😐 [Inorder Successor in BST](https://leetcode.com/problems/inorder-successor-in-bst/) [.swift](./Tests/285.swift) ㊙️
+- [ ] 286 😐 [Walls and Gates](https://leetcode.com/problems/walls-and-gates/) [.swift](./Tests/286.swift) ㊙️
+- [ ] 287 😨 [Find the Duplicate Number](https://leetcode.com/problems/find-the-duplicate-number/) [.swift](./Tests/287.swift)
+- [ ] 288 😎 [Unique Word Abbreviation](https://leetcode.com/problems/unique-word-abbreviation/) [.swift](./Tests/288.swift) ㊙️
+- [ ] 289 😐 [Game of Life](https://leetcode.com/problems/game-of-life/) [.swift](./Tests/289.swift)
+- [ ] 290 😎 [Word Pattern](https://leetcode.com/problems/word-pattern/) [.swift](./Tests/290.swift)
+- [ ] 291 😨 [Word Pattern II](https://leetcode.com/problems/word-pattern-ii/) [.swift](./Tests/291.swift) ㊙️
+- [ ] 292 😎 [Nim Game](https://leetcode.com/problems/nim-game/) [.swift](./Tests/292.swift)
+- [ ] 293 😎 [Flip Game](https://leetcode.com/problems/flip-game/) [.swift](./Tests/293.swift) ㊙️
+- [ ] 294 😐 [Flip Game II](https://leetcode.com/problems/flip-game-ii/) [.swift](./Tests/294.swift) ㊙️
+- [ ] 295 😨 [Find Median from Data Stream](https://leetcode.com/problems/find-median-from-data-stream/) [.swift](./Tests/295.swift)
+- [ ] 296 😨 [Best Meeting Point](https://leetcode.com/problems/best-meeting-point/) [.swift](./Tests/296.swift) ㊙️
+- [ ] 297 😐 [Serialize and Deserialize Binary Tree](https://leetcode.com/problems/serialize-and-deserialize-binary-tree/) [.swift](./Tests/297.swift)
+- [ ] 298 😐 [Binary Tree Longest Consecutive Sequence](https://leetcode.com/problems/binary-tree-longest-consecutive-sequence/) [.swift](./Tests/298.swift) ㊙️
+- [ ] 299 😎 [Bulls and Cows](https://leetcode.com/problems/bulls-and-cows/) [.swift](./Tests/299.swift)
+- [ ] 300 😐 [Longest Increasing Subsequence](https://leetcode.com/problems/longest-increasing-subsequence/) [.swift](./Tests/300.swift)
+- [ ] 301 😨 [Remove Invalid Parentheses](https://leetcode.com/problems/remove-invalid-parentheses/) [.swift](./Tests/301.swift)
+- [ ] 302 😨 [Smallest Rectangle Enclosing Black Pixels](https://leetcode.com/problems/smallest-rectangle-enclosing-black-pixels/) [.swift](./Tests/302.swift) ㊙️
+- [ ] 303 😎 [Range Sum Query - Immutable](https://leetcode.com/problems/range-sum-query-immutable/) [.swift](./Tests/303.swift)
+- [ ] 304 😐 [Range Sum Query 2D - Immutable](https://leetcode.com/problems/range-sum-query-2d-immutable/) [.swift](./Tests/304.swift)
+- [ ] 305 😨 [Number of Islands II](https://leetcode.com/problems/number-of-islands-ii/) [.swift](./Tests/305.swift) ㊙️
+- [ ] 306 😐 [Additive Number](https://leetcode.com/problems/additive-number/) [.swift](./Tests/306.swift)
+- [ ] 307 😐 [Range Sum Query - Mutable](https://leetcode.com/problems/range-sum-query-mutable/) [.swift](./Tests/307.swift)
+- [ ] 308 😨 [Range Sum Query 2D - Mutable](https://leetcode.com/problems/range-sum-query-2d-mutable/) [.swift](./Tests/308.swift) ㊙️
+- [ ] 309 😐 [Best Time to Buy and Sell Stock with Cooldown](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-with-cooldown/) [.swift](./Tests/309.swift)
+- [ ] 310 😐 [Minimum Height Trees](https://leetcode.com/problems/minimum-height-trees/) [.swift](./Tests/310.swift)
+- [ ] 311 😐 [Sparse Matrix Multiplication](https://leetcode.com/problems/sparse-matrix-multiplication/) [.swift](./Tests/311.swift) ㊙️
+- [ ] 312 😨 [Burst Balloons](https://leetcode.com/problems/burst-balloons/) [.swift](./Tests/312.swift)
+- [ ] 313 😐 [Super Ugly Number](https://leetcode.com/problems/super-ugly-number/) [.swift](./Tests/313.swift)
+- [ ] 314 😐 [Binary Tree Vertical Order Traversal](https://leetcode.com/problems/binary-tree-vertical-order-traversal/) [.swift](./Tests/314.swift) ㊙️
+- [ ] 315 😨 [Count of Smaller Numbers After Self](https://leetcode.com/problems/count-of-smaller-numbers-after-self/) [.swift](./Tests/315.swift)
+- [ ] 316 😐 [Remove Duplicate Letters](https://leetcode.com/problems/remove-duplicate-letters/) [.swift](./Tests/316.swift)
+- [ ] 317 😨 [Shortest Distance from All Buildings](https://leetcode.com/problems/shortest-distance-from-all-buildings/) [.swift](./Tests/317.swift) ㊙️
+- [ ] 318 😐 [Maximum Product of Word Lengths](https://leetcode.com/problems/maximum-product-of-word-lengths/) [.swift](./Tests/318.swift)
+- [ ] 319 😐 [Bulb Switcher](https://leetcode.com/problems/bulb-switcher/) [.swift](./Tests/319.swift)
+- [ ] 320 😐 [Generalized Abbreviation](https://leetcode.com/problems/generalized-abbreviation/) [.swift](./Tests/320.swift) ㊙️
 
 
 ## Unit tests
-Open the project with Xcode 7 Beta 6 then press `⌘ + u`.
-Or run `rake` in this folder if you have [xctool](https://github.com/facebook/xctool) installed.
+Open the project with Xcode 7.2 then press `⌘ + u`.
+Or run `rake test` in this folder if you have [xctool](https://github.com/facebook/xctool) installed.
 
 
 ## License
