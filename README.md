@@ -3,7 +3,7 @@
 [![Travis](https://img.shields.io/travis/lexrus/LeetCode.swift.svg)](https://travis-ci.org/lexrus/LeetCode.swift)
 ![Language](https://img.shields.io/badge/language-Swift%202-orange.svg)
 ![License](https://img.shields.io/github/license/lexrus/ios-dev-playbook.svg?style=flat)
-![Progress](https://img.shields.io/badge/Progress-30%20%2F%20257%20=%2011.67%25-ff69b4.svg)
+![Progress](https://img.shields.io/badge/Progress-31%20%2F%20257%20=%2012.06%25-ff69b4.svg)
 
 > 愚者千虑，必有一得。
 
@@ -97,7 +97,7 @@ let 😎 = Easy, 😐 = Medium, 😨 = Hard
 - [ ] 80 😐 [Remove Duplicates from Sorted Array II](https://leetcode.com/problems/remove-duplicates-from-sorted-array-ii/) [.swift](./Tests/80.swift)
 - [ ] 81 😐 [Search in Rotated Sorted Array II](https://leetcode.com/problems/search-in-rotated-sorted-array-ii/) [.swift](./Tests/81.swift)
 - [x] 82 😐 [Remove Duplicates from Sorted List II](https://leetcode.com/problems/remove-duplicates-from-sorted-list-ii/) [.swift](./Tests/82.swift)
-- [ ] 83 😎 [Remove Duplicates from Sorted List](https://leetcode.com/problems/remove-duplicates-from-sorted-list/) [.swift](./Tests/83.swift)
+- [x] 83 😎 [Remove Duplicates from Sorted List](https://leetcode.com/problems/remove-duplicates-from-sorted-list/) [.swift](./Tests/83.swift)
 - [ ] 84 😨 [Largest Rectangle in Histogram](https://leetcode.com/problems/largest-rectangle-in-histogram/) [.swift](./Tests/84.swift)
 - [ ] 85 😨 [Maximal Rectangle](https://leetcode.com/problems/maximal-rectangle/) [.swift](./Tests/85.swift)
 - [ ] 86 😐 [Partition List](https://leetcode.com/problems/partition-list/) [.swift](./Tests/86.swift)
