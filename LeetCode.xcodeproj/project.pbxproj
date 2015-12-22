@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		D70B52A11C291563007E16DC /* 242.swift in Sources */ = {isa = PBXBuildFile; fileRef = D70B52A01C291563007E16DC /* 242.swift */; };
+		D70B52A31C291BF9007E16DC /* 49.swift in Sources */ = {isa = PBXBuildFile; fileRef = D70B52A21C291BF9007E16DC /* 49.swift */; };
 		D71563861AF9BF780090A569 /* TreeNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = D71563851AF9BF780090A569 /* TreeNode.swift */; };
 		D71CE8411B031E9A00D8A35F /* 165.swift in Sources */ = {isa = PBXBuildFile; fileRef = D71CE8401B031E9A00D8A35F /* 165.swift */; };
 		D738487E1B301E6E00B734C9 /* 101.swift in Sources */ = {isa = PBXBuildFile; fileRef = D738487D1B301E6E00B734C9 /* 101.swift */; };
@@ -44,6 +45,7 @@
 
 /* Begin PBXFileReference section */
 		D70B52A01C291563007E16DC /* 242.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = 242.swift; sourceTree = "<group>"; };
+		D70B52A21C291BF9007E16DC /* 49.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = 49.swift; sourceTree = "<group>"; };
 		D71563851AF9BF780090A569 /* TreeNode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TreeNode.swift; sourceTree = "<group>"; };
 		D71CE8401B031E9A00D8A35F /* 165.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = 165.swift; sourceTree = "<group>"; };
 		D738487D1B301E6E00B734C9 /* 101.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = 101.swift; sourceTree = "<group>"; };
@@ -128,6 +130,7 @@
 				D7FB8E231AF89AAF00286272 /* 27.swift */,
 				D7FB8E171AF89A3200286272 /* 28.swift */,
 				D7FB8E151AF89A2700286272 /* 38.swift */,
+				D70B52A21C291BF9007E16DC /* 49.swift */,
 				D7AB14CA1B99C85200DEDE9D /* 58.swift */,
 				D7FB8E611AF8B33600286272 /* 65.swift */,
 				D7FB8E651AF9B09100286272 /* 66.swift */,
@@ -176,7 +179,6 @@
 				D7FB8E051AF899FE00286272 /* Sources */,
 				D7FB8E061AF899FE00286272 /* Frameworks */,
 				D7FB8E071AF899FE00286272 /* Resources */,
-				2F7BB14E2012BA1837495709 /* Tailor */,
 			);
 			buildRules = (
 			);
@@ -230,23 +232,6 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
-/* Begin PBXShellScriptBuildPhase section */
-		2F7BB14E2012BA1837495709 /* Tailor */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = Tailor;
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "if hash tailor 2>/dev/null; then\n  tailor --except=lower-camel-case\nelse\n  echo \"warning: Please install Tailor from https://tailor.sh\"\nfi";
-		};
-/* End PBXShellScriptBuildPhase section */
-
 /* Begin PBXSourcesBuildPhase section */
 		D7FB8E051AF899FE00286272 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -278,6 +263,7 @@
 				D7FB8E321AF89B1800286272 /* 1.swift in Sources */,
 				D7FB8E301AF89B0F00286272 /* 2.swift in Sources */,
 				D7FB8E1C1AF89A7300286272 /* 9.swift in Sources */,
+				D70B52A31C291BF9007E16DC /* 49.swift in Sources */,
 				D7FB8E281AF89ADB00286272 /* 7.swift in Sources */,
 				D7FB8E1A1AF89A6500286272 /* 14.swift in Sources */,
 				D7FB8E6A1AF9B9D400286272 /* 82.swift in Sources */,

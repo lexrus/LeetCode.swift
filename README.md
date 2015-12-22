@@ -3,7 +3,7 @@
 [![Travis](https://img.shields.io/travis/lexrus/LeetCode.swift.svg)](https://travis-ci.org/lexrus/LeetCode.swift)
 ![Language](https://img.shields.io/badge/language-Swift%202-orange.svg)
 ![License](https://img.shields.io/github/license/lexrus/ios-dev-playbook.svg?style=flat)
-![Progress](https://img.shields.io/badge/Progress-29%20%2F%20257%20=%2011.28%25-ff69b4.svg)
+![Progress](https://img.shields.io/badge/Progress-30%20%2F%20257%20=%2011.67%25-ff69b4.svg)
 
 > 愚者千虑，必有一得。
 
@@ -63,7 +63,7 @@ let 😎 = Easy, 😐 = Medium, 😨 = Hard
 - [ ] 46 😐 [Permutations](https://leetcode.com/problems/permutations/) [.swift](./Tests/46.swift)
 - [ ] 47 😐 [Permutations II](https://leetcode.com/problems/permutations-ii/) [.swift](./Tests/47.swift)
 - [ ] 48 😐 [Rotate Image](https://leetcode.com/problems/rotate-image/) [.swift](./Tests/48.swift)
-- [ ] 49 😐 [Group Anagrams](https://leetcode.com/problems/anagrams/) [.swift](./Tests/49.swift)
+- [x] 49 😐 [Group Anagrams](https://leetcode.com/problems/anagrams/) [.swift](./Tests/49.swift)
 - [ ] 50 😐 [Pow(x, n)](https://leetcode.com/problems/powx-n/) [.swift](./Tests/50.swift)
 - [ ] 51 😨 [N-Queens](https://leetcode.com/problems/n-queens/) [.swift](./Tests/51.swift)
 - [ ] 52 😨 [N-Queens II](https://leetcode.com/problems/n-queens-ii/) [.swift](./Tests/52.swift)
