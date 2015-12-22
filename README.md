@@ -3,7 +3,7 @@
 [![Travis](https://img.shields.io/travis/lexrus/LeetCode.swift.svg)](https://travis-ci.org/lexrus/LeetCode.swift)
 ![Language](https://img.shields.io/badge/language-Swift%202-orange.svg)
 ![License](https://img.shields.io/github/license/lexrus/ios-dev-playbook.svg?style=flat)
-![Progress](https://img.shields.io/badge/Progress-31%20%2F%20257%20=%2012.06%25-ff69b4.svg)
+![Progress](https://img.shields.io/badge/Progress-31%20%2F%20303%20=%2010.23%25-ff69b4.svg)
 
 > 愚者千虑，必有一得。
 
