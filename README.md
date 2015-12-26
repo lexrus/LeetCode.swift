@@ -3,7 +3,7 @@
 [![Travis](https://img.shields.io/travis/lexrus/LeetCode.swift.svg)](https://travis-ci.org/lexrus/LeetCode.swift)
 ![Language](https://img.shields.io/badge/language-Swift%202-orange.svg)
 ![License](https://img.shields.io/github/license/lexrus/ios-dev-playbook.svg?style=flat)
-![Progress](https://img.shields.io/badge/Progress-31%20%2F%20303%20=%2010.23%25-ff69b4.svg)
+![Progress](https://img.shields.io/badge/Progress-32%20%2F%20304%20=%2010.53%25-ff69b4.svg)
 
 > 愚者千虑，必有一得。
 
@@ -125,7 +125,7 @@ let 😎 = Easy, 😐 = Medium, 😨 = Hard
 - [ ] 108 😐 [Convert Sorted Array to Binary Search Tree](https://leetcode.com/problems/convert-sorted-array-to-binary-search-tree/) [.swift](./Tests/108.swift)
 - [ ] 109 😐 [Convert Sorted List to Binary Search Tree](https://leetcode.com/problems/convert-sorted-list-to-binary-search-tree/) [.swift](./Tests/109.swift)
 - [ ] 110 😎 [Balanced Binary Tree](https://leetcode.com/problems/balanced-binary-tree/) [.swift](./Tests/110.swift)
-- [ ] 111 😎 [Minimum Depth of Binary Tree](https://leetcode.com/problems/minimum-depth-of-binary-tree/) [.swift](./Tests/111.swift)
+- [x] 111 😎 [Minimum Depth of Binary Tree](https://leetcode.com/problems/minimum-depth-of-binary-tree/) [.swift](./Tests/111.swift)
 - [ ] 112 😎 [Path Sum](https://leetcode.com/problems/path-sum/) [.swift](./Tests/112.swift)
 - [ ] 113 😐 [Path Sum II](https://leetcode.com/problems/path-sum-ii/) [.swift](./Tests/113.swift)
 - [ ] 114 😐 [Flatten Binary Tree to Linked List](https://leetcode.com/problems/flatten-binary-tree-to-linked-list/) [.swift](./Tests/114.swift)
@@ -318,6 +318,7 @@ let 😎 = Easy, 😐 = Medium, 😨 = Hard
 - [ ] 318 😐 [Maximum Product of Word Lengths](https://leetcode.com/problems/maximum-product-of-word-lengths/) [.swift](./Tests/318.swift)
 - [ ] 319 😐 [Bulb Switcher](https://leetcode.com/problems/bulb-switcher/) [.swift](./Tests/319.swift)
 - [ ] 320 😐 [Generalized Abbreviation](https://leetcode.com/problems/generalized-abbreviation/) [.swift](./Tests/320.swift) ㊙️
+- [ ] 321 😨 [Create Maximum Number](https://leetcode.com/problems/create-maximum-number/) [.swift](./Tests/321.swift)
 
 
 ## Unit tests
