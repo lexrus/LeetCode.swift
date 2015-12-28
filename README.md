@@ -3,7 +3,7 @@
 [![Travis](https://img.shields.io/travis/lexrus/LeetCode.swift.svg)](https://travis-ci.org/lexrus/LeetCode.swift)
 ![Language](https://img.shields.io/badge/language-Swift%202-orange.svg)
 ![License](https://img.shields.io/github/license/lexrus/ios-dev-playbook.svg?style=flat)
-![Progress](https://img.shields.io/badge/Progress-32%20%2F%20304%20=%2010.53%25-ff69b4.svg)
+![Progress](https://img.shields.io/badge/Progress-33%20%2F%20305%20=%2010.82%25-ff69b4.svg)
 
 > 愚者千虑，必有一得。
 
@@ -280,7 +280,7 @@ let 😎 = Easy, 😐 = Medium, 😨 = Hard
 - [ ] 280 😐 [Wiggle Sort](https://leetcode.com/problems/wiggle-sort/) [.swift](./Tests/280.swift) ㊙️
 - [ ] 281 😐 [Zigzag Iterator](https://leetcode.com/problems/zigzag-iterator/) [.swift](./Tests/281.swift) ㊙️
 - [ ] 282 😨 [Expression Add Operators](https://leetcode.com/problems/expression-add-operators/) [.swift](./Tests/282.swift)
-- [ ] 283 😎 [Move Zeroes](https://leetcode.com/problems/move-zeroes/) [.swift](./Tests/283.swift)
+- [x] 283 😎 [Move Zeroes](https://leetcode.com/problems/move-zeroes/) [.swift](./Tests/283.swift)
 - [ ] 284 😐 [Peeking Iterator](https://leetcode.com/problems/peeking-iterator/) [.swift](./Tests/284.swift)
 - [ ] 285 😐 [Inorder Successor in BST](https://leetcode.com/problems/inorder-successor-in-bst/) [.swift](./Tests/285.swift) ㊙️
 - [ ] 286 😐 [Walls and Gates](https://leetcode.com/problems/walls-and-gates/) [.swift](./Tests/286.swift) ㊙️
@@ -319,6 +319,7 @@ let 😎 = Easy, 😐 = Medium, 😨 = Hard
 - [ ] 319 😐 [Bulb Switcher](https://leetcode.com/problems/bulb-switcher/) [.swift](./Tests/319.swift)
 - [ ] 320 😐 [Generalized Abbreviation](https://leetcode.com/problems/generalized-abbreviation/) [.swift](./Tests/320.swift) ㊙️
 - [ ] 321 😨 [Create Maximum Number](https://leetcode.com/problems/create-maximum-number/) [.swift](./Tests/321.swift)
+- [ ] 322 😐 [Coin Change](https://leetcode.com/problems/coin-change/) [.swift](./Tests/322.swift)
 
 
 ## Unit tests
