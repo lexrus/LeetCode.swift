@@ -30,7 +30,7 @@ task :sync_problems do
     "#{number} " <<
     "#{difficulty == "Hard" ? "😨" : (difficulty == "Medium" ? "😐" : "😎")} " <<
     "[#{title}](https://leetcode.com#{href}) " <<
-    "[.swift](./Tests/#{number}.swift)" <<
+    (finished ? "[.swift](./Tests/#{number}.swift)" : "") <<
     "#{ lock ? " ㊙️" : ""}"
   }
   s = File.read("#{dir}/README.md")
