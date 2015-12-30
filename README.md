@@ -7,12 +7,15 @@
 
 > 愚者千虑，必有一得。
 
-As an idiot of algorithms, I make bold to resolve the problems on [LeetCode](https://leetcode.com), especially, in [Swift](http://www.apple.com/swift/) 2.0. Most of the algorithms were __not__ figured out by myself.
+As an idiot of algorithms,
+I make bold to resolve the problems on [LeetCode](https://leetcode.com),
+especially, in [Swift](http://www.apple.com/swift/).
+Most of the algorithms were __not__ figured out by myself.
 
 PLEASE __DO NOT CONTRIBUTE__ until I accomplish all of them.
 
 ``` swift
-let 😎 = Easy, 😐 = Medium, 😨 = Hard
+let 😎 = Easy, 😐 = Medium, 😨 = Hard, ㊙️= require premium membership
 ```
 
 - [x] 1 😐 [Two Sum](https://leetcode.com/problems/two-sum/) [.swift](./Tests/1.swift)
@@ -330,7 +333,7 @@ Or run `rake test` in this folder if you have [xctool](https://github.com/facebo
 
 ## License
 
-Copyright (C) 2015 lexrus.com
+Copyright (C) 2016 lexrus.com
 
 Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
 
