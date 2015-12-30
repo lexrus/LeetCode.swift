@@ -3,7 +3,7 @@
 [![Travis](https://img.shields.io/travis/lexrus/LeetCode.swift.svg)](https://travis-ci.org/lexrus/LeetCode.swift)
 ![Language](https://img.shields.io/badge/language-Swift%202-orange.svg)
 ![License](https://img.shields.io/github/license/lexrus/ios-dev-playbook.svg?style=flat)
-![Progress](https://img.shields.io/badge/Progress-34%20%2F%20306%20=%2011.11%25-ff69b4.svg)
+![Progress](https://img.shields.io/badge/Progress-35%20%2F%20306%20=%2011.44%25-ff69b4.svg)
 
 > 愚者千虑，必有一得。
 
@@ -196,7 +196,7 @@ let 😎 = Easy, 😐 = Medium, 😨 = Hard, ㊙️= require premium membership
 - [ ] 186 😐 [Reverse Words in a String II](https://leetcode.com/problems/reverse-words-in-a-string-ii/)  ㊙️
 - [ ] 187 😐 [Repeated DNA Sequences](https://leetcode.com/problems/repeated-dna-sequences/) 
 - [ ] 188 😨 [Best Time to Buy and Sell Stock IV](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-iv/) 
-- [ ] 189 😎 [Rotate Array](https://leetcode.com/problems/rotate-array/) 
+- [x] 189 😎 [Rotate Array](https://leetcode.com/problems/rotate-array/) [.swift](./Tests/189.swift)
 - [ ] 190 😎 [Reverse Bits](https://leetcode.com/problems/reverse-bits/) 
 - [ ] 191 😎 [Number of 1 Bits](https://leetcode.com/problems/number-of-1-bits/) 
 - [ ] 198 😎 [House Robber](https://leetcode.com/problems/house-robber/) 
