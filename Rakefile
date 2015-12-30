@@ -6,6 +6,7 @@ desc 'Start test with XCTool'
 task :test do
   system %{
     xctool test \
+      -jobs 4 \
       -project LeetCode.xcodeproj \
       -scheme LeetCodeTests \
       -sdk macosx
