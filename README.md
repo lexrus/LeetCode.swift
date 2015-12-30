@@ -3,7 +3,7 @@
 [![Travis](https://img.shields.io/travis/lexrus/LeetCode.swift.svg)](https://travis-ci.org/lexrus/LeetCode.swift)
 ![Language](https://img.shields.io/badge/language-Swift%202-orange.svg)
 ![License](https://img.shields.io/github/license/lexrus/ios-dev-playbook.svg?style=flat)
-![Progress](https://img.shields.io/badge/Progress-35%20%2F%20306%20=%2011.44%25-ff69b4.svg)
+![Progress](https://img.shields.io/badge/Progress-36%20%2F%20306%20=%2011.76%25-ff69b4.svg)
 
 > 愚者千虑，必有一得。
 
@@ -172,7 +172,7 @@ let 😎 = Easy, 😐 = Medium, 😨 = Hard, ㊙️= require premium membership
 - [ ] 152 😐 [Maximum Product Subarray](https://leetcode.com/problems/maximum-product-subarray/) 
 - [ ] 153 😐 [Find Minimum in Rotated Sorted Array](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/) 
 - [ ] 154 😨 [Find Minimum in Rotated Sorted Array II](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array-ii/) 
-- [ ] 155 😎 [Min Stack](https://leetcode.com/problems/min-stack/) 
+- [x] 155 😎 [Min Stack](https://leetcode.com/problems/min-stack/) [.swift](./Tests/155.swift)
 - [ ] 156 😐 [Binary Tree Upside Down](https://leetcode.com/problems/binary-tree-upside-down/)  ㊙️
 - [ ] 157 😎 [Read N Characters Given Read4](https://leetcode.com/problems/read-n-characters-given-read4/)  ㊙️
 - [ ] 158 😨 [Read N Characters Given Read4 II - Call multiple times](https://leetcode.com/problems/read-n-characters-given-read4-ii-call-multiple-times/)  ㊙️
