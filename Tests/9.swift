@@ -45,16 +45,14 @@ func isPalindrome(x: Int) -> Bool {
 class PalindromeNumberTest: XCTestCase {
 
     func testPalindromeNumber() {
-        measureBlock {
-            XCTAssertFalse(isPalindrome(-121), "")
-            XCTAssertTrue(isPalindrome(123321), "")
-            XCTAssertTrue(isPalindrome(1234567890987654321), "")
-            XCTAssertFalse(isPalindrome(9223372036854775807), "")
-            XCTAssertTrue(isPalindrome(0), "")
-            XCTAssertFalse(isPalindrome(23), "")
-            XCTAssertFalse(isPalindrome(Int.max), "")
-            XCTAssertFalse(isPalindrome(Int.min), "")
-        }
+        XCTAssertFalse(isPalindrome(-121), "")
+        XCTAssertTrue(isPalindrome(123321), "")
+        XCTAssertTrue(isPalindrome(1234567890987654321), "")
+        XCTAssertFalse(isPalindrome(9223372036854775807), "")
+        XCTAssertTrue(isPalindrome(0), "")
+        XCTAssertFalse(isPalindrome(23), "")
+        XCTAssertFalse(isPalindrome(Int.max), "")
+        XCTAssertFalse(isPalindrome(Int.min), "")
     }
 
 }

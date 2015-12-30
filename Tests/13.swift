@@ -56,11 +56,9 @@ extension String {
 class RomanToIntegerTest: XCTestCase {
 
     func testRomanToInteger() {
-        measureBlock {
-            XCTAssertEqual("X".romanToInteger(), 10, "")
-            XCTAssertEqual("XII".romanToInteger(), 12, "")
-            XCTAssertEqual("XV".romanToInteger(), 15, "")
-        }
+        XCTAssertEqual("X".romanToInteger(), 10, "")
+        XCTAssertEqual("XII".romanToInteger(), 12, "")
+        XCTAssertEqual("XV".romanToInteger(), 15, "")
     }
-
+    
 }

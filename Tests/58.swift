@@ -46,14 +46,12 @@ extension String {
 class LengthOfLastWordTest: XCTestCase {
 
     func testLengthOfLastWord() {
-        measureBlock {
-            XCTAssertEqual("Hello world".lengthOfLastWord(), 5, "")
-            XCTAssertEqual("Helloworld".lengthOfLastWord(), 10, "")
-            XCTAssertEqual("a".lengthOfLastWord(), 1, "")
-            XCTAssertEqual(" ".lengthOfLastWord(), 0, "")
-            XCTAssertEqual("Hello world   ".lengthOfLastWord(), 5, "")
-            XCTAssertEqual("abc defg hijkl".lengthOfLastWord(), 5, "")
-        }
+        XCTAssertEqual("Hello world".lengthOfLastWord(), 5, "")
+        XCTAssertEqual("Helloworld".lengthOfLastWord(), 10, "")
+        XCTAssertEqual("a".lengthOfLastWord(), 1, "")
+        XCTAssertEqual(" ".lengthOfLastWord(), 0, "")
+        XCTAssertEqual("Hello world   ".lengthOfLastWord(), 5, "")
+        XCTAssertEqual("abc defg hijkl".lengthOfLastWord(), 5, "")
     }
-
+    
 }

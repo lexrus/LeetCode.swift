@@ -47,13 +47,11 @@ func strStr0(haystack: String, needle: String) -> Int {
 class StrStrTest: XCTestCase {
 
     func testStrStr() {
-        measureBlock {
-            XCTAssertEqual(strStr0("abcdefg", needle: "bcd"), 1, "")
-            XCTAssertEqual(strStr0("aaa", needle: "a"), 0, "")
-            XCTAssertEqual(strStr0("abcdefg", needle: ""), -1, "")
-            XCTAssertEqual(strStr0("", needle: ""), -1, "")
-            XCTAssertEqual(strStr0("a", needle: "adfasdfasf"), -1, "")
-        }
+        XCTAssertEqual(strStr0("abcdefg", needle: "bcd"), 1, "")
+        XCTAssertEqual(strStr0("aaa", needle: "a"), 0, "")
+        XCTAssertEqual(strStr0("abcdefg", needle: ""), -1, "")
+        XCTAssertEqual(strStr0("", needle: ""), -1, "")
+        XCTAssertEqual(strStr0("a", needle: "adfasdfasf"), -1, "")
     }
 
 }

@@ -68,22 +68,20 @@ func atoi(s: String) -> Int {
 class StringToIntegerAtoiTest: XCTestCase {
 
     func testStringToInteger() {
-        measureBlock {
-            XCTAssertEqual(-2, atoi(" -02"), "")
-            XCTAssertEqual(0, atoi(""), "")
-            XCTAssertEqual(23, atoi(" 23-"), "")
-            XCTAssertEqual(0, atoi(" asdfaasdf"), "")
-            XCTAssertEqual(123, atoi("123"), "")
-            XCTAssertEqual(123, atoi("   123"), "")
-            XCTAssertEqual(123, atoi("123    "), "")
-            XCTAssertEqual(123, atoi("+123"), "")
-            XCTAssertEqual(123, atoi("123ABC"), "")
-            XCTAssertEqual(123, atoi(" abc123ABC"), "")
-            XCTAssertEqual(9223372036854775807, atoi("9223372036854775807"), "")
-            XCTAssertEqual(-9223372036854775808, atoi("-9223372036854775808"), "")
-            XCTAssertEqual(9223372036854775807, atoi("9223372036854775808"), "")
-            XCTAssertEqual(-9223372036854775808, atoi("-9223372036854775809"), "")
-        }
+        XCTAssertEqual(-2, atoi(" -02"), "")
+        XCTAssertEqual(0, atoi(""), "")
+        XCTAssertEqual(23, atoi(" 23-"), "")
+        XCTAssertEqual(0, atoi(" asdfaasdf"), "")
+        XCTAssertEqual(123, atoi("123"), "")
+        XCTAssertEqual(123, atoi("   123"), "")
+        XCTAssertEqual(123, atoi("123    "), "")
+        XCTAssertEqual(123, atoi("+123"), "")
+        XCTAssertEqual(123, atoi("123ABC"), "")
+        XCTAssertEqual(123, atoi(" abc123ABC"), "")
+        XCTAssertEqual(9223372036854775807, atoi("9223372036854775807"), "")
+        XCTAssertEqual(-9223372036854775808, atoi("-9223372036854775808"), "")
+        XCTAssertEqual(9223372036854775807, atoi("9223372036854775808"), "")
+        XCTAssertEqual(-9223372036854775808, atoi("-9223372036854775809"), "")
     }
 
 }

@@ -45,11 +45,9 @@ func longestCommonPrefix(list: [String]) -> String? {
 class LongestCommonPrefixTest: XCTestCase {
 
     func testLongestCommonPrefix() {
-        measureBlock {
-            XCTAssertNil(longestCommonPrefix([]), "")
-            XCTAssertNil(longestCommonPrefix(["a", "b", "c"]), "")
-            XCTAssertEqual(longestCommonPrefix(["abc", "abb", "abcd"])!, "ab", "")
-        }
+        XCTAssertNil(longestCommonPrefix([]), "")
+        XCTAssertNil(longestCommonPrefix(["a", "b", "c"]), "")
+        XCTAssertEqual(longestCommonPrefix(["abc", "abb", "abcd"])!, "ab", "")
     }
-
+    
 }

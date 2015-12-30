@@ -45,12 +45,10 @@ func plusOne(digits: [Int]) -> [Int] {
 class PlusOneTest: XCTestCase {
 
     func testPlusOne() {
-        measureBlock {
-            XCTAssertEqual(plusOne([1, 2, 3]), [1, 2, 4], "")
-            XCTAssertEqual(plusOne([9]), [1, 0], "")
-            XCTAssertEqual(plusOne([0]), [1], "")
-            XCTAssertEqual(plusOne([9, 9, 9, 9]), [1, 0, 0, 0, 0], "")
-        }
+        XCTAssertEqual(plusOne([1, 2, 3]), [1, 2, 4], "")
+        XCTAssertEqual(plusOne([9]), [1, 0], "")
+        XCTAssertEqual(plusOne([0]), [1], "")
+        XCTAssertEqual(plusOne([9, 9, 9, 9]), [1, 0, 0, 0, 0], "")
     }
 
 }

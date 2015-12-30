@@ -46,16 +46,14 @@ extension ListNode {
 class RemoveDuplicatesFromSortedListIITest: XCTestCase {
 
     func testRemoveDuplicatesFromSortedList() {
-        measureBlock {
-            let l0 = ListNode(1, ListNode(1))
-            XCTAssertEqual(l0.removeDuplicatesFromSortedListII().debugDescription, "1", "")
+        let l0 = ListNode(1, ListNode(1))
+        XCTAssertEqual(l0.removeDuplicatesFromSortedListII().debugDescription, "1", "")
 
-            let l1 = ListNode(1, ListNode(1, ListNode(2)))
-            XCTAssertEqual(l1.removeDuplicatesFromSortedListII().debugDescription, "1 2", "")
+        let l1 = ListNode(1, ListNode(1, ListNode(2)))
+        XCTAssertEqual(l1.removeDuplicatesFromSortedListII().debugDescription, "1 2", "")
 
-            let l2 = ListNode(1, ListNode(1, ListNode(2, ListNode(3, ListNode(3)))))
-            XCTAssertEqual(l2.removeDuplicatesFromSortedListII().debugDescription, "1 2 3", "")
-        }
+        let l2 = ListNode(1, ListNode(1, ListNode(2, ListNode(3, ListNode(3)))))
+        XCTAssertEqual(l2.removeDuplicatesFromSortedListII().debugDescription, "1 2 3", "")
     }
-
+    
 }

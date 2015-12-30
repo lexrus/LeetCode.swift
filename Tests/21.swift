@@ -50,16 +50,14 @@ extension ListNode {
 class MergeTwoSortedListsTest: XCTestCase {
 
     func testMergeTwoSortedList() {
-        measureBlock {
-            let l0 = ListNode(1, ListNode(2, ListNode(3))).mergeSortedLists(ListNode(2, ListNode(4)))!
-            XCTAssertEqual(l0.debugDescription, "1 2 2 3 4", "")
+        let l0 = ListNode(1, ListNode(2, ListNode(3))).mergeSortedLists(ListNode(2, ListNode(4)))!
+        XCTAssertEqual(l0.debugDescription, "1 2 2 3 4", "")
 
-            let l1 = ListNode(3).mergeSortedLists(ListNode(2, ListNode(4)))!
-            XCTAssertEqual(l1.debugDescription, "2 3 4", "")
+        let l1 = ListNode(3).mergeSortedLists(ListNode(2, ListNode(4)))!
+        XCTAssertEqual(l1.debugDescription, "2 3 4", "")
 
-            let l2 = ListNode(1).mergeSortedLists(ListNode(0))!
-            XCTAssertEqual(l2.debugDescription, "0 1", "")
-        }
+        let l2 = ListNode(1).mergeSortedLists(ListNode(0))!
+        XCTAssertEqual(l2.debugDescription, "0 1", "")
     }
-
+    
 }

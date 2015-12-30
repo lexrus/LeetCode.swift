@@ -106,10 +106,8 @@ extension ZigZagConversion {
 class ZigZagConversionTest: XCTestCase {
 
     func testZigZagConvert() {
-        measureBlock {
-            XCTAssertEqual(ZigZagConversion.convert0("PAYPALISHIRING", 3), "PAHNAPLSIIGYIR", "")
-            XCTAssertEqual(ZigZagConversion.convert1("PAYPALISHIRING", 3), "PAHNAPLSIIGYIR", "")
-        }
+        XCTAssertEqual(ZigZagConversion.convert0("PAYPALISHIRING", 3), "PAHNAPLSIIGYIR", "")
+        XCTAssertEqual(ZigZagConversion.convert1("PAYPALISHIRING", 3), "PAHNAPLSIIGYIR", "")
     }
 
 }
