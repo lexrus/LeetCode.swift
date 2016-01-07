@@ -3,7 +3,7 @@
 [![Travis](https://img.shields.io/travis/lexrus/LeetCode.swift.svg)](https://travis-ci.org/lexrus/LeetCode.swift)
 ![Language](https://img.shields.io/badge/language-Swift%202-orange.svg)
 ![License](https://img.shields.io/github/license/lexrus/ios-dev-playbook.svg?style=flat)
-![Progress](https://img.shields.io/badge/Progress-36%20%2F%20306%20=%2011.76%25-ff69b4.svg)
+![Progress](https://img.shields.io/badge/Progress-37%20%2F%20308%20=%2012.01%25-ff69b4.svg)
 
 > 愚者千虑，必有一得。
 
@@ -131,7 +131,7 @@ let 😎 = Easy, 😐 = Medium, 😨 = Hard, ㊙️= require premium membership
 - [x] 111 😎 [Minimum Depth of Binary Tree](https://leetcode.com/problems/minimum-depth-of-binary-tree/) [.swift](./Tests/111.swift)
 - [ ] 112 😎 [Path Sum](https://leetcode.com/problems/path-sum/) 
 - [ ] 113 😐 [Path Sum II](https://leetcode.com/problems/path-sum-ii/) 
-- [ ] 114 😐 [Flatten Binary Tree to Linked List](https://leetcode.com/problems/flatten-binary-tree-to-linked-list/) 
+- [x] 114 😐 [Flatten Binary Tree to Linked List](https://leetcode.com/problems/flatten-binary-tree-to-linked-list/) [.swift](./Tests/114.swift)
 - [ ] 115 😨 [Distinct Subsequences](https://leetcode.com/problems/distinct-subsequences/) 
 - [ ] 116 😐 [Populating Next Right Pointers in Each Node](https://leetcode.com/problems/populating-next-right-pointers-in-each-node/) 
 - [ ] 117 😨 [Populating Next Right Pointers in Each Node II](https://leetcode.com/problems/populating-next-right-pointers-in-each-node-ii/) 
@@ -324,6 +324,8 @@ let 😎 = Easy, 😐 = Medium, 😨 = Hard, ㊙️= require premium membership
 - [ ] 321 😨 [Create Maximum Number](https://leetcode.com/problems/create-maximum-number/) 
 - [ ] 322 😐 [Coin Change](https://leetcode.com/problems/coin-change/) 
 - [ ] 323 😐 [Number of Connected Components in an Undirected Graph](https://leetcode.com/problems/number-of-connected-components-in-an-undirected-graph/)  ㊙️
+- [ ] 324 😐 [Wiggle Sort II](https://leetcode.com/problems/wiggle-sort-ii/) 
+- [ ] 325 😎 [Maximum Size Subarray Sum Equals k](https://leetcode.com/problems/maximum-size-subarray-sum-equals-k/)  ㊙️
 
 
 ## Unit tests
