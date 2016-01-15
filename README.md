@@ -3,7 +3,7 @@
 [![Travis](https://img.shields.io/travis/lexrus/LeetCode.swift.svg)](https://travis-ci.org/lexrus/LeetCode.swift)
 ![Language](https://img.shields.io/badge/language-Swift%202-orange.svg)
 ![License](https://img.shields.io/github/license/lexrus/ios-dev-playbook.svg?style=flat)
-![Progress](https://img.shields.io/badge/Progress-37%20%2F%20308%20=%2012.01%25-ff69b4.svg)
+![Progress](https://img.shields.io/badge/Progress-37%20%2F%20310%20=%2011.94%25-ff69b4.svg)
 
 > 愚者千虑，必有一得。
 
@@ -15,7 +15,7 @@ Most of the algorithms were __not__ figured out by myself.
 PLEASE __DO NOT CONTRIBUTE__ until I accomplish all of them.
 
 ``` swift
-let 😎 = Easy, 😐 = Medium, 😨 = Hard, ㊙️= require premium membership
+let 😎 = "Easy", 😐 = "Medium", 😨 = "Hard", ㊙️ = "require premium membership"
 ```
 
 - [x] 1 😐 [Two Sum](https://leetcode.com/problems/two-sum/) [.swift](./Tests/1.swift)
@@ -326,6 +326,8 @@ let 😎 = Easy, 😐 = Medium, 😨 = Hard, ㊙️= require premium membership
 - [ ] 323 😐 [Number of Connected Components in an Undirected Graph](https://leetcode.com/problems/number-of-connected-components-in-an-undirected-graph/)  ㊙️
 - [ ] 324 😐 [Wiggle Sort II](https://leetcode.com/problems/wiggle-sort-ii/) 
 - [ ] 325 😎 [Maximum Size Subarray Sum Equals k](https://leetcode.com/problems/maximum-size-subarray-sum-equals-k/)  ㊙️
+- [x] 326 😎 [Power of Three](https://leetcode.com/problems/power-of-three/) [.swift](./Tests/326.swift)
+- [ ] 327 😨 [Count of Range Sum](https://leetcode.com/problems/count-of-range-sum/) 
 
 
 ## Unit tests
