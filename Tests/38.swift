@@ -39,9 +39,9 @@ func countAndSay(n: Int) -> String {
         var cnt = 0
         var last = s[0]
         var newS = ""
-        for var j = 0; j <= s.characters.count; j++ {
+        for var j = 0; j <= s.characters.count; j += 1 {
             if s[j] == last {
-                cnt++
+                cnt += 1
             } else {
                 newS.append(Character("\(cnt)"))
                 newS.append(last!)
@@ -50,7 +50,7 @@ func countAndSay(n: Int) -> String {
             }
         }
         s = newS
-        i++
+        i += 1
     }
 
     return s

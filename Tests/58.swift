@@ -28,7 +28,7 @@ extension String {
 
         for (_, c) in "\(self) ".characters.enumerate() {
             if c != spaceChar {
-                cnt++
+                cnt += 1
             } else {
                 if cnt > 0 {
                     wordLength = cnt

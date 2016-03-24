@@ -29,7 +29,7 @@ func compareVersionNumbers(lhs: String, rhs: String) -> Int {
     let lhsA = lhs.componentsSeparatedByString(".")
     let rhsA = rhs.componentsSeparatedByString(".")
 
-    for var i = 0; i < max(lhsA.count, rhsA.count); i++ {
+    for i in 0 ..< max(lhsA.count, rhsA.count) {
         let lInt: Int, rInt: Int
         if i >= lhsA.count {
             lInt = 0

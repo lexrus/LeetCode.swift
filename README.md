@@ -331,7 +331,7 @@ let 😎 = "Easy", 😐 = "Medium", 😨 = "Hard", ㊙️ = "require premium mem
 
 
 ## Unit tests
-Open the project with Xcode 7.2 then press `⌘ + u`.
+Open the project with Xcode 7.3 then press `⌘ + u`.
 Or run `rake test` in this folder if you have [xctool](https://github.com/facebook/xctool) installed.
 
 

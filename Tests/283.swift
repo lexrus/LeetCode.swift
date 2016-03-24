@@ -40,9 +40,9 @@ func moveZeros(var nums: Array<Int>) -> Array<Int> {
     while i < nums.count {
         if nums[i] != 0 {
             nums.swap(i, index)
-            index++
+            index += 1
         }
-        i++
+        i += 1
     }
 
     return nums

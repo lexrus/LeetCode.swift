@@ -62,7 +62,7 @@ class ZigZagConversion {
 
         while i < rows {
             result.appendContentsOf(r[i])
-            i++
+            i += 1
         }
 
         return result
@@ -86,11 +86,13 @@ extension ZigZagConversion {
         var array = Array<String>(count: rows, repeatedValue: String())
         var i = 0, length = text.characters.count
         while i < length {
-            for var index = 0; index < rows && i < length; index++ {
-                array[index].append(text[i++]!)
+            for var index = 0; index < rows && i < length; index += 1 {
+                array[index].append(text[i]!)
+                i += 1
             }
-            for var index = rows - 2; index > 0 && i < length; index-- {
-                array[index].append(text[i++]!)
+            for var index = rows - 2; index > 0 && i < length; index -= 1 {
+                array[index].append(text[i]!)
+                i += 1
             }
         }
         var result = ""

@@ -51,7 +51,7 @@ extension String {
 
         if let c = self[index + 1] {
             if c == "+" || c == "-" {
-                index++
+                index += 1
             }
         }
 
@@ -61,7 +61,7 @@ extension String {
         var s = self[index]
         let firstDigit = s
 
-        for ; index < length; index++ {
+        for ; index < length; index += 1 {
             s = self[index]
 
             if s == "." {
@@ -79,10 +79,10 @@ extension String {
                 if hasE || s == firstDigit {
                     return false
                 }
-                index++
+                index += 1
                 s = self[index]
                 if s == "+" || s == "-" {
-                    index++
+                    index += 1
                 }
                 s = self[index]
                 if s == nil || !s!.isDigit() {
@@ -94,7 +94,7 @@ extension String {
             }
 
             if s != nil && s!.isSpace() {
-                for ; index < length; index++ {
+                for ; index < length; index += 1 {
                     s = self[index]
                     if s != nil && !s!.isSpace() {
                         return false

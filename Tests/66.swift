@@ -20,7 +20,7 @@ func plusOne(digits: [Int]) -> [Int] {
     var result: [Int] = digits
     var carry = 1
 
-    for var i = result.count - 1; i >= 0; i-- {
+    for var i = result.count - 1; i >= 0; i -= 1 {
         if result[i] < 9 {
             let digit = result[i] + 1
             result.removeAtIndex(i)

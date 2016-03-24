@@ -30,7 +30,7 @@ extension ListNode {
         var d = self
         while d.next != nil {
             d = d.next!
-            c++
+            c += 1
         }
         return c
     }
@@ -61,7 +61,7 @@ extension ListNode {
             }
             dummy.next = ListNode(current.value)
             dummy = dummy.next!
-            i++
+            i += 1
         }
         return result.next!
     }

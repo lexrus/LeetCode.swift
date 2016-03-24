@@ -30,20 +30,20 @@ func mergeSortedArray(a: Array<Int>, b: Array<Int>) -> Array<Int> {
     while i >= 0 {
         if j < 0 {
             c[i] = b[k]
-            k--
+            k -= 1
         } else if k < 0 {
             c[i] = a[j]
-            j--
+            j -= 1
         } else {
             if a[j] > b[k] {
                 c[i] = a[j]
-                j--
+                j -= 1
             } else {
                 c[i] = b[k]
-                k--
+                k -= 1
             }
         }
-        i--
+        i -= 1
     }
 
     return c

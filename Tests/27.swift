@@ -19,13 +19,13 @@ import XCTest
 func removeElement(inout array: Array<Int>, element: Int) -> Int {
     var i = 0, j = 0
 
-    for ; i < array.count; i++ {
+    for ; i < array.count; i += 1 {
         if array[i] == element {
             continue
         }
 
         array[j] = array[i]
-        j++
+        j += 1
     }
 
     // NOTE: In order to remove the remaining elements.

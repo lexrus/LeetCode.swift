@@ -39,7 +39,7 @@ func groupAnagrams(a: [String]) -> [[String]] {
 
         var i = array.count
         while i > 0 {
-            i--
+            i -= 1
             if isAnagram(array[i], last) {
                 if var lastGroup = group.popLast() {
                     lastGroup.append(array[i])

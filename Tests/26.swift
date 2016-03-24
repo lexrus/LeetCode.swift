@@ -31,7 +31,7 @@ extension NSMutableArray {
         }
 
         var index = 0
-        for var i = 1; i < self.count; i++ {
+        for i in 1 ..< self.count {
             let l: AnyObject = self.objectAtIndex(index)
             let r: AnyObject = self.objectAtIndex(i)
             if !l.isEqual(r) {
