@@ -17,7 +17,7 @@ import XCTest
 
 extension TreeNode {
 
-    private func _maxDepth(node: TreeNode?, _ depth: Int) -> Int {
+    fileprivate func _maxDepth(_ node: TreeNode?, _ depth: Int) -> Int {
         if let node = node {
             return 1 + max(_maxDepth(node.leftNode, depth), _maxDepth(node.rightNode, depth))
         }

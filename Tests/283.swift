@@ -22,7 +22,7 @@ import XCTest
 
 extension Array {
 
-    mutating func swap(leftIndex: Int, _ rightIndex: Int) {
+    mutating func swap(_ leftIndex: Int, _ rightIndex: Int) {
         guard leftIndex != rightIndex else { return }
         guard leftIndex < count && rightIndex < count else { return }
         let left = self[leftIndex]
@@ -33,7 +33,8 @@ extension Array {
 }
 
 // @see https://leetcode.com/discuss/70169/1ms-java-solution
-func moveZeros(var nums: Array<Int>) -> Array<Int> {
+func moveZeros(_ nums: Array<Int>) -> Array<Int> {
+    var nums = nums
     var index = 0
     var i = 0
 

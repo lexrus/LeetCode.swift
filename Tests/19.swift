@@ -41,7 +41,7 @@ extension ListNode {
      - parameter n: Nth from the end of list
      - returns: The new linked list
      */
-    func removeNthFromEnd(n: Int) -> ListNode {
+    func removeNthFromEnd(_ n: Int) -> ListNode {
         let result = ListNode(0)
         var current = ListNode(0, self)
         var dummy = result

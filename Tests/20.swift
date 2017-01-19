@@ -38,7 +38,7 @@ extension String {
                     || (char == "["[0] && sChar == "]"[0])
                     || (char == "{"[0] && sChar == "}"[0]) {
                         s.popBack()
-                        stack.removeAtIndex(stack.count - 1)
+                        stack.remove(at: stack.count - 1)
                 } else {
                     return false
                 }

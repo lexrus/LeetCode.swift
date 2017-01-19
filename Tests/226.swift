@@ -32,7 +32,7 @@ Google: 90% of our engineers use the software you wrote (Homebrew), but you canâ
 import Foundation
 import XCTest
 
-func invertBinaryTree(tree: TreeNode) -> TreeNode {
+func invertBinaryTree(_ tree: TreeNode) -> TreeNode {
     let l = tree.leftNode
     let r = tree.rightNode
     tree.leftNode = r

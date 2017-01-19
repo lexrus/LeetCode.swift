@@ -17,7 +17,7 @@ import XCTest
 
 extension TreeNode {
 
-    private func getHeight(node: TreeNode?) -> Int {
+    fileprivate func getHeight(_ node: TreeNode?) -> Int {
         guard let node = node else {
             return 0
         }

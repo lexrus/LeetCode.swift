@@ -26,7 +26,7 @@ import Foundation
 import XCTest
 
 
-func isAnagram(s: String, _ t: String) -> Bool {
+func isAnagram(_ s: String, _ t: String) -> Bool {
     // They must have the same size
     if s.characters.count != t.characters.count {
         return false
@@ -34,8 +34,8 @@ func isAnagram(s: String, _ t: String) -> Bool {
 
     var src = s
     t.characters.forEach {
-        if let charRange = src.rangeOfString(String($0)) {
-            src.removeAtIndex(charRange.startIndex)
+        if let charRange = src.range(of: String($0)) {
+            src.remove(at: charRange.lowerBound)
         }
     }
 

@@ -21,14 +21,18 @@ import XCTest
 
 // Brute Force
 // Time complexity：O(mn), Space complexity: O(1)
-func strStr0(haystack: String, needle: String) -> Int {
+func strStr0(_ haystack: String, needle: String) -> Int {
     let m = haystack.characters.count, n = needle.characters.count
     if n > 0 {
-        for var i = 0, j = 0; i < m - n; i += 1 {
-            for ; j < n && haystack[i + j] == needle[j]; j += 1 {}
+        var i = 0, j = 0
+        while i < m - n {
+            while j < n && haystack[i + j] == needle[j] {
+                j += 1
+            }
             if j == n {
                 return i
             }
+            i += 1
         }
     }
     return -1

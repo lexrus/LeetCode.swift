@@ -17,7 +17,7 @@ import XCTest
 
 extension ListNode {
 
-    func mergeSortedLists(list: ListNode) -> ListNode? {
+    func mergeSortedLists(_ list: ListNode) -> ListNode? {
         let dummy = ListNode(0)
         var p = dummy
         var l1: ListNode? = self

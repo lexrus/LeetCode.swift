@@ -32,15 +32,16 @@ extension NSMutableArray {
 
         var index = 0
         for i in 1 ..< self.count {
-            let l: AnyObject = self.objectAtIndex(index)
-            let r: AnyObject = self.objectAtIndex(i)
+            let l: AnyObject = self.object(at: index) as AnyObject
+            let r: AnyObject = self.object(at: i) as AnyObject
             if !l.isEqual(r) {
-                self.replaceObjectAtIndex(++index, withObject: r)
+                index += 1
+                self.replaceObject(at: index, with: r)
             }
         }
 
         // Remove the remaining
-        self.removeObjectsInRange(NSRange(location: index + 1, length: self.count - index - 1))
+        self.removeObjects(in: NSRange(location: index + 1, length: self.count - index - 1))
         return index + 1
     }
 

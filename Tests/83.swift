@@ -21,7 +21,7 @@ Subscribe to see which companies asked this question
 import Foundation
 import XCTest
 
-func deleteDuplicates(head: ListNode) -> ListNode {
+func deleteDuplicates(_ head: ListNode) -> ListNode {
     let dummy = ListNode(0, head)
     var current = dummy.next
 

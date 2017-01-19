@@ -34,7 +34,7 @@ extension String {
         var index = 0
         let length = self.characters.count
 
-        for (i, c) in self.characters.enumerate() {
+        for (i, c) in self.characters.enumerated() {
             if c.isSpace() {
                 continue
             } else {
@@ -61,7 +61,8 @@ extension String {
         var s = self[index]
         let firstDigit = s
 
-        for ; index < length; index += 1 {
+        while index < length {
+            defer { index += 1 }
             s = self[index]
 
             if s == "." {
@@ -94,11 +95,12 @@ extension String {
             }
 
             if s != nil && s!.isSpace() {
-                for ; index < length; index += 1 {
+                while index < length {
                     s = self[index]
                     if s != nil && !s!.isSpace() {
                         return false
                     }
+                    index += 1
                 }
                 return true
             }

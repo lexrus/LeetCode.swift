@@ -24,10 +24,10 @@ import Foundation
 import XCTest
 
 
-func compareVersionNumbers(lhs: String, rhs: String) -> Int {
+func compareVersionNumbers(_ lhs: String, rhs: String) -> Int {
 
-    let lhsA = lhs.componentsSeparatedByString(".")
-    let rhsA = rhs.componentsSeparatedByString(".")
+    let lhsA = lhs.components(separatedBy: ".")
+    let rhsA = rhs.components(separatedBy: ".")
 
     for i in 0 ..< max(lhsA.count, rhsA.count) {
         let lInt: Int, rInt: Int

@@ -23,7 +23,7 @@ import Foundation
 import XCTest
 
 
-func countAndSay(n: Int) -> String {
+func countAndSay(_ n: Int) -> String {
     if n == 0 {
         return ""
     }
@@ -39,7 +39,8 @@ func countAndSay(n: Int) -> String {
         var cnt = 0
         var last = s[0]
         var newS = ""
-        for var j = 0; j <= s.characters.count; j += 1 {
+
+        for j in 0...s.characters.count {
             if s[j] == last {
                 cnt += 1
             } else {

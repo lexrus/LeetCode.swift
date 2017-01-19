@@ -26,7 +26,7 @@ If no valid conversion could be performed, a zero value is returned. If the corr
 import Foundation
 import XCTest
 
-func atoi(s: String) -> Int {
+func atoi(_ s: String) -> Int {
     if s.isEmpty || s == "0" {
         return 0
     }
@@ -34,9 +34,9 @@ func atoi(s: String) -> Int {
     var result = 0, negative = false
     let zeroValue = 48
 
-    let s = s.stringByTrimmingCharactersInSet(NSCharacterSet.whitespaceAndNewlineCharacterSet())
+    let s = s.trimmingCharacters(in: CharacterSet.whitespacesAndNewlines)
 
-    if s.substringToIndex(s.startIndex.advancedBy(1)) == "-" {
+    if s.substring(to: s.characters.index(s.startIndex, offsetBy: 1)) == "-" {
         negative = true
     }
 

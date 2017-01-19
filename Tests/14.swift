@@ -16,17 +16,17 @@ import Foundation
 import XCTest
 
 
-func longestCommonPrefix(list: [String]) -> String? {
+func longestCommonPrefix(_ list: [String]) -> String? {
 
     var foundWord = ""
     var match = false
 
     if list.count == 0 || list[0].isEmpty {
-        return .None
+        return .none
     }
 
-    for (i, char) in list[0].characters.enumerate() {
-        for (_, str) in list.enumerate() {
+    for (i, char) in list[0].characters.enumerated() {
+        for (_, str) in list.enumerated() {
             match = str[i] == char
             if !match {
                 break
@@ -38,7 +38,7 @@ func longestCommonPrefix(list: [String]) -> String? {
         }
     }
 
-    return foundWord.isEmpty ? .None : foundWord
+    return foundWord.isEmpty ? .none : foundWord
 }
 
 

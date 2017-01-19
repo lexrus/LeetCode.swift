@@ -49,15 +49,15 @@ class TwoSum {
 
     - returns: Indeces of the two numbers
     */
-    class func twoSum0(array: [Int], target: Int) -> (Int, Int)? {
-        for (i, item0) in array.enumerate() {
-            for (j, item1) in array.enumerate() {
+    class func twoSum0(_ array: [Int], target: Int) -> (Int, Int)? {
+        for (i, item0) in array.enumerated() {
+            for (j, item1) in array.enumerated() {
                 if item0 + item1 == target {
                     return (i + 1, j + 1)
                 }
             }
         }
-        return .None
+        return .none
     }
 
     /**
@@ -72,9 +72,9 @@ class TwoSum {
 
     - returns: Indeces of the two numbers
     */
-    class func twoSum1(array: [Int], target: Int) -> (Int, Int)? {
+    class func twoSum1(_ array: [Int], target: Int) -> (Int, Int)? {
         var map = [Int: Int]()
-        for (i, item0) in array.enumerate() {
+        for (i, item0) in array.enumerated() {
             // found the second one
             if let secondOne = map[item0] {
                 return (secondOne + 1, i + 1)
@@ -83,7 +83,7 @@ class TwoSum {
                 map[target - item0] = i
             }
         }
-        return .None
+        return .none
     }
 
 }

@@ -19,9 +19,9 @@ Could you do it without any loop/recursion in O(1) runtime?
 
 import XCTest
 
-func addDigitsNaïve(n: Int) -> Int {
+func addDigitsNaïve(_ n: Int) -> Int {
 
-    func sumDigits(m: Int) -> Int {
+    func sumDigits(_ m: Int) -> Int {
         let o = m % 10
         if m > 9 {
             return o + sumDigits(m / 10)
@@ -36,7 +36,7 @@ func addDigitsNaïve(n: Int) -> Int {
     return p
 }
 
-func addDigits(n: Int) -> Int {
+func addDigits(_ n: Int) -> Int {
     if n < 10 {
         return n
     }

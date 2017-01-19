@@ -32,7 +32,7 @@ Bonus points if you could solve it both recursively and iteratively.
 import Foundation
 import XCTest
 
-func isNodesSymmetric(left: TreeNode?, right: TreeNode?) -> Bool {
+func isNodesSymmetric(_ left: TreeNode?, right: TreeNode?) -> Bool {
     if left == nil && right == nil {
         return true
     }
@@ -49,7 +49,7 @@ func isNodesSymmetric(left: TreeNode?, right: TreeNode?) -> Bool {
         && isNodesSymmetric(right!.leftNode, right: left!.rightNode)
 }
 
-func isSymmetric(root: TreeNode?) -> Bool {
+func isSymmetric(_ root: TreeNode?) -> Bool {
 
     if root == nil {
         return true

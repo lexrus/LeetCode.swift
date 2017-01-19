@@ -17,11 +17,11 @@ import XCTest
 
 extension TreeNode {
     
-    private func minimumDepth(node: TreeNode?) -> Int {
+    fileprivate func minimumDepth(_ node: TreeNode?) -> Int {
         if node == nil {
             return 0
         }
-        if let left = node?.leftNode, right = node?.rightNode {
+        if let left = node?.leftNode, let right = node?.rightNode {
             return min(minimumDepth(left), minimumDepth(right)) + 1
         }
         return max(minimumDepth(node?.leftNode), minimumDepth(node?.rightNode)) + 1

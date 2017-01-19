@@ -47,7 +47,7 @@ func +(list0: ListNode, list1: ListNode) -> ListNode {
     }
 
     // If the previous node is greater than 10
-    if Bool(sum / 10) {
+    if sum / 10 > 0 {
         current.next = ListNode(1)
     }
 

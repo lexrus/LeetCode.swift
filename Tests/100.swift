@@ -18,17 +18,17 @@ import XCTest
 
 private extension TreeNode {
 
-    func isEqualTo(tree: TreeNode) -> Bool {
+    func isEqualTo(_ tree: TreeNode) -> Bool {
         if self.value != tree.value {
             return false
         }
         var isEqual = true
-        if let l = self.leftNode, tl = tree.leftNode {
+        if let l = self.leftNode, let tl = tree.leftNode {
             if !l.isEqualTo(tl) {
                 isEqual = false
             }
         }
-        if let r = self.rightNode, rl = tree.rightNode {
+        if let r = self.rightNode, let rl = tree.rightNode {
             if !r.isEqualTo(rl) {
                 isEqual = false
             }

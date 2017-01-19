@@ -1,11 +1,11 @@
 require 'rubygems'
-require 'nokogiri'
-require 'open-uri'
+require 'net/http'
+require 'json'
 
 desc 'Start test with XCTool'
 task :test do
   system %{
-    xctool test \
+    xctool run-tests \
       -jobs 4 \
       -project LeetCode.xcodeproj \
       -scheme LeetCodeTests \
@@ -15,24 +15,28 @@ end
 
 desc 'Sync problems list'
 task :sync_problems do
+  uri = URI('https://leetcode.com/api/problems/algorithms/')
+  response = Net::HTTP.get(uri)
+  json = JSON.parse(response)
+  problems = json['stat_status_pairs']
+
   dir = File.dirname(__FILE__)
-  @doc = Nokogiri::XML(open("https://leetcode.com/problemset/algorithms/"))
-  problems = @doc.xpath("//*[@id='problemList']//tbody/tr")
-  problems = problems.map { |tr|
-    number = tr.xpath("./td[position()=2]").text.to_i
-    a = tr.xpath(".//a").first
-    lock = a.parent.xpath(".//i").last
-    href = a.attributes["href"].value
-    title = a.text
-    difficulty = tr.xpath(".//td[last()]").text
-    finished = File.exists?("#{dir}/Tests/#{number}.swift")
-    
+  problems = problems.map { |p|
+    title = p['stat']['question__title']
+    questionId = p['stat']['question_id']
+    questionSlug = p['stat']['question__title_slug']
+    paidOnly = p['paid_only']
+    difficulty = p['difficulty']['level']
+
+    href = "https://leetcode.com/problems/#{questionSlug}"
+    finished = File.exists?("#{dir}/Tests/#{questionId}.swift")
+
     "- [#{finished ? 'x' : ' '}] " <<
-    "#{number} " <<
-    "#{difficulty == "Hard" ? "😨" : (difficulty == "Medium" ? "😐" : "😎")} " <<
+    "#{questionId} " <<
+    "#{difficulty == 3 ? "😨" : (difficulty == 2 ? "😐" : "😎")} " <<
     "[#{title}](https://leetcode.com#{href}) " <<
-    (finished ? "[.swift](./Tests/#{number}.swift)" : "") <<
-    "#{ lock ? " ㊙️" : ""}"
+    (finished ? "[.swift](./Tests/#{questionId}.swift)" : "") <<
+    "#{ paidOnly ? " ㊙️" : ""}"
   }
   s = File.read("#{dir}/README.md")
   s = s.gsub(/^- \[.+$\n/, "__")

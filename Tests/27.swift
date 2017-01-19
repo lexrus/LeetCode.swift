@@ -16,10 +16,11 @@ import Foundation
 import XCTest
 
 
-func removeElement(inout array: Array<Int>, element: Int) -> Int {
+func removeElement(_ array: inout Array<Int>, element: Int) -> Int {
     var i = 0, j = 0
 
-    for ; i < array.count; i += 1 {
+    while i < array.count {
+        defer { i += 1 }
         if array[i] == element {
             continue
         }
@@ -30,7 +31,7 @@ func removeElement(inout array: Array<Int>, element: Int) -> Int {
 
     // NOTE: In order to remove the remaining elements.
     if array.count >= j+1 {
-        array.removeRange(j..<array.count)
+        array.removeSubrange(j..<array.count)
     }
 
     return j

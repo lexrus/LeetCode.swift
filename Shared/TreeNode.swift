@@ -19,7 +19,7 @@ class TreeNode: CustomDebugStringConvertible {
         self.rightNode = right
     }
 
-    private func printTree(tree: TreeNode) -> String {
+    fileprivate func printTree(_ tree: TreeNode) -> String {
         var s = ""
         if let l = tree.leftNode {
             s = "l=\(printTree(l))"

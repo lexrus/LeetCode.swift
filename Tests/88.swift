@@ -18,10 +18,10 @@ import Foundation
 import XCTest
 
 
-func mergeSortedArray(a: Array<Int>, b: Array<Int>) -> Array<Int> {
+func mergeSortedArray(_ a: Array<Int>, b: Array<Int>) -> Array<Int> {
     let m = a.count
     let n = b.count
-    var c = Array(count: m + n, repeatedValue: 0)
+    var c = Array(repeating: 0, count: m + n)
 
     var i = m + n - 1
     var j = m - 1

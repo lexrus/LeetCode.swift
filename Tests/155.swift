@@ -22,27 +22,27 @@ import XCTest
 
 struct MinStack {
 
-    private indirect enum StackNode {
-        case Empty
-        case Node(value: Int, minimum: Int, next: StackNode?)
+    fileprivate indirect enum StackNode {
+        case empty
+        case node(value: Int, minimum: Int, next: StackNode?)
     }
 
-    private var head: StackNode = .Empty
+    fileprivate var head: StackNode = .empty
 
-    mutating func push(x: Int) {
+    mutating func push(_ x: Int) {
         switch head {
-        case .Empty:
-            head = StackNode.Node(value: x, minimum: x, next: nil)
+        case .empty:
+            head = StackNode.node(value: x, minimum: x, next: nil)
             break
-        case .Node(_, let minimum, _):
+        case .node(_, let minimum, _):
             let m = min(x, minimum)
-            let n = StackNode.Node(value: x, minimum: m, next: head)
+            let n = StackNode.node(value: x, minimum: m, next: head)
             head = n
         }
     }
 
     mutating func pop() {
-        if case StackNode.Node(_, _, let next) = head {
+        if case StackNode.node(_, _, let next) = head {
             if let next = next {
                 head = next
             }
@@ -50,14 +50,14 @@ struct MinStack {
     }
 
     func top() -> Int {
-        if case StackNode.Node(let value, _, _) = head {
+        if case StackNode.node(let value, _, _) = head {
             return value
         }
         return -1
     }
 
     func getMin() -> Int {
-        if case StackNode.Node(_, let minimum, _) = head {
+        if case StackNode.node(_, let minimum, _) = head {
             return minimum
         }
         return -1

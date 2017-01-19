@@ -16,15 +16,16 @@ import Foundation
 import XCTest
 
 
-func plusOne(digits: [Int]) -> [Int] {
+func plusOne(_ digits: [Int]) -> [Int] {
     var result: [Int] = digits
     var carry = 1
 
-    for var i = result.count - 1; i >= 0; i -= 1 {
+    var i = result.count - 1
+    while i >= 0 {
         if result[i] < 9 {
             let digit = result[i] + 1
-            result.removeAtIndex(i)
-            result.insert(digit, atIndex: i)
+            result.remove(at: i)
+            result.insert(digit, at: i)
             return result
         }
         let digit = (result[i] + carry) % 10
@@ -33,9 +34,11 @@ func plusOne(digits: [Int]) -> [Int] {
         if carry == 0 {
             return result
         }
+
+        i -= 1
     }
     if carry > 0 {
-        result.insert(1, atIndex: 0)
+        result.insert(1, at: 0)
     }
 
     return result

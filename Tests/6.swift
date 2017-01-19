@@ -34,7 +34,7 @@ class ZigZagConversion {
 
     - returns: The result ZigZag text
     */
-    class func convert0(text: String, _ rows: Int) -> String {
+    class func convert0(_ text: String, _ rows: Int) -> String {
         if rows <= 1 || rows > text.characters.count {
             return text
         }
@@ -42,7 +42,7 @@ class ZigZagConversion {
         var r = [String]()
         var row = 0
         var step = 1
-        for (_, char) in text.characters.enumerate() {
+        for (_, char) in text.characters.enumerated() {
             if row == rows - 1 {
                 step = -1
             }
@@ -61,7 +61,7 @@ class ZigZagConversion {
         var i = 0
 
         while i < rows {
-            result.appendContentsOf(r[i])
+            result.append(r[i])
             i += 1
         }
 
@@ -82,22 +82,26 @@ extension ZigZagConversion {
 
     - returns: The result ZigZag text
     */
-    class func convert1(text: String, _ rows: Int) -> String {
-        var array = Array<String>(count: rows, repeatedValue: String())
+    class func convert1(_ text: String, _ rows: Int) -> String {
+        var array = Array<String>(repeating: String(), count: rows)
         var i = 0, length = text.characters.count
         while i < length {
-            for var index = 0; index < rows && i < length; index += 1 {
+            var index = 0
+            while index < rows && i < length {
                 array[index].append(text[i]!)
                 i += 1
+                index += 1
             }
-            for var index = rows - 2; index > 0 && i < length; index -= 1 {
-                array[index].append(text[i]!)
+            var index1 = rows - 2
+            while index1 > 0 && i < length {
+                array[index1].append(text[i]!)
                 i += 1
+                index1 -= 1
             }
         }
         var result = ""
         for i in 0 ..< rows {
-            result.appendContentsOf(array[i])
+            result.append(array[i])
         }
         return result
     }

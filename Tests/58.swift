@@ -26,7 +26,7 @@ extension String {
         var cnt = 0
         let spaceChar: Character = " "
 
-        for (_, c) in "\(self) ".characters.enumerate() {
+        for (_, c) in "\(self) ".characters.enumerated() {
             if c != spaceChar {
                 cnt += 1
             } else {

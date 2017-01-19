@@ -16,7 +16,7 @@ Note that 1 is typically treated as an ugly number.
 
 import XCTest
 
-func isUglyNumber(n: Int) -> Bool {
+func isUglyNumber(_ n: Int) -> Bool {
     if n < 1 {
         return false
     }

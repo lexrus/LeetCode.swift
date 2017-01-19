@@ -16,7 +16,7 @@ Follow up:
 Could you do it without using any loop / recursion?
 */
 
-infix operator ^^ { }
+infix operator ^^
 func ^^ (radix: Int, power: Int) -> Double {
     return pow(Double(radix), Double(power))
 }
@@ -24,12 +24,12 @@ func ^^ (radix: Int, power: Int) -> Double {
 // @see https://leetcode.com/discuss/79400/o-1-python-solution-with-explanation
 extension Double {
 
-    func isPowerOf(num: Int) -> Bool {
+    func isPowerOf(_ num: Int) -> Bool {
         if self < Double(num) {
             return false
         }
         let a = log(Double(self)) / log(Double(num))
-        return fabs(round(a) - a) < 0.0000000000001
+        return fabs(a.rounded() - a) < 0.0000000000001
     }
 
 }

@@ -17,7 +17,7 @@ Return "100".
 
 import XCTest
 
-func addBinary(a: String, _ b: String) -> String {
+func addBinary(_ a: String, _ b: String) -> String {
     let ai = Int(a, radix: 2) ?? 0
     let bi = Int(b, radix: 2) ?? 0
     let result = ai + bi

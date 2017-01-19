@@ -24,13 +24,13 @@ import XCTest
 
 extension Array {
 
-    mutating func rotate(k: Int) {
+    mutating func rotate(_ k: Int) {
         let start = self.count - k
         if start < 1 {
             return
         }
         var extra = Array<Element>(self[start..<(start + k)])
-        extra.appendContentsOf(self[0..<(count - k)])
+        extra.append(contentsOf: self[0..<(count - k)])
         self = extra
     }
 

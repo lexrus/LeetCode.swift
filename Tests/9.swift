@@ -26,7 +26,7 @@ import Foundation
 import XCTest
 
 
-func isPalindrome(x: Int) -> Bool {
+func isPalindrome(_ x: Int) -> Bool {
     var parlinedromeX = 0
     var tmpX = x
     while tmpX > 0 {
