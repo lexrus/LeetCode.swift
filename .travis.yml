@@ -1,11 +1,8 @@
 osx_image: xcode8.2
 language: objective-c
-before_install:
-    - brew update
-    - brew upgrade xctool
 script:
     - |
-      xctool run-tests \
+      xcodebuild test \
       -project LeetCode.xcodeproj \
       -scheme LeetCodeTests \
-      -sdk macosx
+      -sdk macosx | xcpretty
