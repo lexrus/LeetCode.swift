@@ -56,7 +56,7 @@ func groupAnagrams(_ a: [String]) -> [[String]] {
 class GroupAnagramsTest: XCTestCase {
 
     func testGroupAnagrams() {
-        var group = groupAnagrams(["eat", "tea", "tan", "ate", "nat", "bat"])
+        let group = groupAnagrams(["eat", "tea", "tan", "ate", "nat", "bat"])
 
         XCTAssertEqual(group.first!, ["ate", "eat", "tea"])
 //        XCTAssertEqual(group,

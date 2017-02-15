@@ -37,16 +37,16 @@ extension String {
                 if (char == "("[0] && sChar == ")"[0])
                     || (char == "["[0] && sChar == "]"[0])
                     || (char == "{"[0] && sChar == "}"[0]) {
-                        s.popBack()
+                        _ = s.popBack()
                         stack.remove(at: stack.count - 1)
                 } else {
                     return false
                 }
             } else if char == ")"[0] || char == "]"[0] || char == "}"[0] {
-                s.popBack()
+                _ = s.popBack()
                 stack.append(char!)
             } else {
-                s.popBack()
+                _ = s.popBack()
             }
         }
 

@@ -3,7 +3,7 @@
 [![Travis](https://img.shields.io/travis/lexrus/LeetCode.swift.svg)](https://travis-ci.org/lexrus/LeetCode.swift)
 ![Language](https://img.shields.io/badge/language-Swift%203-orange.svg)
 ![License](https://img.shields.io/github/license/lexrus/ios-dev-playbook.svg?style=flat)
-![Progress](https://img.shields.io/badge/Progress-37%20%2F%20310%20=%2011.94%25-ff69b4.svg)
+![Progress](https://img.shields.io/badge/Progress-39%20%2F%20482%20=%208.09%25-ff69b4.svg)
 
 > 愚者千虑，必有一得。
 
@@ -23,9 +23,9 @@ let 😎 = "Easy", 😐 = "Medium", 😨 = "Hard", ㊙️ = "require premium mem
 - [ ] 3 😐 [Longest Substring Without Repeating Characters](https://leetcode.comhttps://leetcode.com/problems/longest-substring-without-repeating-characters) 
 - [ ] 4 😨 [Median of Two Sorted Arrays](https://leetcode.comhttps://leetcode.com/problems/median-of-two-sorted-arrays) 
 - [ ] 5 😐 [Longest Palindromic Substring](https://leetcode.comhttps://leetcode.com/problems/longest-palindromic-substring) 
-- [x] 6 😎 [ZigZag Conversion](https://leetcode.comhttps://leetcode.com/problems/zigzag-conversion) [.swift](./Tests/6.swift)
+- [x] 6 😐 [ZigZag Conversion](https://leetcode.comhttps://leetcode.com/problems/zigzag-conversion) [.swift](./Tests/6.swift)
 - [x] 7 😎 [Reverse Integer](https://leetcode.comhttps://leetcode.com/problems/reverse-integer) [.swift](./Tests/7.swift)
-- [x] 8 😎 [String to Integer (atoi)](https://leetcode.comhttps://leetcode.com/problems/string-to-integer-atoi) [.swift](./Tests/8.swift)
+- [x] 8 😐 [String to Integer (atoi)](https://leetcode.comhttps://leetcode.com/problems/string-to-integer-atoi) [.swift](./Tests/8.swift)
 - [x] 9 😎 [Palindrome Number](https://leetcode.comhttps://leetcode.com/problems/palindrome-number) [.swift](./Tests/9.swift)
 - [ ] 10 😨 [Regular Expression Matching](https://leetcode.comhttps://leetcode.com/problems/regular-expression-matching) 
 - [ ] 11 😐 [Container With Most Water](https://leetcode.comhttps://leetcode.com/problems/container-with-most-water) 
@@ -36,12 +36,12 @@ let 😎 = "Easy", 😐 = "Medium", 😨 = "Hard", ㊙️ = "require premium mem
 - [ ] 16 😐 [3Sum Closest](https://leetcode.comhttps://leetcode.com/problems/3sum-closest) 
 - [ ] 17 😐 [Letter Combinations of a Phone Number](https://leetcode.comhttps://leetcode.com/problems/letter-combinations-of-a-phone-number) 
 - [ ] 18 😐 [4Sum](https://leetcode.comhttps://leetcode.com/problems/4sum) 
-- [x] 19 😎 [Remove Nth Node From End of List](https://leetcode.comhttps://leetcode.com/problems/remove-nth-node-from-end-of-list) [.swift](./Tests/19.swift)
+- [x] 19 😐 [Remove Nth Node From End of List](https://leetcode.comhttps://leetcode.com/problems/remove-nth-node-from-end-of-list) [.swift](./Tests/19.swift)
 - [x] 20 😎 [Valid Parentheses](https://leetcode.comhttps://leetcode.com/problems/valid-parentheses) [.swift](./Tests/20.swift)
 - [x] 21 😎 [Merge Two Sorted Lists](https://leetcode.comhttps://leetcode.com/problems/merge-two-sorted-lists) [.swift](./Tests/21.swift)
 - [ ] 22 😐 [Generate Parentheses](https://leetcode.comhttps://leetcode.com/problems/generate-parentheses) 
 - [ ] 23 😨 [Merge k Sorted Lists](https://leetcode.comhttps://leetcode.com/problems/merge-k-sorted-lists) 
-- [ ] 24 😎 [Swap Nodes in Pairs](https://leetcode.comhttps://leetcode.com/problems/swap-nodes-in-pairs) 
+- [ ] 24 😐 [Swap Nodes in Pairs](https://leetcode.comhttps://leetcode.com/problems/swap-nodes-in-pairs) 
 - [ ] 25 😨 [Reverse Nodes in k-Group](https://leetcode.comhttps://leetcode.com/problems/reverse-nodes-in-k-group) 
 - [x] 26 😎 [Remove Duplicates from Sorted Array](https://leetcode.comhttps://leetcode.com/problems/remove-duplicates-from-sorted-array) [.swift](./Tests/26.swift)
 - [x] 27 😎 [Remove Element](https://leetcode.comhttps://leetcode.com/problems/remove-element) [.swift](./Tests/27.swift)
@@ -50,10 +50,10 @@ let 😎 = "Easy", 😐 = "Medium", 😨 = "Hard", ㊙️ = "require premium mem
 - [ ] 30 😨 [Substring with Concatenation of All Words](https://leetcode.comhttps://leetcode.com/problems/substring-with-concatenation-of-all-words) 
 - [ ] 31 😐 [Next Permutation](https://leetcode.comhttps://leetcode.com/problems/next-permutation) 
 - [ ] 32 😨 [Longest Valid Parentheses](https://leetcode.comhttps://leetcode.com/problems/longest-valid-parentheses) 
-- [ ] 33 😨 [Search in Rotated Sorted Array](https://leetcode.comhttps://leetcode.com/problems/search-in-rotated-sorted-array) 
+- [ ] 33 😐 [Search in Rotated Sorted Array](https://leetcode.comhttps://leetcode.com/problems/search-in-rotated-sorted-array) 
 - [ ] 34 😐 [Search for a Range](https://leetcode.comhttps://leetcode.com/problems/search-for-a-range) 
-- [ ] 35 😐 [Search Insert Position](https://leetcode.comhttps://leetcode.com/problems/search-insert-position) 
-- [ ] 36 😎 [Valid Sudoku](https://leetcode.comhttps://leetcode.com/problems/valid-sudoku) 
+- [ ] 35 😎 [Search Insert Position](https://leetcode.comhttps://leetcode.com/problems/search-insert-position) 
+- [ ] 36 😐 [Valid Sudoku](https://leetcode.comhttps://leetcode.com/problems/valid-sudoku) 
 - [ ] 37 😨 [Sudoku Solver](https://leetcode.comhttps://leetcode.com/problems/sudoku-solver) 
 - [x] 38 😎 [Count and Say](https://leetcode.comhttps://leetcode.com/problems/count-and-say) [.swift](./Tests/38.swift)
 - [ ] 39 😐 [Combination Sum](https://leetcode.comhttps://leetcode.com/problems/combination-sum) 
@@ -70,10 +70,10 @@ let 😎 = "Easy", 😐 = "Medium", 😨 = "Hard", ㊙️ = "require premium mem
 - [ ] 50 😐 [Pow(x, n)](https://leetcode.comhttps://leetcode.com/problems/powx-n) 
 - [ ] 51 😨 [N-Queens](https://leetcode.comhttps://leetcode.com/problems/n-queens) 
 - [ ] 52 😨 [N-Queens II](https://leetcode.comhttps://leetcode.com/problems/n-queens-ii) 
-- [ ] 53 😐 [Maximum Subarray](https://leetcode.comhttps://leetcode.com/problems/maximum-subarray) 
+- [ ] 53 😎 [Maximum Subarray](https://leetcode.comhttps://leetcode.com/problems/maximum-subarray) 
 - [ ] 54 😐 [Spiral Matrix](https://leetcode.comhttps://leetcode.com/problems/spiral-matrix) 
 - [ ] 55 😐 [Jump Game](https://leetcode.comhttps://leetcode.com/problems/jump-game) 
-- [ ] 56 😨 [Merge Intervals](https://leetcode.comhttps://leetcode.com/problems/merge-intervals) 
+- [ ] 56 😐 [Merge Intervals](https://leetcode.comhttps://leetcode.com/problems/merge-intervals) 
 - [ ] 57 😨 [Insert Interval](https://leetcode.comhttps://leetcode.com/problems/insert-interval) 
 - [x] 58 😎 [Length of Last Word](https://leetcode.comhttps://leetcode.com/problems/length-of-last-word) [.swift](./Tests/58.swift)
 - [ ] 59 😐 [Spiral Matrix II](https://leetcode.comhttps://leetcode.com/problems/spiral-matrix-ii) 
@@ -86,7 +86,7 @@ let 😎 = "Easy", 😐 = "Medium", 😨 = "Hard", ㊙️ = "require premium mem
 - [x] 66 😎 [Plus One](https://leetcode.comhttps://leetcode.com/problems/plus-one) [.swift](./Tests/66.swift)
 - [x] 67 😎 [Add Binary](https://leetcode.comhttps://leetcode.com/problems/add-binary) [.swift](./Tests/67.swift)
 - [ ] 68 😨 [Text Justification](https://leetcode.comhttps://leetcode.com/problems/text-justification) 
-- [ ] 69 😐 [Sqrt(x)](https://leetcode.comhttps://leetcode.com/problems/sqrtx) 
+- [ ] 69 😎 [Sqrt(x)](https://leetcode.comhttps://leetcode.com/problems/sqrtx) 
 - [ ] 70 😎 [Climbing Stairs](https://leetcode.comhttps://leetcode.com/problems/climbing-stairs) 
 - [ ] 71 😐 [Simplify Path](https://leetcode.comhttps://leetcode.com/problems/simplify-path) 
 - [ ] 72 😨 [Edit Distance](https://leetcode.comhttps://leetcode.com/problems/edit-distance) 
@@ -119,13 +119,13 @@ let 😎 = "Easy", 😐 = "Medium", 😨 = "Hard", ㊙️ = "require premium mem
 - [ ] 99 😨 [Recover Binary Search Tree](https://leetcode.comhttps://leetcode.com/problems/recover-binary-search-tree) 
 - [x] 100 😎 [Same Tree](https://leetcode.comhttps://leetcode.com/problems/same-tree) [.swift](./Tests/100.swift)
 - [x] 101 😎 [Symmetric Tree](https://leetcode.comhttps://leetcode.com/problems/symmetric-tree) [.swift](./Tests/101.swift)
-- [ ] 102 😎 [Binary Tree Level Order Traversal](https://leetcode.comhttps://leetcode.com/problems/binary-tree-level-order-traversal) 
+- [ ] 102 😐 [Binary Tree Level Order Traversal](https://leetcode.comhttps://leetcode.com/problems/binary-tree-level-order-traversal) 
 - [ ] 103 😐 [Binary Tree Zigzag Level Order Traversal](https://leetcode.comhttps://leetcode.com/problems/binary-tree-zigzag-level-order-traversal) 
 - [x] 104 😎 [Maximum Depth of Binary Tree](https://leetcode.comhttps://leetcode.com/problems/maximum-depth-of-binary-tree) [.swift](./Tests/104.swift)
 - [ ] 105 😐 [Construct Binary Tree from Preorder and Inorder Traversal](https://leetcode.comhttps://leetcode.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal) 
 - [ ] 106 😐 [Construct Binary Tree from Inorder and Postorder Traversal](https://leetcode.comhttps://leetcode.com/problems/construct-binary-tree-from-inorder-and-postorder-traversal) 
 - [ ] 107 😎 [Binary Tree Level Order Traversal II](https://leetcode.comhttps://leetcode.com/problems/binary-tree-level-order-traversal-ii) 
-- [ ] 108 😐 [Convert Sorted Array to Binary Search Tree](https://leetcode.comhttps://leetcode.com/problems/convert-sorted-array-to-binary-search-tree) 
+- [ ] 108 😎 [Convert Sorted Array to Binary Search Tree](https://leetcode.comhttps://leetcode.com/problems/convert-sorted-array-to-binary-search-tree) 
 - [ ] 109 😐 [Convert Sorted List to Binary Search Tree](https://leetcode.comhttps://leetcode.com/problems/convert-sorted-list-to-binary-search-tree) 
 - [x] 110 😎 [Balanced Binary Tree](https://leetcode.comhttps://leetcode.com/problems/balanced-binary-tree) [.swift](./Tests/110.swift)
 - [x] 111 😎 [Minimum Depth of Binary Tree](https://leetcode.comhttps://leetcode.com/problems/minimum-depth-of-binary-tree) [.swift](./Tests/111.swift)
@@ -134,12 +134,12 @@ let 😎 = "Easy", 😐 = "Medium", 😨 = "Hard", ㊙️ = "require premium mem
 - [x] 114 😐 [Flatten Binary Tree to Linked List](https://leetcode.comhttps://leetcode.com/problems/flatten-binary-tree-to-linked-list) [.swift](./Tests/114.swift)
 - [ ] 115 😨 [Distinct Subsequences](https://leetcode.comhttps://leetcode.com/problems/distinct-subsequences) 
 - [ ] 116 😐 [Populating Next Right Pointers in Each Node](https://leetcode.comhttps://leetcode.com/problems/populating-next-right-pointers-in-each-node) 
-- [ ] 117 😨 [Populating Next Right Pointers in Each Node II](https://leetcode.comhttps://leetcode.com/problems/populating-next-right-pointers-in-each-node-ii) 
+- [ ] 117 😐 [Populating Next Right Pointers in Each Node II](https://leetcode.comhttps://leetcode.com/problems/populating-next-right-pointers-in-each-node-ii) 
 - [ ] 118 😎 [Pascal's Triangle](https://leetcode.comhttps://leetcode.com/problems/pascals-triangle) 
 - [ ] 119 😎 [Pascal's Triangle II](https://leetcode.comhttps://leetcode.com/problems/pascals-triangle-ii) 
 - [ ] 120 😐 [Triangle](https://leetcode.comhttps://leetcode.com/problems/triangle) 
 - [ ] 121 😎 [Best Time to Buy and Sell Stock](https://leetcode.comhttps://leetcode.com/problems/best-time-to-buy-and-sell-stock) 
-- [ ] 122 😐 [Best Time to Buy and Sell Stock II](https://leetcode.comhttps://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii) 
+- [ ] 122 😎 [Best Time to Buy and Sell Stock II](https://leetcode.comhttps://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii) 
 - [ ] 123 😨 [Best Time to Buy and Sell Stock III](https://leetcode.comhttps://leetcode.com/problems/best-time-to-buy-and-sell-stock-iii) 
 - [ ] 124 😨 [Binary Tree Maximum Path Sum](https://leetcode.comhttps://leetcode.com/problems/binary-tree-maximum-path-sum) 
 - [ ] 125 😎 [Valid Palindrome](https://leetcode.comhttps://leetcode.com/problems/valid-palindrome) 
@@ -153,9 +153,9 @@ let 😎 = "Easy", 😐 = "Medium", 😨 = "Hard", ㊙️ = "require premium mem
 - [ ] 133 😐 [Clone Graph](https://leetcode.comhttps://leetcode.com/problems/clone-graph) 
 - [ ] 134 😐 [Gas Station](https://leetcode.comhttps://leetcode.com/problems/gas-station) 
 - [ ] 135 😨 [Candy](https://leetcode.comhttps://leetcode.com/problems/candy) 
-- [ ] 136 😎 [Single Number](https://leetcode.comhttps://leetcode.com/problems/single-number) 
+- [x] 136 😎 [Single Number](https://leetcode.comhttps://leetcode.com/problems/single-number) [.swift](./Tests/136.swift)
 - [ ] 137 😐 [Single Number II](https://leetcode.comhttps://leetcode.com/problems/single-number-ii) 
-- [ ] 138 😨 [Copy List with Random Pointer](https://leetcode.comhttps://leetcode.com/problems/copy-list-with-random-pointer) 
+- [ ] 138 😐 [Copy List with Random Pointer](https://leetcode.comhttps://leetcode.com/problems/copy-list-with-random-pointer) 
 - [ ] 139 😐 [Word Break](https://leetcode.comhttps://leetcode.com/problems/word-break) 
 - [ ] 140 😨 [Word Break II](https://leetcode.comhttps://leetcode.com/problems/word-break-ii) 
 - [ ] 141 😎 [Linked List Cycle](https://leetcode.comhttps://leetcode.com/problems/linked-list-cycle) 
@@ -182,9 +182,9 @@ let 😎 = "Easy", 😐 = "Medium", 😨 = "Hard", ㊙️ = "require premium mem
 - [ ] 162 😐 [Find Peak Element](https://leetcode.comhttps://leetcode.com/problems/find-peak-element) 
 - [ ] 163 😐 [Missing Ranges](https://leetcode.comhttps://leetcode.com/problems/missing-ranges)  ㊙️
 - [ ] 164 😨 [Maximum Gap](https://leetcode.comhttps://leetcode.com/problems/maximum-gap) 
-- [x] 165 😎 [Compare Version Numbers](https://leetcode.comhttps://leetcode.com/problems/compare-version-numbers) [.swift](./Tests/165.swift)
+- [x] 165 😐 [Compare Version Numbers](https://leetcode.comhttps://leetcode.com/problems/compare-version-numbers) [.swift](./Tests/165.swift)
 - [ ] 166 😐 [Fraction to Recurring Decimal](https://leetcode.comhttps://leetcode.com/problems/fraction-to-recurring-decimal) 
-- [ ] 167 😐 [Two Sum II - Input array is sorted](https://leetcode.comhttps://leetcode.com/problems/two-sum-ii-input-array-is-sorted) 
+- [ ] 167 😎 [Two Sum II - Input array is sorted](https://leetcode.comhttps://leetcode.com/problems/two-sum-ii-input-array-is-sorted) 
 - [ ] 168 😎 [Excel Sheet Column Title](https://leetcode.comhttps://leetcode.com/problems/excel-sheet-column-title) 
 - [ ] 169 😎 [Majority Element](https://leetcode.comhttps://leetcode.com/problems/majority-element) 
 - [ ] 170 😎 [Two Sum III - Data structure design](https://leetcode.comhttps://leetcode.com/problems/two-sum-iii-data-structure-design)  ㊙️
@@ -224,7 +224,7 @@ let 😎 = "Easy", 😐 = "Medium", 😨 = "Hard", ㊙️ = "require premium mem
 - [ ] 220 😐 [Contains Duplicate III](https://leetcode.comhttps://leetcode.com/problems/contains-duplicate-iii) 
 - [ ] 221 😐 [Maximal Square](https://leetcode.comhttps://leetcode.com/problems/maximal-square) 
 - [ ] 222 😐 [Count Complete Tree Nodes](https://leetcode.comhttps://leetcode.com/problems/count-complete-tree-nodes) 
-- [ ] 223 😎 [Rectangle Area](https://leetcode.comhttps://leetcode.com/problems/rectangle-area) 
+- [ ] 223 😐 [Rectangle Area](https://leetcode.comhttps://leetcode.com/problems/rectangle-area) 
 - [ ] 224 😨 [Basic Calculator](https://leetcode.comhttps://leetcode.com/problems/basic-calculator) 
 - [ ] 225 😎 [Implement Stack using Queues](https://leetcode.comhttps://leetcode.com/problems/implement-stack-using-queues) 
 - [x] 226 😎 [Invert Binary Tree](https://leetcode.comhttps://leetcode.com/problems/invert-binary-tree) [.swift](./Tests/226.swift)
@@ -250,14 +250,14 @@ let 😎 = "Easy", 😐 = "Medium", 😨 = "Hard", ㊙️ = "require premium mem
 - [ ] 246 😎 [Strobogrammatic Number](https://leetcode.comhttps://leetcode.com/problems/strobogrammatic-number)  ㊙️
 - [ ] 247 😐 [Strobogrammatic Number II](https://leetcode.comhttps://leetcode.com/problems/strobogrammatic-number-ii)  ㊙️
 - [ ] 248 😨 [Strobogrammatic Number III](https://leetcode.comhttps://leetcode.com/problems/strobogrammatic-number-iii)  ㊙️
-- [ ] 249 😎 [Group Shifted Strings](https://leetcode.comhttps://leetcode.com/problems/group-shifted-strings)  ㊙️
+- [ ] 249 😐 [Group Shifted Strings](https://leetcode.comhttps://leetcode.com/problems/group-shifted-strings)  ㊙️
 - [ ] 250 😐 [Count Univalue Subtrees](https://leetcode.comhttps://leetcode.com/problems/count-univalue-subtrees)  ㊙️
 - [ ] 251 😐 [Flatten 2D Vector](https://leetcode.comhttps://leetcode.com/problems/flatten-2d-vector)  ㊙️
 - [ ] 252 😎 [Meeting Rooms](https://leetcode.comhttps://leetcode.com/problems/meeting-rooms)  ㊙️
 - [ ] 253 😐 [Meeting Rooms II](https://leetcode.comhttps://leetcode.com/problems/meeting-rooms-ii)  ㊙️
 - [ ] 254 😐 [Factor Combinations](https://leetcode.comhttps://leetcode.com/problems/factor-combinations)  ㊙️
 - [ ] 255 😐 [Verify Preorder Sequence in Binary Search Tree](https://leetcode.comhttps://leetcode.com/problems/verify-preorder-sequence-in-binary-search-tree)  ㊙️
-- [ ] 256 😐 [Paint House](https://leetcode.comhttps://leetcode.com/problems/paint-house)  ㊙️
+- [ ] 256 😎 [Paint House](https://leetcode.comhttps://leetcode.com/problems/paint-house)  ㊙️
 - [ ] 257 😎 [Binary Tree Paths](https://leetcode.comhttps://leetcode.com/problems/binary-tree-paths) 
 - [x] 258 😎 [Add Digits](https://leetcode.comhttps://leetcode.com/problems/add-digits) [.swift](./Tests/258.swift)
 - [ ] 259 😐 [3Sum Smaller](https://leetcode.comhttps://leetcode.com/problems/3sum-smaller)  ㊙️
@@ -268,7 +268,7 @@ let 😎 = "Easy", 😐 = "Medium", 😨 = "Hard", ㊙️ = "require premium mem
 - [ ] 265 😨 [Paint House II](https://leetcode.comhttps://leetcode.com/problems/paint-house-ii)  ㊙️
 - [ ] 266 😎 [Palindrome Permutation](https://leetcode.comhttps://leetcode.com/problems/palindrome-permutation)  ㊙️
 - [ ] 267 😐 [Palindrome Permutation II](https://leetcode.comhttps://leetcode.com/problems/palindrome-permutation-ii)  ㊙️
-- [ ] 268 😐 [Missing Number](https://leetcode.comhttps://leetcode.com/problems/missing-number) 
+- [ ] 268 😎 [Missing Number](https://leetcode.comhttps://leetcode.com/problems/missing-number) 
 - [ ] 269 😨 [Alien Dictionary](https://leetcode.comhttps://leetcode.com/problems/alien-dictionary)  ㊙️
 - [ ] 270 😎 [Closest Binary Search Tree Value](https://leetcode.comhttps://leetcode.com/problems/closest-binary-search-tree-value)  ㊙️
 - [ ] 271 😐 [Encode and Decode Strings](https://leetcode.comhttps://leetcode.com/problems/encode-and-decode-strings)  ㊙️
@@ -287,8 +287,8 @@ let 😎 = "Easy", 😐 = "Medium", 😨 = "Hard", ㊙️ = "require premium mem
 - [ ] 284 😐 [Peeking Iterator](https://leetcode.comhttps://leetcode.com/problems/peeking-iterator) 
 - [ ] 285 😐 [Inorder Successor in BST](https://leetcode.comhttps://leetcode.com/problems/inorder-successor-in-bst)  ㊙️
 - [ ] 286 😐 [Walls and Gates](https://leetcode.comhttps://leetcode.com/problems/walls-and-gates)  ㊙️
-- [ ] 287 😨 [Find the Duplicate Number](https://leetcode.comhttps://leetcode.com/problems/find-the-duplicate-number) 
-- [ ] 288 😎 [Unique Word Abbreviation](https://leetcode.comhttps://leetcode.com/problems/unique-word-abbreviation)  ㊙️
+- [ ] 287 😐 [Find the Duplicate Number](https://leetcode.comhttps://leetcode.com/problems/find-the-duplicate-number) 
+- [ ] 288 😐 [Unique Word Abbreviation](https://leetcode.comhttps://leetcode.com/problems/unique-word-abbreviation)  ㊙️
 - [ ] 289 😐 [Game of Life](https://leetcode.comhttps://leetcode.com/problems/game-of-life) 
 - [ ] 290 😎 [Word Pattern](https://leetcode.comhttps://leetcode.com/problems/word-pattern) 
 - [ ] 291 😨 [Word Pattern II](https://leetcode.comhttps://leetcode.com/problems/word-pattern-ii)  ㊙️
@@ -299,7 +299,7 @@ let 😎 = "Easy", 😐 = "Medium", 😨 = "Hard", ㊙️ = "require premium mem
 - [ ] 296 😨 [Best Meeting Point](https://leetcode.comhttps://leetcode.com/problems/best-meeting-point)  ㊙️
 - [ ] 297 😨 [Serialize and Deserialize Binary Tree](https://leetcode.comhttps://leetcode.com/problems/serialize-and-deserialize-binary-tree) 
 - [ ] 298 😐 [Binary Tree Longest Consecutive Sequence](https://leetcode.comhttps://leetcode.com/problems/binary-tree-longest-consecutive-sequence)  ㊙️
-- [ ] 299 😎 [Bulls and Cows](https://leetcode.comhttps://leetcode.com/problems/bulls-and-cows) 
+- [ ] 299 😐 [Bulls and Cows](https://leetcode.comhttps://leetcode.com/problems/bulls-and-cows) 
 - [ ] 300 😐 [Longest Increasing Subsequence](https://leetcode.comhttps://leetcode.com/problems/longest-increasing-subsequence) 
 - [ ] 301 😨 [Remove Invalid Parentheses](https://leetcode.comhttps://leetcode.com/problems/remove-invalid-parentheses) 
 - [ ] 302 😨 [Smallest Rectangle Enclosing Black Pixels](https://leetcode.comhttps://leetcode.com/problems/smallest-rectangle-enclosing-black-pixels)  ㊙️
@@ -367,7 +367,7 @@ let 😎 = "Easy", 😐 = "Medium", 😨 = "Hard", ㊙️ = "require premium mem
 - [ ] 364 😐 [Nested List Weight Sum II](https://leetcode.comhttps://leetcode.com/problems/nested-list-weight-sum-ii)  ㊙️
 - [ ] 365 😐 [Water and Jug Problem](https://leetcode.comhttps://leetcode.com/problems/water-and-jug-problem) 
 - [ ] 366 😐 [Find Leaves of Binary Tree](https://leetcode.comhttps://leetcode.com/problems/find-leaves-of-binary-tree)  ㊙️
-- [ ] 367 😐 [Valid Perfect Square](https://leetcode.comhttps://leetcode.com/problems/valid-perfect-square) 
+- [ ] 367 😎 [Valid Perfect Square](https://leetcode.comhttps://leetcode.com/problems/valid-perfect-square) 
 - [ ] 368 😐 [Largest Divisible Subset](https://leetcode.comhttps://leetcode.com/problems/largest-divisible-subset) 
 - [ ] 369 😐 [Plus One Linked List](https://leetcode.comhttps://leetcode.com/problems/plus-one-linked-list)  ㊙️
 - [ ] 370 😐 [Range Addition](https://leetcode.comhttps://leetcode.com/problems/range-addition)  ㊙️
@@ -380,7 +380,7 @@ let 😎 = "Easy", 😐 = "Medium", 😨 = "Hard", ㊙️ = "require premium mem
 - [ ] 377 😐 [Combination Sum IV](https://leetcode.comhttps://leetcode.com/problems/combination-sum-iv) 
 - [ ] 378 😐 [Kth Smallest Element in a Sorted Matrix](https://leetcode.comhttps://leetcode.com/problems/kth-smallest-element-in-a-sorted-matrix) 
 - [ ] 379 😐 [Design Phone Directory](https://leetcode.comhttps://leetcode.com/problems/design-phone-directory)  ㊙️
-- [ ] 380 😨 [Insert Delete GetRandom O(1)](https://leetcode.comhttps://leetcode.com/problems/insert-delete-getrandom-o1) 
+- [ ] 380 😐 [Insert Delete GetRandom O(1)](https://leetcode.comhttps://leetcode.com/problems/insert-delete-getrandom-o1) 
 - [ ] 381 😨 [Insert Delete GetRandom O(1) - Duplicates allowed](https://leetcode.comhttps://leetcode.com/problems/insert-delete-getrandom-o1-duplicates-allowed) 
 - [ ] 382 😐 [Linked List Random Node](https://leetcode.comhttps://leetcode.com/problems/linked-list-random-node) 
 - [ ] 383 😎 [Ransom Note](https://leetcode.comhttps://leetcode.com/problems/ransom-note) 
@@ -396,7 +396,7 @@ let 😎 = "Easy", 😐 = "Medium", 😨 = "Hard", ㊙️ = "require premium mem
 - [ ] 393 😐 [UTF-8 Validation](https://leetcode.comhttps://leetcode.com/problems/utf-8-validation) 
 - [ ] 394 😐 [Decode String](https://leetcode.comhttps://leetcode.com/problems/decode-string) 
 - [ ] 395 😐 [Longest Substring with At Least K Repeating Characters](https://leetcode.comhttps://leetcode.com/problems/longest-substring-with-at-least-k-repeating-characters) 
-- [ ] 396 😎 [Rotate Function](https://leetcode.comhttps://leetcode.com/problems/rotate-function) 
+- [ ] 396 😐 [Rotate Function](https://leetcode.comhttps://leetcode.com/problems/rotate-function) 
 - [ ] 397 😐 [Integer Replacement](https://leetcode.comhttps://leetcode.com/problems/integer-replacement) 
 - [ ] 398 😐 [Random Pick Index](https://leetcode.comhttps://leetcode.com/problems/random-pick-index) 
 - [ ] 399 😐 [Evaluate Division](https://leetcode.comhttps://leetcode.com/problems/evaluate-division) 
@@ -470,9 +470,36 @@ let 😎 = "Easy", 😐 = "Medium", 😨 = "Hard", ㊙️ = "require premium mem
 - [ ] 480 😨 [Sliding Window Median](https://leetcode.comhttps://leetcode.com/problems/sliding-window-median) 
 - [ ] 481 😐 [Magical String](https://leetcode.comhttps://leetcode.com/problems/magical-string) 
 - [ ] 482 😐 [License Key Formatting](https://leetcode.comhttps://leetcode.com/problems/license-key-formatting) 
+- [ ] 483 😨 [Smallest Good Base](https://leetcode.comhttps://leetcode.com/problems/smallest-good-base) 
+- [ ] 484 😐 [Find Permutation](https://leetcode.comhttps://leetcode.com/problems/find-permutation)  ㊙️
 - [ ] 485 😎 [Max Consecutive Ones](https://leetcode.comhttps://leetcode.com/problems/max-consecutive-ones) 
+- [ ] 486 😐 [Predict the Winner](https://leetcode.comhttps://leetcode.com/problems/predict-the-winner) 
 - [ ] 487 😐 [Max Consecutive Ones II](https://leetcode.comhttps://leetcode.com/problems/max-consecutive-ones-ii)  ㊙️
 - [ ] 488 😨 [Zuma Game](https://leetcode.comhttps://leetcode.com/problems/zuma-game) 
+- [ ] 490 😐 [The Maze](https://leetcode.comhttps://leetcode.com/problems/the-maze)  ㊙️
+- [ ] 491 😐 [Increasing Subsequences](https://leetcode.comhttps://leetcode.com/problems/increasing-subsequences) 
+- [ ] 492 😎 [Construct the Rectangle](https://leetcode.comhttps://leetcode.com/problems/construct-the-rectangle) 
+- [ ] 493 😨 [Reverse Pairs](https://leetcode.comhttps://leetcode.com/problems/reverse-pairs) 
+- [ ] 494 😐 [Target Sum](https://leetcode.comhttps://leetcode.com/problems/target-sum) 
+- [ ] 495 😐 [Teemo Attacking](https://leetcode.comhttps://leetcode.com/problems/teemo-attacking) 
+- [ ] 496 😎 [Next Greater Element I](https://leetcode.comhttps://leetcode.com/problems/next-greater-element-i) 
+- [ ] 498 😐 [Diagonal Traverse](https://leetcode.comhttps://leetcode.com/problems/diagonal-traverse) 
+- [ ] 499 😨 [The Maze III](https://leetcode.comhttps://leetcode.com/problems/the-maze-iii)  ㊙️
+- [ ] 500 😎 [Keyboard Row](https://leetcode.comhttps://leetcode.com/problems/keyboard-row) 
+- [ ] 501 😎 [Find Mode in Binary Search Tree](https://leetcode.comhttps://leetcode.com/problems/find-mode-in-binary-search-tree) 
+- [ ] 502 😨 [IPO](https://leetcode.comhttps://leetcode.com/problems/ipo) 
+- [ ] 503 😐 [Next Greater Element II](https://leetcode.comhttps://leetcode.com/problems/next-greater-element-ii) 
+- [ ] 504 😎 [Base 7](https://leetcode.comhttps://leetcode.com/problems/base-7) 
+- [ ] 505 😐 [The Maze II](https://leetcode.comhttps://leetcode.com/problems/the-maze-ii)  ㊙️
+- [ ] 506 😎 [Relative Ranks](https://leetcode.comhttps://leetcode.com/problems/relative-ranks) 
+- [ ] 508 😐 [Most Frequent Subtree Sum](https://leetcode.comhttps://leetcode.com/problems/most-frequent-subtree-sum) 
+- [ ] 509 😎 [Points in Intervals](https://leetcode.comhttps://leetcode.com/problems/points-in-intervals) 
+- [ ] 510 😎 [Design Logging](https://leetcode.comhttps://leetcode.com/problems/design-logging) 
+- [ ] 511 😎 [String Lengths Average and 95th Percentile](https://leetcode.comhttps://leetcode.com/problems/string-lengths-average-and-95th-percentile) 
+- [ ] 512 😎 [Price Query System](https://leetcode.comhttps://leetcode.com/problems/price-query-system) 
+- [ ] 513 😐 [Find Bottom Left Tree Value](https://leetcode.comhttps://leetcode.com/problems/find-bottom-left-tree-value) 
+- [ ] 515 😐 [Find Largest Value in Each Tree Row](https://leetcode.comhttps://leetcode.com/problems/find-largest-value-in-each-tree-row) 
+- [ ] 516 😐 [Longest Palindromic Subsequence](https://leetcode.comhttps://leetcode.com/problems/longest-palindromic-subsequence) 
 
 
 ## Unit tests
