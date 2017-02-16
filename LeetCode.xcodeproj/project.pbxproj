@@ -26,6 +26,7 @@
 		D7AB14CB1B99C85200DEDE9D /* 58.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7AB14CA1B99C85200DEDE9D /* 58.swift */; };
 		D7AB14CE1B9B34FA00DEDE9D /* 67.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7AB14CD1B9B34FA00DEDE9D /* 67.swift */; };
 		D7C413261E541977006C36A5 /* 136.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7C413251E541977006C36A5 /* 136.swift */; };
+		D7C413281E556204006C36A5 /* 268.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7C413271E556204006C36A5 /* 268.swift */; };
 		D7CB678A1C3E647100C4209D /* 114.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7CB67891C3E647100C4209D /* 114.swift */; };
 		D7DE016B1AF9F13600BB2AA0 /* 100.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7DE016A1AF9F13600BB2AA0 /* 100.swift */; };
 		D7FB8E161AF89A2700286272 /* 38.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7FB8E151AF89A2700286272 /* 38.swift */; };
@@ -73,6 +74,7 @@
 		D7AB14CC1B9B344900DEDE9D /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		D7AB14CD1B9B34FA00DEDE9D /* 67.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = 67.swift; sourceTree = "<group>"; };
 		D7C413251E541977006C36A5 /* 136.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = 136.swift; sourceTree = "<group>"; };
+		D7C413271E556204006C36A5 /* 268.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = 268.swift; sourceTree = "<group>"; };
 		D7CB67891C3E647100C4209D /* 114.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = 114.swift; sourceTree = "<group>"; };
 		D7DE016A1AF9F13600BB2AA0 /* 100.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = 100.swift; sourceTree = "<group>"; };
 		D7FB8E091AF899FE00286272 /* LeetCodeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LeetCodeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -173,6 +175,7 @@
 				D71C171C1C30E99000936BF7 /* 283.swift */,
 				D79437E71C4895AC005BA62B /* 326.swift */,
 				D7FB8E0B1AF899FE00286272 /* Supporting Files */,
+				D7C413271E556204006C36A5 /* 268.swift */,
 			);
 			path = Tests;
 			sourceTree = SOURCE_ROOT;
@@ -293,6 +296,7 @@
 				D7FB8E601AF8AF2400286272 /* Character+LeetCode.swift in Sources */,
 				D7FB8E261AF89ACD00286272 /* 26.swift in Sources */,
 				D7FB8E221AF89AA200286272 /* 88.swift in Sources */,
+				D7C413281E556204006C36A5 /* 268.swift in Sources */,
 				D7FB8E321AF89B1800286272 /* 1.swift in Sources */,
 				D71C17301C33C1C500936BF7 /* 189.swift in Sources */,
 				D7FB8E301AF89B0F00286272 /* 2.swift in Sources */,
