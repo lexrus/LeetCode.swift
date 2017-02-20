@@ -3,7 +3,7 @@
 [![Travis](https://img.shields.io/travis/lexrus/LeetCode.swift.svg)](https://travis-ci.org/lexrus/LeetCode.swift)
 ![Language](https://img.shields.io/badge/language-Swift%203-orange.svg)
 ![License](https://img.shields.io/github/license/lexrus/ios-dev-playbook.svg?style=flat)
-![Progress](https://img.shields.io/badge/Progress-39%20%2F%20482%20=%208.09%25-ff69b4.svg)
+![Progress](https://img.shields.io/badge/Progress-41%20%2F%20482%20=%208.51%25-ff69b4.svg)
 
 > 愚者千虑，必有一得。
 
@@ -268,7 +268,7 @@ let 😎 = "Easy", 😐 = "Medium", 😨 = "Hard", ㊙️ = "require premium mem
 - [ ] 265 😨 [Paint House II](https://leetcode.comhttps://leetcode.com/problems/paint-house-ii)  ㊙️
 - [ ] 266 😎 [Palindrome Permutation](https://leetcode.comhttps://leetcode.com/problems/palindrome-permutation)  ㊙️
 - [ ] 267 😐 [Palindrome Permutation II](https://leetcode.comhttps://leetcode.com/problems/palindrome-permutation-ii)  ㊙️
-- [ ] 268 😎 [Missing Number](https://leetcode.comhttps://leetcode.com/problems/missing-number) 
+- [x] 268 😎 [Missing Number](https://leetcode.comhttps://leetcode.com/problems/missing-number) [.swift](./Tests/268.swift)
 - [ ] 269 😨 [Alien Dictionary](https://leetcode.comhttps://leetcode.com/problems/alien-dictionary)  ㊙️
 - [ ] 270 😎 [Closest Binary Search Tree Value](https://leetcode.comhttps://leetcode.com/problems/closest-binary-search-tree-value)  ㊙️
 - [ ] 271 😐 [Encode and Decode Strings](https://leetcode.comhttps://leetcode.com/problems/encode-and-decode-strings)  ㊙️
@@ -451,7 +451,7 @@ let 😎 = "Easy", 😐 = "Medium", 😨 = "Hard", ㊙️ = "require premium mem
 - [ ] 456 😐 [132 Pattern](https://leetcode.comhttps://leetcode.com/problems/132-pattern) 
 - [ ] 459 😎 [Repeated Substring Pattern](https://leetcode.comhttps://leetcode.com/problems/repeated-substring-pattern) 
 - [ ] 460 😨 [LFU Cache](https://leetcode.comhttps://leetcode.com/problems/lfu-cache) 
-- [ ] 461 😎 [Hamming Distance](https://leetcode.comhttps://leetcode.com/problems/hamming-distance) 
+- [x] 461 😎 [Hamming Distance](https://leetcode.comhttps://leetcode.com/problems/hamming-distance) [.swift](./Tests/461.swift)
 - [ ] 462 😐 [Minimum Moves to Equal Array Elements II](https://leetcode.comhttps://leetcode.com/problems/minimum-moves-to-equal-array-elements-ii) 
 - [ ] 463 😎 [Island Perimeter](https://leetcode.comhttps://leetcode.com/problems/island-perimeter) 
 - [ ] 464 😐 [Can I Win](https://leetcode.comhttps://leetcode.com/problems/can-i-win) 
