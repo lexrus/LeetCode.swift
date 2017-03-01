@@ -34,7 +34,7 @@ task :sync_problems do
     "- [#{finished ? 'x' : ' '}] " <<
     "#{questionId} " <<
     "#{difficulty == 3 ? "😨" : (difficulty == 2 ? "😐" : "😎")} " <<
-    "[#{title}](https://leetcode.com#{href}) " <<
+    "[#{title}](#{href}) " <<
     (finished ? "[.swift](./Tests/#{questionId}.swift)" : "") <<
     "#{ paidOnly ? " ㊙️" : ""}"
   }
