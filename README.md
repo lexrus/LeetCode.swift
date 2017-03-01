@@ -3,7 +3,7 @@
 [![Travis](https://img.shields.io/travis/lexrus/LeetCode.swift.svg)](https://travis-ci.org/lexrus/LeetCode.swift)
 ![Language](https://img.shields.io/badge/language-Swift%203-orange.svg)
 ![License](https://img.shields.io/github/license/lexrus/ios-dev-playbook.svg?style=flat)
-![Progress](https://img.shields.io/badge/Progress-41%20%2F%20482%20=%208.51%25-ff69b4.svg)
+![Progress](https://img.shields.io/badge/Progress-42%20%2F%20490%20=%208.57%25-ff69b4.svg)
 
 > 愚者千虑，必有一得。
 
@@ -500,6 +500,14 @@ let 😎 = "Easy", 😐 = "Medium", 😨 = "Hard", ㊙️ = "require premium mem
 - [ ] 513 😐 [Find Bottom Left Tree Value](https://leetcode.comhttps://leetcode.com/problems/find-bottom-left-tree-value) 
 - [ ] 515 😐 [Find Largest Value in Each Tree Row](https://leetcode.comhttps://leetcode.com/problems/find-largest-value-in-each-tree-row) 
 - [ ] 516 😐 [Longest Palindromic Subsequence](https://leetcode.comhttps://leetcode.com/problems/longest-palindromic-subsequence) 
+- [ ] 517 😨 [Super Washing Machines](https://leetcode.comhttps://leetcode.com/problems/super-washing-machines) 
+- [x] 520 😎 [Detect Capital](https://leetcode.comhttps://leetcode.com/problems/detect-capital) [.swift](./Tests/520.swift)
+- [ ] 523 😐 [Continuous Subarray Sum](https://leetcode.comhttps://leetcode.com/problems/continuous-subarray-sum) 
+- [ ] 524 😐 [Longest Word in Dictionary through Deleting](https://leetcode.comhttps://leetcode.com/problems/longest-word-in-dictionary-through-deleting) 
+- [ ] 525 😐 [Contiguous Array](https://leetcode.comhttps://leetcode.com/problems/contiguous-array) 
+- [ ] 526 😐 [Beautiful Arrangement](https://leetcode.comhttps://leetcode.com/problems/beautiful-arrangement) 
+- [ ] 529 😐 [Minesweeper](https://leetcode.comhttps://leetcode.com/problems/minesweeper) 
+- [ ] 530 😎 [Minimum Absolute Difference in BST](https://leetcode.comhttps://leetcode.com/problems/minimum-absolute-difference-in-bst) 
 
 
 ## Unit tests
