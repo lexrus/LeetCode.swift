@@ -3,7 +3,7 @@
 [![Travis](https://img.shields.io/travis/lexrus/LeetCode.swift.svg)](https://travis-ci.org/lexrus/LeetCode.swift)
 ![Language](https://img.shields.io/badge/language-Swift%203-orange.svg)
 ![License](https://img.shields.io/github/license/lexrus/ios-dev-playbook.svg?style=flat)
-![Progress](https://img.shields.io/badge/Progress-42%20%2F%20490%20=%208.57%25-ff69b4.svg)
+![Progress](https://img.shields.io/badge/Progress-43%20%2F%20490%20=%208.78%25-ff69b4.svg)
 
 > 愚者千虑，必有一得。
 
@@ -489,7 +489,7 @@ let 😎 = "Easy", 😐 = "Medium", 😨 = "Hard", ㊙️ = "require premium mem
 - [ ] 501 😎 [Find Mode in Binary Search Tree](https://leetcode.comhttps://leetcode.com/problems/find-mode-in-binary-search-tree) 
 - [ ] 502 😨 [IPO](https://leetcode.comhttps://leetcode.com/problems/ipo) 
 - [ ] 503 😐 [Next Greater Element II](https://leetcode.comhttps://leetcode.com/problems/next-greater-element-ii) 
-- [ ] 504 😎 [Base 7](https://leetcode.comhttps://leetcode.com/problems/base-7) 
+- [x] 504 😎 [Base 7](https://leetcode.comhttps://leetcode.com/problems/base-7) [.swift](./Tests/504.swift)
 - [ ] 505 😐 [The Maze II](https://leetcode.comhttps://leetcode.com/problems/the-maze-ii)  ㊙️
 - [ ] 506 😎 [Relative Ranks](https://leetcode.comhttps://leetcode.com/problems/relative-ranks) 
 - [ ] 508 😐 [Most Frequent Subtree Sum](https://leetcode.comhttps://leetcode.com/problems/most-frequent-subtree-sum) 
