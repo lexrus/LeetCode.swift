@@ -3,7 +3,7 @@
 [![Travis](https://img.shields.io/travis/lexrus/LeetCode.swift.svg)](https://travis-ci.org/lexrus/LeetCode.swift)
 ![Language](https://img.shields.io/badge/language-Swift%203-orange.svg)
 ![License](https://img.shields.io/github/license/lexrus/ios-dev-playbook.svg?style=flat)
-![Progress](https://img.shields.io/badge/Progress-43%20%2F%20490%20=%208.78%25-ff69b4.svg)
+![Progress](https://img.shields.io/badge/Progress-44%20%2F%20490%20=%208.98%25-ff69b4.svg)
 
 > 愚者千虑，必有一得。
 
@@ -465,7 +465,7 @@ let 😎 = "Easy", 😐 = "Medium", 😨 = "Hard", ㊙️ = "require premium mem
 - [ ] 473 😐 [Matchsticks to Square](https://leetcode.com/problems/matchsticks-to-square) 
 - [ ] 474 😐 [Ones and Zeroes](https://leetcode.com/problems/ones-and-zeroes) 
 - [ ] 475 😎 [Heaters](https://leetcode.com/problems/heaters) 
-- [ ] 476 😎 [Number Complement](https://leetcode.com/problems/number-complement) 
+- [x] 476 😎 [Number Complement](https://leetcode.com/problems/number-complement) [.swift](./Tests/476.swift)
 - [ ] 477 😐 [Total Hamming Distance](https://leetcode.com/problems/total-hamming-distance) 
 - [ ] 480 😨 [Sliding Window Median](https://leetcode.com/problems/sliding-window-median) 
 - [ ] 481 😐 [Magical String](https://leetcode.com/problems/magical-string) 
