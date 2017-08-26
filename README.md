@@ -1,7 +1,7 @@
 # LeetCode.swift
 
 [![Travis](https://img.shields.io/travis/lexrus/LeetCode.swift.svg)](https://travis-ci.org/lexrus/LeetCode.swift)
-![Language](https://img.shields.io/badge/language-Swift%203-orange.svg)
+![Language](https://img.shields.io/badge/language-Swift%204-orange.svg)
 ![License](https://img.shields.io/github/license/lexrus/ios-dev-playbook.svg?style=flat)
 ![Progress](https://img.shields.io/badge/Progress-44%20%2F%20490%20=%208.98%25-ff69b4.svg)
 
@@ -66,7 +66,7 @@ let 😎 = "Easy", 😐 = "Medium", 😨 = "Hard", ㊙️ = "require premium mem
 - [ ] 46 😐 [Permutations](https://leetcode.com/problems/permutations) 
 - [ ] 47 😐 [Permutations II](https://leetcode.com/problems/permutations-ii) 
 - [ ] 48 😐 [Rotate Image](https://leetcode.com/problems/rotate-image) 
-- [x] 49 😐 [Group Anagrams](https://leetcode.com/problems/anagrams) [.swift](./Tests/49.swift)
+- [x] 49 😐 [Group Anagrams](https://leetcode.com/problems/group-anagrams) [.swift](./Tests/49.swift)
 - [ ] 50 😐 [Pow(x, n)](https://leetcode.com/problems/powx-n) 
 - [ ] 51 😨 [N-Queens](https://leetcode.com/problems/n-queens) 
 - [ ] 52 😨 [N-Queens II](https://leetcode.com/problems/n-queens-ii) 
@@ -363,7 +363,7 @@ let 😎 = "Easy", 😐 = "Medium", 😨 = "Hard", ㊙️ = "require premium mem
 - [ ] 360 😐 [Sort Transformed Array](https://leetcode.com/problems/sort-transformed-array)  ㊙️
 - [ ] 361 😐 [Bomb Enemy](https://leetcode.com/problems/bomb-enemy)  ㊙️
 - [ ] 362 😐 [Design Hit Counter](https://leetcode.com/problems/design-hit-counter)  ㊙️
-- [ ] 363 😨 [Max Sum of Rectangle No Larger Than K](https://leetcode.com/problems/max-sum-of-sub-matrix-no-larger-than-k) 
+- [ ] 363 😨 [Max Sum of Rectangle No Larger Than K](https://leetcode.com/problems/max-sum-of-rectangle-no-larger-than-k) 
 - [ ] 364 😐 [Nested List Weight Sum II](https://leetcode.com/problems/nested-list-weight-sum-ii)  ㊙️
 - [ ] 365 😐 [Water and Jug Problem](https://leetcode.com/problems/water-and-jug-problem) 
 - [ ] 366 😐 [Find Leaves of Binary Tree](https://leetcode.com/problems/find-leaves-of-binary-tree)  ㊙️
@@ -467,6 +467,7 @@ let 😎 = "Easy", 😐 = "Medium", 😨 = "Hard", ㊙️ = "require premium mem
 - [ ] 475 😎 [Heaters](https://leetcode.com/problems/heaters) 
 - [x] 476 😎 [Number Complement](https://leetcode.com/problems/number-complement) [.swift](./Tests/476.swift)
 - [ ] 477 😐 [Total Hamming Distance](https://leetcode.com/problems/total-hamming-distance) 
+- [ ] 479 😎 [Largest Palindrome Product](https://leetcode.com/problems/largest-palindrome-product) 
 - [ ] 480 😨 [Sliding Window Median](https://leetcode.com/problems/sliding-window-median) 
 - [ ] 481 😐 [Magical String](https://leetcode.com/problems/magical-string) 
 - [ ] 482 😐 [License Key Formatting](https://leetcode.com/problems/license-key-formatting) 
@@ -492,26 +493,124 @@ let 😎 = "Easy", 😐 = "Medium", 😨 = "Hard", ㊙️ = "require premium mem
 - [x] 504 😎 [Base 7](https://leetcode.com/problems/base-7) [.swift](./Tests/504.swift)
 - [ ] 505 😐 [The Maze II](https://leetcode.com/problems/the-maze-ii)  ㊙️
 - [ ] 506 😎 [Relative Ranks](https://leetcode.com/problems/relative-ranks) 
+- [ ] 507 😎 [Perfect Number](https://leetcode.com/problems/perfect-number) 
 - [ ] 508 😐 [Most Frequent Subtree Sum](https://leetcode.com/problems/most-frequent-subtree-sum) 
-- [ ] 509 😎 [Points in Intervals](https://leetcode.com/problems/points-in-intervals) 
-- [ ] 510 😎 [Design Logging](https://leetcode.com/problems/design-logging) 
-- [ ] 511 😎 [String Lengths Average and 95th Percentile](https://leetcode.com/problems/string-lengths-average-and-95th-percentile) 
-- [ ] 512 😎 [Price Query System](https://leetcode.com/problems/price-query-system) 
 - [ ] 513 😐 [Find Bottom Left Tree Value](https://leetcode.com/problems/find-bottom-left-tree-value) 
+- [ ] 514 😨 [Freedom Trail](https://leetcode.com/problems/freedom-trail) 
 - [ ] 515 😐 [Find Largest Value in Each Tree Row](https://leetcode.com/problems/find-largest-value-in-each-tree-row) 
 - [ ] 516 😐 [Longest Palindromic Subsequence](https://leetcode.com/problems/longest-palindromic-subsequence) 
 - [ ] 517 😨 [Super Washing Machines](https://leetcode.com/problems/super-washing-machines) 
 - [x] 520 😎 [Detect Capital](https://leetcode.com/problems/detect-capital) [.swift](./Tests/520.swift)
+- [ ] 521 😎 [Longest Uncommon Subsequence I ](https://leetcode.com/problems/longest-uncommon-subsequence-i) 
+- [ ] 522 😐 [Longest Uncommon Subsequence II](https://leetcode.com/problems/longest-uncommon-subsequence-ii) 
 - [ ] 523 😐 [Continuous Subarray Sum](https://leetcode.com/problems/continuous-subarray-sum) 
 - [ ] 524 😐 [Longest Word in Dictionary through Deleting](https://leetcode.com/problems/longest-word-in-dictionary-through-deleting) 
 - [ ] 525 😐 [Contiguous Array](https://leetcode.com/problems/contiguous-array) 
 - [ ] 526 😐 [Beautiful Arrangement](https://leetcode.com/problems/beautiful-arrangement) 
+- [ ] 527 😨 [Word Abbreviation](https://leetcode.com/problems/word-abbreviation)  ㊙️
 - [ ] 529 😐 [Minesweeper](https://leetcode.com/problems/minesweeper) 
 - [ ] 530 😎 [Minimum Absolute Difference in BST](https://leetcode.com/problems/minimum-absolute-difference-in-bst) 
+- [ ] 531 😐 [Lonely Pixel I](https://leetcode.com/problems/lonely-pixel-i)  ㊙️
+- [ ] 532 😎 [K-diff Pairs in an Array](https://leetcode.com/problems/k-diff-pairs-in-an-array) 
+- [ ] 533 😐 [Lonely Pixel II](https://leetcode.com/problems/lonely-pixel-ii)  ㊙️
+- [ ] 535 😐 [Encode and Decode TinyURL](https://leetcode.com/problems/encode-and-decode-tinyurl) 
+- [ ] 536 😐 [Construct Binary Tree from String](https://leetcode.com/problems/construct-binary-tree-from-string)  ㊙️
+- [ ] 537 😐 [Complex Number Multiplication](https://leetcode.com/problems/complex-number-multiplication) 
+- [ ] 538 😎 [Convert BST to Greater Tree](https://leetcode.com/problems/convert-bst-to-greater-tree) 
+- [ ] 539 😐 [Minimum Time Difference](https://leetcode.com/problems/minimum-time-difference) 
+- [ ] 540 😐 [Single Element in a Sorted Array](https://leetcode.com/problems/single-element-in-a-sorted-array) 
+- [ ] 541 😎 [Reverse String II](https://leetcode.com/problems/reverse-string-ii) 
+- [ ] 542 😐 [01 Matrix](https://leetcode.com/problems/01-matrix) 
+- [ ] 543 😎 [Diameter of Binary Tree](https://leetcode.com/problems/diameter-of-binary-tree) 
+- [ ] 544 😐 [Output Contest Matches](https://leetcode.com/problems/output-contest-matches)  ㊙️
+- [ ] 545 😐 [Boundary of Binary Tree](https://leetcode.com/problems/boundary-of-binary-tree)  ㊙️
+- [ ] 546 😨 [Remove Boxes](https://leetcode.com/problems/remove-boxes) 
+- [ ] 547 😐 [Friend Circles](https://leetcode.com/problems/friend-circles) 
+- [ ] 548 😐 [Split Array with Equal Sum](https://leetcode.com/problems/split-array-with-equal-sum)  ㊙️
+- [ ] 549 😐 [Binary Tree Longest Consecutive Sequence II](https://leetcode.com/problems/binary-tree-longest-consecutive-sequence-ii)  ㊙️
+- [ ] 551 😎 [Student Attendance Record I](https://leetcode.com/problems/student-attendance-record-i) 
+- [ ] 552 😨 [Student Attendance Record II](https://leetcode.com/problems/student-attendance-record-ii) 
+- [ ] 553 😐 [Optimal Division](https://leetcode.com/problems/optimal-division) 
+- [ ] 554 😐 [Brick Wall](https://leetcode.com/problems/brick-wall) 
+- [ ] 555 😐 [Split Concatenated Strings](https://leetcode.com/problems/split-concatenated-strings)  ㊙️
+- [ ] 556 😐 [Next Greater Element III](https://leetcode.com/problems/next-greater-element-iii) 
+- [ ] 557 😎 [Reverse Words in a String III](https://leetcode.com/problems/reverse-words-in-a-string-iii) 
+- [ ] 560 😐 [Subarray Sum Equals K](https://leetcode.com/problems/subarray-sum-equals-k) 
+- [ ] 561 😎 [Array Partition I](https://leetcode.com/problems/array-partition-i) 
+- [ ] 562 😐 [Longest Line of Consecutive One in Matrix](https://leetcode.com/problems/longest-line-of-consecutive-one-in-matrix)  ㊙️
+- [ ] 563 😎 [Binary Tree Tilt](https://leetcode.com/problems/binary-tree-tilt) 
+- [ ] 564 😨 [Find the Closest Palindrome](https://leetcode.com/problems/find-the-closest-palindrome) 
+- [ ] 565 😐 [Array Nesting](https://leetcode.com/problems/array-nesting) 
+- [ ] 566 😎 [Reshape the Matrix](https://leetcode.com/problems/reshape-the-matrix) 
+- [ ] 567 😐 [Permutation in String](https://leetcode.com/problems/permutation-in-string) 
+- [ ] 568 😨 [Maximum Vacation Days](https://leetcode.com/problems/maximum-vacation-days)  ㊙️
+- [ ] 572 😎 [Subtree of Another Tree](https://leetcode.com/problems/subtree-of-another-tree) 
+- [ ] 573 😐 [Squirrel Simulation](https://leetcode.com/problems/squirrel-simulation)  ㊙️
+- [ ] 575 😎 [Distribute Candies](https://leetcode.com/problems/distribute-candies) 
+- [ ] 576 😐 [Out of Boundary Paths](https://leetcode.com/problems/out-of-boundary-paths) 
+- [ ] 581 😎 [Shortest Unsorted Continuous Subarray](https://leetcode.com/problems/shortest-unsorted-continuous-subarray) 
+- [ ] 582 😐 [Kill Process](https://leetcode.com/problems/kill-process)  ㊙️
+- [ ] 583 😐 [Delete Operation for Two Strings](https://leetcode.com/problems/delete-operation-for-two-strings) 
+- [ ] 587 😨 [Erect the Fence](https://leetcode.com/problems/erect-the-fence) 
+- [ ] 588 😨 [Design In-Memory File System](https://leetcode.com/problems/design-in-memory-file-system)  ㊙️
+- [ ] 591 😨 [Tag Validator](https://leetcode.com/problems/tag-validator) 
+- [ ] 592 😐 [Fraction Addition and Subtraction](https://leetcode.com/problems/fraction-addition-and-subtraction) 
+- [ ] 593 😐 [Valid Square](https://leetcode.com/problems/valid-square) 
+- [ ] 594 😎 [Longest Harmonious Subsequence](https://leetcode.com/problems/longest-harmonious-subsequence) 
+- [ ] 598 😎 [Range Addition II](https://leetcode.com/problems/range-addition-ii) 
+- [ ] 599 😎 [Minimum Index Sum of Two Lists](https://leetcode.com/problems/minimum-index-sum-of-two-lists) 
+- [ ] 600 😨 [Non-negative Integers without Consecutive Ones](https://leetcode.com/problems/non-negative-integers-without-consecutive-ones) 
+- [ ] 604 😎 [Design Compressed String Iterator](https://leetcode.com/problems/design-compressed-string-iterator)  ㊙️
+- [ ] 605 😎 [Can Place Flowers](https://leetcode.com/problems/can-place-flowers) 
+- [ ] 606 😎 [Construct String from Binary Tree](https://leetcode.com/problems/construct-string-from-binary-tree) 
+- [ ] 609 😐 [Find Duplicate File in System](https://leetcode.com/problems/find-duplicate-file-in-system) 
+- [ ] 611 😐 [Valid Triangle Number](https://leetcode.com/problems/valid-triangle-number) 
+- [ ] 616 😐 [Add Bold Tag in String](https://leetcode.com/problems/add-bold-tag-in-string)  ㊙️
+- [ ] 617 😎 [Merge Two Binary Trees](https://leetcode.com/problems/merge-two-binary-trees) 
+- [ ] 621 😐 [Task Scheduler](https://leetcode.com/problems/task-scheduler) 
+- [ ] 623 😐 [Add One Row to Tree](https://leetcode.com/problems/add-one-row-to-tree) 
+- [ ] 624 😎 [Maximum Distance in Arrays](https://leetcode.com/problems/maximum-distance-in-arrays)  ㊙️
+- [ ] 625 😐 [Minimum Factorization](https://leetcode.com/problems/minimum-factorization)  ㊙️
+- [ ] 628 😎 [Maximum Product of Three Numbers](https://leetcode.com/problems/maximum-product-of-three-numbers) 
+- [ ] 629 😨 [K Inverse Pairs Array](https://leetcode.com/problems/k-inverse-pairs-array) 
+- [ ] 630 😨 [Course Schedule III](https://leetcode.com/problems/course-schedule-iii) 
+- [ ] 631 😨 [Design Excel Sum Formula](https://leetcode.com/problems/design-excel-sum-formula)  ㊙️
+- [ ] 632 😨 [Smallest Range](https://leetcode.com/problems/smallest-range) 
+- [ ] 633 😎 [Sum of Square Numbers](https://leetcode.com/problems/sum-of-square-numbers) 
+- [ ] 634 😐 [Find the Derangement of An Array](https://leetcode.com/problems/find-the-derangement-of-an-array)  ㊙️
+- [ ] 635 😐 [Design Log Storage System](https://leetcode.com/problems/design-log-storage-system)  ㊙️
+- [ ] 636 😐 [Exclusive Time of Functions](https://leetcode.com/problems/exclusive-time-of-functions) 
+- [ ] 637 😎 [Average of Levels in Binary Tree](https://leetcode.com/problems/average-of-levels-in-binary-tree) 
+- [ ] 638 😐 [Shopping Offers](https://leetcode.com/problems/shopping-offers) 
+- [ ] 639 😨 [Decode Ways II](https://leetcode.com/problems/decode-ways-ii) 
+- [ ] 640 😐 [Solve the Equation](https://leetcode.com/problems/solve-the-equation) 
+- [ ] 642 😨 [Design Search Autocomplete System](https://leetcode.com/problems/design-search-autocomplete-system)  ㊙️
+- [ ] 643 😎 [Maximum Average Subarray I](https://leetcode.com/problems/maximum-average-subarray-i) 
+- [ ] 644 😨 [Maximum Average Subarray II](https://leetcode.com/problems/maximum-average-subarray-ii)  ㊙️
+- [ ] 645 😎 [Set Mismatch](https://leetcode.com/problems/set-mismatch) 
+- [ ] 646 😐 [Maximum Length of Pair Chain](https://leetcode.com/problems/maximum-length-of-pair-chain) 
+- [ ] 647 😐 [Palindromic Substrings](https://leetcode.com/problems/palindromic-substrings) 
+- [ ] 648 😐 [Replace Words](https://leetcode.com/problems/replace-words) 
+- [ ] 649 😐 [Dota2 Senate](https://leetcode.com/problems/dota2-senate) 
+- [ ] 650 😐 [2 Keys Keyboard](https://leetcode.com/problems/2-keys-keyboard) 
+- [ ] 651 😐 [4 Keys Keyboard](https://leetcode.com/problems/4-keys-keyboard)  ㊙️
+- [ ] 652 😐 [Find Duplicate Subtrees](https://leetcode.com/problems/find-duplicate-subtrees) 
+- [ ] 653 😎 [Two Sum IV - Input is a BST](https://leetcode.com/problems/two-sum-iv-input-is-a-bst) 
+- [ ] 654 😐 [Maximum Binary Tree](https://leetcode.com/problems/maximum-binary-tree) 
+- [ ] 655 😐 [Print Binary Tree](https://leetcode.com/problems/print-binary-tree) 
+- [ ] 656 😨 [Coin Path](https://leetcode.com/problems/coin-path)  ㊙️
+- [ ] 657 😎 [Judge Route Circle](https://leetcode.com/problems/judge-route-circle) 
+- [ ] 658 😐 [Find K Closest Elements](https://leetcode.com/problems/find-k-closest-elements) 
+- [ ] 659 😐 [Split Array into Consecutive Subsequences](https://leetcode.com/problems/split-array-into-consecutive-subsequences) 
+- [ ] 660 😨 [Remove 9](https://leetcode.com/problems/remove-9) 
+- [ ] 661 😎 [Image Smoother](https://leetcode.com/problems/image-smoother) 
+- [ ] 662 😐 [Maximum Width of Binary Tree](https://leetcode.com/problems/maximum-width-of-binary-tree) 
+- [ ] 663 😐 [Equal Tree Partition](https://leetcode.com/problems/equal-tree-partition) 
+- [ ] 664 😨 [Strange Printer](https://leetcode.com/problems/strange-printer) 
 
 
 ## Unit tests
-Open the project with Xcode 8 then press `⌘ + u`.
+Open the project with Xcode 9 then press `⌘ + u`.
 Or run `rake test` in this folder if you have [xctool](https://github.com/facebook/xctool) installed.
 
 

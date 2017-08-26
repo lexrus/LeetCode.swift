@@ -14,7 +14,7 @@ task :test do
 end
 
 desc 'Sync problems list'
-task :sync_problems do
+task :sync do
   uri = URI('https://leetcode.com/api/problems/algorithms/')
   response = Net::HTTP.get(uri)
   json = JSON.parse(response)
