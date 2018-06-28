@@ -20,7 +20,7 @@ let 😎 = "Easy", 😐 = "Medium", 😨 = "Hard", ㊙️ = "require premium mem
 
 - [x] 1 😎 [Two Sum](https://leetcode.com/problems/two-sum) [.swift](./Tests/1.swift)
 - [x] 2 😐 [Add Two Numbers](https://leetcode.com/problems/add-two-numbers) [.swift](./Tests/2.swift)
-- [ ] 3 😐 [Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters) 
+- [x] 3 😐 [Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters) [.swift](./Tests/3.swift)
 - [ ] 4 😨 [Median of Two Sorted Arrays](https://leetcode.com/problems/median-of-two-sorted-arrays) 
 - [x] 5 😐 [Longest Palindromic Substring](https://leetcode.com/problems/longest-palindromic-substring) [.swift](./Tests/5.swift)
 - [x] 6 😐 [ZigZag Conversion](https://leetcode.com/problems/zigzag-conversion) [.swift](./Tests/6.swift)
