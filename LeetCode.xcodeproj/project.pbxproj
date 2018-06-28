@@ -33,6 +33,7 @@
 		D7C413281E556204006C36A5 /* 268.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7C413271E556204006C36A5 /* 268.swift */; };
 		D7CB678A1C3E647100C4209D /* 114.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7CB67891C3E647100C4209D /* 114.swift */; };
 		D7DE016B1AF9F13600BB2AA0 /* 100.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7DE016A1AF9F13600BB2AA0 /* 100.swift */; };
+		D7ECA12320E502BE0025CC58 /* 5.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7ECA12220E502BE0025CC58 /* 5.swift */; };
 		D7FB8E161AF89A2700286272 /* 38.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7FB8E151AF89A2700286272 /* 38.swift */; };
 		D7FB8E181AF89A3200286272 /* 28.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7FB8E171AF89A3200286272 /* 28.swift */; };
 		D7FB8E1A1AF89A6500286272 /* 14.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7FB8E191AF89A6500286272 /* 14.swift */; };
@@ -85,6 +86,7 @@
 		D7C413271E556204006C36A5 /* 268.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = 268.swift; sourceTree = "<group>"; };
 		D7CB67891C3E647100C4209D /* 114.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = 114.swift; sourceTree = "<group>"; };
 		D7DE016A1AF9F13600BB2AA0 /* 100.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = 100.swift; sourceTree = "<group>"; };
+		D7ECA12220E502BE0025CC58 /* 5.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 5.swift; sourceTree = "<group>"; };
 		D7FB8E091AF899FE00286272 /* LeetCodeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LeetCodeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D7FB8E0C1AF899FE00286272 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D7FB8E151AF89A2700286272 /* 38.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = 38.swift; sourceTree = "<group>"; };
@@ -145,6 +147,7 @@
 			children = (
 				D7FB8E311AF89B1800286272 /* 1.swift */,
 				D7FB8E2F1AF89B0F00286272 /* 2.swift */,
+				D7ECA12220E502BE0025CC58 /* 5.swift */,
 				D7FB8E2D1AF89B0400286272 /* 6.swift */,
 				D7FB8E271AF89ADB00286272 /* 7.swift */,
 				D7FB8E1D1AF89A8200286272 /* 8.swift */,
@@ -306,6 +309,7 @@
 				D71C171D1C30E99000936BF7 /* 283.swift in Sources */,
 				D7FB8E1E1AF89A8200286272 /* 8.swift in Sources */,
 				D7FB8E241AF89AAF00286272 /* 27.swift in Sources */,
+				D7ECA12320E502BE0025CC58 /* 5.swift in Sources */,
 				D71C172E1C3290B900936BF7 /* 110.swift in Sources */,
 				D7FB8E601AF8AF2400286272 /* Character+LeetCode.swift in Sources */,
 				D7FB8E261AF89ACD00286272 /* 26.swift in Sources */,
@@ -376,6 +380,7 @@
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = macosx;
 				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 4.2;
 			};
 			name = Debug;
 		};
@@ -412,6 +417,7 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = macosx;
+				SWIFT_VERSION = 4.2;
 			};
 			name = Release;
 		};
@@ -434,7 +440,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.LexTang.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 3.0;
+				SWIFT_VERSION = 4.2;
 			};
 			name = Debug;
 		};
@@ -453,7 +459,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.LexTang.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
-				SWIFT_VERSION = 3.0;
+				SWIFT_VERSION = 4.2;
 			};
 			name = Release;
 		};
