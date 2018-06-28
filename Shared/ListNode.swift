@@ -11,7 +11,7 @@ import Foundation
 class ListNode: CustomDebugStringConvertible {
 
     var value: Int = 0
-    var next: ListNode? = nil
+    var next: ListNode?
 
     init(_ value: Int = 0, _ next: ListNode? = nil) {
         self.value = value

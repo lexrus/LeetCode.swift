@@ -28,8 +28,8 @@ extension String {
         var stack = [Character]()
         var s = self
 
-        while s.characters.count > 0 {
-            let char = s[s.characters.count - 1]
+        while s.count > 0 {
+            let char = s[s.count - 1]
 
             if char == "("[0] || char == "["[0] || char == "{"[0] {
                 let sChar = stack.last ?? " "[0]
@@ -50,7 +50,7 @@ extension String {
             }
         }
 
-        return s.characters.count == 0 && stack.count == 0
+        return s.count == 0 && stack.count == 0
     }
 
 }

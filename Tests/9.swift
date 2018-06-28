@@ -35,7 +35,7 @@ func isPalindrome(_ x: Int) -> Bool {
         }
 
         parlinedromeX = parlinedromeX * 10 + tmpX % 10
-        tmpX = tmpX / 10
+        tmpX /= 10
     }
 
     return parlinedromeX == x

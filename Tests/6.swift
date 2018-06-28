@@ -35,14 +35,14 @@ class ZigZagConversion {
     - returns: The result ZigZag text
     */
     class func convert0(_ text: String, _ rows: Int) -> String {
-        if rows <= 1 || rows > text.characters.count {
+        if rows <= 1 || rows > text.count {
             return text
         }
 
         var r = [String]()
         var row = 0
         var step = 1
-        for (_, char) in text.characters.enumerated() {
+        for (_, char) in text.enumerated() {
             if row == rows - 1 {
                 step = -1
             }
@@ -84,7 +84,7 @@ extension ZigZagConversion {
     */
     class func convert1(_ text: String, _ rows: Int) -> String {
         var array = Array<String>(repeating: String(), count: rows)
-        var i = 0, length = text.characters.count
+        var i = 0, length = text.count
         while i < length {
             var index = 0
             while index < rows && i < length {

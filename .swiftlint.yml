@@ -1,0 +1,25 @@
+disabled_rules:
+  - identifier_name
+  - trailing_whitespace
+  - colon
+  - large_tuple
+  - vertical_whitespace
+  - line_length
+  - opening_brace
+  - comma
+  - closure_parameter_position
+  - unused_closure_parameter
+  - unused_optional_binding
+  - type_name
+  - file_length
+  - type_body_length
+excluded:
+  - R.generated.swift
+  - genstrings.swift
+  - Carthage
+  - Pods
+cyclomatic_complexity:
+  - 8
+function_body_length:
+  - 200
+  - 800

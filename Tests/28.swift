@@ -22,7 +22,7 @@ import XCTest
 // Brute Force
 // Time complexity：O(mn), Space complexity: O(1)
 func strStr0(_ haystack: String, needle: String) -> Int {
-    let m = haystack.characters.count, n = needle.characters.count
+    let m = haystack.count, n = needle.count
     if n > 0 {
         var i = 0, j = 0
         while i < m - n {

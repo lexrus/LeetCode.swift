@@ -28,18 +28,18 @@ import XCTest
 
 func isAnagram(_ s: String, _ t: String) -> Bool {
     // They must have the same size
-    if s.characters.count != t.characters.count {
+    if s.count != t.count {
         return false
     }
 
     var src = s
-    t.characters.forEach {
+    t.forEach {
         if let charRange = src.range(of: String($0)) {
             src.remove(at: charRange.lowerBound)
         }
     }
 
-    if src.characters.count == 0 {
+    if src.count == 0 {
         return true
     }
     return false

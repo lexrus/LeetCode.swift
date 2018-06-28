@@ -25,7 +25,7 @@ func longestCommonPrefix(_ list: [String]) -> String? {
         return .none
     }
 
-    for (i, char) in list[0].characters.enumerated() {
+    for (i, char) in list[0].enumerated() {
         for (_, str) in list.enumerated() {
             match = str[i] == char
             if !match {

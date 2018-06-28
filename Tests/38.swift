@@ -40,7 +40,7 @@ func countAndSay(_ n: Int) -> String {
         var last = s[0]
         var newS = ""
 
-        for j in 0...s.characters.count {
+        for j in 0...s.count {
             if s[j] == last {
                 cnt += 1
             } else {
