@@ -3,7 +3,7 @@
 [![Travis](https://img.shields.io/travis/lexrus/LeetCode.swift.svg)](https://travis-ci.org/lexrus/LeetCode.swift)
 ![Language](https://img.shields.io/badge/language-Swift%204-orange.svg)
 ![License](https://img.shields.io/github/license/lexrus/ios-dev-playbook.svg?style=flat)
-![Progress](https://img.shields.io/badge/Progress-44%20%2F%20490%20=%208.98%25-ff69b4.svg)
+![Progress](https://img.shields.io/badge/Progress-47%20%2F%20774%20=%206.07%25-ff69b4.svg)
 
 > 愚者千虑，必有一得。
 
@@ -52,7 +52,7 @@ let 😎 = "Easy", 😐 = "Medium", 😨 = "Hard", ㊙️ = "require premium mem
 - [ ] 32 😨 [Longest Valid Parentheses](https://leetcode.com/problems/longest-valid-parentheses) 
 - [ ] 33 😐 [Search in Rotated Sorted Array](https://leetcode.com/problems/search-in-rotated-sorted-array) 
 - [ ] 34 😐 [Search for a Range](https://leetcode.com/problems/search-for-a-range) 
-- [ ] 35 😎 [Search Insert Position](https://leetcode.com/problems/search-insert-position) 
+- [x] 35 😎 [Search Insert Position](https://leetcode.com/problems/search-insert-position) [.swift](./Tests/35.swift)
 - [ ] 36 😐 [Valid Sudoku](https://leetcode.com/problems/valid-sudoku) 
 - [ ] 37 😨 [Sudoku Solver](https://leetcode.com/problems/sudoku-solver) 
 - [x] 38 😎 [Count and Say](https://leetcode.com/problems/count-and-say) [.swift](./Tests/38.swift)
