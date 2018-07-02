@@ -3,7 +3,7 @@
 [![Travis](https://img.shields.io/travis/lexrus/LeetCode.swift.svg)](https://travis-ci.org/lexrus/LeetCode.swift)
 ![Language](https://img.shields.io/badge/language-Swift%204-orange.svg)
 ![License](https://img.shields.io/github/license/lexrus/ios-dev-playbook.svg?style=flat)
-![Progress](https://img.shields.io/badge/Progress-47%20%2F%20774%20=%206.07%25-ff69b4.svg)
+![Progress](https://img.shields.io/badge/Progress-48%20%2F%20778%20=%206.17%25-ff69b4.svg)
 
 > 愚者千虑，必有一得。
 
@@ -29,7 +29,7 @@ let 😎 = "Easy", 😐 = "Medium", 😨 = "Hard", ㊙️ = "require premium mem
 - [x] 9 😎 [Palindrome Number](https://leetcode.com/problems/palindrome-number) [.swift](./Tests/9.swift)
 - [ ] 10 😨 [Regular Expression Matching](https://leetcode.com/problems/regular-expression-matching) 
 - [ ] 11 😐 [Container With Most Water](https://leetcode.com/problems/container-with-most-water) 
-- [ ] 12 😐 [Integer to Roman](https://leetcode.com/problems/integer-to-roman) 
+- [x] 12 😐 [Integer to Roman](https://leetcode.com/problems/integer-to-roman) [.swift](./Tests/12.swift)
 - [x] 13 😎 [Roman to Integer](https://leetcode.com/problems/roman-to-integer) [.swift](./Tests/13.swift)
 - [x] 14 😎 [Longest Common Prefix](https://leetcode.com/problems/longest-common-prefix) [.swift](./Tests/14.swift)
 - [ ] 15 😐 [3Sum](https://leetcode.com/problems/3sum) 
@@ -792,6 +792,10 @@ let 😎 = "Easy", 😐 = "Medium", 😨 = "Hard", ㊙️ = "require premium mem
 - [ ] 887 😨 [Minimum Cost to Hire K Workers](https://leetcode.com/problems/minimum-cost-to-hire-k-workers) 
 - [ ] 888 😐 [Mirror Reflection](https://leetcode.com/problems/mirror-reflection) 
 - [ ] 889 😎 [Buddy Strings](https://leetcode.com/problems/buddy-strings) 
+- [ ] 890 😎 [Lemonade Change](https://leetcode.com/problems/lemonade-change) 
+- [ ] 891 😐 [Score After Flipping Matrix](https://leetcode.com/problems/score-after-flipping-matrix) 
+- [ ] 892 😨 [Shortest Subarray with Sum at Least K](https://leetcode.com/problems/shortest-subarray-with-sum-at-least-k) 
+- [ ] 893 😐 [All Nodes Distance K in Binary Tree](https://leetcode.com/problems/all-nodes-distance-k-in-binary-tree) 
 
 
 ## Unit tests
