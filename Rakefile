@@ -23,7 +23,7 @@ task :sync do
   dir = File.dirname(__FILE__)
   problems = problems.map { |p|
     title = p['stat']['question__title']
-    questionId = p['stat']['question_id']
+    questionId = p['stat']['frontend_question_id']
     questionSlug = p['stat']['question__title_slug']
     paidOnly = p['paid_only']
     difficulty = p['difficulty']['level']
