@@ -3,7 +3,7 @@
 [![Travis](https://img.shields.io/travis/lexrus/LeetCode.swift.svg)](https://travis-ci.org/lexrus/LeetCode.swift)
 ![Language](https://img.shields.io/badge/language-Swift%204-orange.svg)
 ![License](https://img.shields.io/github/license/lexrus/ios-dev-playbook.svg?style=flat)
-![Progress](https://img.shields.io/badge/Progress-48%20%2F%20778%20=%206.17%25-ff69b4.svg)
+![Progress](https://img.shields.io/badge/Progress-49%20%2F%20778%20=%206.3%25-ff69b4.svg)
 
 > 愚者千虑，必有一得。
 
@@ -34,7 +34,7 @@ let 😎 = "Easy", 😐 = "Medium", 😨 = "Hard", ㊙️ = "require premium mem
 - [x] 14 😎 [Longest Common Prefix](https://leetcode.com/problems/longest-common-prefix) [.swift](./Tests/14.swift)
 - [ ] 15 😐 [3Sum](https://leetcode.com/problems/3sum) 
 - [ ] 16 😐 [3Sum Closest](https://leetcode.com/problems/3sum-closest) 
-- [ ] 17 😐 [Letter Combinations of a Phone Number](https://leetcode.com/problems/letter-combinations-of-a-phone-number) 
+- [x] 17 😐 [Letter Combinations of a Phone Number](https://leetcode.com/problems/letter-combinations-of-a-phone-number) [.swift](./Tests/17.swift)
 - [ ] 18 😐 [4Sum](https://leetcode.com/problems/4sum) 
 - [x] 19 😐 [Remove Nth Node From End of List](https://leetcode.com/problems/remove-nth-node-from-end-of-list) [.swift](./Tests/19.swift)
 - [x] 20 😎 [Valid Parentheses](https://leetcode.com/problems/valid-parentheses) [.swift](./Tests/20.swift)
