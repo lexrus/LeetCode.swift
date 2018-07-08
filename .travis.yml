@@ -2,7 +2,7 @@ osx_image: xcode10
 language: objective-c
 script:
     - |
-      xcodebuild test \
-      -project LeetCode.xcodeproj \
-      -scheme LeetCodeTests \
-      -sdk macosx | xcpretty
+      xctool run-tests \
+        -project LeetCode.xcodeproj \
+        -scheme LeetCodeTests \
+        -sdk macosx

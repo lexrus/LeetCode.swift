@@ -2,14 +2,13 @@ require 'rubygems'
 require 'net/http'
 require 'json'
 
-desc 'Start test with XCTool'
+desc 'Start test'
 task :test do
   system %{
-    xctool run-tests \
-      -jobs 4 \
+    xcodebuild test \
       -project LeetCode.xcodeproj \
       -scheme LeetCodeTests \
-      -sdk macosx
+      -sdk macosx | xcpretty
     }
 end
 

@@ -1,9 +1,8 @@
 # LeetCode.swift
 
 [![Travis](https://img.shields.io/travis/lexrus/LeetCode.swift.svg)](https://travis-ci.org/lexrus/LeetCode.swift)
-![Language](https://img.shields.io/badge/language-Swift%204-orange.svg)
-![License](https://img.shields.io/github/license/lexrus/ios-dev-playbook.svg?style=flat)
-![Progress](https://img.shields.io/badge/Progress-55%20%2F%20783%20=%207.02%25-ff69b4.svg)
+![Language](https://img.shields.io/badge/language-Swift%204.2-orange.svg)
+![Progress](https://img.shields.io/badge/Progress-56%20%2F%20783%20=%207.15%25-ff69b4.svg)
 
 > 愚者千虑，必有一得。
 
@@ -11,8 +10,6 @@ As an idiot of algorithms,
 I make bold to resolve the problems on [LeetCode](https://leetcode.com),
 especially, in [Swift](http://www.apple.com/swift/).
 Most of the algorithms were __not__ figured out by myself.
-
-PLEASE __DO NOT CONTRIBUTE__ until I accomplish all of them.
 
 ``` swift
 let 😎 = "Easy", 😐 = "Medium", 😨 = "Hard", ㊙️ = "require premium membership"
@@ -768,7 +765,7 @@ let 😎 = "Easy", 😐 = "Medium", 😨 = "Hard", ㊙️ = "require premium mem
 - [ ] 833 😐 [Find And Replace in String](https://leetcode.com/problems/find-and-replace-in-string) 
 - [ ] 834 😨 [Sum of Distances in Tree](https://leetcode.com/problems/sum-of-distances-in-tree) 
 - [ ] 835 😐 [Image Overlap](https://leetcode.com/problems/image-overlap) 
-- [ ] 836 😎 [Rectangle Overlap](https://leetcode.com/problems/rectangle-overlap) 
+- [x] 836 😎 [Rectangle Overlap](https://leetcode.com/problems/rectangle-overlap) [.swift](./Tests/836.swift)
 - [ ] 837 😐 [New 21 Game](https://leetcode.com/problems/new-21-game) 
 - [ ] 838 😐 [Push Dominoes](https://leetcode.com/problems/push-dominoes) 
 - [ ] 839 😨 [Similar String Groups](https://leetcode.com/problems/similar-string-groups) 
@@ -804,16 +801,15 @@ let 😎 = "Easy", 😐 = "Medium", 😨 = "Hard", ㊙️ = "require premium mem
 
 
 ## Unit tests
-Open the project with Xcode 10 then press `⌘ + u`.
-Or run `rake test` in this folder if you have [xctool](https://github.com/facebook/xctool) installed.
+This is a test-driven project. You may press <kbd>⌘</kbd> + <kbd>u</kbd> in Xcode to invoke the tests. Or just `rake` in CLI.
 
 
 ## License
 
-Copyright (C) 2018 lexrus.com
-
+<details><summary>Copyright (C) 2018 lexrus.com</summary>
 Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
 
 The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
 
 THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+</details>
