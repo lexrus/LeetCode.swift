@@ -3,7 +3,7 @@
 [![Travis](https://img.shields.io/travis/lexrus/LeetCode.swift.svg)](https://travis-ci.org/lexrus/LeetCode.swift)
 ![Language](https://img.shields.io/badge/language-Swift%204-orange.svg)
 ![License](https://img.shields.io/github/license/lexrus/ios-dev-playbook.svg?style=flat)
-![Progress](https://img.shields.io/badge/Progress-54%20%2F%20783%20=%206.9%25-ff69b4.svg)
+![Progress](https://img.shields.io/badge/Progress-55%20%2F%20783%20=%207.02%25-ff69b4.svg)
 
 > 愚者千虑，必有一得。
 
@@ -772,7 +772,7 @@ let 😎 = "Easy", 😐 = "Medium", 😨 = "Hard", ㊙️ = "require premium mem
 - [ ] 837 😐 [New 21 Game](https://leetcode.com/problems/new-21-game) 
 - [ ] 838 😐 [Push Dominoes](https://leetcode.com/problems/push-dominoes) 
 - [ ] 839 😨 [Similar String Groups](https://leetcode.com/problems/similar-string-groups) 
-- [ ] 840 😎 [Magic Squares In Grid](https://leetcode.com/problems/magic-squares-in-grid) 
+- [x] 840 😎 [Magic Squares In Grid](https://leetcode.com/problems/magic-squares-in-grid) [.swift](./Tests/840.swift)
 - [ ] 841 😐 [Keys and Rooms](https://leetcode.com/problems/keys-and-rooms) 
 - [ ] 842 😐 [Split Array into Fibonacci Sequence](https://leetcode.com/problems/split-array-into-fibonacci-sequence) 
 - [ ] 843 😨 [Guess the Word](https://leetcode.com/problems/guess-the-word) 
