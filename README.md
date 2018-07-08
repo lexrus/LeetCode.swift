@@ -3,7 +3,7 @@
 [![Travis](https://img.shields.io/travis/lexrus/LeetCode.swift.svg)](https://travis-ci.org/lexrus/LeetCode.swift)
 ![Language](https://img.shields.io/badge/language-Swift%204-orange.svg)
 ![License](https://img.shields.io/github/license/lexrus/ios-dev-playbook.svg?style=flat)
-![Progress](https://img.shields.io/badge/Progress-50%20%2F%20778%20=%206.43%25-ff69b4.svg)
+![Progress](https://img.shields.io/badge/Progress-51%20%2F%20783%20=%206.51%25-ff69b4.svg)
 
 > 愚者千虑，必有一得。
 
@@ -792,10 +792,15 @@ let 😎 = "Easy", 😐 = "Medium", 😨 = "Hard", ㊙️ = "require premium mem
 - [ ] 857 😨 [Minimum Cost to Hire K Workers](https://leetcode.com/problems/minimum-cost-to-hire-k-workers) 
 - [ ] 858 😐 [Mirror Reflection](https://leetcode.com/problems/mirror-reflection) 
 - [x] 859 😎 [Buddy Strings](https://leetcode.com/problems/buddy-strings) [.swift](./Tests/859.swift)
-- [ ] 860 😎 [Lemonade Change](https://leetcode.com/problems/lemonade-change) 
+- [x] 860 😎 [Lemonade Change](https://leetcode.com/problems/lemonade-change) [.swift](./Tests/860.swift)
 - [ ] 861 😐 [Score After Flipping Matrix](https://leetcode.com/problems/score-after-flipping-matrix) 
 - [ ] 862 😨 [Shortest Subarray with Sum at Least K](https://leetcode.com/problems/shortest-subarray-with-sum-at-least-k) 
 - [ ] 863 😐 [All Nodes Distance K in Binary Tree](https://leetcode.com/problems/all-nodes-distance-k-in-binary-tree) 
+- [ ] 864 😨 [Random Pick with Blacklist](https://leetcode.com/problems/random-pick-with-blacklist) 
+- [ ] 865 😨 [Shortest Path to Get All Keys](https://leetcode.com/problems/shortest-path-to-get-all-keys) 
+- [ ] 866 😐 [Smallest Subtree with all the Deepest Nodes](https://leetcode.com/problems/smallest-subtree-with-all-the-deepest-nodes) 
+- [ ] 867 😐 [Prime Palindrome](https://leetcode.com/problems/prime-palindrome) 
+- [ ] 868 😎 [Transpose Matrix](https://leetcode.com/problems/transpose-matrix) 
 
 
 ## Unit tests

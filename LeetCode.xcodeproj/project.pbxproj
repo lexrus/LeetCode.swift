@@ -23,6 +23,7 @@
 		D73A423A1E66929F00F34AD9 /* 504.swift in Sources */ = {isa = PBXBuildFile; fileRef = D73A42391E66929F00F34AD9 /* 504.swift */; };
 		D73A423C1E67E50D00F34AD9 /* 476.swift in Sources */ = {isa = PBXBuildFile; fileRef = D73A423B1E67E50D00F34AD9 /* 476.swift */; };
 		D743F3DC1C2EE7BF00A7BC6E /* 111.swift in Sources */ = {isa = PBXBuildFile; fileRef = D743F3DB1C2EE7BF00A7BC6E /* 111.swift */; };
+		D76B485520F21B5C000676E8 /* 860.swift in Sources */ = {isa = PBXBuildFile; fileRef = D76B485420F21B5C000676E8 /* 860.swift */; };
 		D7803DC21B95F1FE000C9270 /* 104.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7803DC11B95F1FE000C9270 /* 104.swift */; };
 		D783CC9B1B2AC9160087FFC1 /* 226.swift in Sources */ = {isa = PBXBuildFile; fileRef = D783CC9A1B2AC9160087FFC1 /* 226.swift */; };
 		D79437E81C4895AC005BA62B /* 326.swift in Sources */ = {isa = PBXBuildFile; fileRef = D79437E71C4895AC005BA62B /* 326.swift */; };
@@ -80,6 +81,7 @@
 		D73A42391E66929F00F34AD9 /* 504.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = 504.swift; sourceTree = "<group>"; };
 		D73A423B1E67E50D00F34AD9 /* 476.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = 476.swift; sourceTree = "<group>"; };
 		D743F3DB1C2EE7BF00A7BC6E /* 111.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = 111.swift; sourceTree = "<group>"; };
+		D76B485420F21B5C000676E8 /* 860.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 860.swift; sourceTree = "<group>"; };
 		D7803DC11B95F1FE000C9270 /* 104.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = 104.swift; sourceTree = "<group>"; };
 		D783CC9A1B2AC9160087FFC1 /* 226.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = 226.swift; sourceTree = "<group>"; };
 		D79437E71C4895AC005BA62B /* 326.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = 326.swift; sourceTree = "<group>"; };
@@ -205,6 +207,7 @@
 				D73A423B1E67E50D00F34AD9 /* 476.swift */,
 				D73A42391E66929F00F34AD9 /* 504.swift */,
 				D73A42371E668CDE00F34AD9 /* 520.swift */,
+				D76B485420F21B5C000676E8 /* 860.swift */,
 				D7FB8E0B1AF899FE00286272 /* Supporting Files */,
 			);
 			path = Tests;
@@ -239,7 +242,6 @@
 				D7FB8E051AF899FE00286272 /* Sources */,
 				D7FB8E061AF899FE00286272 /* Frameworks */,
 				D7FB8E071AF899FE00286272 /* Resources */,
-				D7ECA12420E5127E0025CC58 /* SwiftLint */,
 			);
 			buildRules = (
 			);
@@ -294,27 +296,6 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
-/* Begin PBXShellScriptBuildPhase section */
-		D7ECA12420E5127E0025CC58 /* SwiftLint */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-			);
-			name = SwiftLint;
-			outputFileListPaths = (
-			);
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "if [ \"${CONFIGURATION}\" != Debug* ]; then\nif which swiftlint >/dev/null; then\nswiftlint\nelse\necho \"warning: SwiftLint not installed, download from https://github.com/realm/SwiftLint\"\nfi\nfi\n";
-		};
-/* End PBXShellScriptBuildPhase section */
-
 /* Begin PBXSourcesBuildPhase section */
 		D7FB8E051AF899FE00286272 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -323,6 +304,7 @@
 				D7FB8E581AF89D0900286272 /* String+LeetCode.swift in Sources */,
 				D70B52A11C291563007E16DC /* 242.swift in Sources */,
 				D7FB8E561AF89CD900286272 /* ListNode.swift in Sources */,
+				D76B485520F21B5C000676E8 /* 860.swift in Sources */,
 				D70B52A51C2929C0007E16DC /* 83.swift in Sources */,
 				D7803DC21B95F1FE000C9270 /* 104.swift in Sources */,
 				D783CC9B1B2AC9160087FFC1 /* 226.swift in Sources */,

@@ -60,4 +60,4 @@ task :update_percentage do
   }
 end
 
-task :default => [:sync_problems, :update_percentage, :test]
+task :default => [:sync, :update_percentage, :test]
