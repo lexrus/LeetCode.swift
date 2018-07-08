@@ -3,7 +3,7 @@
 [![Travis](https://img.shields.io/travis/lexrus/LeetCode.swift.svg)](https://travis-ci.org/lexrus/LeetCode.swift)
 ![Language](https://img.shields.io/badge/language-Swift%204-orange.svg)
 ![License](https://img.shields.io/github/license/lexrus/ios-dev-playbook.svg?style=flat)
-![Progress](https://img.shields.io/badge/Progress-51%20%2F%20783%20=%206.51%25-ff69b4.svg)
+![Progress](https://img.shields.io/badge/Progress-52%20%2F%20783%20=%206.64%25-ff69b4.svg)
 
 > 愚者千虑，必有一得。
 
@@ -800,7 +800,7 @@ let 😎 = "Easy", 😐 = "Medium", 😨 = "Hard", ㊙️ = "require premium mem
 - [ ] 865 😨 [Shortest Path to Get All Keys](https://leetcode.com/problems/shortest-path-to-get-all-keys) 
 - [ ] 866 😐 [Smallest Subtree with all the Deepest Nodes](https://leetcode.com/problems/smallest-subtree-with-all-the-deepest-nodes) 
 - [ ] 867 😐 [Prime Palindrome](https://leetcode.com/problems/prime-palindrome) 
-- [ ] 868 😎 [Transpose Matrix](https://leetcode.com/problems/transpose-matrix) 
+- [x] 868 😎 [Transpose Matrix](https://leetcode.com/problems/transpose-matrix) [.swift](./Tests/868.swift)
 
 
 ## Unit tests
