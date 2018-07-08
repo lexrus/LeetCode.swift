@@ -3,7 +3,7 @@
 [![Travis](https://img.shields.io/travis/lexrus/LeetCode.swift.svg)](https://travis-ci.org/lexrus/LeetCode.swift)
 ![Language](https://img.shields.io/badge/language-Swift%204-orange.svg)
 ![License](https://img.shields.io/github/license/lexrus/ios-dev-playbook.svg?style=flat)
-![Progress](https://img.shields.io/badge/Progress-52%20%2F%20783%20=%206.64%25-ff69b4.svg)
+![Progress](https://img.shields.io/badge/Progress-54%20%2F%20783%20=%206.9%25-ff69b4.svg)
 
 > 愚者千虑，必有一得。
 
@@ -776,7 +776,7 @@ let 😎 = "Easy", 😐 = "Medium", 😨 = "Hard", ㊙️ = "require premium mem
 - [ ] 841 😐 [Keys and Rooms](https://leetcode.com/problems/keys-and-rooms) 
 - [ ] 842 😐 [Split Array into Fibonacci Sequence](https://leetcode.com/problems/split-array-into-fibonacci-sequence) 
 - [ ] 843 😨 [Guess the Word](https://leetcode.com/problems/guess-the-word) 
-- [ ] 844 😎 [Backspace String Compare](https://leetcode.com/problems/backspace-string-compare) 
+- [x] 844 😎 [Backspace String Compare](https://leetcode.com/problems/backspace-string-compare) [.swift](./Tests/844.swift)
 - [ ] 845 😐 [Longest Mountain in Array](https://leetcode.com/problems/longest-mountain-in-array) 
 - [ ] 846 😐 [Hand of Straights](https://leetcode.com/problems/hand-of-straights) 
 - [ ] 847 😨 [Shortest Path Visiting All Nodes](https://leetcode.com/problems/shortest-path-visiting-all-nodes) 
@@ -784,7 +784,7 @@ let 😎 = "Easy", 😐 = "Medium", 😨 = "Hard", ㊙️ = "require premium mem
 - [ ] 849 😎 [Maximize Distance to Closest Person](https://leetcode.com/problems/maximize-distance-to-closest-person) 
 - [ ] 850 😨 [Rectangle Area II](https://leetcode.com/problems/rectangle-area-ii) 
 - [ ] 851 😐 [Loud and Rich](https://leetcode.com/problems/loud-and-rich) 
-- [ ] 852 😎 [Peak Index in a Mountain Array](https://leetcode.com/problems/peak-index-in-a-mountain-array) 
+- [x] 852 😎 [Peak Index in a Mountain Array](https://leetcode.com/problems/peak-index-in-a-mountain-array) [.swift](./Tests/852.swift)
 - [ ] 853 😐 [Car Fleet](https://leetcode.com/problems/car-fleet) 
 - [ ] 854 😨 [K-Similar Strings](https://leetcode.com/problems/k-similar-strings) 
 - [ ] 855 😐 [Exam Room](https://leetcode.com/problems/exam-room) 
