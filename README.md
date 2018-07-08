@@ -1,6 +1,5 @@
 # LeetCode.swift
 
-[![Travis](https://img.shields.io/travis/lexrus/LeetCode.swift.svg)](https://travis-ci.org/lexrus/LeetCode.swift)
 ![Language](https://img.shields.io/badge/language-Swift%204.2-orange.svg)
 ![Progress](https://img.shields.io/badge/Progress-56%20%2F%20783%20=%207.15%25-ff69b4.svg)
 
