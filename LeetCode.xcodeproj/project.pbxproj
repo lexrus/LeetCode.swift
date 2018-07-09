@@ -31,6 +31,7 @@
 		D743F3DC1C2EE7BF00A7BC6E /* 111.swift in Sources */ = {isa = PBXBuildFile; fileRef = D743F3DB1C2EE7BF00A7BC6E /* 111.swift */; };
 		D753CD2D20F38E32003F7AB5 /* 830.swift in Sources */ = {isa = PBXBuildFile; fileRef = D753CD2C20F38E32003F7AB5 /* 830.swift */; };
 		D753CD2F20F3953E003F7AB5 /* 824.swift in Sources */ = {isa = PBXBuildFile; fileRef = D753CD2E20F3953E003F7AB5 /* 824.swift */; };
+		D753CD3120F39C35003F7AB5 /* 819.swift in Sources */ = {isa = PBXBuildFile; fileRef = D753CD3020F39C35003F7AB5 /* 819.swift */; };
 		D76B485520F21B5C000676E8 /* 860.swift in Sources */ = {isa = PBXBuildFile; fileRef = D76B485420F21B5C000676E8 /* 860.swift */; };
 		D7803DC21B95F1FE000C9270 /* 104.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7803DC11B95F1FE000C9270 /* 104.swift */; };
 		D783CC9B1B2AC9160087FFC1 /* 226.swift in Sources */ = {isa = PBXBuildFile; fileRef = D783CC9A1B2AC9160087FFC1 /* 226.swift */; };
@@ -97,6 +98,7 @@
 		D743F3DB1C2EE7BF00A7BC6E /* 111.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = 111.swift; sourceTree = "<group>"; };
 		D753CD2C20F38E32003F7AB5 /* 830.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 830.swift; sourceTree = "<group>"; };
 		D753CD2E20F3953E003F7AB5 /* 824.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 824.swift; sourceTree = "<group>"; };
+		D753CD3020F39C35003F7AB5 /* 819.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 819.swift; sourceTree = "<group>"; };
 		D76B485420F21B5C000676E8 /* 860.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 860.swift; sourceTree = "<group>"; };
 		D7803DC11B95F1FE000C9270 /* 104.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = 104.swift; sourceTree = "<group>"; };
 		D783CC9A1B2AC9160087FFC1 /* 226.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = 226.swift; sourceTree = "<group>"; };
@@ -222,6 +224,7 @@
 				D73A423B1E67E50D00F34AD9 /* 476.swift */,
 				D73A42391E66929F00F34AD9 /* 504.swift */,
 				D73A42371E668CDE00F34AD9 /* 520.swift */,
+				D753CD3020F39C35003F7AB5 /* 819.swift */,
 				D753CD2E20F3953E003F7AB5 /* 824.swift */,
 				D753CD2C20F38E32003F7AB5 /* 830.swift */,
 				D725DD1C20F3896500CDC000 /* 832.swift */,
@@ -331,6 +334,7 @@
 				D7FB8E561AF89CD900286272 /* ListNode.swift in Sources */,
 				D76B485520F21B5C000676E8 /* 860.swift in Sources */,
 				D725DD1D20F3896500CDC000 /* 832.swift in Sources */,
+				D753CD3120F39C35003F7AB5 /* 819.swift in Sources */,
 				D70B52A51C2929C0007E16DC /* 83.swift in Sources */,
 				D7803DC21B95F1FE000C9270 /* 104.swift in Sources */,
 				D783CC9B1B2AC9160087FFC1 /* 226.swift in Sources */,
@@ -509,6 +513,7 @@
 				);
 				INFOPLIST_FILE = Tests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				OTHER_SWIFT_FLAGS = "-Xfrontend -warn-long-function-bodies=200 -Xfrontend -warn-long-expression-type-checking=200";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.LexTang.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";

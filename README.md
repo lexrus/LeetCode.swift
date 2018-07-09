@@ -1,7 +1,7 @@
 # LeetCode.swift
 
 ![Language](https://img.shields.io/badge/language-Swift%204.2-orange.svg)
-![Progress](https://img.shields.io/badge/Progress-59%20%2F%20783%20=%207.54%25-ff69b4.svg)
+![Progress](https://img.shields.io/badge/Progress-60%20%2F%20783%20=%207.66%25-ff69b4.svg)
 
 > 愚者千虑，必有一得。
 
@@ -747,7 +747,7 @@ let 😎 = "Easy", 😐 = "Medium", 😨 = "Hard", ㊙️ = "require premium mem
 - [ ] 816 😐 [Ambiguous Coordinates](https://leetcode.com/problems/ambiguous-coordinates) 
 - [ ] 817 😐 [Linked List Components](https://leetcode.com/problems/linked-list-components) 
 - [ ] 818 😨 [Race Car](https://leetcode.com/problems/race-car) 
-- [ ] 819 😎 [Most Common Word](https://leetcode.com/problems/most-common-word) 
+- [x] 819 😎 [Most Common Word](https://leetcode.com/problems/most-common-word) [.swift](./Tests/819.swift)
 - [ ] 820 😐 [Short Encoding of Words](https://leetcode.com/problems/short-encoding-of-words) 
 - [ ] 821 😎 [Shortest Distance to a Character](https://leetcode.com/problems/shortest-distance-to-a-character) 
 - [ ] 822 😐 [Card Flipping Game](https://leetcode.com/problems/card-flipping-game) 
