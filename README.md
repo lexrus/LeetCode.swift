@@ -1,7 +1,7 @@
 # LeetCode.swift
 
 ![Language](https://img.shields.io/badge/language-Swift%204.2-orange.svg)
-![Progress](https://img.shields.io/badge/Progress-57%20%2F%20783%20=%207.28%25-ff69b4.svg)
+![Progress](https://img.shields.io/badge/Progress-58%20%2F%20783%20=%207.41%25-ff69b4.svg)
 
 > 愚者千虑，必有一得。
 
@@ -758,7 +758,7 @@ let 😎 = "Easy", 😐 = "Medium", 😨 = "Hard", ㊙️ = "require premium mem
 - [ ] 827 😨 [Making A Large Island](https://leetcode.com/problems/making-a-large-island) 
 - [ ] 828 😨 [Unique Letter String](https://leetcode.com/problems/unique-letter-string) 
 - [ ] 829 😐 [Consecutive Numbers Sum](https://leetcode.com/problems/consecutive-numbers-sum) 
-- [ ] 830 😎 [Positions of Large Groups](https://leetcode.com/problems/positions-of-large-groups) 
+- [x] 830 😎 [Positions of Large Groups](https://leetcode.com/problems/positions-of-large-groups) [.swift](./Tests/830.swift)
 - [ ] 831 😐 [Masking Personal Information](https://leetcode.com/problems/masking-personal-information) 
 - [x] 832 😎 [Flipping an Image](https://leetcode.com/problems/flipping-an-image) [.swift](./Tests/832.swift)
 - [ ] 833 😐 [Find And Replace in String](https://leetcode.com/problems/find-and-replace-in-string) 
