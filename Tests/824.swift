@@ -48,7 +48,7 @@ func toGoatLatin(_ S: String) -> String {
 
     S.split(separator: " ").enumerated().forEach { i, word in
         guard let firstChar = word.first.map(String.init) else { return }
-        if !vowels.contains(firstChar) {
+        if !vowels.contains(firstChar.lowercased()) {
             result.append(word.dropFirst() + firstChar + "ma")
         } else {
             result.append(word + "ma")
