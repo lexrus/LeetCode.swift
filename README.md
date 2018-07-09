@@ -1,7 +1,7 @@
 # LeetCode.swift
 
 ![Language](https://img.shields.io/badge/language-Swift%204.2-orange.svg)
-![Progress](https://img.shields.io/badge/Progress-58%20%2F%20783%20=%207.41%25-ff69b4.svg)
+![Progress](https://img.shields.io/badge/Progress-59%20%2F%20783%20=%207.54%25-ff69b4.svg)
 
 > 愚者千虑，必有一得。
 
@@ -752,7 +752,7 @@ let 😎 = "Easy", 😐 = "Medium", 😨 = "Hard", ㊙️ = "require premium mem
 - [ ] 821 😎 [Shortest Distance to a Character](https://leetcode.com/problems/shortest-distance-to-a-character) 
 - [ ] 822 😐 [Card Flipping Game](https://leetcode.com/problems/card-flipping-game) 
 - [ ] 823 😐 [Binary Trees With Factors](https://leetcode.com/problems/binary-trees-with-factors) 
-- [ ] 824 😎 [Goat Latin](https://leetcode.com/problems/goat-latin) 
+- [x] 824 😎 [Goat Latin](https://leetcode.com/problems/goat-latin) [.swift](./Tests/824.swift)
 - [ ] 825 😐 [Friends Of Appropriate Ages](https://leetcode.com/problems/friends-of-appropriate-ages) 
 - [ ] 826 😐 [Most Profit Assigning Work](https://leetcode.com/problems/most-profit-assigning-work) 
 - [ ] 827 😨 [Making A Large Island](https://leetcode.com/problems/making-a-large-island) 
