@@ -1,7 +1,7 @@
 # LeetCode.swift
 
 ![Language](https://img.shields.io/badge/language-Swift%204.2-orange.svg)
-![Progress](https://img.shields.io/badge/Progress-56%20%2F%20783%20=%207.15%25-ff69b4.svg)
+![Progress](https://img.shields.io/badge/Progress-57%20%2F%20783%20=%207.28%25-ff69b4.svg)
 
 > 愚者千虑，必有一得。
 
@@ -47,7 +47,7 @@ let 😎 = "Easy", 😐 = "Medium", 😨 = "Hard", ㊙️ = "require premium mem
 - [ ] 31 😐 [Next Permutation](https://leetcode.com/problems/next-permutation) 
 - [ ] 32 😨 [Longest Valid Parentheses](https://leetcode.com/problems/longest-valid-parentheses) 
 - [ ] 33 😐 [Search in Rotated Sorted Array](https://leetcode.com/problems/search-in-rotated-sorted-array) 
-- [ ] 34 😐 [Search for a Range](https://leetcode.com/problems/search-for-a-range) 
+- [ ] 34 😐 [Find First and Last Position of Element in Sorted Array](https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array) 
 - [x] 35 😎 [Search Insert Position](https://leetcode.com/problems/search-insert-position) [.swift](./Tests/35.swift)
 - [ ] 36 😐 [Valid Sudoku](https://leetcode.com/problems/valid-sudoku) 
 - [ ] 37 😨 [Sudoku Solver](https://leetcode.com/problems/sudoku-solver) 
@@ -760,7 +760,7 @@ let 😎 = "Easy", 😐 = "Medium", 😨 = "Hard", ㊙️ = "require premium mem
 - [ ] 829 😐 [Consecutive Numbers Sum](https://leetcode.com/problems/consecutive-numbers-sum) 
 - [ ] 830 😎 [Positions of Large Groups](https://leetcode.com/problems/positions-of-large-groups) 
 - [ ] 831 😐 [Masking Personal Information](https://leetcode.com/problems/masking-personal-information) 
-- [ ] 832 😎 [Flipping an Image](https://leetcode.com/problems/flipping-an-image) 
+- [x] 832 😎 [Flipping an Image](https://leetcode.com/problems/flipping-an-image) [.swift](./Tests/832.swift)
 - [ ] 833 😐 [Find And Replace in String](https://leetcode.com/problems/find-and-replace-in-string) 
 - [ ] 834 😨 [Sum of Distances in Tree](https://leetcode.com/problems/sum-of-distances-in-tree) 
 - [ ] 835 😐 [Image Overlap](https://leetcode.com/problems/image-overlap) 
