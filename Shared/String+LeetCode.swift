@@ -11,7 +11,7 @@ import Foundation
 extension String {
 
     subscript (i: Int) -> Character? {
-        if i > count - 1 {
+        if i > count - 1 || i < 0 {
             return .none
         }
         let index: Index = self.index(startIndex, offsetBy: i)
