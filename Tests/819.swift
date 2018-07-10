@@ -38,9 +38,23 @@
 import XCTest
 
 func mostCommonWord(_ paragraph: String, _ banned: [String]) -> String {
+    var result = [String: Int]()
+    paragraph
+        .lowercased()
+        .components(separatedBy: CharacterSet.init(charactersIn: "!?',;.")).joined()
+        .split(separator: " ")
+        .map(String.init)
+        .filter { !banned.contains($0) }
+        .forEach {
+            result[$0, default: 0] += 1
+        }
+
+    return result.sorted { $0.value > $1.value }.first?.key ?? ""
+
+    /* // The following code toke 16 seconds to compile...
     return paragraph
         .lowercased()
-        .replacingOccurrences(of: "!?',;.", with: "")
+        .components(separatedBy: CharacterSet.init(charactersIn: "!?',;.")).joined()
         .split(separator: " ")
         .map(String.init)
         .filter { !banned.contains($0) }
@@ -49,6 +63,7 @@ func mostCommonWord(_ paragraph: String, _ banned: [String]) -> String {
         }
         .sorted { $0.value > $1.value }
         .first?.key ?? ""
+    */
 }
 
 class MostCommonWordTest: XCTestCase {
