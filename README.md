@@ -1,7 +1,7 @@
 # LeetCode.swift
 
 ![Language](https://img.shields.io/badge/language-Swift%204.2-orange.svg)
-![Progress](https://img.shields.io/badge/Progress-62%20%2F%20815%20=%207.61%25-ff69b4.svg)
+![Progress](https://img.shields.io/badge/Progress-63%20%2F%20815%20=%207.73%25-ff69b4.svg)
 
 > 愚者千虑，必有一得。
 
@@ -754,7 +754,7 @@ let 😎 = "Easy", 😐 = "Medium", 😨 = "Hard", ㊙️ = "require premium mem
 - [ ] 801 😐 [Minimum Swaps To Make Sequences Increasing](https://leetcode.com/problems/minimum-swaps-to-make-sequences-increasing) 
 - [ ] 802 😐 [Find Eventual Safe States](https://leetcode.com/problems/find-eventual-safe-states) 
 - [ ] 803 😨 [Bricks Falling When Hit](https://leetcode.com/problems/bricks-falling-when-hit) 
-- [ ] 804 😎 [Unique Morse Code Words](https://leetcode.com/problems/unique-morse-code-words) 
+- [x] 804 😎 [Unique Morse Code Words](https://leetcode.com/problems/unique-morse-code-words) [.swift](./Tests/804.swift)
 - [ ] 805 😨 [Split Array With Same Average](https://leetcode.com/problems/split-array-with-same-average) 
 - [x] 806 😎 [Number of Lines To Write String](https://leetcode.com/problems/number-of-lines-to-write-string) [.swift](./Tests/806.swift)
 - [ ] 807 😐 [Max Increase to Keep City Skyline](https://leetcode.com/problems/max-increase-to-keep-city-skyline) 
