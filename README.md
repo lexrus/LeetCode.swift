@@ -1,7 +1,7 @@
 # LeetCode.swift
 
 ![Language](https://img.shields.io/badge/language-Swift%204.2-orange.svg)
-![Progress](https://img.shields.io/badge/Progress-63%20%2F%20815%20=%207.73%25-ff69b4.svg)
+![Progress](https://img.shields.io/badge/Progress-64%20%2F%20815%20=%207.85%25-ff69b4.svg)
 
 > 愚者千虑，必有一得。
 
@@ -744,7 +744,7 @@ let 😎 = "Easy", 😐 = "Medium", 😨 = "Hard", ㊙️ = "require premium mem
 - [ ] 793 😨 [Preimage Size of Factorial Zeroes Function](https://leetcode.com/problems/preimage-size-of-factorial-zeroes-function) 
 - [ ] 794 😐 [Valid Tic-Tac-Toe State](https://leetcode.com/problems/valid-tic-tac-toe-state) 
 - [ ] 795 😐 [Number of Subarrays with Bounded Maximum](https://leetcode.com/problems/number-of-subarrays-with-bounded-maximum) 
-- [ ] 796 😎 [Rotate String](https://leetcode.com/problems/rotate-string) 
+- [x] 796 😎 [Rotate String](https://leetcode.com/problems/rotate-string) [.swift](./Tests/796.swift)
 - [ ] 797 😐 [All Paths From Source to Target](https://leetcode.com/problems/all-paths-from-source-to-target) 
 - [ ] 798 😨 [Smallest Rotation with Highest Score](https://leetcode.com/problems/smallest-rotation-with-highest-score) 
 - [ ] 799 😐 [Champagne Tower](https://leetcode.com/problems/champagne-tower) 
@@ -828,7 +828,7 @@ let 😎 = "Easy", 😐 = "Medium", 😨 = "Hard", ㊙️ = "require premium mem
 - [ ] 869 😐 [Reordered Power of 2](https://leetcode.com/problems/reordered-power-of-2) 
 - [ ] 870 😐 [Advantage Shuffle](https://leetcode.com/problems/advantage-shuffle) 
 - [ ] 871 😨 [Minimum Number of Refueling Stops](https://leetcode.com/problems/minimum-number-of-refueling-stops) 
-- [ ] 872 😐 [Implement Rand10() Using Rand7()](https://leetcode.com/problems/implement-rand10-using-rand7) 
+- [ ] 470 😐 [Implement Rand10() Using Rand7()](https://leetcode.com/problems/implement-rand10-using-rand7) 
 
 
 ## Unit tests
