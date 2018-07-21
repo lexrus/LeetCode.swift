@@ -1,7 +1,7 @@
 # LeetCode.swift
 
 ![Language](https://img.shields.io/badge/language-Swift%204.2-orange.svg)
-![Progress](https://img.shields.io/badge/Progress-64%20%2F%20815%20=%207.85%25-ff69b4.svg)
+![Progress](https://img.shields.io/badge/Progress-65%20%2F%20815%20=%207.98%25-ff69b4.svg)
 
 > 愚者千虑，必有一得。
 
@@ -736,7 +736,7 @@ let 😎 = "Easy", 😐 = "Medium", 😨 = "Hard", ㊙️ = "require premium mem
 - [ ] 785 😐 [Is Graph Bipartite?](https://leetcode.com/problems/is-graph-bipartite) 
 - [ ] 786 😨 [K-th Smallest Prime Fraction](https://leetcode.com/problems/k-th-smallest-prime-fraction) 
 - [ ] 787 😐 [Cheapest Flights Within K Stops](https://leetcode.com/problems/cheapest-flights-within-k-stops) 
-- [ ] 788 😎 [Rotated Digits](https://leetcode.com/problems/rotated-digits) 
+- [x] 788 😎 [Rotated Digits](https://leetcode.com/problems/rotated-digits) [.swift](./Tests/788.swift)
 - [ ] 789 😐 [Escape The Ghosts](https://leetcode.com/problems/escape-the-ghosts) 
 - [ ] 790 😐 [Domino and Tromino Tiling](https://leetcode.com/problems/domino-and-tromino-tiling) 
 - [ ] 791 😐 [Custom Sort String](https://leetcode.com/problems/custom-sort-string) 
