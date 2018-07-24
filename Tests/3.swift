@@ -25,7 +25,7 @@ func lengthOfLongestSubstring(_ s: String) -> Int {
     var longest = 0
     var m = 0
 
-    var index = [Int].init(repeating: 0, count: 128)
+    var index = [Int](repeating: 0, count: 128)
 
     s.cString(using: .ascii)?.enumerated().forEach { i, c in
         guard c != 0 else { return }

@@ -45,12 +45,42 @@ func rotatedDigits(_ N: Int) -> Int {
     return count
 }
 
+// @seealso https://leetcode.com/problems/rotated-digits/discuss/117975/Java-dp-solution-9ms
+func rotatedDigitsDP(_ N: Int) -> Int {
+    var dp = [Int](repeating: 0, count: N + 1)
+    var count = 0
+
+    for i in 0...N {
+        if i < 10 {
+            if i == 0 || i == 1 || i == 8 {
+                dp[i] = 1
+            } else if i == 2 || i == 5 || i == 6 || i == 9 {
+                dp[i] = 2
+                count += 1
+            }
+        } else {
+            let a = dp[i / 10]
+            let b = dp[i % 10]
+            if a == 1 && b == 1 {
+                dp[i] = 1
+            } else if a >= 1 && b >= 1 {
+                dp[i] = 2
+                count += 1
+            }
+        }
+    }
+    return count
+}
+
 class RotatedDigitsTest: XCTestCase {
 
     func testRotatedDigits() {
         XCTAssertEqual(rotatedDigits(10), 4)
         XCTAssertEqual(rotatedDigits(20), 9)
         XCTAssertEqual(rotatedDigits(857), 247)
+        XCTAssertEqual(rotatedDigitsDP(10), 4)
+        XCTAssertEqual(rotatedDigitsDP(20), 9)
+        XCTAssertEqual(rotatedDigitsDP(857), 247)
     }
 
 }

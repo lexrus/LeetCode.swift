@@ -41,7 +41,7 @@ func mostCommonWord(_ paragraph: String, _ banned: [String]) -> String {
     var result = [String: Int]()
     paragraph
         .lowercased()
-        .components(separatedBy: CharacterSet.init(charactersIn: "!?',;.")).joined()
+        .components(separatedBy: CharacterSet(charactersIn: "!?',;.")).joined()
         .split(separator: " ")
         .map(String.init)
         .filter { !banned.contains($0) }
@@ -54,7 +54,7 @@ func mostCommonWord(_ paragraph: String, _ banned: [String]) -> String {
     /* // The following code toke 16 seconds to compile...
     return paragraph
         .lowercased()
-        .components(separatedBy: CharacterSet.init(charactersIn: "!?',;.")).joined()
+        .components(separatedBy: CharacterSet(charactersIn: "!?',;.")).joined()
         .split(separator: " ")
         .map(String.init)
         .filter { !banned.contains($0) }
