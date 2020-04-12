@@ -35,7 +35,7 @@ func longestPalindrome(_ s: String) -> String {
     }
 
     func extendPalindrome(_ s: String, l: Int, r: Int) {
-        var chars = s.utf8CString
+        let chars = s.utf8CString
         var l = l
         var r = r
         while l >= 0 && r < s.count && chars[l] == chars[r] {

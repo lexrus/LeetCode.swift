@@ -79,7 +79,7 @@ class TwoSum {
             if let secondOne = map[item0] {
                 return (secondOne + 1, i + 1)
             } else {
-                // store the first one poisition into the second one's key
+                // store the first one position into the second one's key
                 map[target - item0] = i
             }
         }

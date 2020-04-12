@@ -81,7 +81,7 @@ class RemoveNthNodeFromEndOfListTest: XCTestCase {
         let list = ListNode(1, ListNode(2, ListNode(3, ListNode(4, ListNode(5)))))
         let result = list.removeNthFromEnd(5)
         XCTAssertEqual(result.debugDescription, "2 3 4 5", "")
-        XCTAssert(result.childNodeCount() == 3, "\(result.childNodeCount)")
+        XCTAssert(result.childNodeCount() == 3, String(describing: result.childNodeCount))
     }
     
 }

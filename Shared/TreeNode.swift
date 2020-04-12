@@ -40,3 +40,5 @@ class TreeNode: CustomDebugStringConvertible {
     }
 
 }
+
+var s = ""
